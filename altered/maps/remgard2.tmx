@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="32" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="10">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="28" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="10">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,81 +183,76 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="32" height="25">
+ <layer id="1" name="Ground" width="28" height="20">
   <data encoding="base64" compression="zlib">
-   eJzt1bEJACAMRFEtHdSB3cIxxEIQsYiF90VSXJsnGC41hVCNKcZY552GtC3+TXt9R46MPdJ9tem++7Ov3v/ZW/0X+ofuXtpX/j/d/6Tfs9t/ta/03Of9Xf9SPnl7fuq+BjgV32c=
+   eJzVlLENgCAQRWmIsbazdSJncAVHIO5HbWVH4hJKkORycnIimFC8QAG8n/BBt0LowhgAd88sHV+d3PVKOh7XdQQJPg5bF+bmo3KhjDHWPgz2Ublwxhj7efbQuHu2cw/2Ublwxjd3bcdJOnzPDMgVwmaFGVNRyPcXVfsY3c7p43Q7p4/T7Zw+3Gf4BmO+lP8cslx/7XhB+QyDlE7m4A9HzFvSUwsHTLnqBA==
   </data>
  </layer>
- <layer id="2" name="Objects" width="32" height="25">
+ <layer id="2" name="Objects" width="28" height="20">
   <data encoding="base64" compression="zlib">
-   eJztVsEOwiAM7Wnp2Gk7gOzkj6kf70ETD3oz2y7SAKFDEk1cFw97SbPACO+Ftg8APkMbgEkDXF3UnZ+bLEDTA4zWjwf3rdy6xvh1S+Oi076141V9+nLu0a2xRoZfuX3RRe3i2fp57OS5CZSDXciDChwY9Ehzl3QQdibFGtwb/gNVVn+xJ6Q5eb0TqOZ5T0jqoP6PfLH+qebv7bw3JbyP+6rq3v8PbdIo5b3cX26Bb8+0SHu/Crk9IsAJ/fwB/Zgi17gk9Bc1JnX2XAOv9ajhIZz7ko4p8GDWk2vwRw0Efv9sd5AsuP8i839p348o+W/eC1LIvS2+gXWhHyXAvS16L70/z3b+Npfk5/sj8306i1+85wV92Eum
+   eJy1VEtOw0AMNYvQpAXaBmibKkjcgBsAd4ACJ2CPEHAAjsCG03CEbpCKBBILWICoKGIDavkIWzNWPSaTBgFPenJmxvGznXFGCcAQOVL2DVlpmzWhEwJsIXdDs16LAdZj83zRAHiqAyzj+hz935EfyEYT4+BZGW3UNL4Uk2P7rMRR6ObDeoxb3J/B/Vl7xpr31meSFtly29WL2u6Z1GOsLoyf74Qe+dP7efYn9WVB6vH30Tll4TGZXN98ydjP1F9fUbBekfrmlgA2AoDNwOjxneH6rlPXcq43i+P1oEB9NXtnn1UOfGe4vkHqWo3XurGyvnJOfaXYXXNP6f29muEJckX4ca6h2OP6WOsSY/SRUezmRRiKZ9Y7sHOsuW3nuqP2D5FVkceku8nYmTJkRLHf96XuP8vT880gg3rTE7zyxJJ+/YL1sV7P8y59hwd1rv2qqic8e2epa3V9sl/TOCOhIM1MXq819nHeulan69GTOhWaSdxviX+71mfI+3camPt8HHzPgeOSXpihk9iY9G9vCUp9qSvrl/2RMTmujJc0IReNHN2s/hSJWQRZuln9+Wvofv+Xzm/wBVMFnW4=
   </data>
  </layer>
- <layer id="3" name="Above" width="32" height="25">
+ <layer id="3" name="Above" width="28" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYCAd/JTELv4Lhzg9wG+g3VxSA2M3p9TA2T2Q4LPYwNr/eNT+EW3/JzT77w1g+QMC7wbY/uEKYjkYGOKgGBcAycXjkR8Fww+M1j8Daz96+TvSwOXR8p5iAAAVTxKF
+   eJxjYCAOBLMyMISwIvg/JRkYfkkSqZlEgGzuRzHccrQA6PbBACMHbj1MeOTwgXtY/ALznyIeM5WQ5PC5CxmQ60YQeIwUJvjchQyUcKgjJv4+4YgDfOAxGXooAeS4ERngSmejABMQSuOUpG1sgFAax5W2aQWGWtomFYzmhVFALgAAN6MTaw==
   </data>
  </layer>
- <layer id="4" name="Top" width="32" height="25">
+ <layer id="4" name="Walkable" width="28" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20LL6AAAAA+BgyAAAE=
+   eJy7KMbAcJECDAOUmEGOffS0l9p24XM/rfyGzzx62ofuP2rZS4z/8NlLjDuQ1RATf7gAqe5F10usXaSmJ3LdRA9ATH6ipjvpYR+xeY9a9mGzmxz7SEmrlNhHbL4nBVCjrCElj1Ib08ueoYIBgjNHnQ==
   </data>
  </layer>
- <layer id="5" name="Walkable" width="32" height="25">
-  <data encoding="base64" compression="zlib">
-   eJzdk8ENwCAMA5mi+6/ERn0h8SAh2E5TYQmJR/DFBPrTWg+uodN6T1GvP/GjHmq+54uwUf7wRzNn8RGp+KhuyV8xf8sni2+dZ3pg+VYPav6K581BzY++v4r7X3ll5t95nUj1/yr47Oxv4TNS5f+CvztfwZ89MvlzvbVHemCzs/wXD9h6JQ==
-  </data>
- </layer>
- <objectgroup id="6" name="Mapevents">
-  <object id="1" name="north" type="mapchange" x="352" y="0" width="64" height="32">
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="north" type="mapchange" x="512" y="0" width="64" height="32">
    <properties>
-    <property name="map" value="mountainlake13"/>
+    <property name="map" value="remgard1"/>
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="2" name="south" type="mapchange" x="320" y="768" width="256" height="32">
+  <object id="2" name="remgard_villager2" type="mapchange" x="640" y="160" width="32" height="32">
    <properties>
-    <property name="map" value="remgard0"/>
-    <property name="place" value="north"/>
+    <property name="map" value="remgard_villager2"/>
+    <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="5" name="brute_fisherman_check" type="script" x="448" y="192" width="32" height="32"/>
-  <object id="6" name="east" type="mapchange" x="992" y="32" width="32" height="480">
+  <object id="3" name="remgard_villager3" type="mapchange" x="608" y="416" width="32" height="32">
    <properties>
-    <property name="map" value="moitainlake15"/>
-    <property name="place" value="west1"/>
+    <property name="map" value="remgard_villager3"/>
+    <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="7" name="north2" type="mapchange" x="736" y="0" width="192" height="32">
+  <object id="4" name="remgard_school" type="mapchange" x="224" y="224" width="32" height="32">
    <properties>
-    <property name="map" value="mountainlake13"/>
-    <property name="place" value="south2"/>
+    <property name="map" value="remgard_school"/>
+    <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="8" name="south2" type="mapchange" x="640" y="768" width="352" height="32">
+  <object id="5" name="west" type="mapchange" x="0" y="320" width="32" height="192">
    <properties>
-    <property name="map" value="remgard0"/>
-    <property name="place" value="north2"/>
+    <property name="map" value="remgard3"/>
+    <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="9" name="east2" type="mapchange" x="992" y="608" width="32" height="160">
+  <object id="6" name="jetty0" type="mapchange" x="864" y="288" width="32" height="32">
    <properties>
-    <property name="map" value="moitainlake15"/>
-    <property name="place" value="west1"/>
+    <property name="map" value="remgard2a"/>
+    <property name="place" value="jetty1"/>
+   </properties>
+  </object>
+  <object id="9" name="ll2_boat_init" type="script" x="832" y="256" width="32" height="96"/>
+ </objectgroup>
+ <objectgroup id="6" name="Spawn">
+  <object id="7" name="remgard_villager5" type="spawn" x="64" y="320" width="288" height="128">
+   <properties>
+    <property name="spawngroup" value="remgard_villager5"/>
+   </properties>
+  </object>
+  <object id="8" name="remgard_villager6" type="spawn" x="384" y="64" width="224" height="512">
+   <properties>
+    <property name="spawngroup" value="remgard_villager6"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn">
-  <object id="3" name="mwolf_1" type="spawn" x="352" y="64" width="224" height="64">
-   <properties>
-    <property name="spawngroup" value="mwolf_1"/>
-   </properties>
-  </object>
-  <object id="4" name="remgard_bridge" type="spawn" x="448" y="416" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="remgard_bridge"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup id="8" name="Keys"/>
+ <objectgroup id="7" name="Keys"/>
 </map>

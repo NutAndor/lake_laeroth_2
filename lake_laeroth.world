@@ -1,0 +1,125 @@
+{
+    "maps": [
+        {
+            "fileName": "altered/maps/mountainlake13.tmx",
+            "height": 928,
+            "width": 960,
+            "x": -544,
+            "y": -160
+        },
+        {
+            "fileName": "created/maps/mountainlake14.tmx",
+            "height": 672,
+            "width": 928,
+            "x": 448,
+            "y": 192
+        },
+        {
+            "fileName": "altered/maps/mountainlake12.tmx",
+            "height": 736,
+            "width": 928,
+            "x": 448,
+            "y": -544
+        },
+        {
+            "fileName": "altered/maps/mountainlake13a.tmx",
+            "height": 768,
+            "width": 1024,
+            "x": -544,
+            "y": 800
+        },
+        {
+            "fileName": "altered/maps/mountainlake11.tmx",
+            "height": 864,
+            "width": 960,
+            "x": 1408,
+            "y": -544
+        },
+        {
+            "fileName": "altered/maps/mountainlake10a.tmx",
+            "height": 640,
+            "width": 768,
+            "x": 2144,
+            "y": 320
+        },
+        {
+            "fileName": "altered/maps/mountainlake10.tmx",
+            "height": 992,
+            "width": 960,
+            "x": 2400,
+            "y": -672
+        },
+        {
+            "fileName": "altered/maps/remgard0.tmx",
+            "height": 992,
+            "width": 1024,
+            "x": -544,
+            "y": 1632
+        },
+        {
+            "fileName": "altered/maps/remgard1.tmx",
+            "height": 928,
+            "width": 1152,
+            "x": 512,
+            "y": 1856
+        },
+        {
+            "fileName": "created/maps/mountainlake15.tmx",
+            "height": 608,
+            "width": 928,
+            "x": 512,
+            "y": 800
+        },
+        {
+            "fileName": "created/maps/mountainlake16.tmx",
+            "height": 576,
+            "width": 832,
+            "x": 512,
+            "y": 1408
+        },
+        {
+            "fileName": "created/maps/mountainlake17.tmx",
+            "height": 416,
+            "width": 608,
+            "x": 1152,
+            "y": 1408
+        },
+        {
+            "fileName": "altered/maps/remgard2a.tmx",
+            "height": 384,
+            "width": 224,
+            "x": 1440,
+            "y": 2848
+        },
+        {
+            "fileName": "altered/maps/laerothisland2.tmx",
+            "height": 992,
+            "width": 1024,
+            "x": 1696,
+            "y": 1376
+        },
+        {
+            "fileName": "created/maps/mountainlake18.tmx",
+            "height": 416,
+            "width": 544,
+            "x": 1408,
+            "y": 992
+        },
+        {
+            "fileName": "created/maps/mountainlake19.tmx",
+            "height": 384,
+            "width": 256,
+            "x": 1408,
+            "y": 320
+        },
+        {
+            "fileName": "created/maps/mountainlake20.tmx",
+            "height": 608,
+            "width": 704,
+            "x": 1696,
+            "y": 992
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}

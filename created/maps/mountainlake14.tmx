@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="31" height="11" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="13">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="29" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="12">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,49 +183,49 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="31" height="11">
+ <layer id="1" name="Ground" width="29" height="18">
   <data encoding="base64" compression="zlib">
-   eJx7wcnA8GIUj+JRPIpHMVUwAOTqQRU=
+   eJx7wcnA8GIUj+JRPIpH8SgexaMYCwYATpLreg==
   </data>
  </layer>
- <layer id="2" name="Objects" width="31" height="11">
+ <layer id="2" name="Objects" width="29" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRQC0AAAVUAAE=
+   eJxjYBgFo2AUjIJRMApGwSjADgAIKAAB
   </data>
  </layer>
- <layer id="3" name="Above" width="31" height="11">
+ <layer id="3" name="Above" width="29" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRQC0AAAVUAAE=
+   eJxjYBgFo2AUjIJRMApGwSjADgAIKAAB
   </data>
  </layer>
- <layer id="4" name="Walkable" width="31" height="11">
+ <layer id="4" name="Walkable" width="29" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRQC0AAAVUAAE=
+   eJxjYBgFo2AUjIJRMApGwSjADgAIKAAB
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="2" name="south" type="mapchange" x="32" y="608" width="224" height="32">
-   <properties>
-    <property name="map" value="mountainlake17"/>
-    <property name="place" value="north2"/>
-   </properties>
-  </object>
-  <object id="9" name="north" type="mapchange" x="32" y="0" width="384" height="32">
-   <properties>
-    <property name="map" value="mountainlake19"/>
-    <property name="place" value="south2"/>
-   </properties>
-  </object>
-  <object id="10" name="west" type="mapchange" x="0" y="32" width="32" height="320">
-   <properties>
-    <property name="map" value="mountainlake18"/>
-    <property name="place" value="east"/>
-   </properties>
-  </object>
-  <object id="12" name="west2" type="mapchange" x="0" y="512" width="32" height="96">
+  <object id="2" name="south" type="mapchange" x="96" y="544" width="800" height="32">
    <properties>
     <property name="map" value="mountainlake15"/>
-    <property name="place" value="east1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object id="9" name="north" type="mapchange" x="32" y="0" width="864" height="32">
+   <properties>
+    <property name="map" value="mountainlake12"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object id="10" name="west" type="mapchange" x="0" y="32" width="32" height="512">
+   <properties>
+    <property name="map" value="mountainlake13"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object id="11" name="east" type="mapchange" x="896" y="160" width="32" height="384">
+   <properties>
+    <property name="map" value="mountainlake19"/>
+    <property name="place" value="west1"/>
    </properties>
   </object>
  </objectgroup>
@@ -236,6 +236,11 @@
    </properties>
   </object>
   <object id="4" name="mwolf_1_1" type="spawn" x="320" y="96" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="mwolf_1"/>
+   </properties>
+  </object>
+  <object id="5" name="mwolf_1_2" type="spawn" x="768" y="0" width="32" height="32">
    <properties>
     <property name="spawngroup" value="mwolf_1"/>
    </properties>
@@ -251,13 +256,6 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn2" visible="0">
-  <object id="8" name="mwolf_1_5" type="spawn" x="0" y="-256" width="864" height="608">
-   <properties>
-    <property name="quantity" value="4"/>
-    <property name="spawngroup" value="mwolf_1"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup id="7" name="Spawn2" visible="0"/>
  <objectgroup id="8" name="Keys"/>
 </map>

@@ -258,7 +258,7 @@
   </object>
   <object id="14" name="south2" type="mapchange" x="928" y="928" width="224" height="32">
    <properties>
-    <property name="map" value="mountainlake17"/>
+    <property name="map" value="remgard2a"/>
     <property name="place" value="north"/>
    </properties>
   </object>
