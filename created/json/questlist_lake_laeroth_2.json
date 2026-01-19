@@ -1,0 +1,17 @@
+[
+    {
+        "id":"ll2_nd",
+        "name":"Lake Laeroth nondisplay",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"10=Boat afloat"
+            },
+            {
+                "progress":11,
+                "logText":"11=Boat anchored in Remgard"
+            }
+		]
+    }
+]

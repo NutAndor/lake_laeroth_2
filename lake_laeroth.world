@@ -30,24 +30,24 @@
         },
         {
             "fileName": "altered/maps/mountainlake11.tmx",
-            "height": 864,
+            "height": 832,
             "width": 960,
             "x": 1408,
-            "y": -544
+            "y": -672
         },
         {
             "fileName": "altered/maps/mountainlake10a.tmx",
             "height": 640,
-            "width": 768,
+            "width": 800,
             "x": 2144,
-            "y": 320
+            "y": 192
         },
         {
             "fileName": "altered/maps/mountainlake10.tmx",
-            "height": 992,
+            "height": 960,
             "width": 960,
             "x": 2400,
-            "y": -672
+            "y": -800
         },
         {
             "fileName": "altered/maps/remgard0.tmx",
@@ -100,24 +100,38 @@
         },
         {
             "fileName": "created/maps/mountainlake18.tmx",
-            "height": 416,
-            "width": 544,
+            "height": 352,
+            "width": 256,
             "x": 1408,
-            "y": 992
+            "y": 864
         },
         {
             "fileName": "created/maps/mountainlake19.tmx",
-            "height": 384,
-            "width": 256,
+            "height": 640,
+            "width": 704,
             "x": 1408,
-            "y": 320
+            "y": 192
         },
         {
             "fileName": "created/maps/mountainlake20.tmx",
-            "height": 608,
-            "width": 704,
+            "height": 352,
+            "width": 416,
             "x": 1696,
-            "y": 992
+            "y": 864
+        },
+        {
+            "fileName": "created/maps/mountainlake21.tmx",
+            "height": 352,
+            "width": 576,
+            "x": 2144,
+            "y": 864
+        },
+        {
+            "fileName": "altered/maps/remgard2.tmx",
+            "height": 640,
+            "width": 896,
+            "x": 512,
+            "y": 2848
         }
     ],
     "onlyShowAdjacentMaps": false,

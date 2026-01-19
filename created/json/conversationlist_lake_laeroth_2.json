@@ -3,9 +3,14 @@
         "id":"ll2_boat_init",
         "rewards":[
             {
-                "rewardType":"alignmentSet",
-                "rewardID":"ll2_boat",
-                "value":1
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+				"value":10
+            },
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":11
             }
         ]
     },
@@ -21,50 +26,45 @@
                 "text":"Lift anchors!",
                 "nextPhraseID":"ll2_boat_remgard_20"
             }
-        ],
-        "rewards":[
-            {
-                "rewardType":"changeIcon",
-                "value":999
-            },
-            {
-                "rewardType":"alignmentSet",
-                "rewardID":"ll2_boat",
-                "value":1
-            }
         ]
     },
     {
         "id":"ll2_boat_remgard_10",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"X"
-            }
-        ],
         "rewards":[
-            {
-                "rewardType":"changeIcon",
-                "value":10
+            { 
+				"rewardType":"changeIcon", 
+				"rewardID":"mikhail",
+                "value":999
             },
             {
-                "rewardType":"alignmentSet",
-                "rewardID":"ll2_boat"
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+				"value":10
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+				"value":11
             }
         ]
     },
     {
         "id":"ll2_boat_remgard_20",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"X"
-            }
-        ],
         "rewards":[
             {
                 "rewardType":"changeIcon",
-                "value":999
+				"rewardID":"mikhail",
+                "value":10
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+				"value":10
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+				"value":11
             }
         ]
     }
