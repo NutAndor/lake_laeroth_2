@@ -183,11 +183,8 @@
  <tileset firstgid="7481" name="map_ground_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_ground_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7609" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../created/drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7737" name="map_boats_1" tilewidth="32" tileheight="32" tilecount="144" columns="16">
-  <image source="../../../../../../AndorsTrailRelease/andors-trail/AndorsTrail/res/drawable/map_boats_1.png" width="512" height="288"/>
+ <tileset firstgid="7609" name="map_boats_1" tilewidth="32" tileheight="32" tilecount="144" columns="16">
+  <image source="../drawable/map_boats_1.png" width="512" height="288"/>
  </tileset>
  <layer id="1" name="Ground" width="7" height="13">
   <data encoding="base64" compression="zlib">
@@ -196,17 +193,17 @@
  </layer>
  <layer id="2" name="Objects" width="7" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYBg5IJKLgSGaC8GPYETgTKB4Nhd2fZVA8WoccqQAAHVEA8Q=
+   eJxjYBg5IJidgSGEHcGPYETgyUDxKezY9S0Gii/BIUcKAACeigRL
   </data>
  </layer>
  <layer id="9" name="Objects_0" width="7" height="13" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF9AIAAWwAAQ==
+   eJxjYBgFEYz0sQcAJZMAWg==
   </data>
  </layer>
- <layer id="12" name="Objects_1" width="7" height="13" visible="0">
+ <layer id="12" name="Objects_1" width="7" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYBg5IJKLgSGaC7tcJlA8G4dcJVC8GoccKQAABKMCuQ==
+   eJxjYBg5IJidgSGEHVM8gpGBYTJQfAoWORBYDBRfgkOOFAAAUhADmQ==
   </data>
  </layer>
  <layer id="3" name="Above" width="7" height="13">
@@ -214,7 +211,7 @@
    eJxjYBgF9AIAAWwAAQ==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="7" height="13">
+ <layer id="4" name="Walkable" width="7" height="13" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBj+IFAMOyZFLTUwAOtoC6w=
   </data>
@@ -241,7 +238,7 @@
     <property name="place" value="jetty0"/>
    </properties>
   </object>
-  <object id="2" name="Remgard_jetty_sign" type="sign" x="64" y="288" width="32" height="32"/>
+  <object id="2" name="Remgard_jetty_sign_0" type="script" x="64" y="288" width="32" height="32"/>
   <object id="3" name="north" type="mapchange" x="0" y="0" width="224" height="32">
    <properties>
     <property name="map" value="remgard1"/>
@@ -253,38 +250,23 @@
  <objectgroup id="6" name="Spawn"/>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace" visible="0">
-  <object id="6" name="boat" type="replace" x="96" y="256" width="64" height="96">
+  <object id="6" name="boat" type="replace" x="64" y="256" width="128" height="96">
    <properties>
     <property name="Objects" value="objects_1"/>
+    <property name="Walkable" value="Walkable_1"/>
     <property name="requireId" value="ll2_nd"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="11"/>
    </properties>
   </object>
-  <object id="7" name="noboat" type="replace" x="96" y="256" width="64" height="96">
+  <object id="7" name="noboat" type="replace" x="64" y="256" width="128" height="96">
    <properties>
     <property name="Objects" value="objects_0"/>
-    <property name="requireId" value="ll2_nd"/>
-    <property name="requireNegation" value="true"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="11"/>
-   </properties>
-  </object>
-  <object id="8" name="watered" type="replace" x="64" y="256" width="128" height="96">
-   <properties>
     <property name="Walkable" value="Walkable_0"/>
     <property name="requireId" value="ll2_nd"/>
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="11"/>
-   </properties>
-  </object>
-  <object id="9" name="anchored" type="replace" x="64" y="256" width="128" height="96">
-   <properties>
-    <property name="Walkable" value="Walkable_1"/>
-    <property name="requireId" value="ll2_nd"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="10"/>
    </properties>
   </object>
  </objectgroup>

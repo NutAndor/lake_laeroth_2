@@ -11,6 +11,10 @@
             {
                 "progress":11,
                 "logText":"11=Boat anchored in Remgard"
+            },
+            {
+                "progress":12,
+                "logText":"12=Boat anchored at isle"
             }
 		]
     }

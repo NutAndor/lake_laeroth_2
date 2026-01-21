@@ -1,16 +1,37 @@
 [
     {
+        "id":"Remgard_jetty_sign_0",
+        "replies":[
+            {
+                "nextPhraseID":"Remgard_jetty_sign",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":11,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"ll2_boat_init",
         "rewards":[
             {
-            {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"ll2_nd",
-				"value":10
+                "value":10
             },
+            {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_nd",
                 "value":11
+            }
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":12
             }
         ]
     },
@@ -24,47 +45,141 @@
             },
             {
                 "text":"Lift anchors!",
-                "nextPhraseID":"ll2_boat_remgard_20"
+                "nextPhraseID":"ll2_boat_afloat"
             }
         ]
     },
     {
         "id":"ll2_boat_remgard_10",
         "rewards":[
-            { 
-				"rewardType":"changeIcon", 
-				"rewardID":"mikhail",
-                "value":999
-            },
             {
-                "rewardType":"questProgress",
-                "rewardID":"ll2_nd",
-				"value":10
+                "rewardType":"changeIcon",
+                "rewardID":"mikhail",
+                "value":999
             },
             {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"ll2_nd",
-				"value":11
+                "value":10
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":11
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":12
             }
         ]
     },
     {
-        "id":"ll2_boat_remgard_20",
+        "id":"ll2_boat_afloat",
         "rewards":[
             {
                 "rewardType":"changeIcon",
-				"rewardID":"mikhail",
+                "rewardID":"mikhail",
+                "value":10
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
                 "value":10
             },
             {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"ll2_nd",
-				"value":10
+                "value":11
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":12
+            }
+        ]
+    },
+    {
+        "id":"ll2_boat_isle1",
+        "message":"Ahoy!",
+        "replies":[
+            {
+                "text":"Land  the boat!",
+                "nextPhraseID":"ll2_boat_isle1_10"
+            },
+            {
+                "text":"Lift anchors!",
+                "nextPhraseID":"ll2_boat_afloat"
+            }
+        ]
+    },
+    {
+        "id":"ll2_boat_isle1_10",
+        "rewards":[
+            {
+                "rewardType":"changeIcon",
+                "rewardID":"mikhail",
+                "value":999
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":10
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":11
             },
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_nd",
-				"value":11
+                "value":12
+            }
+        ]
+    },
+    {
+        "id":"ll2_kalypso_table",
+        "message":"Serve yourself, take all you like!",
+        "replies":[
+            {
+                "text":"[Eat some fresh toasted bread]",
+                "nextPhraseID":"ll2_kalypso_table_10"
+            },
+            {
+                "text":"[Sip a tiny glass of ruby wine]",
+                "nextPhraseID":"ll2_kalypso_table_10"
+            }
+        ]
+    },
+    {
+        "id":"ll2_kalypso_table_10",
+		"switchToNPC":"kalypso",
+        "message":"I love your presence here! You may stay as long as you wish.",
+        "replies":[
+            {
+                "text":"Great! It is a wonderful place here!",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"str",
+                "value":10
+            }
+        ]
+    },
+	{
+        "id":"kalypso",
+        "message":"Be my guest! Stay as long as you wish."
+    },
+	{
+        "id":"ll2_kalypso_leave",
+        "message":"You don't want to leave this paradise island.",
+        "replies":[
+            {
+                "text":"I don't want to leave this paradise island."
             }
         ]
     }

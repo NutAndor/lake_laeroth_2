@@ -222,10 +222,10 @@
    </properties>
   </object>
   <object id="5" name="brute_fisherman_check" type="script" x="448" y="192" width="32" height="32"/>
-  <object id="6" name="east" type="mapchange" x="992" y="32" width="32" height="480">
+  <object id="6" name="east1" type="mapchange" x="992" y="32" width="32" height="480">
    <properties>
-    <property name="map" value="moitainlake15"/>
-    <property name="place" value="west1"/>
+    <property name="map" value="mountainlake15"/>
+    <property name="place" value="west"/>
    </properties>
   </object>
   <object id="7" name="north2" type="mapchange" x="736" y="0" width="192" height="32">
@@ -242,7 +242,7 @@
   </object>
   <object id="9" name="east2" type="mapchange" x="992" y="608" width="32" height="160">
    <properties>
-    <property name="map" value="moitainlake15"/>
+    <property name="map" value="mountainlake15"/>
     <property name="place" value="west1"/>
    </properties>
   </object>

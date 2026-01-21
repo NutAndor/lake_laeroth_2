@@ -200,26 +200,20 @@
  </layer>
  <layer id="4" name="Walkable" width="8" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFwxkAAAHgAAE=
+   eJxjYMANLorhkRwFQwIAAJm1AOg=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="2" name="south" type="mapchange" x="32" y="448" width="224" height="32">
+  <object id="2" name="south" type="mapchange" x="32" y="448" width="192" height="32">
    <properties>
     <property name="map" value="mountainlake17"/>
     <property name="place" value="north2"/>
    </properties>
   </object>
-  <object id="9" name="north" type="mapchange" x="32" y="0" width="224" height="32">
-   <properties>
-    <property name="map" value="mountainlake19"/>
-    <property name="place" value="south1"/>
-   </properties>
-  </object>
-  <object id="10" name="west" type="mapchange" x="0" y="32" width="32" height="416">
+  <object id="10" name="west" type="mapchange" x="0" y="0" width="32" height="448">
    <properties>
     <property name="map" value="mountainlake15"/>
-    <property name="place" value="east2"/>
+    <property name="place" value="east"/>
    </properties>
   </object>
   <object id="12" name="east" type="mapchange" x="224" y="32" width="32" height="416">
@@ -230,13 +224,5 @@
   </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn" visible="0"/>
- <objectgroup id="7" name="Spawn2" visible="0">
-  <object id="8" name="mwolf_1_5" type="spawn" x="0" y="-256" width="864" height="608">
-   <properties>
-    <property name="quantity" value="4"/>
-    <property name="spawngroup" value="mwolf_1"/>
-   </properties>
-  </object>
- </objectgroup>
  <objectgroup id="8" name="Keys"/>
 </map>

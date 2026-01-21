@@ -184,7 +184,7 @@
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7609" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../created/drawable/map_trail_1.png" width="512" height="256"/>
+  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
  <layer id="1" name="Ground" width="36" height="30">
   <data encoding="base64" compression="zlib">
@@ -250,7 +250,7 @@
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="13" name="north2" type="mapchange" x="672" y="0" width="448" height="32">
+  <object id="13" name="north2" type="mapchange" x="672" y="0" width="480" height="32">
    <properties>
     <property name="map" value="mountainlake17"/>
     <property name="place" value="south"/>

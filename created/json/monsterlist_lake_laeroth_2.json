@@ -1,0 +1,10 @@
+[
+    {
+        "id":"kalypso",
+        "name":"Kalypso",
+        "iconID":"monsters_ld1:221",
+        "monsterClass":"humanoid",
+        "spawnGroup":"kalypso",
+        "phraseID":"kalypso"
+    }
+]

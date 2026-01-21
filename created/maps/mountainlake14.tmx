@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="29" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="12">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="29" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="17">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,24 +183,49 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <layer id="9" name="Base" width="29" height="18">
+  <data encoding="base64" compression="zlib">
+   eJx7wcnA8GIUj+JRPIrphC9hwfS0a9RO2ts/EGmJXnaORAwAtoropA==
+  </data>
+ </layer>
  <layer id="1" name="Ground" width="29" height="18">
   <data encoding="base64" compression="zlib">
-   eJx7wcnA8GIUj+JRPIpH8SgexaMYCwYATpLreg==
+   eJxjYBgFo2AUjERgLsHAYIEF09IuDRqZjw1I0tGukWanO9BODyiWGCD7B8peDyQ8UgAAXtsGrw==
   </data>
  </layer>
  <layer id="2" name="Objects" width="29" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSjADgAIKAAB
+   eJxjYBgFo2AUjAL6gp+CtDE3mJ2BIYSdsDpBYerZORlo3xQgjmCEYHoAmJ3IgEsIUx0bFrFRMApIBQCJ8QU0
+  </data>
+ </layer>
+ <layer id="11" name="Objects_0" width="29" height="18" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRQCmIYBxoF4yCUUAbAAAGsgBa
+  </data>
+ </layer>
+ <layer id="12" name="Objects_1" width="29" height="18" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILhAYLZGRhC2Olr52SgfVOAOIKR/naOglFADwAAzFgDeQ==
   </data>
  </layer>
  <layer id="3" name="Above" width="29" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSjADgAIKAAB
+   eJxjYBgFo2AUjIJRMApGATHgp+BAu4D+AAAFrgEL
   </data>
  </layer>
  <layer id="4" name="Walkable" width="29" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSjADgAIKAAB
+   eJxjYBgFo2AUjDRwUQw3pqV9yHxa2UGMX6hlP63Ci5Cd9IgzYt0wUHYPlL0D7feBsBMAQ0Qerw==
+  </data>
+ </layer>
+ <layer id="13" name="Walkable_0" width="29" height="18" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILhBS6Kjdo5CkYBtQAAxdsCtg==
+  </data>
+ </layer>
+ <layer id="14" name="Walkable_1" width="29" height="18" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKhDy6KoWJ62UlvMBD+HAUjGwAAd4MIIA==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -222,40 +247,44 @@
     <property name="place" value="east2"/>
    </properties>
   </object>
-  <object id="11" name="east" type="mapchange" x="896" y="160" width="32" height="384">
+  <object id="11" name="east" type="mapchange" x="896" y="32" width="32" height="512">
    <properties>
     <property name="map" value="mountainlake19"/>
-    <property name="place" value="west1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object id="14" name="ll2_boat_isle1" type="script" x="576" y="352" width="64" height="32"/>
+ </objectgroup>
+ <objectgroup id="6" name="Spawn" visible="0"/>
+ <objectgroup id="8" name="Keys">
+  <object id="15" name="ll2_kalypso_leave" type="key" x="704" y="320" width="32" height="96">
+   <properties>
+    <property name="phrase" value="ll2_kalypso_leave"/>
+    <property name="requireId" value="str"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="hasActorCondition"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0">
-  <object id="3" name="mwolf_1" type="spawn" x="288" y="0" width="32" height="32">
+ <objectgroup id="10" name="Replace">
+  <object id="12" name="boat" type="replace" x="544" y="320" width="128" height="96">
    <properties>
-    <property name="spawngroup" value="mwolf_1"/>
+    <property name="Objects" value="objects_1"/>
+    <property name="Walkable" value="Walkable_1"/>
+    <property name="requireId" value="ll2_nd"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="12"/>
    </properties>
   </object>
-  <object id="4" name="mwolf_1_1" type="spawn" x="320" y="96" width="32" height="32">
+  <object id="16" name="noboat" type="replace" x="544" y="320" width="128" height="96">
    <properties>
-    <property name="spawngroup" value="mwolf_1"/>
-   </properties>
-  </object>
-  <object id="5" name="mwolf_1_2" type="spawn" x="768" y="0" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="mwolf_1"/>
-   </properties>
-  </object>
-  <object id="6" name="mwolf_1_3" type="spawn" x="64" y="64" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="mwolf_1"/>
-   </properties>
-  </object>
-  <object id="7" name="mwolf_1_4" type="spawn" x="64" y="0" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="mwolf_1"/>
+    <property name="Objects" value="objects_0"/>
+    <property name="Walkable" value="Walkable_0"/>
+    <property name="requireId" value="ll2_nd"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="12"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn2" visible="0"/>
- <objectgroup id="8" name="Keys"/>
 </map>

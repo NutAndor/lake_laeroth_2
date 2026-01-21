@@ -200,7 +200,7 @@
  </layer>
  <layer id="4" name="Walkable" width="13" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUgAAAAwwAAQ==
+   eJy7KMZAErhIovpRMAqGCgAAV4MBzw==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
