@@ -1,0 +1,28 @@
+[
+    {
+        "id":"heros_body",
+        "iconID":"actorconditions_1:91",
+        "name":"Hero's body",
+        "category":"physical",
+        "isPositive":1,
+        "roundEffect":{
+            "visualEffectID":"blueSwirl",
+            "increaseCurrentHP":{
+                "min":0,
+                "max":0
+            }
+        },
+        "abilityEffect":{
+            "increaseAttackChance":20,
+            "increaseAttackDamage":{
+                "min":30,
+                "max":50
+            },
+            "increaseMaxHP":50,
+            "increaseMaxAP":50,
+            "increaseCriticalSkill":20,
+            "increaseBlockChance":20,
+            "increaseDamageResistance":20
+        }
+    }
+]

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="15">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="13">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -185,104 +185,93 @@
  </tileset>
  <layer id="1" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztzjsOgCAQBFCjNt7/XiSeALGi9XMAsTCuE0TkIxEtpmCzsw9WFgXLPB0Jzn36pgiVkQTn/OTu9sY+h91Ok7UzqdTVHgbzQXOXWtin+z10aadtjhGaOd6lFvbp/gx/MnV0f/mTR2Qi8yuuTODKBC6aT9lnbmzb5Mayr8ycXBszpGvrhbZTuC6mr+tq+ti+5lvcEN4dO7Rn48Yyn3AXzwAEkg==
+   eJztlkEOwjAMBEvhwkd5JV8gEi8I3LgGPkCQiCiWd+NAXAnRw0qVantku9kmjMMQGnQSYjG1OlbGOesqdNzimEhqa7mIccvarN/1yEUxKT8fAFfLZYypLk+xGMQt72sMjSelxUawb1ZfareyaZqTwL5buKxX1rO270/rt7Llvr+p/0vc6Mhl7LLjubll1gu3P8eL2+o91u+ZeYmFsx9fCoZzVPMya2+aes2OedPC9eWy+5UnN5G7Xc9zidjavL28obZnT19ie/b2RDTruf4L/869A4SmBqo=
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJytVUtOw0AMjVqR/hYoWXRob8ACbko5AfRC7DgCCyqxYFGJNO0CxjRWXh17PognRZNMPH72s2emqYogXlf9exOxTfEhsYd/X+D/zViDNhwP+ed39Gf50KDlto+s1/xrfjajy7hz8TDKX9P62J4D6x6VfxuYu/XvT4H1bMt+Xrpxti6K+bq3o/nW5z4en31uFZ8U59X4HPOx05TtEfTNOW27NYxJXRSf1WUsjBa0J7/IRePJP4t1/33s+qkUdjgyF9cbY8F56Zu/rTFmhyhdURxEHMipjVQbqlEoBs2OvomLOBeu4697Tq47jjJu0kz6lPaYA/cRcx6XusYM1kLjRl0Ik7r3IWPn2r4vz5wrN/R1DbljLDFtJb5FDpzrrssVtdLyQGjcVi0wZtR35XQOK6/ff/Wwjnd+7r6289c4CVP/PnOX8YXyOGT0PQFrijj5uTlwa/0ofcne0fqaYyTenehfwtINuUO9g3uuFWeMhOwli5v+x3pHwrIPaYxAPbQ8aQ9avSO1pr0cy1XyppyBoT4nvqnRwxYv11jrldQzg7W9cXFOAtb4o4r39SC2DG0trTUu63wmzqayz4dU3hyttXsml5OAWpe1fafh2UB2KfslJeeQ1gzWdvrHmmq8mtaordwrqb0bAmpNkHUu/5kPgVo3Yk/9Ry1TePke4F6y7pdc/ACOxQHz
+   eJy9VktOwzAUdBPR7wK1i7TpDVoOwIZDcBkkLgGcADgIx+AALFgUiRWq1NJmg5/qwdNXO0lbykiWEyd+4/e3MR6vuX9e9M0Wlupdf+e9++I935VXhbfE72XcJ+H/5+6/h8TvjeFOfZ/a9yu39pXsckzs+xOtwVZsk+dks1fLZhmPdlzYcZYa0xwa07ajZ8dHZkyaeo6p+0cg+qfptizYBDaV7yL7MrC/MzamO948Nx3f2vKN7JwPvcyZXeva9w6tlWHV97Ixtwb+XN92NAf1ZDFaNfa0iUcAW+oB2942jLlp7M5aZzmz2HJCtvzljMiHLfXIS+yY2W9Ftjkb50Vh/dobe39LnB0ivwwzx6s5ZUacCA6VX8YLW0u8gFPm9RG1pQpsa4lHHbOnhLY1sOjv5vSpeGHjU0DnHfJN+1cgubVvD4hxhvIO8RqL53100TWQOUN5AS7E1LmNs5eKHsT1X+QWLj/ArzlRS7V+VTwxPWCzzNkP/MwJn7E/NWede4HEI9tu5fqDIAv4kAGbfqrY0feCGC/ygHsRZLVpjWOVe1Csh+nzhHg53q8DctiXZTmKu42+o8V4Bbq+6bjROXpMneDaDp3FP5oDNtOcoVytUyuy4XbecO5ynQ/pyb1H1+I6Mc1xW5D+iJ1VP8zNZ9LcdWI6pj/0Xrrc0voDsZ5bFVtl3KG7Efq89sFf9Fy2/Uj5QeJ/TrqV+fmvwHnXGvzf/YZ54b+q+80PHKy2iQ==
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztVTEOgDAIZNXRwaT+Qf//H3+gk07G6KCElhZBm8ZbTNo7OOglAvywwtymnUt5WDOdutXR51yvMZJ3BaXhemJdiOvzRGko7uLu++B8pfIo7uJo3hOsTE2LnhrgfF95oRnwO0pqpupxLQ0vUg94DqkHLa7v3veOXL26A6i647sjlAX8Fhbg8qiN2Hkp/tNshWBV25cRSXYsUVrv3HKd639LAzns+sv8foG+ARiad3uWsOMNUCBWqw==
+   eJxjYBga4LMYddSQqv8xEWaC1FyWJN9ekP6fQP2/kMz4RIS9xKgBAZjZ5Ngx3EEmI265Mhxy6OFID/ATyT562f2Tzn4cyWCkpClsYDimZ+Qyl552Dncw3PIJun/wpRtsdTil4DKJaZSWYU/v/DIKEGAkhv1I8y8xAAAumDa6
   </data>
  </layer>
  <layer id="4" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztklEOwCAIQz3F7n8lb7Tsw8QsEloK+mMTfobjUaA/rfUbNxLi0wnmEPK9kr1SJdNStd9VHydnzPaCvLdyXi8RNlrnn2PZ3g0xc0DzkdmzbLQHpp5ai62JvPP8WkJ6zNobylRuR9kb6tdjs8yIX3b22Z6jPtX/VaZyWwqTZWcyvXqWMrm7fCp7zubuZlfsb44XWiqIAQ==
+   eJztklEKwDAIQ3uK3f9KvdG+BmV0sdZEB5vQP+tLNP1orf/vdW8s1BNleHn32vUULRbDq9nLZWUgOoudPSU3k1nNVuRmx28WezZfwV3dK5OruiWao8iN5UPNRBpUu7X4Vj9rx2guk7uSraf/DL+MzERvXKnhK/5RZd/g0jPqqthD5e2t/hPUcoKX
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="east" type="mapchange" x="928" y="192" width="32" height="64">
+  <object id="1" name="south" type="mapchange" x="576" y="928" width="128" height="32">
    <properties>
-    <property name="map" value="mountainlake9"/>
-    <property name="place" value="west"/>
-   </properties>
-  </object>
-  <object id="2" name="south" type="mapchange" x="192" y="928" width="128" height="32">
-   <properties>
-    <property name="map" value="mountainlake10a"/>
+    <property name="map" value="mountainlake8"/>
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="3" name="west" type="mapchange" x="0" y="256" width="32" height="96">
+  <object id="2" name="west" type="mapchange" x="0" y="192" width="32" height="64">
    <properties>
-    <property name="map" value="mountainlake11"/>
+    <property name="map" value="mountainlake10"/>
     <property name="place" value="east"/>
-   </properties>
-  </object>
-  <object id="14" name="west2" type="mapchange" x="0" y="768" width="32" height="192">
-   <properties>
-    <property name="map" value="mountainlake11"/>
-    <property name="place" value="east2"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
-  <object id="4" name="mbrute_2" type="spawn" x="832" y="288" width="64" height="64">
+  <object id="3" name="mbrute_3" type="spawn" x="416" y="160" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="mbrute_3"/>
+   </properties>
+  </object>
+  <object id="4" name="mbrute_3_1" type="spawn" x="512" y="160" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="mbrute_3"/>
+   </properties>
+  </object>
+  <object id="5" name="mbrute_3_2" type="spawn" x="480" y="800" width="32" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="mbrute_3"/>
+   </properties>
+  </object>
+  <object id="6" name="mbrute_3_3" type="spawn" x="704" y="416" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="mbrute_3"/>
+   </properties>
+  </object>
+  <object id="7" name="mbrute_3_4" type="spawn" x="96" y="192" width="32" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="mbrute_3"/>
+   </properties>
+  </object>
+  <object id="8" name="mbrute_1" type="spawn" x="128" y="96" width="288" height="160">
+   <properties>
+    <property name="spawngroup" value="mbrute_1"/>
+   </properties>
+  </object>
+  <object id="9" name="mbrute_2" type="spawn" x="608" y="96" width="320" height="320">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="mbrute_2"/>
+   </properties>
+  </object>
+  <object id="10" name="mbrute_2_1" type="spawn" x="192" y="448" width="576" height="352">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="mbrute_2"/>
+   </properties>
+  </object>
+  <object id="11" name="mbrute_2_2" type="spawn" x="512" y="832" width="64" height="32">
    <properties>
     <property name="spawngroup" value="mbrute_2"/>
    </properties>
   </object>
-  <object id="5" name="mbrute_1" type="spawn" x="800" y="352" width="64" height="64">
+  <object id="12" name="mbrute_2_3" type="spawn" x="160" y="416" width="320" height="480">
    <properties>
-    <property name="spawngroup" value="mbrute_1"/>
-   </properties>
-  </object>
-  <object id="6" name="mbrute_1_1" type="spawn" x="640" y="608" width="64" height="64">
-   <properties>
-    <property name="spawngroup" value="mbrute_1"/>
-   </properties>
-  </object>
-  <object id="7" name="mbrute_1_2" type="spawn" x="480" y="544" width="64" height="64">
-   <properties>
-    <property name="spawngroup" value="mbrute_1"/>
-   </properties>
-  </object>
-  <object id="8" name="mwolf_2" type="spawn" x="128" y="672" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="mwolf_2"/>
-   </properties>
-  </object>
-  <object id="9" name="mwolf_3" type="spawn" x="96" y="608" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="mwolf_3"/>
-   </properties>
-  </object>
-  <object id="10" name="mwolf_3_1" type="spawn" x="96" y="544" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="mwolf_3"/>
-   </properties>
-  </object>
-  <object id="11" name="mwolf_2_1" type="spawn" x="128" y="736" width="128" height="160">
-   <properties>
-    <property name="spawngroup" value="mwolf_2"/>
-   </properties>
-  </object>
-  <object id="12" name="mwolf_3_2" type="spawn" x="64" y="192" width="416" height="352">
-   <properties>
-    <property name="spawngroup" value="mwolf_3"/>
+    <property name="spawngroup" value="mbrute_2"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn2">
-  <object id="13" name="mwolf_2_2" type="spawn" x="64" y="128" width="832" height="768">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="mwolf_2"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup id="8" name="Keys"/>
+ <objectgroup id="7" name="Keys"/>
 </map>

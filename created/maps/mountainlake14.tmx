@@ -260,7 +260,7 @@
   <object id="15" name="ll2_kalypso_leave" type="key" x="704" y="320" width="32" height="96">
    <properties>
     <property name="phrase" value="ll2_kalypso_leave"/>
-    <property name="requireId" value="str"/>
+    <property name="requireId" value="heros_body"/>
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="hasActorCondition"/>
    </properties>

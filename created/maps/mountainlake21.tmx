@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="18" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="14">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="18" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="15">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -214,6 +214,12 @@
    <properties>
     <property name="map" value="mountainlake22"/>
     <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object id="14" name="north" type="mapchange" x="32" y="0" width="512" height="32">
+   <properties>
+    <property name="map" value="mountainlake10a"/>
+    <property name="place" value="south1"/>
    </properties>
   </object>
  </objectgroup>

@@ -27,7 +27,7 @@
                 "rewardType":"questProgress",
                 "rewardID":"ll2_nd",
                 "value":11
-            }
+            },
             {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"ll2_nd",
@@ -154,8 +154,8 @@
     },
     {
         "id":"ll2_kalypso_table_10",
-		"switchToNPC":"kalypso",
         "message":"I love your presence here! You may stay as long as you wish.",
+        "switchToNPC":"kalypso",
         "replies":[
             {
                 "text":"Great! It is a wonderful place here!",
@@ -165,16 +165,16 @@
         "rewards":[
             {
                 "rewardType":"actorCondition",
-                "rewardID":"str",
-                "value":10
+                "rewardID":"heros_body",
+                "value":50
             }
         ]
     },
-	{
+    {
         "id":"kalypso",
         "message":"Be my guest! Stay as long as you wish."
     },
-	{
+    {
         "id":"ll2_kalypso_leave",
         "message":"You don't want to leave this paradise island.",
         "replies":[
