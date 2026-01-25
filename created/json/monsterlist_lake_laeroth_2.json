@@ -6,5 +6,37 @@
         "monsterClass":"humanoid",
         "spawnGroup":"kalypso",
         "phraseID":"kalypso"
+    },
+    {
+        "id":"leofric_remgard",
+        "name":"Leofric",
+        "iconID":"monsters_tometik1:85",
+        "monsterClass":"humanoid",
+        "phraseID":"leofric_remgard",
+        "droplistID":"leofric_remgard"
+    },
+    {
+        "id":"sirene1",
+        "name":"Parthenope",
+        "iconID":"monsters_newb_1:288",
+        "monsterClass":"humanoid",
+        "spawnGroup":"sirene1",
+        "phraseID":"sirene1"
+    },
+    {
+        "id":"sirene2",
+        "name":"Ligeia",
+        "iconID":"monsters_newb_1:288",
+        "monsterClass":"humanoid",
+        "spawnGroup":"sirene2",
+        "phraseID":"sirene2"
+    },
+    {
+        "id":"sirene3",
+        "name":"Leukosia",
+        "iconID":"monsters_newb_1:288",
+        "monsterClass":"humanoid",
+        "spawnGroup":"sirene3",
+        "phraseID":"sirene3"
     }
 ]

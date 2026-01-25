@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="11">
- <properties>
-  <property name="outdoors" value="1"/>
- </properties>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="14">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
@@ -183,88 +180,102 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7609" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
- </tileset>
  <layer id="1" name="Ground" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJx7wcnA8IIMfBEPJsc8etmBz0xq2EGK+aTaQarZpNpBrvn0sGMw+KGEFYJpaUcLHey4CLXnojARmMy4gKl9KEwYU2I+CAtxEcb0tmMw5Wty7aB1+UeO+aMYPwYAs6W0VA==
+   eJy7LMbAcBkPNuKiHOMzH2bHJSnyMbF2PJIiHxNrxwVu8vGoHfSxA1sapdSOmUD2bDEEjc0OdDWk2rETyN4thqCx2YGuBpd/cYUBuhux5Tdc/iAmH2PzB7b8hs8fhPIqpekKhFt48GNa20GN/DFc7AClG3x2XKIwzi9B0w0+OyhNVyD9jFzUxSB3oYsBAA5/Y+E=
   </data>
  </layer>
  <layer id="2" name="Objects" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJzdVLFOAzEMtToEmg6Qq3TpnWAAZkBMiM9D7P1JhjJU6kgLA9iXs+JauSZhxJKVS+Lze/ZLAlBvmxbgow3ftgH4dAA79EN3vFdjxgOcC1/4mGePuec9YvVh/AuGGXN+4X8rH73z+RpLuXN+yrnFXhjszcGFmG+cL/owUh20V4qhuac4c17qD+HU1kFxzF3zleNO1DPUobTK1cBxuh/MW6+T9ppbKrfuv+Z9j/1+aI7xbEWfNmJP59f8aU66k8Y/LtyRWoxUPl6n+etljN27dI+nMGruztuIQ3fcqB6nTHJgXiUY713kdyp/KubWYp+vAF5mAMuzsEZzORLGY1N+XgnDYtzcR/0urgGeEeMOMdazMCds+h5qFzrnaiBr6RwJPcz4lkrjnGxSh1IdZS3DO+3ifWCNtmP/bTOt880yX4tV7/iUT52jpxMYjLOq8JwG/81+AaiYdaU=
+   eJxjYBgcwFKAgeErHwODrCyENgXyrdHELIB8KyzqSAW6suSLDRYQx8LAMFGMgWGyGIQNE5uCxkdXQwrIA+pZCNS7WAzChoktQeOjqyEF1AH1bATq3SwGYcPEtqDx0dUQC+6zku4mUsF7qB2ZLBCMDxCjBp/eUGAYhIvhNoMYNbgAKKxAekqBesuh+kF5bDcbA8MeIN7LBuGjq0EHsPwJA7C8CgK4wuo00OwzQHyWDdUv2MxnEoBgUP78BzTvPyvhvDpZAIJBoBGJjQsICUCwJtA9fEDMD8QfxfDroRaoxJJmA1lI48PAFhzpvxOL+BIW4vnSRIRFIhY7EllI48MALM6VgFgRiEugZhdSMX/D4hyGW1ghcd4EtYOLA+hvIObhQKRjZIAuhqyeXgAANJxHqg==
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYKAc/JRkYPglCWHDaFoCLinK9N9BcyPM/cj+oCb4SWUz0d2LzXxK/IHPvbjso5b51AC4woNa9tLa/bjspGbaZOQgTh0TUN1lMu1VJNIOJSLVUQIei9HObH5ZCP2JRnagl1fDGXyTpY8d6Hig7MCmjhK9AAdEOzY=
+   eJxjYBgc4LHYqB2k2nGLn4HhJj+q3C00Pkj+BpoYKXZc5IdgZHAZjY9NDSl20BIMJjsocctQsYOQGcTa8YmAHRYCDAySbKTrJRYMpnRDSzuo4QZ62XEJTxmDbMd9Vkx5bGLogFC6oUa6ojUAAE33J3Q=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="25" height="20" visible="0">
+ <layer id="4" name="Walkable" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJytk+0JACAIRJui/Vdqo/5K5H2hEEHovbNsLRxn/5eSp4bCUH1Mear1DqOev3uXpzISH0q9c99JHyjf1Wezl+qjHn41qnbKcL07DJeHvDJ2wmE9prM6xeiYyFPHQO/IImGg+2D6jOH2ks715F+Z5Ljh1Ki5FzEG3C0=
+   eJy7KMbAcHEUUw1TAki1A5ud2PjY9IwUO7DFCbHxNpjswBYOuNRRGlb0sIMeYYVNLza3E2sHtQAh86hhHynhgSxGKp+e/iAmHdLSDmLSMbHmUgNjswMAo60SYA==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="north" type="mapchange" x="448" y="0" width="128" height="32">
+  <object id="1" name="south" type="mapchange" x="640" y="608" width="32" height="32">
    <properties>
-    <property name="map" value="mountainlake10"/>
-    <property name="place" value="south"/>
+    <property name="map" value="remgard1"/>
+    <property name="place" value="remgard_tavern"/>
    </properties>
   </object>
-  <object id="2" name="lonelyhouse" type="mapchange" x="256" y="416" width="32" height="32">
+  <object id="2" name="up" type="mapchange" x="736" y="480" width="32" height="32">
    <properties>
-    <property name="map" value="lonelyhouse0"/>
-    <property name="place" value="south"/>
-   </properties>
-  </object>
-  <object id="8" name="south2" type="mapchange" x="640" y="608" width="128" height="32">
-   <properties>
-    <property name="map" value="laerothisland0"/>
-    <property name="place" value="north"/>
-   </properties>
-  </object>
-  <object id="9" name="south1" type="mapchange" x="32" y="608" width="96" height="32">
-   <properties>
-    <property name="map" value="mountainlake21"/>
-    <property name="place" value="north"/>
-   </properties>
-  </object>
-  <object id="10" name="west" type="mapchange" x="0" y="32" width="32" height="576">
-   <properties>
-    <property name="map" value="mountainlake19"/>
-    <property name="place" value="east"/>
+    <property name="map" value="remgard_tavern1"/>
+    <property name="place" value="down"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0">
-  <object id="3" name="mwolf_2" type="spawn" x="544" y="64" width="32" height="32">
+ <objectgroup id="6" name="Spawn">
+  <object id="3" name="kendelow" type="spawn" x="32" y="416" width="192" height="192">
    <properties>
-    <property name="spawngroup" value="mwolf_2"/>
+    <property name="spawngroup" value="kendelow"/>
    </properties>
   </object>
-  <object id="4" name="mwolf_1" type="spawn" x="160" y="64" width="384" height="224">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="mwolf_1"/>
-   </properties>
-  </object>
-  <object id="5" name="mwolf_1_1" type="spawn" x="448" y="96" width="224" height="448">
+  <object id="4" name="remgard_drunk" type="spawn" x="320" y="448" width="384" height="96">
    <properties>
     <property name="quantity" value="3"/>
-    <property name="spawngroup" value="mwolf_1"/>
+    <property name="spawngroup" value="remgard_drunk"/>
    </properties>
   </object>
-  <object id="6" name="halvor" type="spawn" x="128" y="352" width="32" height="32">
+  <object id="5" name="arghes" type="spawn" x="288" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="arghes"/>
+   </properties>
+  </object>
+  <object id="6" name="krell" type="spawn" x="640" y="256" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="krell"/>
+   </properties>
+  </object>
+  <object id="7" name="elythom_knight1" type="spawn" x="608" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="elythom_knight1"/>
+   </properties>
+  </object>
+  <object id="8" name="elythom_knight2" type="spawn" x="672" y="256" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="elythom_knight2"/>
+   </properties>
+  </object>
+  <object id="9" name="remgard_drunk_1" type="spawn" x="288" y="96" width="480" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="remgard_drunk"/>
+   </properties>
+  </object>
+  <object id="10" name="burhczyd7" type="spawn" x="384" y="256" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
-    <property name="spawngroup" value="halvor"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="burhczyd7"/>
    </properties>
   </object>
-  <object id="7" name="lake_fish_spawn" type="spawn" x="160" y="608" width="320" height="32">
+  <object id="11" name="burhczyd7e" type="spawn" x="384" y="256" width="32" height="32">
    <properties>
-    <property name="spawngroup" value="guynmart_fish2"/>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="burhczyd7e"/>
+   </properties>
+  </object>
+  <object id="12" name="eraep" type="spawn" x="736" y="416" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="eraepsekahs"/>
+   </properties>
+  </object>
+  <object id="13" name="leofric_remgard" type="spawn" x="320" y="192" width="256" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="leofric_remgard"/>
    </properties>
   </object>
  </objectgroup>

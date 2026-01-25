@@ -1,0 +1,20 @@
+[
+    {
+        "id":"beeswax",
+        "iconID":"items_tometik1:35",
+        "name":"Bees wax",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":50,
+        "category":"other"
+    },
+    {
+        "id":"earplugs",
+        "iconID":"items_tometik1:35",
+        "name":"Ear plugs",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":100,
+        "category":"other"
+    }
+]

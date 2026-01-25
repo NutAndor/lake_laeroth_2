@@ -154,7 +154,7 @@
  </layer>
  <layer id="5" name="Walkable" width="27" height="20">
   <data encoding="base64" compression="zlib">
-   eJzNk1EOgDAIQ3cEL+n9r+CXPwRKW8ciiR/DlmcNWyuv+9r7oIo6d77CcrOiOShTp+n+lzIHFcNTv7nyMlqXVZ0nWbv2kPGdYCn5GFY2y2VFX8fKPAqHZcXeJEvd92p/1FyxP8163yFWlpthMbrOr+68o//KYu7VH1gPZsyHvg==
+   eJzN0tENgDAIBNCO4JLuv4JfJg3hjjsUI4k/LfBCZa08zuP9D0XM6fauLHTfmaFrqS7KVfqwUDzHymqd3K7F/seUNbGHWZ1qPrWc+b624ntU3n6mWqwPsuLZpOXuO9sfZ654Pm3dd8xCc1cWy9ldVu9Yqqnui2opPf9gXYKCkcw=
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -170,7 +170,7 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="10" name="west" type="mapchange" x="0" y="32" width="32" height="448">
+  <object id="10" name="west" type="mapchange" x="0" y="32" width="32" height="96">
    <properties>
     <property name="map" value="mountainlake21"/>
     <property name="place" value="east"/>

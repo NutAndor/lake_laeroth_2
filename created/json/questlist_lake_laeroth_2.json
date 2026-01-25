@@ -15,7 +15,27 @@
             {
                 "progress":12,
                 "logText":"12=Boat anchored at isle"
-            }
+            },
+			{
+				"progress":100,
+				"logText":"100=Leofric not needed anymore"
+			},
+			{
+				"progress":101,
+				"logText":"101=Ear plugs given to crew"
+			},
+			{
+				"progress":102,
+				"logText":"102=Ear plugs for PC"
+			},
+			{
+				"progress":103,
+				"logText":"103=PC bound to ship"
+			},
+			{
+				"progress":104,
+				"logText":"104=Sirene passage free"
+			}
 		]
     }
 ]

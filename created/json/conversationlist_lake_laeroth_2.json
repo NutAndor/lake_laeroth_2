@@ -17,6 +17,52 @@
     },
     {
         "id":"ll2_boat_init",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_leofric_activate",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"^ll2_nd",
+                        "value":100,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ailshara_completed_n_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_shipment",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ailshara_deliver_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_shipment",
+                        "value":35
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ailshara_interested_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_shipment",
+                        "value":25
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ailshara_1"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"removeQuestProgress",
@@ -171,6 +217,167 @@
         ]
     },
     {
+        "id":"ll2_leofric_activate",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"leofric_remgard",
+                "mapName":"remgard_tavern0"
+            }
+        ]
+    },
+    {
+        "id":"ll2_leofric_deactivate",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"leofric_remgard",
+                "mapName":"remgard_tavern0"
+            }
+        ]
+    },
+    {
+        "id":"ll2_sirene_key",
+        "message":"End of journey. This is as far as we can go.",
+        "replies":[
+            {
+				"nextPhraseID":"ll2_sirene_key_10",
+                "text":"Hey, there is still so much to expore."
+            }
+        ]
+    },
+    {
+        "id":"ll2_sirene_key_10",
+        "message":"See the rocky island over there? This is where the sirens live.",
+        "replies":[
+            {
+				"nextPhraseID":"ll2_sirene_key_20",
+                "text":"Sirens?"
+            }
+        ]
+    },
+    {
+        "id":"ll2_sirene_key_20",
+        "message":"Dreadful creatures. They have lured many a brave crew to the rocks. The ships were wrecked there, and the crew was never seen again.",
+        "replies":[
+            {
+				"nextPhraseID":"ll2_sirene_key_30",
+                "text":"Sirens?"
+            }
+        ]
+    },
+    {
+        "id":"ll2_sirene_key_30",
+        "message":"Dreadful creatures. They have lured many a brave crew to the rocks. The ships were wrecked there, and the crew was never seen again.",
+        "replies":[
+            {
+				"nextPhraseID":"ll2_sirene_key_40",
+                "text":"Hmm, then just ignore it and we'll drive by really quickly."
+            }
+        ]
+    },
+    {
+        "id":"ll2_sirene_key_40",
+        "message":"Absolutely not. I will not sacrifice my ship and crew to the childish wish of a kid.",
+        "replies":[
+            {
+				"nextPhraseID":"ll2_sirene_key_50",
+                "text":"Let me think: If you didn't hear the sirens, everything would be OK, right?"
+            }
+        ]
+    },
+    {
+        "id":"ll2_sirene_key_50",
+        "message":"Of course. But we can't cover our ears and steer a ship at the same time.",
+        "replies":[
+            {
+				"nextPhraseID":"ll2_sirene_key_60",
+                "text":"Look, I have earplugs here, take them and you can drive through here as often as you like without any problems.",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"earplugs",
+                        "value":5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ll2_sirene_key_60",
+        "message":"Sounds like a plan. And you? How do you plan to stop yourself from simply jumping overboard?",
+        "replies":[
+            {
+				"nextPhraseID":"ll2_sirene_key_70",
+                "text":"I'll take ear plugs too, of course."
+            },
+            {
+				"nextPhraseID":"ll2_sirene_key_80",
+                "text":"Just tie me to the mast. And whatever you do, don't untie me, no matter how much I beg."
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":100
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":101
+            }
+        ]
+    },
+    {
+        "id":"ll2_sirene_key_70",
+        "message":"That's what we'll do. We'll be the first to cross the Sirens' Passage alive.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":102
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":104
+            }
+        ]
+    },
+    {
+        "id":"ll2_sirene_key_80",
+        "message":"That's what we'll do. We'll be the first to cross the Sirens' Passage alive.",
+        "replies":[
+            {
+				"nextPhraseID":"ll2_sirene_key_90",
+                "text":"And I am very curious to know what the sirens are shouting that lured so many to their doom."
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":103
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":104
+            }
+        ]
+    },
+    {
+        "id":"ll2_sirene_key_90",
+        "message":"You have to tell me later.",
+        "replies":[
+            {
+				"nextPhraseID":"X",
+                "text":"Of course."
+            }
+        ]
+    },
+    {
         "id":"kalypso",
         "message":"Be my guest! Stay as long as you wish."
     },
@@ -179,7 +386,28 @@
         "message":"You don't want to leave this paradise island.",
         "replies":[
             {
+				"nextPhraseID":"X",
                 "text":"I don't want to leave this paradise island."
+            }
+        ]
+    },
+    {
+        "id":"leofric_remgard",
+        "message":"Hello kid. Finally, a sober tavern patron!",
+        "replies":[
+            {
+				"nextPhraseID":"leofric_remgard_10",
+                "text":"Yes, the noise in here is almost unbearable."
+            }
+        ]
+    },
+    {
+        "id":"leofric_remgard_10",
+        "message":"That's why I have produced these ear plugs from beeswax. I could sell you some of them.",
+        "replies":[
+            {
+				"nextPhraseID":"S",
+                "text":"With pleasure. Show me what you have for sale."
             }
         ]
     }
