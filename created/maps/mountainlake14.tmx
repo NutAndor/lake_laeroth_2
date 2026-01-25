@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="29" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="17">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="29" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="18">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -210,12 +210,12 @@
  </layer>
  <layer id="3" name="Above" width="29" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGATHgp+BAu4D+AAAFrgEL
+   eJxjYKAveMFJZwtHwSgYBaNgFIwCKoGfggPtAvoDAEpGAfw=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="29" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjDRwUQw3pqV9yHxa2UGMX6hlP63Ci5Cd9IgzYt0wUHYPlL0D7feBsBMAQ0Qerw==
+   eJxjYKAvuChGZwtHwSgYBRgAlA9xYVrah8ynlR3E+IVa9g9EeUavOCPWDQNl90DZO9B+Hwg7ATqfH5Y=
   </data>
  </layer>
  <layer id="13" name="Walkable_0" width="29" height="18" visible="0">
@@ -255,7 +255,13 @@
   </object>
   <object id="14" name="ll2_boat_isle1" type="script" x="576" y="352" width="64" height="32"/>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0"/>
+ <objectgroup id="6" name="Spawn" visible="0">
+  <object id="17" name="ll2_captain" type="spawn" x="896" y="0" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="ll2_captain"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="8" name="Keys">
   <object id="15" name="ll2_kalypso_leave" type="key" x="704" y="320" width="32" height="96">
    <properties>

@@ -8,6 +8,14 @@
         "phraseID":"kalypso"
     },
     {
+        "id":"ll2_captain",
+        "name":"Captain Burry",
+        "iconID":"monsters_karvis2:2",
+        "monsterClass":"humanoid",
+        "spawnGroup":"ll2_captain",
+        "phraseID":"ll2_captain"
+    },
+    {
         "id":"leofric_remgard",
         "name":"Leofric",
         "iconID":"monsters_tometik1:85",

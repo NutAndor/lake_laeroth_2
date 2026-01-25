@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="29" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="8">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="29" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="9">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -242,9 +242,15 @@
   </object>
  </objectgroup>
  <objectgroup id="7" name="Spawn2">
-  <object id="5" name="mwolf_1" type="spawn" x="64" y="160" width="800" height="416">
+  <object id="5" name="mwolf_1" type="spawn" x="64" y="160" width="672" height="416">
    <properties>
     <property name="quantity" value="5"/>
+    <property name="spawngroup" value="mwolf_1"/>
+   </properties>
+  </object>
+  <object id="8" name="mwolf_1_1" type="spawn" x="736" y="160" width="128" height="224">
+   <properties>
+    <property name="quantity" value="1"/>
     <property name="spawngroup" value="mwolf_1"/>
    </properties>
   </object>

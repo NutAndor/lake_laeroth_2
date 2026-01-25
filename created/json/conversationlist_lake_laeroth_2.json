@@ -28,39 +28,6 @@
 						"negate":true
                     }
                 ]
-            },
-            {
-                "nextPhraseID":"ailshara_completed_n_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_shipment",
-                        "value":80
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"ailshara_deliver_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_shipment",
-                        "value":35
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"ailshara_interested_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"feygard_shipment",
-                        "value":25
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"ailshara_1"
             }
         ],
         "rewards":[
@@ -83,15 +50,31 @@
     },
     {
         "id":"ll2_boat_remgard",
+		"switchToNPC":"ll2_captain",
         "message":"Ahoy!",
         "replies":[
             {
-                "text":"Land  the boat!",
-                "nextPhraseID":"ll2_boat_remgard_10"
+                "text":"Land the boat!",
+                "nextPhraseID":"ll2_boat_remgard_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":10
+                    }
+                ]
             },
             {
                 "text":"Lift anchors!",
-                "nextPhraseID":"ll2_boat_afloat"
+                "nextPhraseID":"ll2_boat_afloat",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":10,
+						"negate":true
+                    }
+                ]
             }
         ]
     },
@@ -237,6 +220,172 @@
         ]
     },
     {
+        "id":"ll2_sirene",
+        "replies":[
+            {
+				"nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":103,
+						"negate":true
+                    }
+                ]
+            },
+            {
+				"nextPhraseID":"ll2_sirene_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/10"
+                    }
+                ]
+            },
+            {
+				"nextPhraseID":"ll2_sirene_9",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/9"
+                    }
+                ]
+            },
+            {
+				"nextPhraseID":"ll2_sirene_8",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/8"
+                    }
+                ]
+            },
+            {
+				"nextPhraseID":"ll2_sirene_7",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/7"
+                    }
+                ]
+            },
+            {
+				"nextPhraseID":"ll2_sirene_6",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/6"
+                    }
+                ]
+            },
+            {
+				"nextPhraseID":"ll2_sirene_5",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/5"
+                    }
+                ]
+            },
+            {
+				"nextPhraseID":"ll2_sirene_4",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/4"
+                    }
+                ]
+            },
+            {
+				"nextPhraseID":"ll2_sirene_3",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/3"
+                    }
+                ]
+            },
+            {
+				"nextPhraseID":"ll2_sirene_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/2"
+                    }
+                ]
+            },
+            {
+				"nextPhraseID":"ll2_sirene_1"
+            }
+        ]
+    },
+    {
+        "id":"ll2_sirene_1",
+		"switchToNPC":"sirene3",
+        "message":"Come closer, $playername, and learn the truth of every road you have walked and every lie told about it."
+    },
+    {
+        "id":"ll2_sirene_2",
+		"switchToNPC":"sirene2",
+        "message":"We know the names you forgot, the faces you left behind, and the fate waiting at your door."
+    },
+    {
+        "id":"ll2_sirene_3",
+		"switchToNPC":"sirene1",
+        "message":"Stay, and we will sing you the ending of your story."
+    },
+    {
+        "id":"ll2_sirene_4",
+		"switchToNPC":"sirene3",
+        "message":"No man has sailed past us unchanged, for knowledge always takes its price."
+    },
+    {
+        "id":"ll2_sirene_5",
+		"switchToNPC":"sirene2",
+        "message":"Listen, and you will understand why your brother still feels farther away with every mile."
+    },
+    {
+        "id":"ll2_sirene_6",
+		"switchToNPC":"sirene1",
+        "message":"Untie yourself, clever one - wisdom should never be heard from a distance."
+    },
+    {
+        "id":"ll2_sirene_7",
+		"switchToNPC":"sirene3",
+        "message":"What you seek is not safety, but certainty, and we can give you that."
+    },
+    {
+        "id":"ll2_sirene_8",
+		"switchToNPC":"sirene2",
+        "message":"You have outwitted monsters and men, but you have never dared to face the truth we sing."
+    },
+    {
+        "id":"ll2_sirene_9",
+		"switchToNPC":"sirene1",
+        "message":"Hear us, and you will finally know which of your victories were earned, and which were merely spared."
+    },
+    {
+        "id":"ll2_sirene_10",
+		"switchToNPC":"sirene3",
+        "message":"We sing not to trap you, Odysseus, but to show you what you have been running from."
+    },
+    {
+        "id":"ll2_sirene_x",
+		"switchToNPC":"sirene2",
+        "message":"One day, the knots won't be tied tightly enough. Or the blocked ears won't be closed tightly enough.",
+        "replies":[
+            {
+				"nextPhraseID":"ll2_sirene_x_10",
+                "text":"N"
+            }
+        ]
+    },
+    {
+        "id":"ll2_sirene_x_10",
+		"switchToNPC":"sirene1",
+        "message":"We are hungry but patient."
+    },
+    {
         "id":"ll2_sirene_key",
         "message":"End of journey. This is as far as we can go.",
         "replies":[
@@ -249,16 +398,6 @@
     {
         "id":"ll2_sirene_key_10",
         "message":"See the rocky island over there? This is where the sirens live.",
-        "replies":[
-            {
-				"nextPhraseID":"ll2_sirene_key_20",
-                "text":"Sirens?"
-            }
-        ]
-    },
-    {
-        "id":"ll2_sirene_key_20",
-        "message":"Dreadful creatures. They have lured many a brave crew to the rocks. The ships were wrecked there, and the crew was never seen again.",
         "replies":[
             {
 				"nextPhraseID":"ll2_sirene_key_30",

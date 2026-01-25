@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="18" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="18">
- <properties>
-  <property name="outdoors" value="1"/>
- </properties>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="18" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="1">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
@@ -184,34 +181,31 @@
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7609" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../../../AndorsTrailRelease/andors-trail/AndorsTrail/res/drawable/map_guynmart.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7737" name="map_rock_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/drawable/map_rock_2.png" width="512" height="256"/>
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
  <layer id="1" name="Base" width="18" height="15">
   <data encoding="base64" compression="zlib">
-   eJx7wcnA8GKI4z1MlJtxH2jGOSA+T6FZH4H6PwHxIwrNApnDwszA8AXqLkrcdBZqBqX+O4ukl1JzHkDxQzLN2QP1yyco/kyGOWeRwmQPNLwpSTswTK6fQHF+n8JwQU+H5IQLOsYWLgBi5vgV
+   eJx7wcnA8GKI4z1MlJtxH2jGOSA+T6FZH4H6PwHxIwrNApnDwszA8AXqLkrcdBZqBqX+O4ukl1JzHkDxQzLN2QP1yycoBgFywwVkzh5oeFOSdmCYXD+B4vw+heGCng4/UyFvYAsXAAKp9yA=
   </data>
  </layer>
  <layer id="9" name="Ground" width="18" height="15">
   <data encoding="base64" compression="zlib">
-   eJyt0LkNg2AQhNFftEBMU5TE6Zg75i4AAhNDAE24C2K+mMSC3ZUmnKfRGiM/11ZAXtzpyI0v2xeF/TvGIXAmurPCjhVjIyGJFLwco1BwOoxe4Hh0fRIItyT0U5IJnZp+Q9qb87OeWzHGR+HHJUal4AwY4x/nAon6FrI=
+   eJxjYEAFW4QZGLYKM5AEgrCoPwIUO0qiOaSCb7KUm7ET6MZdVHDnSaAZpygwh5xwxwZg4d4KxG1UMG8q0IxpVDBnKdCMZRSY0wTU2wzELRS6ZRJQ/2QgnkKhOYuA+hcD8RI0c+4zkW5WO9CMDiqE8XSgGTMoMCcYqNcQiJcD8QoC5gAAoGsamg==
   </data>
  </layer>
  <layer id="2" name="Objects" width="18" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFc+QYGObKMZAEvsliiq0BmrGWRHPIAbuZIPReJvL0g9yO7n5yzMJmDqX6dyO547EYaebAzGJmhtBszNRx1zkmCKbUHHL1g/BuMuMa3RxkADITFO+sRIYTLnOIjSds5jGj2U2sW9DdhG4OOW5BTz/obgEAvTIqGw==
+   eJxjYEAF32QhmBSATT055pADdjNB6L1M5OnH5k5yzKLUv9j070Zyx2Mx0syBmcXMDKHZmKnjrnNMEEypOeTqB+HdZMY1ujnIAGQmKN5ZiQwnXOYQG0/YzGNGs5tYt6C7Cd0cUvVjSz/obgEAJpotgw==
   </data>
  </layer>
  <layer id="3" name="Above" width="18" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYEAF32QhmFJALXMGAnwWo445j8XIM2uxAKY5e5kod88nqFuIdROyOxoFMOUfUzGcyAXIfqHEHGS9nygwBxZPpMQ7trCFmUGJW2CAWvGE7BYAQH4ZeA==
+   eJxjYBgF6OCzGHXMeSxGnlmLBTDN2ctEuXs+Qd1CrJuQ3dEogCn/mIrhRC6A+eUzE2XmIOv9RIE5sHgiJd6xhS3MDGLdoiiMW45a8YTsFgB+RRZV
   </data>
  </layer>
  <layer id="4" name="Walkable" width="18" height="15">
   <data encoding="base64" compression="zlib">
-   eJy7KMaAAi6KQTApAJt6cswhB8DsIdc+bHopNQfZPGLdhU8/Ke6iljnYzMImTyyg1Bxc+kmNf0Jq6W0OPrNITdfY4p6c/EGMOQBfeUy0
+   eJy7KMaAAi6KQTApAJt6cswhB8DsIdc+bHopNQfZPGLdhU8/Ke6iljnYzMImTyyg1Bxc+nH5kRx3oJtHD3PwmUVqusYW96TkD2L0wzAAXxBNmw==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -223,7 +217,7 @@
   </object>
   <object id="13" name="east" type="mapchange" x="544" y="32" width="32" height="96">
    <properties>
-    <property name="map" value="mountainlake22"/>
+    <property name="map" value="laerothisland0"/>
     <property name="place" value="west"/>
    </properties>
   </object>
@@ -233,8 +227,15 @@
     <property name="place" value="south1"/>
    </properties>
   </object>
+  <object id="18" name="ll2_sirene" type="script" x="320" y="0" width="32" height="96"/>
+  <object id="19" name="ll2_sirene" type="script" x="256" y="0" width="32" height="160"/>
+  <object id="20" name="ll2_sirene" type="script" x="160" y="64" width="32" height="416"/>
+  <object id="21" name="ll2_sirene" type="script" x="192" y="352" width="64" height="32"/>
+  <object id="22" name="ll2_sirene" type="script" x="192" y="192" width="64" height="32"/>
+  <object id="23" name="ll2_sirene" type="script" x="416" y="0" width="32" height="64"/>
+  <object id="24" name="ll2_sirene_x" type="script" x="512" y="0" width="32" height="128"/>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0">
+ <objectgroup id="6" name="Spawn">
   <object id="15" name="sirene1" type="spawn" x="416" y="96" width="64" height="32">
    <properties>
     <property name="spawngroup" value="sirene1"/>
@@ -247,19 +248,24 @@
   </object>
   <object id="17" name="sirene3" type="spawn" x="352" y="288" width="96" height="128">
    <properties>
-    <property name="spawngroup" value="sirene1"/>
+    <property name="spawngroup" value="sirene3"/>
+   </properties>
+  </object>
+  <object id="25" name="ll2_captain" type="spawn" x="512" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="ll2_captain"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn2" visible="0"/>
  <objectgroup id="8" name="Keys">
   <object id="15" name="ll2_sirene_key" type="key" x="128" y="64" width="32" height="416">
    <properties>
     <property name="phrase" value="ll2_sirene_key"/>
     <property name="requireId" value="ll2_nd"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="105"/>
+    <property name="requireValue" value="104"/>
    </properties>
   </object>
  </objectgroup>
+ <objectgroup id="1" name="Replace"/>
 </map>

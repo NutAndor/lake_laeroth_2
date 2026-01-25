@@ -72,17 +72,17 @@
         },
         {
             "fileName": "created/maps/mountainlake16.tmx",
-            "height": 576,
-            "width": 832,
+            "height": 448,
+            "width": 608,
             "x": 512,
-            "y": 1408
+            "y": 1376
         },
         {
             "fileName": "created/maps/mountainlake17.tmx",
-            "height": 416,
-            "width": 608,
+            "height": 448,
+            "width": 512,
             "x": 1152,
-            "y": 1408
+            "y": 1376
         },
         {
             "fileName": "altered/maps/remgard2a.tmx",
@@ -132,6 +132,34 @@
             "width": 896,
             "x": 512,
             "y": 2848
+        },
+        {
+            "fileName": "altered/maps/mountainlake8.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 3904,
+            "y": 192
+        },
+        {
+            "fileName": "altered/maps/mountainlake9.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 3392,
+            "y": -800
+        },
+        {
+            "fileName": "altered/maps/laerothisland1.tmx",
+            "height": 736,
+            "width": 864,
+            "x": 2752,
+            "y": 1536
+        },
+        {
+            "fileName": "altered/maps/laerothisland0.tmx",
+            "height": 640,
+            "width": 864,
+            "x": 2752,
+            "y": 864
         }
     ],
     "onlyShowAdjacentMaps": false,
