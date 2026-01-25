@@ -160,6 +160,111 @@
             "width": 864,
             "x": 2752,
             "y": 864
+        },
+        {
+            "fileName": "altered/maps/mountainlake7.tmx",
+            "height": 640,
+            "width": 512,
+            "x": 4576,
+            "y": 896
+        },
+        {
+            "fileName": "altered/maps/mountainlake6.tmx",
+            "height": 928,
+            "width": 672,
+            "x": 4416,
+            "y": 1568
+        },
+        {
+            "fileName": "altered/maps/mountainlake5.tmx",
+            "height": 640,
+            "width": 928,
+            "x": 4160,
+            "y": 2528
+        },
+        {
+            "fileName": "altered/maps/mountainlake4.tmx",
+            "height": 512,
+            "width": 800,
+            "x": 3328,
+            "y": 2752
+        },
+        {
+            "fileName": "altered/maps/mountainlake3.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 3168,
+            "y": 3296
+        },
+        {
+            "fileName": "altered/maps/mountainlake2.tmx",
+            "height": 960,
+            "width": 704,
+            "x": 2432,
+            "y": 3296
+        },
+        {
+            "fileName": "altered/maps/mountainlake1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 1440,
+            "y": 3296
+        },
+        {
+            "fileName": "altered/maps/laerothisland3.tmx",
+            "height": 896,
+            "width": 1024,
+            "x": 1696,
+            "y": 2368
+        },
+        {
+            "fileName": "created/maps/mountainlake23.tmx",
+            "height": 384,
+            "width": 672,
+            "x": 2976,
+            "y": 448
+        },
+        {
+            "fileName": "created/maps/mountainlake22.tmx",
+            "height": 480,
+            "width": 576,
+            "x": 2976,
+            "y": 192
+        },
+        {
+            "fileName": "created/maps/mountainlake24.tmx",
+            "height": 480,
+            "width": 576,
+            "x": 3648,
+            "y": 192
+        },
+        {
+            "fileName": "created/maps/mountainlake25.tmx",
+            "height": 480,
+            "width": 576,
+            "x": 3648,
+            "y": 864
+        },
+        {
+            "fileName": "created/maps/mountainlake26.tmx",
+            "height": 288,
+            "width": 224,
+            "x": 3648,
+            "y": 1184
+        },
+        {
+            "fileName": "created/maps/mountainlake27.tmx",
+            "height": 352,
+            "width": 224,
+            "x": 3904,
+            "y": 1184
+        },
+        {
+            "fileName": "created/maps/mountainlake28.tmx",
+            "height": 352,
+            "width": 640,
+            "x": 3648,
+            "y": 1568
         }
     ],
     "onlyShowAdjacentMaps": false,

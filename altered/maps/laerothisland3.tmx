@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="27" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="11">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="32" height="28" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="20">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -123,106 +123,158 @@
  <tileset firstgid="4949" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="5077" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="5205" name="map_transition_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="5077" name="map_transition_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_transition_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="5333" name="map_plant_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="5205" name="map_plant_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_plant_3.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Base" width="27" height="23">
+ <tileset firstgid="5333" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
+ <layer id="1" name="Base" width="32" height="28">
   <data encoding="base64" compression="zlib">
-   eJxjYBh54A8bBMPYtLQDZr4fE/XNxsantj3obHS7aQnoZQ+9AS3THK3tGEhAr7QHsgOUj/ypmJfw2TMKhi+gZ1lJC7sSmDD5w7FsGUoAALBiHIo=
+   eJztkzEOACAIA42Dz/P/j3EwHYjKLsfAJQ5OtKW0VhQsa9AKOAjvs79z9Sc0CMo/CT1fmWe7uahMfPeF/SP3QubvfUpLdCfpGzAy3MKdRXQu3rvm3+8H1O4zdC6DBgrrGn1vxWEDnGMVXw==
   </data>
  </layer>
- <layer id="2" name="Ground" width="27" height="23">
+ <layer id="2" name="Ground" width="32" height="28">
   <data encoding="base64" compression="zlib">
-   eJzNlkFuwjAQRY2RWLKoOADXQIEjhBwhcW5gyKZ7btH2Bu0J4AbAjVjgkecrgxurUexFF1+RY+c/z9gzymOh1GOETlqpduafpM7pIHQSGuP3l4gV8nN5n1dKXZy2zm+nf7NyMr6d9tpry0r1LnjfGF8d45M5b+5Z6565T+AVwgM8xEXvSierPa/hdWYiT+63Yo8vkTv4Wz4vWnPMyMJY5q5mVjvAGpvbIdaG40HujIirC1jlwPcxwbeJnIMV3mCFa/B9zlqIsVLvfYyVg0N1RBqaRx2n1jI4sbOVZ4/aaicyS937EcvMXlUGnKOefmbr+atfLC7UcAor3HvFWs59baE3mQws2evgWfE9sKyD4NB+fiJ3aEwO4QdPI+K0uu9LNP5wnHsiqw32TzG+r/wc+tItgSPzKOMK53P0Cqmc/w7/QU8QiPAm
+   eJy1lU9Kw0AUxsNbqAgFI3gF8QrV6tJd0yOM6cKdizHFE8QjCF5CPImIhxB6AdFFF3bIPObL19ekVi18TNJM3u/9nSx2smwR5SXLxktd7jY62UL6biGNnvay7Hkv3QdNJDFZffy3/WTT2oP80VIvy32vW/ItP94HyWa4ZvG787zRZAP+WPr5H4NkM1yz+N3PvBHGXxo+aO2D1L7mmeNXm1b8cxLWYxJVEf9MGn7Y4yTZ1zxz/F36IiG/BH4J/CLGXUjKQwF54Pi7dJ+3pfwS4q6AfSFtPl5rHn4S/0PelvIr6L3Doyw7lxR7uHcG3+q/67xbfedBGdfHQcMfRp6X5MN/8TX36gvOnYfaux7+8W6ScvFMsoT8EDvyHfF1tebvLrels7KOP6H4T2n+nbR7fyz2/K2Tzgqfe3j+dZ274eeoB9hmF19nhc89lfYd9j6eP/oMe4BtbiL1Odi7iiqlPX9hRR/wbMYe4BzON/AF472Nwp7X+cf+G8J/2AOcw0/DH1YB8dZR/O3RXFt94GGvi/krYLV84jpX0s7/ujro+XsRr0eyWouQv2lcHdkrSDhfmH+sAz7H81dzfnPQthnyN4urJ3vO4KMfuHca/3PS/vYNYd6Uj+IYa5AnH0qDr7wZ9ET4cd05lnXi/HtgYG6V5eP1TFKPY+9j3/XVl2uq+5WBPWb1diGrs4d8q77cu/jcw6rPqh5+V/zMx/vqD/jDGAt/e9CHPj73H/LrDvamYvt1j92a+L9hd/nz13ZV383U8L4=
   </data>
  </layer>
- <layer id="3" name="Objects" width="27" height="23">
+ <layer id="3" name="Objects" width="32" height="28">
   <data encoding="base64" compression="zlib">
-   eJzNVkGOAUEUbb0cWmTiNjI2luMAxmZihwuICxQuIHMBwpZEuIC4iSPYqpfqH3++qq7qbgsvqYiq3//Ve/3/J4r8+I7/f99V7HEqjevG9nOOYxJAbOEPyS1xEVyfTbMWev008+cLAXHwtU99+9Iaro0omufwgKMn7s05Wqk/Hzr3QfMtE8NXlIfyEh/nkqgW1AOMWc6+hUslz3UoAe0hWm1cfA861hl85DHifXyU9y95cA315zSw7sbMg77nGcqLNRKx0EJ9a+unjb7fb/x4flCwZjgfctdL1ISErDtX/6iS84f6yPZusY9aXLFebnv45PyRPOjVWe35fFIzZ+jhMr1FXMqTY++Y63kBTduKqXno6tSNR/AcZ6T1VbVxSu99a5i+hV/c83MOnk1GLHQA/N7wdOHoS9ecDIFr9sBTmTNrJofApXlqyVmGh0M5ftNJN9/Leic++P47hMyKd8MdRRo6cQ==
+   eJydVktrU0EUnlzSGG1uEvtAQSxCQXDjwpUP3LgQa7MStAv9B9pF7cKFLmwoQQTBugi4FqpV0aCQqIh2FV36AAWXbtT+gWLR6vmcOdxzz517r+0Hh0nmzpnvzHnNGGMxGdhxum7MXMmY2ZJJICwaM0EyRVJ2AuwpRmtmSK9JcjRI6n+r27EVJr+xDVu2GzNP+k8Lye+7ixHXg5oxO4tx7sc1O857bIc9q8T/p+LnBo4Ecf2usuF40fwXFkj/opPTw1YkwjDpn330f1sY12+qc5xx/HrPoWp83ZKze1r5+VI9ikHFE4NxMbfk8X8aDlT986eqNldkPFYd/6LgWhm2vu+KueeKv5qSM8CxFH6GLx8khkZtXvQFx3IY9/NG/NEknbsDdkzjb7j4bx2x/B3HjRpAjN4JW+BD7Y889AYiu5kfnIgxxvKInQM35z1qD+AYQQ/6ZZX3+nxNkYt7xdqbobUb+4CT6x6cEGBN1QbQpnWDodWDPupc9wM+n8aulH4wKPwp+YG0fsR+69Ti81M0f5bkXCnuBwb3jathtA/qfb3i55fgHtD22MQ10BO+gB9eKt/Mif4DucXnEP6XmAyy/++oWMmCrBWc9yHZdN/ZVQ2is3HeX1Pnk5zI/0VRf7MqDmVx/4wq2+R5AfhmTOyNOHxR8UL/gU/YBs5/BvPPiJ6s7wY+t4TuWW3hf2kD8/ty4oXj6bmzL6jY+uLsQyOIer++e7gGmR9xkvF4Qja8ETXwqGDt4p6EWFc9973kBtivy577j4Fe1PHk/udaxPWK5HUhsg1AjGWPbrj71FdH6K1ci+i/EPDqugG6taQ+gNoO3d7wa1dwNTJ8AYyrXgS0XL+Dzddpvxt1G4N+Cj8DdQK/9nO4Vyrx7zyuudxrO/79NI6R/Kb1t2n8RPwtWnunEOXEeZq/oPwqcz0Uv9c9fSPNRp3bqDW8R/lNivyG3y+TXAmTfSoP4OXa+5XzJtD2+Gqro2xoeH7j+7+7L7B1Duj+sxG8p37/geRjyv2XBe4z4H+W8Z7Kw9cNct9zXN+J9yfJD5K3Gf0/CwcpDw+RHM54D+XVXxrybMC+kt+3frPcefbwvieId4LkZCG+brO8fwGG6q1B
   </data>
  </layer>
- <layer id="4" name="Above" width="27" height="23">
+ <layer id="4" name="Above" width="32" height="28">
   <data encoding="base64" compression="zlib">
-   eJy1VkEOwiAQNL14EYOmP/AZxpNHfUD7AvUFWB8AfZFv8B8efIAHr5akhBW2uBQ6yaZkCzvMll06m8VBcHwsue9LhYklCxt/DJoS97fMjmH8dRlnFGwL33eN5KFwMeb7PjxNV4vEDEHxeC5t7wGdWO4Mj+B2ftU965KmFc4x4xAE4Kr6dTovNUHXg/m6XD7FfzVJkMPnSE0uNv13hLVqakyfxTOIdclw5rH8UXRQuW4D7yS3Gim5wriwOtI4LXzffBXmaoi6FLHHjamvWChwRlK4Xt36XVe/+6U1jTuzPCITF9w71vPFBFyw/7j+Y2HvrhxcJs4B9EPV80DEcplc6f4Az6B+596R7l2Qoit0p8P/CFPnOXKIzcH2MRUXZd4/+wLgA1PR
+   eJy1VkFOw0AMjCo1B6SgCFp+QH9AL4gTBw7wBy78YV/QhB/whf6oXBECIe4g4MRa1Ipj7LV3pYwUZeN4Z2J77baqxjifDeu+rYoR2F7Oxd97OAAbYgPOTTu2aXut5xTw25e1zXFS/7ehL81Bjj76njn01wn9i9n42VvfoMTfCftXxOeUrJGj3+uGdrAdLX36PH4Ja0M/EG38/vdjnW/X6PFLWBn175j2Y9Q+WKQ5S+PnHKgJd8x5Knau74Hmq9nfCvSvYozX8bqp5bmSmgfgf2vk29Kn4D2g9RQ9f7ngey4Ph8vypXbsO4DVcx7OlK9UF3oGvxx1L9HvlDxj38EM5LFbuZDmnIZe0e9J7H071syphQXU7dh8pzEEpg89eN/4NXaN/kzrr+WtpAesb0Bg3Jo27QFYw/zl+X+J9ldnX0v8tM4cfA7D/N2yWD6i/bPw/wqNTTqDaHvY36H2P45e9PYA/53l73J6KRc095JWyeyTNDSkco+6d4tyfY2X60u5R316zwVwPs3/1s/ztD7NPT1foA3Xd8b8p/yp80Nn3xSweKc821PhF1VAbPQ=
   </data>
  </layer>
- <layer id="5" name="Top" width="27" height="23">
+ <layer id="5" name="Top" width="32" height="28">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2DkgR28A+2CUTAKRgGtQLsA/ewqx2FXGw3cgM0uWtgDM7dKBFWsQgS72lFAPwAAZxUFRw==
+   eJxjYBgFo2AUjIJRMApGwSgYBaNgFNACtAkMtAsoB+XDwA+jAAEAhWYBHg==
   </data>
  </layer>
- <layer id="6" name="Walkable" width="27" height="23">
+ <layer id="6" name="Walkable" width="32" height="28">
   <data encoding="base64" compression="zlib">
-   eJxLFWBgSCUSgwCxainFA2kXqYAUe+hhFy49tPYXsj5a2YUtHLHpH6p2EcoDtLKLmHilpr9IAbSwC18+ISddUGIXPrtx6SMFkBP2lMYXNnMIhR85duFyMzHpnZDbiZEjNb1Qwy+jdpFvF7HuGcx2AQC3Dpin
+   eJztk9ENACEIQx3hlnT/Ffw1xKonxZqoCT/E8EqB/KWUQdhX59FfVGslWnykp5Vn65hhRfNHXkf44KnJ0HE7fzTzHtfLt3v/V6uSz7gDb63o/WPt14oXLI+9HuzqXcG9ma/Ys17fO3TY2if4rtJRa1GwX+CZPL6OzbyJAtbRaKk=
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
-  <object id="1" name="north" type="mapchange" x="352" y="0" width="32" height="32">
-   <properties>
-    <property name="map" value="laerothisland0"/>
-    <property name="place" value="south2"/>
-   </properties>
-  </object>
-  <object id="2" name="west" type="mapchange" x="0" y="512" width="32" height="32">
+  <object id="1" name="north1" type="mapchange" x="224" y="0" width="128" height="32">
    <properties>
     <property name="map" value="laerothisland2"/>
-    <property name="place" value="east"/>
+    <property name="place" value="south1"/>
    </properties>
   </object>
-  <object id="3" name="laeroth_exit_1" type="script" x="352" y="64" width="32" height="32">
+  <object id="2" name="north2" type="mapchange" x="576" y="0" width="64" height="32">
    <properties>
-    <property name="when" value="step"/>
+    <property name="map" value="laerothisland2"/>
+    <property name="place" value="south3"/>
    </properties>
   </object>
-  <object id="9" name="east1" type="mapchange" x="832" y="64" width="32" height="288">
+  <object id="3" name="down" type="mapchange" x="448" y="32" width="32" height="32">
    <properties>
-    <property name="map" value="mountainlake28"/>
-    <property name="place" value="west"/>
+    <property name="map" value="laerothmanor2"/>
+    <property name="place" value="up"/>
    </properties>
   </object>
-  <object id="10" name="east2" type="mapchange" x="832" y="448" width="32" height="256">
+  <object id="4" name="north3" type="mapchange" x="512" y="352" width="32" height="32">
    <properties>
-    <property name="map" value="mountainlake29"/>
-    <property name="place" value="west"/>
+    <property name="map" value="laerothmanor0"/>
+    <property name="place" value="south"/>
    </properties>
   </object>
+  <object id="5" name="north4" type="mapchange" x="704" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="laerothmanor3"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object id="6" name="arch" type="mapchange" x="416" y="768" width="32" height="32">
+   <properties>
+    <property name="map" value="laerothbasement2"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object id="7" name="laerothisland3_1" type="container" x="416" y="576" width="32" height="32"/>
+  <object id="19" name="laerothisland3_2" type="container" x="768" y="128" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="8" name="Spawn" visible="0">
-  <object id="4" name="spawn_1" type="spawn" x="64" y="64" width="384" height="512">
+ <objectgroup id="8" name="Spawn">
+  <object id="8" name="laerothisland3_2" type="spawn" x="160" y="640" width="160" height="64">
    <properties>
-    <property name="quantity" value="8"/>
+    <property name="spawngroup" value="spit_serpent_1"/>
+   </properties>
+  </object>
+  <object id="9" name="laerothisland3_1" type="spawn" x="224" y="64" width="192" height="384">
+   <properties>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="serpent_1"/>
    </properties>
   </object>
-  <object id="5" name="spawn_2" type="spawn" x="224" y="96" width="224" height="480">
+  <object id="10" name="laerothisland3_3" type="spawn" x="704" y="96" width="32" height="32">
    <properties>
-    <property name="quantity" value="2"/>
     <property name="spawngroup" value="island_lizard"/>
    </properties>
   </object>
-  <object id="6" name="lake_fish_spawn" type="spawn" x="480" y="64" width="384" height="672">
+  <object id="11" name="laerothisland3_4" type="spawn" x="768" y="224" width="32" height="32">
    <properties>
-    <property name="quantity" value="9"/>
-    <property name="spawngroup" value="pond_fish"/>
+    <property name="spawngroup" value="island_lizard"/>
    </properties>
   </object>
-  <object id="7" name="lake_fish_spawn" type="spawn" x="160" y="672" width="128" height="64">
+  <object id="12" name="laerothisland3_5" type="spawn" x="224" y="544" width="160" height="32">
    <properties>
-    <property name="spawngroup" value="pond_fish"/>
+    <property name="spawngroup" value="serpent_1"/>
    </properties>
   </object>
-  <object id="8" name="big_fish_spawn" type="spawn" x="704" y="192" width="128" height="480">
+  <object id="13" name="laerothisland3_6" type="spawn" x="672" y="256" width="64" height="64">
    <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="guynmart_fish2"/>
+    <property name="spawngroup" value="spit_serpent_3"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Keys"/>
+ <objectgroup id="9" name="Keys">
+  <object id="14" name="bridge" type="key" x="384" y="864" width="96" height="32">
+   <properties>
+    <property name="phrase" value="bridge_key"/>
+    <property name="requireId" value="nondisplay_2"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="220"/>
+   </properties>
+  </object>
+  <object id="15" name="tower_north" type="key" x="416" y="0" width="32" height="32">
+   <properties>
+    <property name="phrase" value="laeroth_tower_north"/>
+    <property name="requireId" value="nondisplay_2"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="220"/>
+   </properties>
+  </object>
+  <object id="16" name="tower_east" type="key" x="480" y="64" width="32" height="32">
+   <properties>
+    <property name="phrase" value="laeroth_tower_east"/>
+    <property name="requireId" value="nondisplay_2"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="220"/>
+   </properties>
+  </object>
+  <object id="17" name="tower_south" type="key" x="416" y="96" width="64" height="32">
+   <properties>
+    <property name="phrase" value="laeroth_tower_south"/>
+    <property name="requireId" value="nondisplay_2"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="220"/>
+   </properties>
+  </object>
+  <object id="18" name="tower_west" type="key" x="384" y="32" width="32" height="64">
+   <properties>
+    <property name="phrase" value="laeroth_tower_west"/>
+    <property name="requireId" value="nondisplay_2"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="220"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

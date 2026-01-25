@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="15">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="17">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -200,7 +200,7 @@
  </layer>
  <layer id="4" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztksENwDAIAzNF918pG1V9VKoqKDaG5hOkfELkwybzGGPus0/BuWoF8y7kvpNtVSfTq26/1hwrM2ZnQd57vWiWDBvVefdYdvSHmBzQfiZ7lo3OwOipWqwm8i7y6xUyY9XeUKbyd5S9oX4jNsvM+GWz//KY4VZkq+SkZPsH0+OgOllmxLX0vKrkdviMGKous6Mnp8KTyu1gny0XdfU=
+   eJztkrsNwCAMRJki+6/ERhFFGoTjd8YWDSfR8PE7H+5Pa/2uuxLW0AnmJ7JfyV6pkmmput+Vj5MZq17IfevM8xJh0zrzmcr2ZkjJgZ5HslfZ1INSb7eWV3PeI2yvX0ueb7UP4pHs0wxpbYVLmdH/yug3MufWvQiXziWZc4WvvLGyqWR6fxLxnjELf/UsZXIz+yTcyD9HuTMnI0NFNI8d7rj7AiRgS4w=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -226,6 +226,18 @@
    <properties>
     <property name="map" value="mountainlake11"/>
     <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object id="15" name="south2" type="mapchange" x="608" y="928" width="320" height="32">
+   <properties>
+    <property name="map" value="mountainlake22"/>
+    <property name="place" value="north1"/>
+   </properties>
+  </object>
+  <object id="16" name="east2" type="mapchange" x="928" y="480" width="32" height="448">
+   <properties>
+    <property name="map" value="mountainlake9"/>
+    <property name="place" value="west2"/>
    </properties>
   </object>
  </objectgroup>

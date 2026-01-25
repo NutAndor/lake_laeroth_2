@@ -130,15 +130,31 @@
     },
     {
         "id":"ll2_boat_isle1",
+		"switchToNPC":"ll2_captain",
         "message":"Ahoy!",
         "replies":[
             {
-                "text":"Land  the boat!",
-                "nextPhraseID":"ll2_boat_isle1_10"
+                "text":"Land the boat!",
+                "nextPhraseID":"ll2_boat_isle1_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":10
+                    }
+                ]
             },
             {
                 "text":"Lift anchors!",
-                "nextPhraseID":"ll2_boat_afloat"
+                "nextPhraseID":"ll2_boat_afloat",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":10,
+						"negate":true
+                    }
+                ]
             }
         ]
     },

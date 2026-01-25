@@ -478,6 +478,13 @@
     <map id="mountainlake19" x="701" y="31"/>
     <map id="mountainlake20" x="710" y="52"/>
     <map id="mountainlake21" x="724" y="52"/>
+    <map id="mountainlake22" x="750" y="31"/>
+    <map id="mountainlake23" x="750" y="39"/>
+    <map id="mountainlake24" x="771" y="31"/>
+    <map id="mountainlake25" x="771" y="52"/>
+    <map id="mountainlake26" x="771" y="62"/>
+    <map id="mountainlake27" x="779" y="62"/>
+    <map id="mountainlake28" x="771" y="74"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
