@@ -1,5 +1,44 @@
 [
     {
+        "id":"lake_map",
+        "name":"A map of the Great Lake Laeroth",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Quest giver"
+            },
+            {
+                "progress":20,
+                "logText":"Kalypso"
+            },
+            {
+                "progress":30,
+                "logText":"Circe"
+            },
+            {
+                "progress":40,
+                "logText":"Sirenes"
+            },
+            {
+                "progress":50,
+                "logText":"Polyphem"
+            },
+			{
+				"progress":60,
+				"logText":"Skylla"
+			},
+			{
+				"progress":900,
+				"logText":"Map complete"
+			},
+			{
+				"progress":910,
+				"logText":"Quest end"
+			}
+		]
+    },
+    {
         "id":"ll2_nd",
         "name":"Lake Laeroth nondisplay",
         "showInLog":1,
@@ -44,6 +83,39 @@
 				"progress":104,
 				"logText":"104=Sirene passage free"
 			}
+		]
+    },
+    {
+        "id":"ll2_maps",
+        "name":"Lake Laeroth Maps found",
+        "showInLog":1,
+        "stages":[
+            { "progress":14, "logText":"14=mountainlake114" },
+            { "progress":15, "logText":"15=mountainlake115" },
+            { "progress":16, "logText":"16=mountainlake116" },
+            { "progress":17, "logText":"17=mountainlake117" },
+            { "progress":18, "logText":"18=mountainlake118" },
+            { "progress":19, "logText":"19=mountainlake119" },
+            { "progress":20, "logText":"20=mountainlake120" },
+            { "progress":21, "logText":"21=mountainlake121" },
+            { "progress":22, "logText":"22=mountainlake122" },
+            { "progress":23, "logText":"23=mountainlake123" },
+            { "progress":24, "logText":"24=mountainlake124" },
+            { "progress":25, "logText":"25=mountainlake125" },
+            { "progress":26, "logText":"26=mountainlake126" },
+            { "progress":27, "logText":"27=mountainlake127" },
+            { "progress":28, "logText":"28=mountainlake128" },
+            { "progress":29, "logText":"29=mountainlake129" },
+            { "progress":30, "logText":"30=mountainlake130" },
+            { "progress":31, "logText":"31=mountainlake131" },
+            { "progress":32, "logText":"32=mountainlake132" },
+            { "progress":33, "logText":"33=mountainlake133" },
+            { "progress":34, "logText":"34=mountainlake134" },
+            { "progress":35, "logText":"35=mountainlake135" },
+            { "progress":36, "logText":"36=mountainlake136" },
+            { "progress":37, "logText":"37=mountainlake137" },
+            { "progress":38, "logText":"38=mountainlake138" },
+	
 		]
     }
 ]

@@ -224,7 +224,7 @@
   <object id="1" name="south" type="mapchange" x="0" y="256" width="192" height="32">
    <properties>
     <property name="map" value="mountainlake26"/>
-    <property name="place" value="north1"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
  </objectgroup>

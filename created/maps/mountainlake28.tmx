@@ -243,13 +243,13 @@
  <objectgroup id="6" name="Spawn">
   <object id="3" name="ll2_cyclops_sheep1" type="spawn" x="384" y="32" width="160" height="128">
    <properties>
-	<property name="quantity" value="5"/>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="ll2_cyclops_sheep1"/>
    </properties>
   </object>
   <object id="4" name="ll2_cyclops_sheep2" type="spawn" x="256" y="128" width="96" height="128">
    <properties>
-	<property name="quantity" value="5"/>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="ll2_cyclops_sheep2"/>
    </properties>
   </object>

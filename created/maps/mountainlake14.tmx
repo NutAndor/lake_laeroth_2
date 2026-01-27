@@ -275,7 +275,7 @@
  <objectgroup id="10" name="Replace">
   <object id="12" name="boat" type="replace" x="544" y="320" width="128" height="96">
    <properties>
-    <property name="Objects" value="objects_1"/>
+    <property name="Objects" value="Objects_1"/>
     <property name="Walkable" value="Walkable_1"/>
     <property name="requireId" value="ll2_nd"/>
     <property name="requireType" value="questProgress"/>
@@ -284,7 +284,7 @@
   </object>
   <object id="16" name="noboat" type="replace" x="544" y="320" width="128" height="96">
    <properties>
-    <property name="Objects" value="objects_0"/>
+    <property name="Objects" value="Objects_0"/>
     <property name="Walkable" value="Walkable_0"/>
     <property name="requireId" value="ll2_nd"/>
     <property name="requireNegation" value="true"/>
