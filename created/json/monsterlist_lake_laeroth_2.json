@@ -1,5 +1,13 @@
 [
     {
+        "id":"circe",
+        "name":"Circe",
+        "iconID":"monsters_ld1:221",
+        "monsterClass":"humanoid",
+        "spawnGroup":"circe",
+        "phraseID":"circe"
+    },
+    {
         "id":"kalypso",
         "name":"Kalypso",
         "iconID":"monsters_ld1:221",
@@ -16,12 +24,52 @@
         "phraseID":"ll2_captain"
     },
     {
+        "id":"ll2_cyclops1",
+        "name":"Polyphem's brother",
+        "iconID":"monsters_ld1:221",
+        "monsterClass":"humanoid",
+        "spawnGroup":"ll2_cyclops1",
+        "phraseID":"ll2_cyclops1"
+    },
+    {
+        "id":"ll2_cyclops2",
+        "name":"Polyphem's uncle",
+        "iconID":"monsters_ld1:221",
+        "monsterClass":"humanoid",
+        "spawnGroup":"ll2_cyclops2",
+        "phraseID":"ll2_cyclops2"
+    },
+    {
+        "id":"ll2_cyclops_sheep2",
+        "name":"Sheep",
+        "iconID":"monsters_rltiles2:55",
+        "monsterClass":"animal",
+        "spawnGroup":"ll2_cyclops_sheep2",
+        "phraseID":"ll2_cyclops_sheep"
+    },
+    {
+        "id":"ll2_cyclops_sheep1",
+        "name":"Sheep",
+        "iconID":"monsters_rltiles2:55",
+        "monsterClass":"animal",
+        "spawnGroup":"ll2_cyclops_sheep1",
+        "phraseID":"ll2_cyclops_sheep"
+    },
+    {
         "id":"leofric_remgard",
         "name":"Leofric",
         "iconID":"monsters_tometik1:85",
         "monsterClass":"humanoid",
         "phraseID":"leofric_remgard",
         "droplistID":"leofric_remgard"
+    },
+    {
+        "id":"polyphem",
+        "name":"Polyphem",
+        "iconID":"monsters_ld1:221",
+        "monsterClass":"humanoid",
+        "spawnGroup":"polyphem",
+        "phraseID":"polyphem"
     },
     {
         "id":"sirene1",

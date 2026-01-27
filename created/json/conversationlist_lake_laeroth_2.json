@@ -45,6 +45,16 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"ll2_nd",
                 "value":12
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":13
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":14
             }
         ]
     },
@@ -100,6 +110,16 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"ll2_nd",
                 "value":12
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":13
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":14
             }
         ]
     },
@@ -125,6 +145,16 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"ll2_nd",
                 "value":12
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":13
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":14
             }
         ]
     },
@@ -180,8 +210,156 @@
                 "rewardType":"questProgress",
                 "rewardID":"ll2_nd",
                 "value":12
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":13
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":14
             }
         ]
+    },
+    {
+        "id":"ll2_boat_circe",
+		"switchToNPC":"ll2_captain",
+        "message":"Ahoy!",
+        "replies":[
+            {
+                "text":"Land the boat!",
+                "nextPhraseID":"ll2_boat_circe_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Lift anchors!",
+                "nextPhraseID":"ll2_boat_afloat",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":10,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ll2_boat_circe_10",
+        "rewards":[
+            {
+                "rewardType":"changeIcon",
+                "rewardID":"mikhail",
+                "value":999
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":10
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":11
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":12
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":13
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":14
+            }
+        ]
+    },
+    {
+        "id":"ll2_boat_cyclops",
+		"switchToNPC":"ll2_captain",
+        "message":"Ahoy!",
+        "replies":[
+            {
+                "text":"Land the boat!",
+                "nextPhraseID":"ll2_boat_cyclops_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Lift anchors!",
+                "nextPhraseID":"ll2_boat_afloat",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":10,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ll2_boat_cyclops_10",
+        "rewards":[
+            {
+                "rewardType":"changeIcon",
+                "rewardID":"mikhail",
+                "value":999
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":10
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":11
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":12
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":13
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":14
+            }
+        ]
+    },
+    {
+        "id":"ll2_cyclops_cave",
+        "message":"The door is securely locked."
+    },
+    {
+        "id":"ll2_cyclops_sheep",
+        "message":"Baaah."
     },
     {
         "id":"ll2_kalypso_table",

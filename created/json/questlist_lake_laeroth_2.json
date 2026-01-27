@@ -14,7 +14,15 @@
             },
             {
                 "progress":12,
-                "logText":"12=Boat anchored at isle"
+                "logText":"12=Boat anchored at Kalypso"
+            },
+            {
+                "progress":13,
+                "logText":"13=Boat anchored at Circe"
+            },
+            {
+                "progress":14,
+                "logText":"14=Boat anchored at Cyclops"
             },
 			{
 				"progress":100,

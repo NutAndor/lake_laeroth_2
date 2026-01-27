@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="23" height="11" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="3">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="23" height="11" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="6">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
@@ -185,27 +185,27 @@
  </tileset>
  <layer id="1" name="Base" width="23" height="11">
   <data encoding="base64" compression="zlib">
-   eJx7wcnA8GIUj+JRPGIwALgD7i4=
+   eJylkkEOgCAMBEn1wv+/4xfE+ALxxhX9gDbSsKkhAh42BUKm24VgjQkVmsmY1WZNlIXn7t7vVMcUOcpMR28WV5/WZwNbPGvvDlhcj0Yuet6U5yWxpI5DGxe9Rnr4HuaXHi3M0hvGNLvM3/N2Ip0Di2dnYS49bMxB9/jjGfmHyrrnv5XEGWDWPf+tpofo6+4FsGfgtw==
   </data>
  </layer>
  <layer id="9" name="Ground" width="23" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjCQAAAP0AAE=
+   eJylklsKgCAQRUWJfvsc1B3UDtqBueNobzWUjIyKjw6II+KZiypEGxaoPqUQO9C4JO3pZ+0hPV8CXSuQM0YDzUenN85sC14kdk6qLzPimHuD1NXqRXhW7kcX9uhx5twqc7737WIwp2H+ZX7rkPkP7vsDJvOWfvA+Qk7e4xj8bzU/ZzRzrUfNewO7Pg+W
   </data>
  </layer>
  <layer id="2" name="Objects" width="23" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYEAF32QhmBaAlmaPglEwCogDAO3RBE0=
+   eJxjYEAF32QhGB+wkkDl2wD5zQIQ9ioB3PqwmQ0zC0Zro5ntg8anFqDEXHT/S9PIjTDgLQHBtAqLUTCyAAC87Ame
   </data>
  </layer>
  <layer id="3" name="Above" width="23" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjCQAAAP0AAE=
+   eJxjYKANeCxGPbM+i6GyqWU2yKxPYgjzH0P51DD3sRiqW6lhLgjA3Egtt6KbjUxTE3wSo27coQNahAcIDEU3gwA+cwHgNR42
   </data>
  </layer>
  <layer id="4" name="Walkable" width="23" height="11">
   <data encoding="base64" compression="zlib">
-   eJy7KMaAFVwUQ+BRMApGAX0BLfMdAFBABIQ=
+   eJy7KMaAFVwUQ8Xocvj4xAB0c6lpFzaz8anBZTcuswm5Bz3siA0fbGZjCyNc9pJjNqluJMZsZDFK3Iyun1Q3EGs2PjvIDRds4UtKmJOSzkmNSwAgDED5
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -221,10 +221,10 @@
     <property name="place" value="north2"/>
    </properties>
   </object>
-  <object id="14" name="north2" type="mapchange" x="288" y="0" width="416" height="32">
+  <object id="14" name="north2" type="mapchange" x="320" y="0" width="96" height="32">
    <properties>
     <property name="map" value="mountainlake27"/>
-    <property name="place" value="south"/>
+    <property name="place" value="south1"/>
    </properties>
   </object>
   <object id="2" name="north1" type="mapchange" x="32" y="0" width="160" height="32">
@@ -233,8 +233,27 @@
     <property name="place" value="south"/>
    </properties>
   </object>
+  <object id="5" name="entry" type="mapchange" x="416" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="ll2_cyclops_cave"/>
+    <property name="place" value="entry"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn"/>
+ <objectgroup id="6" name="Spawn">
+  <object id="3" name="ll2_cyclops_sheep1" type="spawn" x="384" y="32" width="160" height="128">
+   <properties>
+	<property name="quantity" value="5"/>
+    <property name="spawngroup" value="ll2_cyclops_sheep1"/>
+   </properties>
+  </object>
+  <object id="4" name="ll2_cyclops_sheep2" type="spawn" x="256" y="128" width="96" height="128">
+   <properties>
+	<property name="quantity" value="5"/>
+    <property name="spawngroup" value="ll2_cyclops_sheep2"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="8" name="Keys"/>
  <objectgroup id="1" name="Replace"/>
 </map>
