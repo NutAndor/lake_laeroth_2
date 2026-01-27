@@ -238,6 +238,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
+  <object name="ll2_maps_19" type="script" x="0" y="384" width="512" height="32"/>
  </objectgroup>
  <objectgroup id="11" name="Spawn">
   <object id="14" name="kalypso" type="spawn" x="160" y="384" width="160" height="192">

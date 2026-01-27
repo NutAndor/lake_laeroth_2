@@ -22,7 +22,19 @@
             },
             {
                 "progress":50,
-                "logText":"Polyphem"
+                "logText":"I was exploring a cave on an island with just sheep, when suddenly the dwarvish cyclope Polyphem enters, together with a flock of sheep. Polyphem has closed the door behind him."
+            },
+            {
+                "progress":52,
+                "logText":"He and his brothers would eat me in the next days."
+            },
+            {
+                "progress":54,
+                "logText":"The dwarvish cyclope fell onto his bed and immediatly began to snore. I should find a way to leave."
+            },
+            {
+                "progress":56,
+                "logText":"I made a strong soap solution."
             },
 			{
 				"progress":60,
@@ -82,6 +94,10 @@
 			{
 				"progress":104,
 				"logText":"104=Sirene passage free"
+			},
+			{
+				"progress":110,
+				"logText":"110=Polyphem door closed"
 			}
 		]
     },

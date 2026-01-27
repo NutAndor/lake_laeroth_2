@@ -354,8 +354,8 @@
         ]
     },
     {
-        "id":"ll2_cyclops_cave",
-        "message":"The door is securely locked."
+        "id":"ll2_cyclops_door_closed",
+        "message":"The door is securely locked. Only Polyphem could open it."
     },
     {
         "id":"ll2_cyclops_sheep",
@@ -413,31 +413,56 @@
             }
         ]
     },
-    { "id":"ll2_maps_14", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":14 } ] },
-    { "id":"ll2_maps_15", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":15 } ] },
-    { "id":"ll2_maps_16", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":16 } ] },
-    { "id":"ll2_maps_17", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":17 } ] },
-    { "id":"ll2_maps_18", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":18 } ] },
-    { "id":"ll2_maps_19", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":19 } ] },
-    { "id":"ll2_maps_20", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":20 } ] },
-    { "id":"ll2_maps_21", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":21 } ] },
-    { "id":"ll2_maps_22", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":22 } ] },
-    { "id":"ll2_maps_23", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":23 } ] },
-    { "id":"ll2_maps_24", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":24 } ] },
-    { "id":"ll2_maps_25", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":25 } ] },
-    { "id":"ll2_maps_26", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":26 } ] },
-    { "id":"ll2_maps_27", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":27 } ] },
-    { "id":"ll2_maps_28", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":28 } ] },
-    { "id":"ll2_maps_29", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":29 } ] },
-    { "id":"ll2_maps_30", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":30 } ] },
-    { "id":"ll2_maps_31", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":31 } ] },
-    { "id":"ll2_maps_32", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":32 } ] },
-    { "id":"ll2_maps_33", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":33 } ] },
-    { "id":"ll2_maps_34", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":34 } ] },
-    { "id":"ll2_maps_35", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":35 } ] },
-    { "id":"ll2_maps_36", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":36 } ] },
-    { "id":"ll2_maps_37", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":37 } ] },
-    { "id":"ll2_maps_38", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":38 } ] },
+    { "id":"ll2_maps_14", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":14, "negate":true } ] },
+    { "id":"ll2_maps_15", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":15, "negate":true } ] },
+    { "id":"ll2_maps_16", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":16, "negate":true } ] },
+    { "id":"ll2_maps_17", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":17, "negate":true } ] },
+    { "id":"ll2_maps_18", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":18, "negate":true } ] },
+    { "id":"ll2_maps_19", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":19, "negate":true } ] },
+    { "id":"ll2_maps_20", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":20, "negate":true } ] },
+    { "id":"ll2_maps_21", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":21, "negate":true } ] },
+    { "id":"ll2_maps_22", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":22, "negate":true } ] },
+    { "id":"ll2_maps_23", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":23, "negate":true } ] },
+    { "id":"ll2_maps_24", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":24, "negate":true } ] },
+    { "id":"ll2_maps_25", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":25, "negate":true } ] },
+    { "id":"ll2_maps_26", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":26, "negate":true } ] },
+    { "id":"ll2_maps_27", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":27, "negate":true } ] },
+    { "id":"ll2_maps_28", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":28, "negate":true } ] },
+    { "id":"ll2_maps_29", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":29, "negate":true } ] },
+    { "id":"ll2_maps_30", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":30, "negate":true } ] },
+    { "id":"ll2_maps_31", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":31, "negate":true } ] },
+    { "id":"ll2_maps_32", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":32, "negate":true } ] },
+    { "id":"ll2_maps_33", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":33, "negate":true } ] },
+    { "id":"ll2_maps_34", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":34, "negate":true } ] },
+    { "id":"ll2_maps_35", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":35, "negate":true } ] },
+    { "id":"ll2_maps_36", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":36, "negate":true } ] },
+    { "id":"ll2_maps_37", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":37, "negate":true } ] },
+    { "id":"ll2_maps_38", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":38, "negate":true } ] },
+    { "id":"ll2_maps_14_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":14 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_15_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":15 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_16_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":16 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_17_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":17 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_18_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":18 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_19_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":19 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_20_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":20 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_21_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":21 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_22_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":22 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_23_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":23 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_24_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":24 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_25_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":25 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_26_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":26 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_27_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":27 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_28_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":28 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_29_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":29 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_30_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":30 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_31_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":31 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_32_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":32 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_33_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":33 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_34_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":34 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_35_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":35 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_36_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":36 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_37_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":37 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
+    { "id":"ll2_maps_38_1", "rewards":[ { "rewardType":"questProgress", "rewardID":"ll2_maps", "value":38 }, { "rewardType":"alignmentChange", "rewardID":"ll2_maps", "value":1 } ] },
     {
         "id":"ll2_sirene",
         "replies":[
@@ -768,5 +793,269 @@
                 "text":"With pleasure. Show me what you have for sale."
             }
         ]
-    }
+    },
+    {
+        "id":"polyphem_spawn",
+        "replies":[
+            {
+				"nextPhraseID":"polyphem_spawn_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"polyphem_spawn_10",
+        "replies":[
+            {
+				"nextPhraseID":"polyphem_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"polyphem",
+                "mapName":"ll2_cyclops_cave"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ll2_cyclops_sheep1",
+                "mapName":"ll2_cyclops_cave"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ll2_cyclops_sheep2",
+                "mapName":"ll2_cyclops_cave"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"polyphem_bed",
+        "replies":[
+            {
+				"nextPhraseID":"polyphem_52",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":52
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":54,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"polyphem",
+        "replies":[
+            {
+				"nextPhraseID":"polyphem_58",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":58
+                    }
+                ]
+            },
+            {
+				"nextPhraseID":"polyphem_56",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":56
+                    }
+                ]
+            },
+            {
+				"nextPhraseID":"polyphem_54",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":54
+                    }
+                ]
+            },
+            {
+				"nextPhraseID":"polyphem_52",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":52
+                    }
+                ]
+            },
+            {
+				"nextPhraseID":"polyphem_10"
+            }
+        ]
+    },
+
+{ "id":"polyphem_10", "switchToNPC":"polyphem", "message":"Ah. Good. Nice. Home.", "replies":[ { "nextPhraseID":"polyphem_11", "text":"N" } ] },
+{ "id":"polyphem_11", "message":"[sniffs] Hm. The cave smells… strange today.", "replies":[ { "nextPhraseID":"polyphem_12", "text":"N" } ] },
+{ "id":"polyphem_12", "message":"Oh, a guest! How unusual.", "replies":[ { "nextPhraseID":"polyphem_13", "text":"N" } ] },
+{ "id":"polyphem_13", "message":"Don't be alarmed. I'm not alarmed by myself either.", "replies":[ { "nextPhraseID":"polyphem_14", "text":"N" } ] },
+{ "id":"polyphem_14", "message":"[looking in the mirror] I just look dangerous.", "replies":[ { "nextPhraseID":"polyphem_15", "text":"N" } ] },
+{ "id":"polyphem_15", "message":"[to the sheep] Quiet now. The visitor is looking.", "replies":[ { "nextPhraseID":"polyphem_16", "text":"N" } ] },
+{ "id":"polyphem_16", "message":"You're in luck, little one. It's not a holiday today.", "replies":[ { "nextPhraseID":"polyphem_17", "text":"N" } ] },
+{ "id":"polyphem_17", "message":"[grins proudly] But it will be soon.", "replies":[ { "nextPhraseID":"polyphem_18", "text":"N" } ] },
+{ "id":"polyphem_18", "message":"The door is locked. You can't leave now. Don't be angry. Rules are rules.", "replies":[ { "nextPhraseID":"polyphem_18a", "text":"N" } ] },
+{ "id":"polyphem_18a", "message":"This door has no key. Keys always get lost... \nIt only opens when I look in this mirror. Clever, clever – just like me.", "replies":[ { "nextPhraseID":"polyphem_19", "text":"N" } ] },
+{ "id":"polyphem_19", "message":"...", "replies":[ { "nextPhraseID":"polyphem_19a", "text":"So I can't just kill you to get out again." }, { "nextPhraseID":"polyphem_19a", "text":"Are you a cyclope?" } ] },
+{ "id":"polyphem_19a", "message":"What? How you dare? Me the mightiest of all cyclopes! Me Polyphem!", "replies":[ { "nextPhraseID":"polyphem_19b", "text":"N" } ] },
+{ "id":"polyphem_19b", "message":"[beats his chest] My relatives will be coming for the next feast.", "replies":[ { "nextPhraseID":"polyphem_20", "text":"N" } ] },
+{ "id":"polyphem_20", "message":"My hungry brothers.", "replies":[ { "nextPhraseID":"polyphem_21", "text":"N" } ] },
+{ "id":"polyphem_21", "message":"[leans toward the player] And I'll bring the main course.", "replies":[ { "nextPhraseID":"polyphem_22", "text":"N" } ] },
+{ "id":"polyphem_22", "message":"[straightens up, smugly] Fresh. Surprising. With sides.", "replies":[ { "nextPhraseID":"polyphem_23", "text":"N" } ] },
+{ "id":"polyphem_23", "message":"You can stay until then. The sheep are nice. They don't talk much.", "replies":[ { "nextPhraseID":"polyphem_24", "text":"N" } ] },
+{ "id":"polyphem_24", "message":"You should take a leaf out of their book.", "replies":[ { "nextPhraseID":"polyphem_25", "text":"N" } ] },
+{ "id":"polyphem_25", "message":"[turns to the mirror, straightens up] Me too, by the way. Nice, I mean. Very nice, in fact.", "replies":[ { "nextPhraseID":"polyphem_26", "text":"N" } ] },
+{ "id":"polyphem_26", "message":"They say I have an eye for guests.", "replies":[ { "nextPhraseID":"polyphem_30", "text":"N" } ] },
+{ "id":"polyphem_30", "message":"Who are you, anyway?", "replies":[ { "nextPhraseID":"polyphem_31", "text":"My name is Nobody." } ] },
+{ "id":"polyphem_31", "message":"Nobody, huh? But that's not important. I just need to know what to call the dish.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":52
+            }
+        ] },
+
+{ "id":"polyphem_52", "message":"Without another word, Polyphem falls onto his bed and immediately begins to snore loudly.",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"polyphem",
+                "mapName":"ll2_cyclops_cave"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"polyphem_bed",
+                "mapName":"ll2_cyclops_cave"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":54
+            }
+        ] },
+{ "id":"polyphem_54", "message":"Hmmm? [Polyphem opens his eye for a brief moment.]" },
+{ "id":"polyphem_56", "message":"Hmmm? [Polyphem opens his eye for a brief moment, but long enough for you.]", "replies":[ { "nextPhraseID":"polyphem_100", "text":"You pour the harsh soapy water directly into Polyphem's eye." } ] },
+
+{ "id":"polyphem_100", "message":"AAAAH - MY EYE!", "replies":[ { "nextPhraseID":"polyphem_101", "text":"N" } ] },
+{ "id":"polyphem_101", "message":"MY GOOD EYE!", "replies":[ { "nextPhraseID":"polyphem_102", "text":"N" } ] },
+{ "id":"polyphem_102", "message":"[staggers backward, flailing blindly] That burns!", "replies":[ { "nextPhraseID":"polyphem_103", "text":"N" } ] },
+{ "id":"polyphem_103", "message":"That's cheating!", "replies":[ { "nextPhraseID":"polyphem_104", "text":"N" } ] },
+{ "id":"polyphem_104", "message":"That's... foamy!", "replies":[ { "nextPhraseID":"polyphem_105", "text":"N" } ] },
+{ "id":"polyphem_105", "message":"[angry] YOU! Little one! WHERE ARE YOU?!", "replies":[ { "nextPhraseID":"polyphem_106", "text":"N" } ] },
+{ "id":"polyphem_106", "message":"Calm down. Stay calm.", "replies":[ { "nextPhraseID":"polyphem_107", "text":"N" } ] },
+{ "id":"polyphem_107", "message":"I'll see you again in a minute.", "replies":[ { "nextPhraseID":"polyphem_108", "text":"N" } ] },
+{ "id":"polyphem_108", "message":"I CAN'T SEE ANYTHING ANYMORE!", "replies":[ { "nextPhraseID":"polyphem_109", "text":"N" } ] },
+{ "id":"polyphem_109", "message":"[yells outside] BROTHERS! HELP!", "replies":[ { "nextPhraseID":"polyphem_110", "text":"N" } ] },
+{ "id":"polyphem_110", "message":"[bangs against the cave wall] HELP! I'VE BEEN BLINDED!", "replies":[ { "nextPhraseID":"polyphem_111", "text":"N" } ] },
+{ "id":"polyphem_111", "message":"[voices from outside, muffled, bored] What's wrong, Polyphem?", "replies":[ { "nextPhraseID":"polyphem_112", "text":"N" } ] },
+{ "id":"polyphem_112", "message":"NOBODY! NOBODY BLINDED ME!", "replies":[ { "nextPhraseID":"polyphem_113", "text":"N" } ] },
+{ "id":"polyphem_113", "message":"A stunned pause outside.", "replies":[ { "nextPhraseID":"polyphem_114", "text":"N" } ] },
+{ "id":"polyphem_114", "message":"... What?", "replies":[ { "nextPhraseID":"polyphem_115", "text":"N" } ] },
+{ "id":"polyphem_115", "message":"If nobody blinded you, why are you screaming?", "replies":[ { "nextPhraseID":"polyphem_116", "text":"N" } ] },
+{ "id":"polyphem_116", "message":"BECAUSE IT HURTS!", "replies":[ { "nextPhraseID":"polyphem_117", "text":"N" } ] },
+{ "id":"polyphem_117", "message":"[desperately] NOBODY WAS DOING IT!", "replies":[ { "nextPhraseID":"polyphem_118", "text":"My name is Nobody." } ] },
+{ "id":"polyphem_118", "message":"HE'S STANDING HERE! OR WAS STANDING! NOT ANYMORE!", "replies":[ { "nextPhraseID":"polyphem_119", "text":"N" } ] },
+{ "id":"polyphem_119", "message":"Then cool your eye.", "replies":[ { "nextPhraseID":"polyphem_120", "text":"N" } ] },
+{ "id":"polyphem_120", "message":"And stop drinking.", "replies":[ { "nextPhraseID":"polyphem_121", "text":"N" } ] },
+{ "id":"polyphem_121", "message":"Laughter outside, footsteps receding.", "replies":[ { "nextPhraseID":"polyphem_122", "text":"N" } ] },
+{ "id":"polyphem_122", "message":"COME BACK!", "replies":[ { "nextPhraseID":"polyphem_123", "text":"N" } ] },
+{ "id":"polyphem_123", "message":"HE'S DANGEROUS!", "replies":[ { "nextPhraseID":"polyphem_124", "text":"N" } ] },
+{ "id":"polyphem_124", "message":"[quieter, offended] Very dangerous indeed. But nothing against me, Polyphem!", "replies":[ { "nextPhraseID":"polyphem_125", "text":"N" } ] },
+{ "id":"polyphem_125", "message":"Coward.", "replies":[ { "nextPhraseID":"polyphem_126", "text":"N" } ] },
+{ "id":"polyphem_126", "message":"Invisible coward.", "replies":[ { "nextPhraseID":"polyphem_127", "text":"N" } ] },
+{ "id":"polyphem_127", "message":"[sniffs] I can still smell you.", "replies":[ { "nextPhraseID":"polyphem_128", "text":"N" } ] },
+{ "id":"polyphem_128", "message":"Never mind. You're not getting out of here.", "replies":[ { "nextPhraseID":"polyphem_129", "text":"N" } ] },
+{ "id":"polyphem_129", "message":"I'll let the sheep out, then I'll find you more easily." },
+
+
+
+
+{ "id":"polyphem_58", "message":"Nobody! Was that you? Just you wait, I'll get you." },
+
+	{ 
+		"id":"ll2_cyclops_door_open_but_locked", 
+		"message":"Don't go yet, you haven't thoroughly explored the cave." 
+	},
+	{ 
+		"id":"ll2_cyclops_door_closed", 
+		"message":"The mirror blurres. It obviously rejects you." 
+	},
+    {
+        "id":"ll2_cyclops_bucket",
+        "replies":[
+            {
+				"nextPhraseID":"ll2_cyclops_bucket_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":54
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":56,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+{ "id":"ll2_cyclops_bucket_10", "message":"A bucket of water? Surely something can be done with that...",
+        "replies":[
+            {
+				"text":"Use the soap",
+				"nextPhraseID":"ll2_cyclops_bucket_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"soap",
+                        "value":1
+                    }
+                ]
+            }
+        ] },
+{ "id":"ll2_cyclops_bucket_20", "message":"On a whim, you dissolve the soap in the water. That must be extremely corrosive if someone gets it in their eye.",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"polyphem_bed",
+                "mapName":"ll2_cyclops_cave"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"polyphem_door",
+                "mapName":"ll2_cyclops_cave"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":56
+            }
+        ] }
 ]

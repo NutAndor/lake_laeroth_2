@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="12" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="7">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="12" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="17">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
@@ -195,7 +195,7 @@
  </layer>
  <layer id="2" name="Objects" width="12" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBj8YLUAKn+KAKaaVFb8ZhxGkj9IQC0IKCKxm4hQjwwmk6geGTjwk6aenx2/PACAhQT9
+   eJxjYBjcIJ2FgWG1AISGgSkCmOpSWRHqsYHDrAj2QVbsapCBIhK7iQj1yGAyieqRgQM/A8MMNP09eMzjZ8dvHgBK/Qds
   </data>
  </layer>
  <layer id="3" name="Above" width="12" height="10">
@@ -216,49 +216,84 @@
    </properties>
   </object>
   <object id="6" name="ll2_cyclops_chest" type="container" x="64" y="128" width="32" height="32"/>
+  <object id="11" name="ll2_cyclops_trashbin" type="container" x="288" y="256" width="32" height="32"/>
+  <object id="13" name="polyphem_spawn" type="script" x="256" y="96" width="64" height="96"/>
+  <object id="14" name="polyphem_bed" type="script" x="192" y="128" width="32" height="128"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
-  <object id="3" name="ll2_cyclops_sheep1" type="spawn" x="32" y="96" width="320" height="192">
+  <object id="3" name="ll2_cyclops_sheep1" type="spawn" x="32" y="160" width="288" height="128">
    <properties>
+    <property name="active" value="false"/>
     <property name="quantity" value="5"/>
     <property name="spawngroup" value="ll2_cyclops_sheep1"/>
    </properties>
   </object>
-  <object id="4" name="ll2_cyclops_sheep2" type="spawn" x="256" y="96" width="64" height="96">
+  <object id="4" name="ll2_cyclops_sheep2" type="spawn" x="224" y="96" width="96" height="64">
    <properties>
+    <property name="active" value="false"/>
     <property name="quantity" value="1"/>
     <property name="spawngroup" value="ll2_cyclops_sheep2"/>
    </properties>
   </object>
- </objectgroup>
- <objectgroup name="Keys">
-  <object name="ll2_cyclops_entry" type="key" x="352" y="288" width="32" height="32">
+  <object id="10" name="polyphem" type="spawn" x="96" y="192" width="96" height="64">
    <properties>
-    <property name="phrase" value="ll2_cyclops_cave"/>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="polyphem"/>
+   </properties>
+  </object>
+  <object id="15" name="polyphem_bed" type="spawn" x="320" y="160" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="polyphem_bed"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="2" name="Keys">
+  <object id="7" name="ll2_cyclops_door_closed" type="key" x="128" y="256" width="32" height="64">
+   <properties>
+    <property name="phrase" value="ll2_cyclops_door_closed"/>
+    <property name="requireId" value="ll2_nd"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="110"/>
+   </properties>
+  </object>
+  <object id="12" name="ll2_cyclops_door_open_but_locked" type="key" x="128" y="288" width="32" height="32">
+   <properties>
+    <property name="phrase" value="ll2_cyclops_door_open_but_locked"/>
+    <property name="requireId" value="lake_map"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="50"/>
+   </properties>
+  </object>
+  <object id="16" name="ll2_cyclops_bucket" type="key" x="160" y="256" width="32" height="32">
+   <properties>
+    <property name="phrase" value="ll2_cyclops_bucket"/>
     <property name="requireId" value="andor"/>
     <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="1"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Replace">
-  <object name="door_open" type="replace" x="512" y="160" width="128" height="96">
+ <objectgroup id="3" name="Replace">
+  <object id="8" name="door_open" type="replace" x="128" y="256" width="32" height="64">
    <properties>
     <property name="Objects" value="Objects_1"/>
     <property name="Walkable" value="Walkable_1"/>
     <property name="requireId" value="ll2_nd"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="14"/>
+    <property name="requireValue" value="110"/>
    </properties>
   </object>
-  <object name="door_closed" type="replace" x="512" y="160" width="128" height="96">
+  <object id="9" name="door_closed" type="replace" x="128" y="256" width="32" height="64">
    <properties>
     <property name="Objects" value="Objects_0"/>
     <property name="Walkable" value="Walkable_0"/>
     <property name="requireId" value="ll2_nd"/>
-    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="14"/>
+    <property name="requireValue" value="110"/>
    </properties>
   </object>
  </objectgroup>

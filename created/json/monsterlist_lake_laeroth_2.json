@@ -2,7 +2,7 @@
     {
         "id":"circe",
         "name":"Circe",
-        "iconID":"monsters_ld1:221",
+        "iconID":"monsters_ld1:155",
         "monsterClass":"humanoid",
         "spawnGroup":"circe",
         "phraseID":"circe"
@@ -26,7 +26,7 @@
     {
         "id":"ll2_cyclops1",
         "name":"Polyphem's brother",
-        "iconID":"monsters_ld1:221",
+        "iconID":"monsters_ld1:37",
         "monsterClass":"humanoid",
         "spawnGroup":"ll2_cyclops1",
         "phraseID":"ll2_cyclops1"
@@ -34,7 +34,7 @@
     {
         "id":"ll2_cyclops2",
         "name":"Polyphem's uncle",
-        "iconID":"monsters_ld1:221",
+        "iconID":"monsters_ld1:20",
         "monsterClass":"humanoid",
         "spawnGroup":"ll2_cyclops2",
         "phraseID":"ll2_cyclops2"
@@ -45,7 +45,7 @@
         "iconID":"monsters_rltiles2:55",
         "monsterClass":"animal",
         "spawnGroup":"ll2_cyclops_sheep2",
-        "phraseID":"ll2_cyclops_sheep"
+        "phraseID":"ll2_cyclops_sheep2"
     },
     {
         "id":"ll2_cyclops_sheep1",
@@ -66,9 +66,17 @@
     {
         "id":"polyphem",
         "name":"Polyphem",
-        "iconID":"monsters_ld1:221",
+        "iconID":"monsters_ld1:36",
         "monsterClass":"humanoid",
         "spawnGroup":"polyphem",
+        "phraseID":"polyphem"
+    },
+    {
+        "id":"polyphem_bed",
+        "name":"Polyphem",
+        "iconID":"monsters_ld1:36",
+        "monsterClass":"humanoid",
+        "spawnGroup":"polyphem_bed",
         "phraseID":"polyphem"
     },
     {
