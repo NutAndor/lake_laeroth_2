@@ -56,6 +56,14 @@
         "phraseID":"ll2_cyclops_sheep"
     },
     {
+        "id":"ll2_mapmaker",
+        "name":"Thyrope Splathershed",
+        "iconID":"monsters_ld1:20",
+        "monsterClass":"humanoid",
+        "spawnGroup":"ll2_mapmaker",
+        "phraseID":"ll2_mapmaker"
+    },
+    {
         "id":"leofric_remgard",
         "name":"Leofric",
         "iconID":"monsters_tometik1:85",

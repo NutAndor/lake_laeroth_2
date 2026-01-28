@@ -211,9 +211,9 @@
    eJxjYBgFpIIAWfL0AQAZJwBu
   </data>
  </layer>
- <layer id="4" name="Walkable" width="7" height="13">
+ <layer id="4" name="Walkable" width="7" height="13" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBjeIFAMNyZVPbI+YtShYwANQwus
+   eJxjYBjeIFAMNyZFLbo+YtUiYwAzzQwT
   </data>
  </layer>
  <layer id="10" name="Walkable_0" width="7" height="13" visible="0">
@@ -223,7 +223,7 @@
  </layer>
  <layer id="11" name="Walkable_1" width="7" height="13" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgZIFAMFeNTR44+YgAAYSkDoA==
+   eJxjYBgZIFAMFeNTQ6o+YgEAh7MEBw==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -240,7 +240,7 @@
     <property name="place" value="south2"/>
    </properties>
   </object>
-  <object id="4" name="ll2_boat_remgard" type="script" x="96" y="288" width="64" height="32"/>
+  <object id="4" name="ll2_boat_remgard" type="script" x="96" y="288" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
   <object id="10" name="ll2_captain" type="spawn" x="0" y="352" width="32" height="32">

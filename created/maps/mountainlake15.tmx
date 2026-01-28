@@ -190,7 +190,7 @@
  </layer>
  <layer id="2" name="Objects" width="27" height="17">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGAT4AAAcsAAE=
+   eJxjYKA92CTMwLBZmA4WAcEhoD2H6WTXKBgFo2AUjIKRAQATtwM3
   </data>
  </layer>
  <layer id="3" name="Above" width="27" height="17">
@@ -200,11 +200,11 @@
  </layer>
  <layer id="4" name="Walkable" width="27" height="17">
   <data encoding="base64" compression="zlib">
-   eJy7KMZAF3CRTvbQ265RMApGwSgYBQMDqFXWg8yBYVzyABBBBzk=
+   eJy7KMZAc3BRDILpAehp1ygYBaNgFIyCgQPUKuth9QYu80DiAOw2CQc=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="9" name="north" type="mapchange" x="32" y="0" width="800" height="32">
+  <object id="9" name="north" type="mapchange" x="32" y="0" width="768" height="32">
    <properties>
     <property name="map" value="mountainlake14"/>
     <property name="place" value="south"/>
@@ -234,7 +234,6 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object name="ll2_maps_17" type="script" x="0" y="384" width="512" height="32"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn" visible="0"/>
  <objectgroup id="8" name="Keys"/>

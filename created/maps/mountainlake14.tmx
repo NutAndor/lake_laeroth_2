@@ -195,7 +195,7 @@
  </layer>
  <layer id="2" name="Objects" width="29" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjAL6gp+CtDE3mJ2BIYSdsDpBYerZORlo3xQgjmCEYHoAmJ3IgEsIUx0bFrFRMApIBQCJ8QU0
+   eJxjYBgFwx3UCzMwNAgPtCtGwShAgJ+CtDE3mJ2BIYSdsDpBKuaHyUD7pgBxBCME0wPA7EQGXEKY6tiwiI2CUUAqAACzvAZZ
   </data>
  </layer>
  <layer id="11" name="Objects_0" width="29" height="18" visible="0">
@@ -215,7 +215,7 @@
  </layer>
  <layer id="4" name="Walkable" width="29" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYKAvuChGZwtHwSgYBRgAlA9xYVrah8ynlR3E+IVa9g9EeUavOCPWDQNl90DZO9B+Hwg7ATqfH5Y=
+   eJxjYKAvuChGZwtHATjMR8N9FCADWJrAhmlpHzKfVnYQ4xdq2T8QeYtecUasGwbK7oGyd6D8PlB2ggAAlXEjMg==
   </data>
  </layer>
  <layer id="13" name="Walkable_0" width="29" height="18" visible="0">
@@ -223,13 +223,13 @@
    eJxjYBgFo2AUjILhBS6Kjdo5CkYBtQAAxdsCtg==
   </data>
  </layer>
- <layer id="14" name="Walkable_1" width="29" height="18" visible="0">
+ <layer id="14" name="Walkable_1" width="29" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIKhDy6KoWJ62UlvMBD+HAUjGwAAd4MIIA==
+   eJxjYBgFo2AUjIKhDy6KoWJ62klPMBD+HAUjGwAAE1YJBw==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="2" name="south" type="mapchange" x="96" y="544" width="800" height="32">
+  <object id="2" name="south" type="mapchange" x="96" y="544" width="768" height="32">
    <properties>
     <property name="map" value="mountainlake15"/>
     <property name="place" value="north"/>
@@ -247,19 +247,19 @@
     <property name="place" value="east2"/>
    </properties>
   </object>
-  <object id="11" name="east" type="mapchange" x="896" y="32" width="32" height="512">
+  <object id="11" name="east" type="mapchange" x="896" y="32" width="32" height="448">
    <properties>
     <property name="map" value="mountainlake19"/>
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="14" name="ll2_boat_isle1" type="script" x="576" y="352" width="64" height="32"/>
+  <object id="14" name="ll2_boat_isle1" type="script" x="608" y="352" width="32" height="32"/>
   <object id="18" name="ll2_maps_14" type="script" x="32" y="32" width="864" height="32"/>
   <object id="19" name="ll2_maps_14" type="script" x="32" y="64" width="32" height="448"/>
-  <object id="20" name="ll2_maps_14" type="script" x="32" y="512" width="864" height="32"/>
+  <object id="20" name="ll2_maps_14" type="script" x="32" y="512" width="832" height="32"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn" visible="0">
-  <object id="17" name="ll2_captain" type="spawn" x="896" y="0" width="32" height="32">
+  <object id="17" name="ll2_captain" type="spawn" x="896" y="544" width="32" height="32">
    <properties>
     <property name="spawngroup" value="ll2_captain"/>
    </properties>

@@ -19,11 +19,26 @@
         "id":"ll2_boat_init",
         "replies":[
             {
+                "nextPhraseID":"ll2_boat_init_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ll2_boat_init_10",
+        "replies":[
+            {
                 "nextPhraseID":"ll2_leofric_activate",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"^ll2_nd",
+                        "requireID":"ll2_nd",
                         "value":100,
 						"negate":true
                     }
@@ -413,7 +428,45 @@
             }
         ]
     },
-    { "id":"ll2_maps_14", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":14, "negate":true } ] },
+    {
+        "id":"ll2_mapmaker",
+        "message":"Hello, child. Sit down, you may keep me company.",
+        "replies":[
+            {
+                "text":"Who are you?",
+                "nextPhraseID":"ll2_mapmaker_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":10,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+{ "id":"ll2_mapmaker_10", "message":"I am Thyrope Splathershed, the famous scientist and cartologist.", "replies":[ { "nextPhraseID":"ll2_mapmaker_11", "text":"Splathershed? Haven't I heard that name before?" } ] },
+{ "id":"ll2_mapmaker_11", "message":"You probably know my brother, who wrote the famous treatise on the history of Dhajavar.", "replies":[ { "nextPhraseID":"ll2_mapmaker_13", "text":"Maybe. What are you doing here?" }, { "nextPhraseID":"ll2_mapmaker_12", "text":"Cartologist? Then you must travel a lot. Have you seen my brother Andor?" } ] },
+{ "id":"ll2_mapmaker_12", "message":"Probably not. I mainly focus on the environment so I can create the most accurate maps possible.", "replies":[ { "nextPhraseID":"ll2_mapmaker_13", "text":"N" } ] },
+{ "id":"ll2_mapmaker_13", "message":"There's less and less terra incognita—sorry, children don't understand these technical terms - I mean unknown parts of the world. My work is getting more and more difficult.", "replies":[ { "nextPhraseID":"ll2_mapmaker_14", "text":"N" } ] },
+{ "id":"ll2_mapmaker_14", "message":"Here in Remgard, I've struck gold. The great lake here is well known in the coastal regions - but what's in the lake itself?", "replies":[ { "nextPhraseID":"ll2_mapmaker_15", "text":"N" } ] },
+{ "id":"ll2_mapmaker_15", "message":"That's what I want to find out, and then I'll become famous with my map of the great lake.", "replies":[ { "nextPhraseID":"ll2_mapmaker_16", "text":"So you want to charter a ship and explore the lake? Sounds exciting." } ] },
+{ "id":"ll2_mapmaker_16", "message":"What? No, absolutely not!", "replies":[ { "nextPhraseID":"ll2_mapmaker_17", "text":"N" } ] },
+{ "id":"ll2_mapmaker_17", "message":"I'm not allowed to drive myself. It would be an immeasurable loss to humanity if something were to happen to me.", "replies":[ { "nextPhraseID":"ll2_mapmaker_18", "text":"N" } ] },
+{ "id":"ll2_mapmaker_18", "message":"But I'm looking for someone to make the trip and tell me about it.", "replies":[ { "nextPhraseID":"ll2_mapmaker_19", "text":"N" } ] },
+{ "id":"ll2_mapmaker_19", "message":"You look like you don't have anything better to do right now anyway. Will you make the trip for me?", "replies":[ { "nextPhraseID":"ll2_mapmaker_20", "text":"[muttering] Nothing to do? If you only knew..." } ] },
+{ "id":"ll2_mapmaker_20", "message":"The ship is ready to depart from the dock, and the passage has already been paid for.", "replies":[ { "nextPhraseID":"ll2_mapmaker_21", "text":"Hmm, sounds exciting. Agreed." } ] },
+{ "id":"ll2_mapmaker_21", "message":"So then, Captain Burry will take you on board!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":10
+            }
+        ] },
+
+	{ "id":"ll2_maps_14", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":14, "negate":true } ] },
     { "id":"ll2_maps_15", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":15, "negate":true } ] },
     { "id":"ll2_maps_16", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":16, "negate":true } ] },
     { "id":"ll2_maps_17", "requires":[ { "requireType":"questProgress", "requireID":"ll2_maps", "value":17, "negate":true } ] },
@@ -631,6 +684,7 @@
     },
     {
         "id":"ll2_sirene_key",
+		"switchToNPC":"ll2_captain",
         "message":"End of journey. This is as far as we can go.",
         "replies":[
             {
