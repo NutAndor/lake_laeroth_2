@@ -18,7 +18,19 @@
             },
             {
                 "progress":40,
-                "logText":"Sirenes"
+                "logText":"We approached the Sirens' Reef. Many sailors have lost their lives here. Captain Burry refused to sail any further."
+            },
+            {
+                "progress":42,
+                "logText":"I distributed earplugs to the crew so that the sirens' songs could no longer harm them."
+            },
+            {
+                "progress":44,
+                "logText":"Then I put in earplugs too."
+            },
+            {
+                "progress":46,
+                "logText":"I had myself tied tightly to the mast so that I could hear what the sirens were singing without jumping overboard."
             },
             {
                 "progress":50,
@@ -33,8 +45,24 @@
                 "logText":"The dwarvish cyclope fell onto his bed and immediatly began to snore. I should find a way to leave."
             },
             {
-                "progress":56,
+                "progress":55,
                 "logText":"I made a strong soap solution."
+            },
+            {
+                "progress":56,
+                "logText":"And poured it directly into Polyphem's eye."
+            },
+            {
+                "progress":57,
+                "logText":"Polyphem let all the sheep out so he could more easily search the cave for me. As he did so, he felt each sheep's back and counted them."
+            },
+            {
+                "progress":58,
+                "logText":"I hung myself from the side of a strong sheep to let it pull me to freedom."
+            },
+            {
+                "progress":59,
+                "logText":"It worked! I've left the cave."
             },
 			{
 				"progress":60,
@@ -78,18 +106,6 @@
 			{
 				"progress":100,
 				"logText":"100=Leofric not needed anymore"
-			},
-			{
-				"progress":101,
-				"logText":"101=Ear plugs given to crew"
-			},
-			{
-				"progress":102,
-				"logText":"102=Ear plugs for PC"
-			},
-			{
-				"progress":103,
-				"logText":"103=PC bound to ship"
 			},
 			{
 				"progress":104,

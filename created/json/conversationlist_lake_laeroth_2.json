@@ -27,6 +27,16 @@
                         "value":10
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"ll2_mapmaker_init_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+                        "value":10
+                    }
+                ]
             }
         ]
     },
@@ -369,12 +379,65 @@
         ]
     },
     {
+        "id":"ll2_cyclops_cave",
+        "message":"The door to the cave is securely locked."
+    },
+    {
         "id":"ll2_cyclops_door_closed",
         "message":"The mirror blurres. It obviously rejects you."
     },
     {
         "id":"ll2_cyclops_sheep",
         "message":"Baaah."
+    },
+    {
+        "id":"ll2_cyclops_sheep2",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_cyclops_sheep2_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":57
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_cyclops_sheep"
+            }
+        ]
+    },
+    {
+        "id":"ll2_cyclops_sheep2_10",
+        "message":"Baaah.",
+        "replies":[
+            {
+                "text":"You look strong enough to carry me. I hang down beneath you, and you pull me outwards.",
+                "nextPhraseID":"ll2_cyclops_sheep2_20"
+            }
+        ]
+    },
+    {
+        "id":"ll2_cyclops_sheep2_20",
+        "message":"The sheep carries you willingly.",
+        "rewards":[
+            {
+                "rewardType":"changeIcon",
+                "rewardID":"mikhail",
+                "value":11
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":58
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_cyclops_sheep2",
+                "mapName":"ll2_cyclops_cave"
+            }
+        ]
     },
     {
         "id":"ll2_kalypso_table",
@@ -474,6 +537,113 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"We have a problem, sir. There's a rocky reef that the captain doesn't want to sail past. He's afraid of some singing creatures.",
+                "nextPhraseID":"ll2_mapmaker_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":40,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":42,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I have found $reg1 new parts for your map.",
+                "nextPhraseID":"X"
+            }
+        ], 
+		"rewards":[	{ "rewardType":"alignmentToReg1", "rewardID":"lake_map"  }]
+    },
+    {
+        "id":"ll2_mapmaker_2",
+        "message":"Oh, really? We have sirens here in the lake? Fascinating!",
+        "replies":[
+            {
+                "text":"You know what sirens are?",
+                "nextPhraseID":"ll2_mapmaker_3"
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_3",
+        "message":"Of course! Everyone with a bit of education knows about them.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ll2_mapmaker_4"
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_4",
+        "message":"However, no one has yet returned alive to report what they sing.",
+        "replies":[
+            {
+                "text":"Then the trip is already over.",
+                "nextPhraseID":"ll2_mapmaker_5"
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_5",
+        "message":"No, of course not. Just put something into your ears. Wax should work. Do you have beeswax with you?",
+        "replies":[
+            {
+                "text":"Luckily yes. Here, take it.",
+                "nextPhraseID":"ll2_mapmaker_7",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"beeswax",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"Unfortunately no.",
+                "nextPhraseID":"ll2_mapmaker_6",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"beeswax",
+                        "value":5,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_6",
+        "message":"You can get the best wax directly from a beekeeper. I know one: Leofric, I would trust him."
+    },
+    {
+        "id":"ll2_mapmaker_7",
+        "message":"With practiced movements, Thyrope made several pairs of earplugs.",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ll2_mapmaker_8"
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_8",
+        "message":"Here, take these earplugs. The wax was perfect for them, they'll work well.",
+        "replies":[
+            {
+                "text":"Thank you. I'm going to go and try them out right away.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -513,7 +683,7 @@
     },
     {
         "id":"ll2_mapmaker_13",
-        "message":"There's less and less terra incognitaâ\u20AC\u201Dsorry, children don't understand these technical terms - I mean unknown parts of the world. My work is getting more and more difficult.",
+        "message":"There's less and less terra incognita... sorry, children don't understand these technical terms - I mean unknown parts of the world. My work is getting more and more difficult.",
         "replies":[
             {
                 "text":"N",
@@ -553,7 +723,7 @@
     },
     {
         "id":"ll2_mapmaker_17",
-        "message":"I'm not allowed to drive myself. It would be an immeasurable loss to humanity if something were to happen to me.",
+        "message":"I'm not allowed to go myself. It would be an immeasurable loss to humanity if something were to happen to me.",
         "replies":[
             {
                 "text":"N",
@@ -1385,8 +1555,8 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"ll2_nd",
-                        "value":103,
+                        "requireID":"lake_map",
+                        "value":46,
                         "negate":true
                     }
                 ]
@@ -1622,8 +1792,8 @@
             },
             {
                 "rewardType":"questProgress",
-                "rewardID":"ll2_nd",
-                "value":101
+                "rewardID":"lake_map",
+                "value":42
             }
         ]
     },
@@ -1633,8 +1803,8 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"ll2_nd",
-                "value":102
+                "rewardID":"lake_map",
+                "value":44
             },
             {
                 "rewardType":"questProgress",
@@ -1655,8 +1825,8 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"ll2_nd",
-                "value":103
+                "rewardID":"lake_map",
+                "value":46
             },
             {
                 "rewardType":"questProgress",
@@ -1759,20 +1929,27 @@
         "id":"polyphem_bed",
         "replies":[
             {
-                "nextPhraseID":"polyphem_52",
+                "nextPhraseID":"polyphem_54",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"lake_map",
-                        "value":52
-                    },
+                        "value":54
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"polyphem_54",
+                "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"lake_map",
-                        "value":54,
-                        "negate":true
+                        "value":54
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"polyphem_54"
             }
         ]
     },
@@ -1790,12 +1967,32 @@
                 ]
             },
             {
+                "nextPhraseID":"polyphem_57",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":57
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"polyphem_56",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"lake_map",
                         "value":56
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"polyphem_55",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":55
                     }
                 ]
             },
@@ -1837,7 +2034,7 @@
     },
     {
         "id":"polyphem_11",
-        "message":"[sniffs] Hm. The cave smellsâ\u20AC¦ strange today.",
+        "message":"[sniffs] Hm. The cave smells... strange today.",
         "replies":[
             {
                 "text":"N",
@@ -1917,7 +2114,7 @@
     },
     {
         "id":"polyphem_18a",
-        "message":"This door has no key. Keys always get lost... \nIt only opens when I look in this mirror. Clever, clever â\u20AC\u201C just like me.",
+        "message":"This door has no key. Keys always get lost... \nIt only opens when I look in this mirror. Clever, clever - just like me.",
         "replies":[
             {
                 "text":"N",
@@ -2076,7 +2273,7 @@
         "message":"Hmmm? [Polyphem opens his eye for a brief moment.]"
     },
     {
-        "id":"polyphem_56",
+        "id":"polyphem_55",
         "message":"Hmmm? [Polyphem opens his eye for a brief moment, but long enough for you.]",
         "replies":[
             {
@@ -2092,6 +2289,13 @@
             {
                 "text":"N",
                 "nextPhraseID":"polyphem_101"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":56
             }
         ]
     },
@@ -2377,11 +2581,32 @@
     },
     {
         "id":"polyphem_129",
-        "message":"I'll let the sheep out, then I'll find you more easily."
+        "message":"I'll let the sheep out, then I'll find you more easily.",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"polyphem_bed",
+                "mapName":"ll2_cyclops_cave"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"polyphem_door",
+                "mapName":"ll2_cyclops_cave"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":57
+            }
+        ]
+    },
+    {
+        "id":"polyphem_57",
+        "message":"Nobody! Was that you? Just you wait, I'll get you."
     },
     {
         "id":"polyphem_58",
-        "message":"Nobody! Was that you? Just you wait, I'll get you."
+        "message":"[to yourself] It works! He doesn't perceive me!"
     },
     {
         "id":"ll2_cyclops_door_open_but_locked",
@@ -2401,7 +2626,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"lake_map",
-                        "value":56,
+                        "value":55,
                         "negate":true
                     }
                 ]
@@ -2430,19 +2655,9 @@
         "message":"On a whim, you dissolve the soap in the water. That must be extremely corrosive if someone gets it in their eye.",
         "rewards":[
             {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"polyphem_bed",
-                "mapName":"ll2_cyclops_cave"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"polyphem_door",
-                "mapName":"ll2_cyclops_cave"
-            },
-            {
                 "rewardType":"questProgress",
                 "rewardID":"lake_map",
-                "value":56
+                "value":55
             }
         ]
     }

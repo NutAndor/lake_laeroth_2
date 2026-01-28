@@ -45,6 +45,7 @@
         "iconID":"monsters_rltiles2:55",
         "monsterClass":"animal",
         "spawnGroup":"ll2_cyclops_sheep2",
+		"horizontalFlipChance":100,
         "phraseID":"ll2_cyclops_sheep2"
     },
     {
@@ -53,12 +54,13 @@
         "iconID":"monsters_rltiles2:55",
         "monsterClass":"animal",
         "spawnGroup":"ll2_cyclops_sheep1",
+		"horizontalFlipChance":100,
         "phraseID":"ll2_cyclops_sheep"
     },
     {
         "id":"ll2_mapmaker",
         "name":"Thyrope Splathershed",
-        "iconID":"monsters_ld1:20",
+        "iconID":"monsters_ld1:17",
         "monsterClass":"humanoid",
         "spawnGroup":"ll2_mapmaker",
         "phraseID":"ll2_mapmaker"
@@ -85,6 +87,14 @@
         "iconID":"monsters_ld1:36",
         "monsterClass":"humanoid",
         "spawnGroup":"polyphem_bed",
+        "phraseID":"polyphem"
+    },
+    {
+        "id":"polyphem_door",
+        "name":"Polyphem",
+        "iconID":"monsters_ld1:36",
+        "monsterClass":"humanoid",
+        "spawnGroup":"polyphem_door",
         "phraseID":"polyphem"
     },
     {
