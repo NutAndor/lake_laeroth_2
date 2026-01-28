@@ -233,7 +233,7 @@
     <property name="place" value="jetty0"/>
    </properties>
   </object>
-  <object id="2" name="Remgard_jetty_sign_0" type="script" x="64" y="288" width="32" height="32"/>
+  <object id="2" name="Remgard_jetty_sign_0" type="script" x="32" y="288" width="32" height="32"/>
   <object id="3" name="north" type="mapchange" x="0" y="0" width="224" height="32">
    <properties>
     <property name="map" value="remgard1"/>

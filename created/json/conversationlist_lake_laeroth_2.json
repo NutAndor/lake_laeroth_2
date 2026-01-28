@@ -429,6 +429,37 @@
         ]
     },
     {
+        "id":"ll2_mapmaker_init",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_mapmaker_init_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brute_creator",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_init_10",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ll2_mapmaker",
+                "mapName":"remgard_tavern0"
+            }
+        ]
+    },
+    {
         "id":"ll2_mapmaker",
         "message":"Hello, child. Sit down, you may keep me company.",
         "replies":[
