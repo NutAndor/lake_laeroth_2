@@ -315,7 +315,55 @@
     },
     {
         "id":"ll2_boat_cyclops",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_boat_cyclops_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":59
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_boat_cyclops_2"
+            }
+        ]
+    },
+    {
+        "id":"ll2_boat_cyclops_2",
         "message":"Ahoy!",
+        "switchToNPC":"ll2_captain",
+        "replies":[
+            {
+                "text":"Land the boat!",
+                "nextPhraseID":"ll2_boat_cyclops_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Lift anchors!",
+                "nextPhraseID":"ll2_boat_afloat",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ll2_boat_cyclops_4",
+        "message":"Ahoy $playername! Are you bringing us a holiday roast? What a splendid fellow!",
         "switchToNPC":"ll2_captain",
         "replies":[
             {
@@ -558,7 +606,14 @@
             },
             {
                 "text":"I have found $reg1 new parts for your map.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"ll2_map",
+                        "value":10
+                    }
+                ]
             }
         ], 
 		"rewards":[	{ "rewardType":"alignmentToReg1", "rewardID":"lake_map"  }]
@@ -585,10 +640,10 @@
     },
     {
         "id":"ll2_mapmaker_4",
-        "message":"However, no one has yet returned alive to report what they sing.",
+        "message":"However, no one has yet returned alive to report what they sing - if that's what they do.",
         "replies":[
             {
-                "text":"Then the trip is already over.",
+                "text":"Then my trip is already over.",
                 "nextPhraseID":"ll2_mapmaker_5"
             }
         ]
@@ -624,7 +679,7 @@
     },
     {
         "id":"ll2_mapmaker_6",
-        "message":"You can get the best wax directly from a beekeeper. I know one: Leofric, I would trust him."
+        "message":"You can get the best beeswax directly from a beekeeper. I know one: Leofric, I would trust him."
     },
     {
         "id":"ll2_mapmaker_7",
@@ -640,6 +695,7 @@
     {
         "id":"ll2_mapmaker_8",
         "message":"Here, take these earplugs. The wax was perfect for them, they'll work well.",
+		"switchToNPC":"ll2_mapmaker",
         "replies":[
             {
                 "text":"Thank you. I'm going to go and try them out right away.",
@@ -1174,357 +1230,394 @@
     },
     {
         "id":"ll2_maps_14_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":14
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_15_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":15
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_16_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":16
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_17_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":17
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_18_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":18
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_19_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":19
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_20_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":20
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_21_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":21
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_22_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":22
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_23_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":23
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_24_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":24
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_25_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":25
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_26_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":26
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_27_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":27
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_28_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":28
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_29_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":29
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_30_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":30
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_31_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":31
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_32_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":32
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_33_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":33
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_34_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":34
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_35_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":35
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_36_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":36
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
             }
         ]
     },
     {
         "id":"ll2_maps_37_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"ll2_maps",
                 "value":37
-            },
+            }
+        ]
+    },
+    {
+        "id":"ll2_maps_38_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_maps",
+                "value":38
+            }
+        ]
+    },
+    {
+        "id":"ll2_maps_90",
+        "replies":[
+			{
+                "nextPhraseID":"ll2_maps_91",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"ll2_map",
+                        "value":15
+                    }
+                ]
+			}
+		],
+        "rewards":[
             {
                 "rewardType":"alignmentChange",
                 "rewardID":"ll2_maps",
@@ -1533,19 +1626,17 @@
         ]
     },
     {
-        "id":"ll2_maps_38_1",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"ll2_maps",
-                "value":38
-            },
-            {
-                "rewardType":"alignmentChange",
-                "rewardID":"ll2_maps",
-                "value":1
-            }
-        ]
+        "id":"ll2_maps_91",
+        "message":"Hey! Eine Runde Mead für alle!",
+        "replies":[
+			{
+                "nextPhraseID":"ll2_maps_92"
+			}
+		]
+    },
+    {
+        "id":"ll2_maps_92",
+        "message":"Wir haben den gesamten See befahren!"
     },
     {
         "id":"ll2_sirene",
@@ -1922,6 +2013,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"lake_map",
                 "value":50
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":110
             }
         ]
     },
@@ -1929,43 +2025,26 @@
         "id":"polyphem_bed",
         "replies":[
             {
-                "nextPhraseID":"polyphem_54",
+                "nextPhraseID":"polyphem_52",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"lake_map",
-                        "value":54
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"polyphem_54",
-                "requires":[
+                        "value":52
+                    },
                     {
                         "requireType":"questProgress",
                         "requireID":"lake_map",
-                        "value":54
+                        "value":54,
+						"negate":true
                     }
                 ]
-            },
-            {
-                "nextPhraseID":"polyphem_54"
             }
         ]
     },
     {
         "id":"polyphem",
         "replies":[
-            {
-                "nextPhraseID":"polyphem_58",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"lake_map",
-                        "value":58
-                    }
-                ]
-            },
             {
                 "nextPhraseID":"polyphem_57",
                 "requires":[
@@ -1977,7 +2056,7 @@
                 ]
             },
             {
-                "nextPhraseID":"polyphem_56",
+                "nextPhraseID":"polyphem_105",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -2283,6 +2362,84 @@
         ]
     },
     {
+        "id":"polyphem_57",
+        "message":"It's a good thing sheep are so easy to distinguish from humans.",
+        "replies":[
+            {
+				"text":"Baaah.",
+                "nextPhraseID":"polyphem_57_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":58,
+						"negate":true
+                    }
+                ]
+            },
+            {
+				"text":"Baaah.",
+                "nextPhraseID":"polyphem_58",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":58
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"polyphem_57_10",
+        "message":"HA! Are you trying to sneak your way through here acting like a sheep?!",
+        "replies":[
+            {
+                "text":"Does it really catch the eye?",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"polyphem_58",
+        "message":"My favorite sheep! Your bleating sounds a bit unusual today. But I recognize you among hundreds by your wool.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"polyphem_58_10"
+            }
+        ]
+    },
+    {
+        "id":"polyphem_58_10",
+        "message":"Hop, hop, run outside and enjoy the delicious grass."
+    },
+    {
+        "id":"polyphem_59",
+        "replies":[
+            {
+                "nextPhraseID":"polyphem_59_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":59
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"polyphem_59_10",
+        "message":"Baaaaah!",
+        "replies":[
+            {
+                "text":"Thanks, that worked out perfectly! But just to be on the safe side, carry me all the way to the ship.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
         "id":"polyphem_100",
         "message":"AAAAH - MY EYE!",
         "replies":[
@@ -2464,7 +2621,7 @@
         "message":"[desperately] NOBODY WAS DOING IT!",
         "replies":[
             {
-                "text":"My name is Nobody.",
+                "text":"N",
                 "nextPhraseID":"polyphem_118"
             }
         ]
@@ -2597,6 +2754,16 @@
                 "rewardType":"questProgress",
                 "rewardID":"lake_map",
                 "value":57
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":110
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Keys_for_sheep",
+                "mapName":"ll2_cyclops_cave"
             }
         ]
     },
@@ -2606,7 +2773,8 @@
     },
     {
         "id":"polyphem_58",
-        "message":"[to yourself] It works! He doesn't perceive me!"
+        "message":"[to yourself] It works! He doesn't perceive me!",
+		"switchToNPC":"none"
     },
     {
         "id":"ll2_cyclops_door_open_but_locked",

@@ -180,18 +180,6 @@
     <property name="when" value="step"/>
    </properties>
   </object>
-  <object id="9" name="east1" type="mapchange" x="832" y="64" width="32" height="288">
-   <properties>
-    <property name="map" value="mountainlake28"/>
-    <property name="place" value="west"/>
-   </properties>
-  </object>
-  <object id="10" name="east2" type="mapchange" x="832" y="448" width="32" height="256">
-   <properties>
-    <property name="map" value="mountainlake29"/>
-    <property name="place" value="west"/>
-   </properties>
-  </object>
  </objectgroup>
  <objectgroup id="8" name="Spawn" visible="0">
   <object id="4" name="spawn_1" type="spawn" x="64" y="64" width="384" height="512">

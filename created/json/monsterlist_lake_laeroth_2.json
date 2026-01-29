@@ -25,7 +25,7 @@
     },
     {
         "id":"ll2_cyclops1",
-        "name":"Polyphem's brother",
+        "name":"Polyasem",
         "iconID":"monsters_ld1:37",
         "monsterClass":"humanoid",
         "spawnGroup":"ll2_cyclops1",
@@ -33,7 +33,7 @@
     },
     {
         "id":"ll2_cyclops2",
-        "name":"Polyphem's uncle",
+        "name":"Aphem",
         "iconID":"monsters_ld1:20",
         "monsterClass":"humanoid",
         "spawnGroup":"ll2_cyclops2",
