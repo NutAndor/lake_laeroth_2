@@ -229,6 +229,7 @@
   </object>
   <object id="2" name="ll2_maps_34" type="script" x="0" y="32" width="512" height="192"/>
   <object id="6" name="ll2_setwhirl" type="script" x="0" y="32" width="512" height="192"/>
+  <object name="whirl" type="mapchange" x="96" y="160" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="2" name="Spawn">
   <object id="5" name="ll2_whirl" type="spawn" x="0" y="0" width="448" height="192">

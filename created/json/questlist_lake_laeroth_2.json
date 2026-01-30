@@ -103,6 +103,10 @@
                 "progress":14,
                 "logText":"14=Boat anchored at Cyclops"
             },
+            {
+                "progress":20,
+                "logText":"20=Sub Boat afloat"
+            },
 			{
 				"progress":31,
 				"logText":"31=Charybdis aktiv"

@@ -128,5 +128,13 @@
         "monsterClass":"humanoid",
         "spawnGroup":"ll2_whirl",
         "phraseID":"ll2_whirl"
+    },
+    {
+        "id":"ll2_whirl_return",
+        "name":"Charybdis",
+        "iconID":"monsters_rltiles1:3",
+        "monsterClass":"humanoid",
+        "spawnGroup":"ll2_whirl_return",
+        "phraseID":"ll2_whirl_return"
     }
 ]

@@ -427,6 +427,66 @@
         ]
     },
     {
+        "id":"ll2_boat_sub",
+        "message":"Ahoy!",
+        "switchToNPC":"ll2_captain",
+        "replies":[
+            {
+                "text":"Land the boat!",
+                "nextPhraseID":"ll2_boat_sub_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"Lift anchors!",
+                "nextPhraseID":"ll2_boat_sub_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ll2_boat_sub_10",
+        "rewards":[
+            {
+                "rewardType":"changeIcon",
+                "rewardID":"mikhail",
+                "value":999
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"ll2_boat_sub_20",
+        "rewards":[
+            {
+                "rewardType":"changeIcon",
+                "rewardID":"mikhail",
+                "value":10
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":20
+            }
+        ]
+    },
+    {
         "id":"ll2_cyclops_cave",
         "message":"The door to the cave is securely locked."
     },
@@ -606,17 +666,23 @@
             },
             {
                 "text":"I have found $reg1 new parts for your map.",
-                "nextPhraseID":"X",
+                "nextPhraseID":"ll2_mapmaker_90",
                 "requires":[
                     {
                         "requireType":"factionScore",
                         "requireID":"ll2_map",
                         "value":10
+                    },
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"ll2_maps",
+                        "value":10,
+						"negate":true
                     }
                 ]
             }
         ], 
-		"rewards":[	{ "rewardType":"alignmentToReg1", "rewardID":"lake_map"  }]
+		"rewards":[	{ "rewardType":"alignmentToReg1", "rewardID":"ll2_map"  }]
     },
     {
         "id":"ll2_mapmaker_2",
@@ -825,6 +891,33 @@
                 "rewardType":"questProgress",
                 "rewardID":"lake_map",
                 "value":10
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_90",
+        "message":"Really!!",
+        "replies":[
+            {
+                "text":"That was fun.",
+                "nextPhraseID":"ll2_mapmaker_99"
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_99",
+        "message":"As reward you can use Captain Burry and his boat whenever you want. I will pay for it.",
+        "replies":[
+            {
+                "text":"Oh, Niche - thank you!",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":910
             }
         ]
     },
@@ -2085,9 +2178,144 @@
             }
         ]
     },
-    {
+	{
         "id":"ll2_whirl",
-        "message":"Boo!"
+		"message":"It swirls around you, faster and faster, until everything is black.\nYou wake up in a daze. The ship survived the whirlpool!",
+        "rewards":[
+            {
+                "rewardType":"changeIcon",
+                "rewardID":"mikhail",
+                "value":999
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":20
+            },
+            {
+                "rewardType":"mapchange",
+                "rewardID":"entry",
+                "mapName":"mountainlake_sub"
+            }
+        ]
+    },
+    {
+        "id":"ll2_whirl_return",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_whirl_return_to_37",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":37
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_whirl_return_to_36",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":36
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_whirl_return_to_35",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":35
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_whirl_return_to_34",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":34
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_whirl_return_to_33",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":33
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_whirl_return_to_31"
+            }
+        ]
+    },
+    {
+        "id":"ll2_whirl_return_to_31",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"whirl",
+                "mapName":"mountainlake31"
+            }
+        ]
+    },
+    {
+        "id":"ll2_whirl_return_to_33",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"whirl",
+                "mapName":"mountainlake33"
+            }
+        ]
+    },
+    {
+        "id":"ll2_whirl_return_to_34",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"whirl",
+                "mapName":"mountainlake34"
+            }
+        ]
+    },
+    {
+        "id":"ll2_whirl_return_to_35",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"whirl",
+                "mapName":"mountainlake35"
+            }
+        ]
+    },
+    {
+        "id":"ll2_whirl_return_to_36",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"whirl",
+                "mapName":"mountainlake36"
+            }
+        ]
+    },
+    {
+        "id":"ll2_whirl_return_to_37",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"whirl",
+                "mapName":"mountainlake37"
+            }
+        ]
     },
     {
         "id":"ll2_maps_90",
@@ -2097,7 +2325,7 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-                        "requireID":"ll2_map",
+                        "requireID":"ll2_maps",
                         "value":15
                     }
                 ]
@@ -2114,11 +2342,19 @@
     {
         "id":"ll2_maps_91",
         "message":"Hey! Eine Runde Mead für alle!",
+		"switchToNPC":"ll2_captain",
         "replies":[
 			{
                 "nextPhraseID":"ll2_maps_92"
 			}
-		]
+		],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":900
+            }
+        ]
     },
     {
         "id":"ll2_maps_92",
@@ -2850,6 +3086,7 @@
     {
         "id":"polyphem_57",
         "message":"It's a good thing sheep are so easy to distinguish from humans.",
+		"switchToNPC":"polyphem_door",
         "replies":[
             {
 				"text":"Baaah.",
