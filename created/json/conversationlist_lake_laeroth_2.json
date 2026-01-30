@@ -1604,6 +1604,492 @@
         ]
     },
     {
+        "id":"ll2_setwhirl",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"75"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_setwhirl_37_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/6"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_setwhirl_36_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/5"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_setwhirl_35_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/4"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_setwhirl_34_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/3"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_setwhirl_33_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/2"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_setwhirl_31_1"
+            }
+        ]
+    },
+    {
+        "id":"ll2_setwhirl_31_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake31"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake33"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake34"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake35"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake36"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake37"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":31
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":33
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":34
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":35
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":36
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":37
+            }
+        ]
+    },
+    {
+        "id":"ll2_setwhirl_33_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake31"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake33"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake34"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake35"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake36"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake37"
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":31
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":33
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":34
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":35
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":36
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":37
+            }
+        ]
+    },
+    {
+        "id":"ll2_setwhirl_34_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake31"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake33"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake34"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake35"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake36"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake37"
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":31
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":33
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":34
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":35
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":36
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":37
+            }
+        ]
+    },
+    {
+        "id":"ll2_setwhirl_35_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake31"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake33"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake34"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake35"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake36"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake37"
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":31
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":33
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":34
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":35
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":36
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":37
+            }
+        ]
+    },
+    {
+        "id":"ll2_setwhirl_36_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake31"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake33"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake34"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake35"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake36"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake37"
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":31
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":33
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":34
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":35
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":36
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":37
+            }
+        ]
+    },
+    {
+        "id":"ll2_setwhirl_37_1",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_maps_90"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake31"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake33"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake34"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake35"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake36"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_whirl",
+                "mapName":"mountainlake37"
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":31
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":33
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":34
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":35
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"ll2_nd",
+                "value":36
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":37
+            }
+        ]
+    },
+    {
+        "id":"ll2_whirl",
+        "message":"Boo!"
+    },
+    {
         "id":"ll2_maps_90",
         "replies":[
 			{
@@ -2423,7 +2909,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"lake_map",
-                        "value":59
+                        "value":58
                     }
                 ]
             }
@@ -2436,6 +2922,13 @@
             {
                 "text":"Thanks, that worked out perfectly! But just to be on the safe side, carry me all the way to the ship.",
                 "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":59
             }
         ]
     },
@@ -2559,6 +3052,7 @@
     {
         "id":"polyphem_111",
         "message":"[voices from outside, muffled, bored] What's wrong, Polyphem?",
+		"switchToNPC":"ll2_cyclops2",
         "replies":[
             {
                 "text":"N",
@@ -2569,6 +3063,7 @@
     {
         "id":"polyphem_112",
         "message":"NOBODY! NOBODY BLINDED ME!",
+        "switchToNPC":"polyphem_bed",
         "replies":[
             {
                 "text":"N",
@@ -2579,6 +3074,7 @@
     {
         "id":"polyphem_113",
         "message":"A stunned pause outside.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -2589,6 +3085,7 @@
     {
         "id":"polyphem_114",
         "message":"... What?",
+        "switchToNPC":"ll2_cyclops2",
         "replies":[
             {
                 "text":"N",
@@ -2599,6 +3096,7 @@
     {
         "id":"polyphem_115",
         "message":"If nobody blinded you, why are you screaming?",
+        "switchToNPC":"ll2_cyclops1",
         "replies":[
             {
                 "text":"N",
@@ -2609,6 +3107,7 @@
     {
         "id":"polyphem_116",
         "message":"BECAUSE IT HURTS!",
+        "switchToNPC":"polyphem_bed",
         "replies":[
             {
                 "text":"N",
@@ -2639,6 +3138,7 @@
     {
         "id":"polyphem_119",
         "message":"Then cool your eye.",
+        "switchToNPC":"ll2_cyclops2",
         "replies":[
             {
                 "text":"N",
@@ -2649,6 +3149,7 @@
     {
         "id":"polyphem_120",
         "message":"And stop drinking.",
+        "switchToNPC":"ll2_cyclops1",
         "replies":[
             {
                 "text":"N",
@@ -2659,6 +3160,7 @@
     {
         "id":"polyphem_121",
         "message":"Laughter outside, footsteps receding.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -2669,6 +3171,7 @@
     {
         "id":"polyphem_122",
         "message":"COME BACK!",
+        "switchToNPC":"polyphem_bed",
         "replies":[
             {
                 "text":"N",
@@ -2766,15 +3269,6 @@
                 "mapName":"ll2_cyclops_cave"
             }
         ]
-    },
-    {
-        "id":"polyphem_57",
-        "message":"Nobody! Was that you? Just you wait, I'll get you."
-    },
-    {
-        "id":"polyphem_58",
-        "message":"[to yourself] It works! He doesn't perceive me!",
-		"switchToNPC":"none"
     },
     {
         "id":"ll2_cyclops_door_open_but_locked",

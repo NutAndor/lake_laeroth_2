@@ -104,6 +104,30 @@
                 "logText":"14=Boat anchored at Cyclops"
             },
 			{
+				"progress":31,
+				"logText":"31=Charybdis aktiv"
+			},
+			{
+				"progress":33,
+				"logText":"33=Charybdis aktiv"
+			},
+			{
+				"progress":34,
+				"logText":"34=Charybdis aktiv"
+			},
+			{
+				"progress":35,
+				"logText":"35=Charybdis aktiv"
+			},
+			{
+				"progress":36,
+				"logText":"36=Charybdis aktiv"
+			},
+			{
+				"progress":37,
+				"logText":"37=Charybdis aktiv"
+			},
+			{
 				"progress":100,
 				"logText":"100=Leofric not needed anymore"
 			},

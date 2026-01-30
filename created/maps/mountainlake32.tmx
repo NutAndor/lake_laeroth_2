@@ -195,7 +195,7 @@
  </layer>
  <layer id="2" name="Objects" width="15" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYEAF32QhmBxAid5RMPgAAEQwBE0=
+   eJwLFGRAAd9kIZgcQIneUUAbEChIWA0uAAApzQUR
   </data>
  </layer>
  <layer id="3" name="Above" width="15" height="9">
@@ -212,7 +212,7 @@
   <object id="10" name="west" type="mapchange" x="0" y="32" width="32" height="224">
    <properties>
     <property name="map" value="mountainlake33"/>
-    <property name="place" value="east"/>
+    <property name="place" value="east2"/>
    </properties>
   </object>
   <object id="14" name="north" type="mapchange" x="32" y="0" width="416" height="32">

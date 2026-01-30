@@ -45,7 +45,7 @@
         "iconID":"monsters_rltiles2:55",
         "monsterClass":"animal",
         "spawnGroup":"ll2_cyclops_sheep2",
-		"horizontalFlipChance":100,
+        "horizontalFlipChance":100,
         "phraseID":"ll2_cyclops_sheep2"
     },
     {
@@ -54,7 +54,7 @@
         "iconID":"monsters_rltiles2:55",
         "monsterClass":"animal",
         "spawnGroup":"ll2_cyclops_sheep1",
-		"horizontalFlipChance":100,
+        "horizontalFlipChance":100,
         "phraseID":"ll2_cyclops_sheep"
     },
     {
@@ -120,5 +120,13 @@
         "monsterClass":"humanoid",
         "spawnGroup":"sirene3",
         "phraseID":"sirene3"
+    },
+    {
+        "id":"ll2_whirl",
+        "name":"Charybdis",
+        "iconID":"monsters_rltiles1:3",
+        "monsterClass":"humanoid",
+        "spawnGroup":"ll2_whirl",
+        "phraseID":"ll2_whirl"
     }
 ]
