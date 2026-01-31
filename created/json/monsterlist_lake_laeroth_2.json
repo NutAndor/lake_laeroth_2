@@ -40,6 +40,23 @@
         "phraseID":"ll2_cyclops2"
     },
     {
+        "id":"ll2_circe_pig",
+        "name":"Pig",
+        "iconID":"monsters_rltiles2:55",
+        "monsterClass":"animal",
+        "spawnGroup":"ll2_circe_pig",
+        "horizontalFlipChance":100,
+        "phraseID":"ll2_circe_pig"
+    },
+    {
+        "id":"ll2_circe_crew",
+        "name":"Crew",
+        "iconID":"monsters_rltiles2:55",
+        "monsterClass":"humanoid",
+        "spawnGroup":"ll2_circe_crew",
+        "phraseID":"ll2_circe_crew"
+    },
+    {
         "id":"ll2_cyclops_sheep2",
         "name":"Sheep",
         "iconID":"monsters_rltiles2:55",

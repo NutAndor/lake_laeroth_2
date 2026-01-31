@@ -183,6 +183,9 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7609" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../created/drawable/map_trail_1.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztzjsOgCAQBFCjNt7/XiSeALGi9XMAsTCuE0TkIxEtpmCzsw9WFgXLPB0Jzn36pgiVkQTn/OTu9sY+h91Ok7UzqdTVHgbzQXOXWtin+z10aadtjhGaOd6lFvbp/gx/MnV0f/mTR2Qi8yuuTODKBC6aT9lnbmzb5Mayr8ycXBszpGvrhbZTuC6mr+tq+ti+5lvcEN4dO7Rn48Yyn3AXzwAEkg==
@@ -200,7 +203,7 @@
  </layer>
  <layer id="4" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztkrsNwCAMRJki+6/ERhFFGoTjd8YWDSfR8PE7H+5Pa/2uuxLW0AnmJ7JfyV6pkmmput+Vj5MZq17IfevM8xJh0zrzmcr2ZkjJgZ5HslfZ1INSb7eWV3PeI2yvX0ueb7UP4pHs0wxpbYVLmdH/yug3MufWvQiXziWZc4WvvLGyqWR6fxLxnjELf/UsZXIz+yTcyD9HuTMnI0NFNI8d7rj7AiRgS4w=
+   eJztkrsRwCAMQ5kiXfafIWOwUY4ijQ/HkrCPBt3R8NGTjfvVWj/rrIQ1tIP5CdmvZM9UyfRUXe8sx84es1mQ+95ZlEVhoz72jGVHM8T0AT1Xes+y0QyM36pX5Gn3EHZUr6coN1sHkhHZR3uIejNclKn+V0a9ypx79xQuOpfInDN85o3Xm0pm9CdK9oxZ+PPzlMnNrBPhKv+sci1Hqem5fd9IaD9WmOP+C6okTFE=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">

@@ -200,7 +200,7 @@
  </layer>
  <layer id="4" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztk8ENwCAMA5mi+6/ERn1VQhWEXGyhPmqJX+JLwPSrtf6fz51RUY3KoLy3qjupcjHozJTryoDq5c6ea6eRoTArmvWfyDDNjYsV7TvrqfhFNU8dmWXnR99pNc9JZtSTeSvaT/t2eyh3lfEkmXdyI37lT1Cfna+Tm8nWytexb+V/OfN8glt9uwqXsBX+SrSezpBVNr+k3sGmeytScncDm9D8FQ==
+   eJztk8ENwCAMA5mi+6/ERn1VQhWEnGOhPmqJX+JLwPSrtf6fz51RUU2VQXlvqTtV5WLQmSnXlYGqlzt7rp1GRoWpaNZ/IsM0Ny5WtO+sR/GLap46MsvOj77Tap6TzKgn81a0n/bt9qjcVcaTZN7JjfjKn6A+O18nN5Otla9jX+V/OfN8gqu+ncIl7Ap/JVpPZ8gqm19S72Are6uq5O4GCBH8/A==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -216,16 +216,10 @@
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="13" name="south2" type="mapchange" x="32" y="928" width="160" height="32">
+  <object id="14" name="south2" type="mapchange" x="32" y="928" width="448" height="32">
    <properties>
     <property name="map" value="mountainlake22"/>
     <property name="place" value="north2"/>
-   </properties>
-  </object>
-  <object id="14" name="south3" type="mapchange" x="288" y="928" width="192" height="32">
-   <properties>
-    <property name="map" value="mountainlake24"/>
-    <property name="place" value="north"/>
    </properties>
   </object>
   <object id="15" name="west2" type="mapchange" x="0" y="480" width="32" height="448">

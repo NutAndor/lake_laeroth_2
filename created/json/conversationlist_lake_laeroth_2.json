@@ -249,6 +249,40 @@
         ]
     },
     {
+        "id":"ll2_boat_circe_0",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_boat_circe_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":36,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_boat_circe"
+            }
+        ]
+    },
+    {
+        "id":"ll2_boat_circe_1",
+        "message":"The ship is abandoned.",
+        "replies":[
+            {
+                "text":"Hey! Where is everybody?",
+                "nextPhraseID":"N"
+            }
+        ]
+    },
+    {
         "id":"ll2_boat_circe",
         "message":"Ahoy!",
         "switchToNPC":"ll2_captain",
@@ -310,6 +344,36 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"ll2_nd",
                 "value":14
+            }
+        ]
+    },
+    {
+        "id":"ll2_circe_checkspawn",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_circe_checkspawn_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":36
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ll2_circe_checkspawn_10",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_captain",
+                "mapName":"mountainlake_circe"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_crew",
+                "mapName":"mountainlake_circe"
             }
         ]
     },
@@ -487,6 +551,121 @@
         ]
     },
     {
+        "id":"ll2_cyirce_pig",
+        "message":"Oink oink."
+    },
+    {
+        "id":"ll2_circe",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_circe_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_circe_10"
+            }
+        ]
+    },
+
+
+
+{ "id":"ll2_circe_10", "message":"Oh. A guest. How unusual.", "replies":[ { "nextPhraseID":"ll2_circe_11", "text":"I didn’t expect anyone living on this island." } ] },
+{ "id":"ll2_circe_11", "message":"Few expect. Fewer ask. I am called Circe.", "replies":[ { "nextPhraseID":"ll2_circe_12", "text":"N" } ] },
+{ "id":"ll2_circe_12", "message":"“Hrnnk!”", "replies":[ { "nextPhraseID":"ll2_circe_13", "text":"N" } ] },
+{ "id":"ll2_circe_13", "message":"Careful. They bruise easily.", "replies":[ { "nextPhraseID":"ll2_circe_14", "text":"You keep pigs?" } ] },
+{ "id":"ll2_circe_14", "message":"They keep me company. Men are noisy.Pigs are honest.", "replies":[ { "nextPhraseID":"ll2_circe_15", "text":"N" } ] },
+{ "id":"ll2_circe_15", "message":"Another pig squeals loudly.", "replies":[ { "nextPhraseID":"ll2_circe_16", "text":"N" } ] },
+{ "id":"ll2_circe_16", "message":"Yes, yes. You were a sailor once. We’ve all made mistakes.", "replies":[ { "nextPhraseID":"ll2_circe_17", "text":"Right… Well. Good day." } ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":34
+            }
+        ] },
+{ "id":"ll2_circe_17", "message":"Enjoy the island." },
+
+{ "id":"ll2_circe_30", "message":"You again. Did you forget something?", "replies":[ { "nextPhraseID":"ll2_circe_31", "text":"Yes. An entire crew." } ] },
+{ "id":"ll2_circe_31", "message":"Crews are overrated.", "replies":[ { "nextPhraseID":"ll2_circe_32", "text":"Where is Captain Burry?" } ] },
+{ "id":"ll2_circe_32", "message":"The pigs shuffle. One particularly round pig freezes.", "switchToNPC":"none"
+, "replies":[ { "nextPhraseID":"ll2_circe_33", "text":"N" } ] },
+{ "id":"ll2_circe_33", "message":"[pleasantly] Captain... who?", "replies":[ { "nextPhraseID":"ll2_circe_34", "text":"He came ashore. With all his men. They vanished. You have pigs." } ] },
+{ "id":"ll2_circe_34", "message":"Coincidence is a powerful force.", "replies":[ { "nextPhraseID":"ll2_circe_35", "text":"N" } ] },
+{ "id":"ll2_circe_35", "message":"HRNNK! HRRNNK! HRAAANK!", "switchToNPC":"ll2_circe_pig"
+, "replies":[ { "nextPhraseID":"ll2_circe_36", "text":"N" } ] },
+{ "id":"ll2_circe_36", "message":"It stamps its hoof, glares at Circe, then at the PC.", "switchToNPC":"none"
+, "replies":[ { "nextPhraseID":"ll2_circe_38", "text":"Is it you, Captain Blurry?" } ] },
+{ "id":"ll2_circe_38", "message":"Snort! Hrnnk! Oink!", "replies":[ { "nextPhraseID":"ll2_circe_39", "text":"N" } ] },
+{ "id":"ll2_circe_39", "message":"It attempts a salute. Falls sideways.", "switchToNPC":"none"
+, "replies":[ { "nextPhraseID":"ll2_circe_40", "text":"N" } ] },
+{ "id":"ll2_circe_40", "message":"SQUEE!", "switchToNPC":"ll2_circe_pig"
+, "replies":[ { "nextPhraseID":"ll2_circe_41", "text":"That’s definitely him. Turn them back." } ] },
+{ "id":"ll2_circe_41", "message":"Why? They seem well suited.", "switchToNPC":"ll2_circe"
+, "replies":[ { "nextPhraseID":"ll2_circe_42", "text":"N" } ] },
+{ "id":"ll2_circe_42", "message":"HRNNK!", "switchToNPC":"ll2_circe_pig"
+, "replies":[ { "nextPhraseID":"ll2_circe_43", "text":"Looks like he says no. Do it NOW." } ] },
+{ "id":"ll2_circe_43", "message":"You noticed. Most would have left. Most would not have looked twice at a pig.", "replies":[ { "nextPhraseID":"ll2_circe_44", "text":"It… I mean he saluted." } ] },
+{ "id":"ll2_circe_44", "message":"Pause. Circe smiles slightly.", "switchToNPC":"none"
+, "replies":[ { "nextPhraseID":"ll2_circe_45", "text":"N" } ] },
+{ "id":"ll2_circe_45", "message":"Very well.", "switchToNPC":"ll2_circe"
+, "replies":[ { "nextPhraseID":"ll2_circe_46", "text":"N" } ] },
+{ "id":"ll2_circe_46", "message":"And another thing, you curly-tailed tyr…", "switchToNPC":"ll2_captain"
+, "replies":[ { "nextPhraseID":"ll2_circe_47", "text":"N" } ] },
+{ "id":"ll2_circe_47", "message":"Why am I not pink anymore? [He looks at his hands.]", "replies":[ { "nextPhraseID":"ll2_circe_48", "text":"N" } ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":34
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_circe_pig",
+                "mapName":"mountainlake_circe"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ll2_captain",
+                "mapName":"mountainlake_circe"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ll2_crew",
+                "mapName":"mountainlake_circe"
+            }
+        ] },
+{ "id":"ll2_circe_48", "message":"Oh thank the tides.", "replies":[ { "nextPhraseID":"ll2_circe_49", "text":"N" } ] },
+{ "id":"ll2_circe_49", "message":"I remember mud. And apples. So many delicious apples.", "replies":[ { "nextPhraseID":"ll2_circe_50", "text":"N" } ] },
+{ "id":"ll2_circe_50", "message":"Did I behave heroically?", "replies":[ { "nextPhraseID":"ll2_circe_51", "text":"You squealed with authority." } ] },
+{ "id":"ll2_circe_51", "message":"Good. As expected.", "replies":[ { "nextPhraseID":"ll2_circe_52", "text":"N" } ] },
+{ "id":"ll2_circe_52", "message":"You are observant. And inconvenient.", "switchToNPC":"ll2_circe"
+, "replies":[ { "nextPhraseID":"ll2_circe_53", "text":"N" } ] },
+{ "id":"ll2_circe_53", "message":"[She produces a small golden key.] Take this.", "replies":[ { "nextPhraseID":"ll2_circe_54", "text":"What does it open?" } ] },
+{ "id":"ll2_circe_54", "message":"Not yet. But when you find the lock, you will know.", "replies":[ { "nextPhraseID":"ll2_circe_55", "text":"N" } ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":36
+            }
+        ] },
+{ "id":"ll2_circe_55", "message":"Be careful whom you trust on this island. Not every beast was born that way.", "replies":[ { "nextPhraseID":"ll2_circe_56", "text":"N" } ] },
+{ "id":"ll2_circe_56", "message":"I heard that.", "switchToNPC":"ll2_captain" },
+
+
+
+
+
+
+
+
+    {
         "id":"ll2_cyclops_cave",
         "message":"The door to the cave is securely locked."
     },
@@ -653,8 +832,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"lake_map",
-                        "value":40,
-                        "negate":true
+                        "value":40
                     },
                     {
                         "requireType":"questProgress",
@@ -670,14 +848,8 @@
                 "requires":[
                     {
                         "requireType":"factionScore",
-                        "requireID":"ll2_map",
-                        "value":10
-                    },
-                    {
-                        "requireType":"factionScore",
                         "requireID":"ll2_maps",
-                        "value":10,
-						"negate":true
+                        "value":24
                     }
                 ]
             }
@@ -2532,7 +2704,7 @@
         "switchToNPC":"ll2_captain",
         "replies":[
             {
-                "text":"Hey, there is still so much to expore.",
+                "text":"Hey, there is still so much to explore.",
                 "nextPhraseID":"ll2_sirene_key_10"
             }
         ]

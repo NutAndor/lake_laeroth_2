@@ -196,7 +196,7 @@
    eJxjYBjaYDcThN7LRLk5VhIMDNZo2EaCPLNBZmlLQMyFmQUyRwtq5moSzASZATMLRMOAFtRMHQncerEBGQlUmk0IIQcy6yInAwMrMwNDGiMEE+M2EPAC0t5o2EcC4c4KoFmleMxD9x8uIAU1l1h3wQAz0E/87Ag+iA3yJzHhJ0NCGIPMA5mLDQAAFNIXdA==
   </data>
  </layer>
- <layer id="2" name="Objects" width="20" height="11">
+ <layer id="2" name="Objects" width="20" height="11" visible="0">
   <data encoding="base64" compression="zlib">
    eJx7IsSAAr7JQjC1ALXNG2rASoKBgQcaxjYS5JuBTMPAG0nsZlrLAcXlyLMLBNiA7pURQ/CrgWbV4DAP3U3o5sAAsju7gWb1YDEP2Sw2IUx5GAD5mxDA5y5yAcxN6PaDxHnwuBcZAADfKw9Z
   </data>
@@ -221,7 +221,7 @@
    eJxjYBgFo4C24LHYQLtg8AAACBUA+g==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="20" height="11">
+ <layer id="4" name="Walkable" width="20" height="11" visible="0">
   <data encoding="base64" compression="zlib">
    eJy7KMZAN3BRDBNTag4+80kxj1g7SVWHy02kmEfIbGz24AsfbGbjEyPGLYTMw+c+XGGBSx2hOCYkjm4mMW4gFeByIwDjN0D5
   </data>

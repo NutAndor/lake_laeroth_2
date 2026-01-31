@@ -219,10 +219,10 @@
         },
         {
             "fileName": "created/maps/mountainlake23.tmx",
-            "height": 384,
-            "width": 672,
+            "height": 192,
+            "width": 640,
             "x": 2976,
-            "y": 448
+            "y": 640
         },
         {
             "fileName": "created/maps/mountainlake22.tmx",
@@ -265,6 +265,69 @@
             "width": 640,
             "x": 3648,
             "y": 1568
+        },
+        {
+            "fileName": "created/maps/mountainlake29.tmx",
+            "height": 352,
+            "width": 224,
+            "x": 4160,
+            "y": 1952
+        },
+        {
+            "fileName": "created/maps/mountainlake30.tmx",
+            "height": 352,
+            "width": 224,
+            "x": 3648,
+            "y": 1952
+        },
+        {
+            "fileName": "created/maps/mountainlake32.tmx",
+            "height": 352,
+            "width": 224,
+            "x": 3648,
+            "y": 2432
+        },
+        {
+            "fileName": "created/maps/mountainlake33.tmx",
+            "height": 352,
+            "width": 224,
+            "x": 3328,
+            "y": 2304
+        },
+        {
+            "fileName": "created/maps/mountainlake34.tmx",
+            "height": 352,
+            "width": 224,
+            "x": 2752,
+            "y": 2304
+        },
+        {
+            "fileName": "created/maps/mountainlake35.tmx",
+            "height": 320,
+            "width": 256,
+            "x": 3040,
+            "y": 2592
+        },
+        {
+            "fileName": "created/maps/mountainlake37.tmx",
+            "height": 320,
+            "width": 544,
+            "x": 2752,
+            "y": 2944
+        },
+        {
+            "fileName": "created/maps/mountainlake36.tmx",
+            "height": 320,
+            "width": 544,
+            "x": 3040,
+            "y": 2944
+        },
+        {
+            "fileName": "created/maps/mountainlake31.tmx",
+            "height": 352,
+            "width": 224,
+            "x": 2752,
+            "y": 2592
         }
     ],
     "onlyShowAdjacentMaps": false,
