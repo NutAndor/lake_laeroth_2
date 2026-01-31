@@ -42,7 +42,7 @@
     {
         "id":"ll2_circe_pig",
         "name":"Pig",
-        "iconID":"monsters_rltiles2:55",
+        "iconID":"monsters_rltiles2:106",
         "monsterClass":"animal",
         "spawnGroup":"ll2_circe_pig",
         "horizontalFlipChance":100,

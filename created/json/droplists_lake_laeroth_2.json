@@ -54,6 +54,14 @@
                     "min":500,
                     "max":1500
                 }
+            },
+            {
+                "itemID":"ll2_key_polyphem",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
             }
         ]
     },

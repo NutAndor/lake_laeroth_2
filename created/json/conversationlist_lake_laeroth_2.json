@@ -555,7 +555,7 @@
         "message":"Oink oink."
     },
     {
-        "id":"ll2_circe",
+        "id":"circe",
         "replies":[
             {
                 "nextPhraseID":"ll2_circe_30",
@@ -1132,7 +1132,7 @@
                     {
                         "requireType":"factionScore",
                         "requireID":"ll2_maps",
-                        "value":24
+                        "value":22
                     }
                 ]
             }
@@ -2979,6 +2979,13 @@
                 "text":"N",
                 "nextPhraseID":"ll2_sirene_x_10"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":48
+            }
         ]
     },
     {
@@ -3024,6 +3031,13 @@
             {
                 "text":"Let me think: If you didn't hear the sirens, everything would be OK, right?",
                 "nextPhraseID":"ll2_sirene_key_50"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":40
             }
         ]
     },

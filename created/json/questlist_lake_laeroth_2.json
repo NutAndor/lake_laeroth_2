@@ -6,7 +6,7 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"Quest giver"
+                "logText":"The cartologist Thyrope Splathershed asked me to join an exploration to get the maps of Lake Laeroth complete."
             },
             {
                 "progress":20,
@@ -45,6 +45,10 @@
                 "progress":46,
                 "logText":"I had myself tied tightly to the mast so that I could hear what the sirens were singing without jumping overboard.",
                 "rewardExperience":2000
+            },
+            {
+                "progress":48,
+                "logText":"We have managed to passage by the Sirene's cliff."
             },
             {
                 "progress":50,

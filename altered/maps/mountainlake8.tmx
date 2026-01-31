@@ -245,7 +245,7 @@
   <object id="18" name="brute_fisherman_check" type="script" x="128" y="224" width="32" height="32"/>
   <object id="21" name="west1" type="mapchange" x="0" y="96" width="32" height="512">
    <properties>
-    <property name="map" value="mountainlake24"/>
+    <property name="map" value="mountainlake22"/>
     <property name="place" value="east"/>
    </properties>
   </object>
