@@ -1431,20 +1431,111 @@
         "replies":[
             {
                 "text":"I will take some fresh toasted bread.",
-                "nextPhraseID":"kalypso_table_10"
+                "nextPhraseID":"kalypso_table_1"
             },
             {
                 "text":"Let's enjoy a whole bunch of sweet grapes.",
-                "nextPhraseID":"kalypso_table_10"
+                "nextPhraseID":"kalypso_table_2"
             },
             {
                 "text":"I will sip a tiny glass of that ruby wine.",
+                "nextPhraseID":"kalypso_table_3"
+            }
+        ]
+    },
+    {
+        "id":"kalypso_table_1",
+        "replies":[
+            {
                 "nextPhraseID":"kalypso_table_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"heros_body",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"kalypso_table_2",
+        "replies":[
+            {
+                "nextPhraseID":"kalypso_table_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"heros_body",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"kalypso_table_3",
+        "replies":[
+            {
+                "nextPhraseID":"kalypso_table_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"heros_body",
+                "value":20
             }
         ]
     },
     {
         "id":"kalypso_table_10",
+        "replies":[
+            { "nextPhraseID":"kalypso_table_10_200", "requires":[{ "requireType":"factionScore", "requireID":"heros_body", "value":200 }] },
+            { "nextPhraseID":"kalypso_table_10_190", "requires":[{ "requireType":"factionScore", "requireID":"heros_body", "value":190 }] },
+            { "nextPhraseID":"kalypso_table_10_180", "requires":[{ "requireType":"factionScore", "requireID":"heros_body", "value":180 }] },
+            { "nextPhraseID":"kalypso_table_10_170", "requires":[{ "requireType":"factionScore", "requireID":"heros_body", "value":170 }] },
+            { "nextPhraseID":"kalypso_table_10_160", "requires":[{ "requireType":"factionScore", "requireID":"heros_body", "value":160 }] },
+            { "nextPhraseID":"kalypso_table_10_150", "requires":[{ "requireType":"factionScore", "requireID":"heros_body", "value":150 }] },
+            { "nextPhraseID":"kalypso_table_10_140", "requires":[{ "requireType":"factionScore", "requireID":"heros_body", "value":140 }] },
+            { "nextPhraseID":"kalypso_table_10_130", "requires":[{ "requireType":"factionScore", "requireID":"heros_body", "value":130 }] },
+            { "nextPhraseID":"kalypso_table_10_120", "requires":[{ "requireType":"factionScore", "requireID":"heros_body", "value":120 }] },
+            { "nextPhraseID":"kalypso_table_10_110", "requires":[{ "requireType":"factionScore", "requireID":"heros_body", "value":110 }] },
+            { "nextPhraseID":"kalypso_table_10_100", "requires":[{ "requireType":"factionScore", "requireID":"heros_body", "value":100 }] },
+            { "nextPhraseID":"kalypso_table_10_90", "requires":[{ "requireType":"factionScore", "requireID":"heros_body", "value":90 }] },
+            { "nextPhraseID":"kalypso_table_10_80", "requires":[{ "requireType":"factionScore", "requireID":"heros_body", "value":80 }] },
+            { "nextPhraseID":"kalypso_table_10_70", "requires":[{ "requireType":"factionScore", "requireID":"heros_body", "value":70 }] },
+            { "nextPhraseID":"kalypso_table_10_60", "requires":[{ "requireType":"factionScore", "requireID":"heros_body", "value":60 }] },
+            { "nextPhraseID":"kalypso_table_10_50", "requires":[{ "requireType":"factionScore", "requireID":"heros_body", "value":50 }] },
+            { "nextPhraseID":"kalypso_table_10_40", "requires":[{ "requireType":"factionScore", "requireID":"heros_body", "value":40 }] },
+            { "nextPhraseID":"kalypso_table_10_30", "requires":[{ "requireType":"factionScore", "requireID":"heros_body", "value":30 }] },
+            { "nextPhraseID":"kalypso_table_10_20", "requires":[{ "requireType":"factionScore", "requireID":"heros_body", "value":20 }] },
+			{ "nextPhraseID":"kalypso_table_10_10", "requires":[{ "requireType":"factionScore", "requireID":"heros_body", "value":10 }] }
+        ]
+    },
+    { "id":"kalypso_table_10_10", "replies":[ { "nextPhraseID":"kalypso_table_20" } ], "rewards":[ { "rewardType":"actorCondition", "rewardID":"heros_body", "value":10 } ] },
+    { "id":"kalypso_table_10_20", "replies":[ { "nextPhraseID":"kalypso_table_20" } ], "rewards":[ { "rewardType":"actorCondition", "rewardID":"heros_body", "value":20 } ] },
+    { "id":"kalypso_table_10_30", "replies":[ { "nextPhraseID":"kalypso_table_20" } ], "rewards":[ { "rewardType":"actorCondition", "rewardID":"heros_body", "value":30 } ] },
+    { "id":"kalypso_table_10_40", "replies":[ { "nextPhraseID":"kalypso_table_20" } ], "rewards":[ { "rewardType":"actorCondition", "rewardID":"heros_body", "value":40 } ] },
+    { "id":"kalypso_table_10_50", "replies":[ { "nextPhraseID":"kalypso_table_20" } ], "rewards":[ { "rewardType":"actorCondition", "rewardID":"heros_body", "value":50 } ] },
+    { "id":"kalypso_table_10_60", "replies":[ { "nextPhraseID":"kalypso_table_20" } ], "rewards":[ { "rewardType":"actorCondition", "rewardID":"heros_body", "value":60 } ] },
+    { "id":"kalypso_table_10_70", "replies":[ { "nextPhraseID":"kalypso_table_20" } ], "rewards":[ { "rewardType":"actorCondition", "rewardID":"heros_body", "value":70 } ] },
+    { "id":"kalypso_table_10_80", "replies":[ { "nextPhraseID":"kalypso_table_20" } ], "rewards":[ { "rewardType":"actorCondition", "rewardID":"heros_body", "value":80 } ] },
+    { "id":"kalypso_table_10_90", "replies":[ { "nextPhraseID":"kalypso_table_20" } ], "rewards":[ { "rewardType":"actorCondition", "rewardID":"heros_body", "value":90 } ] },
+    { "id":"kalypso_table_10_100", "replies":[ { "nextPhraseID":"kalypso_table_20" } ], "rewards":[ { "rewardType":"actorCondition", "rewardID":"heros_body", "value":100 } ] },
+    { "id":"kalypso_table_10_110", "replies":[ { "nextPhraseID":"kalypso_table_20" } ], "rewards":[ { "rewardType":"actorCondition", "rewardID":"heros_body", "value":110 } ] },
+    { "id":"kalypso_table_10_120", "replies":[ { "nextPhraseID":"kalypso_table_20" } ], "rewards":[ { "rewardType":"actorCondition", "rewardID":"heros_body", "value":120 } ] },
+    { "id":"kalypso_table_10_130", "replies":[ { "nextPhraseID":"kalypso_table_20" } ], "rewards":[ { "rewardType":"actorCondition", "rewardID":"heros_body", "value":130 } ] },
+    { "id":"kalypso_table_10_140", "replies":[ { "nextPhraseID":"kalypso_table_20" } ], "rewards":[ { "rewardType":"actorCondition", "rewardID":"heros_body", "value":140 } ] },
+    { "id":"kalypso_table_10_150", "replies":[ { "nextPhraseID":"kalypso_table_20" } ], "rewards":[ { "rewardType":"actorCondition", "rewardID":"heros_body", "value":150 } ] },
+    { "id":"kalypso_table_10_160", "replies":[ { "nextPhraseID":"kalypso_table_20" } ], "rewards":[ { "rewardType":"actorCondition", "rewardID":"heros_body", "value":160 } ] },
+    { "id":"kalypso_table_10_170", "replies":[ { "nextPhraseID":"kalypso_table_20" } ], "rewards":[ { "rewardType":"actorCondition", "rewardID":"heros_body", "value":170 } ] },
+    { "id":"kalypso_table_10_180", "replies":[ { "nextPhraseID":"kalypso_table_20" } ], "rewards":[ { "rewardType":"actorCondition", "rewardID":"heros_body", "value":180 } ] },
+    { "id":"kalypso_table_10_190", "replies":[ { "nextPhraseID":"kalypso_table_20" } ], "rewards":[ { "rewardType":"actorCondition", "rewardID":"heros_body", "value":190 } ] },
+    { "id":"kalypso_table_10_200", "replies":[ { "nextPhraseID":"kalypso_table_20" } ], "rewards":[ { "rewardType":"actorCondition", "rewardID":"heros_body", "value":200 } ] },
+	
+    {
+        "id":"kalypso_table_20",
         "message":"I love to see you growing! You may refresh yourself as long as you wish.",
         "switchToNPC":"kalypso",
         "replies":[
@@ -1456,13 +1547,6 @@
                 "text":"Great! It is a wonderful place here!",
                 "nextPhraseID":"X"
             }
-        ],
-        "rewards":[
-            {
-                "rewardType":"actorCondition",
-                "rewardID":"heros_body",
-                "value":50
-            }
         ]
     },
     {
@@ -1471,12 +1555,66 @@
         "replies":[
             {
                 "text":"I don't want to leave this paradise island.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"kalypso_50"
             }
         ]
     },
     {
         "id":"kalypso",
+        "replies":[
+            {
+                "nextPhraseID":"kalypso_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":22
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"kalypso_10"
+            }
+        ]
+    },
+    {
+        "id":"kalypso_1",
+        "message":"Take as much as you need.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"kalypso_2"
+            }
+        ]
+    },
+    {
+        "id":"kalypso_2",
+        "message":"You may leave whenever you wish.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"kalypso_3"
+            }
+        ]
+    },
+    {
+        "id":"kalypso_3",
+        "message":"But if you face storms or monsters tomorrow, you might prefer to do so at your strongest.",
+        "replies":[
+            {
+                "text":"True.",
+                "nextPhraseID":"kalypso_4"
+            }
+        ]
+    },
+    {
+        "id":"kalypso_4",
+        "message":"[points to the table] One grape is a courtesy. A meal is preparation."
+    },
+
+
+    {
+        "id":"kalypso_10",
         "message":"Oh. A traveler.",
         "replies":[
             {
@@ -1549,14 +1687,21 @@
                 "text":"N",
                 "nextPhraseID":"kalypso_17"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":20
+            }
         ]
     },
     {
         "id":"kalypso_17",
-        "message":"Just fruit.",
+        "message":"It's just fruit.",
         "replies":[
             {
-                "text":"Let me try a grape.",
+                "text":"Let me try your grape.",
                 "nextPhraseID":"kalypso_19"
             },
             {
@@ -1570,7 +1715,7 @@
         "message":"[slightly amused] You may inspect it if that makes you feel heroic.",
         "replies":[
             {
-                "text":"N",
+                "text":"Looks OK. Let's eat it.",
                 "nextPhraseID":"kalypso_19"
             }
         ]
@@ -1580,7 +1725,7 @@
         "message":"[watches intensely] Ah. You feel it, don't you?",
         "replies":[
             {
-                "text":"N",
+                "text":"Wow - I am feeling great!",
                 "nextPhraseID":"kalypso_19a"
             }
         ],
@@ -1589,6 +1734,11 @@
                 "rewardType":"actorCondition",
                 "rewardID":"heros_body",
                 "value":3
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":22
             }
         ]
     },
@@ -1596,23 +1746,30 @@
         "id":"kalypso_19a",
         "replies":[
             {
-                "nextPhraseID":"kalypso_19b"
+                "nextPhraseID":"kalypso_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":24
+                    }
+                ]
             },
             {
-                "nextPhraseID":"kalypso_20"
+                "nextPhraseID":"kalypso_19b"
             }
         ]
     },
     {
         "id":"kalypso_19b",
-        "message":"As a token of my friendship, I give you this small silver key.",
+        "message":"As a token of my friendship, I give you this tiny green key.",
         "replies":[
             {
-                "text":"N",
+                "text":"Thank you.",
                 "nextPhraseID":"kalypso_19c"
             },
             {
-                "text":"N",
+                "text":"Where do I use it?",
                 "nextPhraseID":"kalypso_19c"
             }
         ],
@@ -1621,6 +1778,11 @@
                 "rewardType":"giveItem",
                 "rewardID":"ll2_key_kalypso",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":24
             }
         ]
     },
@@ -1629,7 +1791,7 @@
         "message":"Keep it safe. You'll know when you can use it.",
         "replies":[
             {
-                "text":"Thank you.",
+                "text":"OK.",
                 "nextPhraseID":"kalypso_20"
             }
         ]
@@ -1659,44 +1821,14 @@
         "message":"[Honest admiration] It suits you.",
         "replies":[
             {
-                "text":"N",
+                "text":"I feel great!",
                 "nextPhraseID":"kalypso_23"
             }
         ]
     },
     {
         "id":"kalypso_23",
-        "message":"Take as much as you need.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"kalypso_24"
-            }
-        ]
-    },
-    {
-        "id":"kalypso_24",
-        "message":"You may leave whenever you wish.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"kalypso_25"
-            }
-        ]
-    },
-    {
-        "id":"kalypso_25",
-        "message":"But if you face storms or monsters tomorrow, you might prefer to do so at your strongest.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"kalypso_26"
-            }
-        ]
-    },
-    {
-        "id":"kalypso_26",
-        "message":"[points to the table] One grape is a courtesy. A meal is preparation."
+        "message":"No have a look at yourself now!"
     },
     {
         "id":"kalypso_50",
@@ -1711,7 +1843,7 @@
     },
     {
         "id":"kalypso_51",
-        "message":"[She does not smile] The island does not stop your feet. ",
+        "message":"[She does not smile] The island does not stop your feet.",
         "replies":[
             {
                 "text":"N",
@@ -1877,7 +2009,7 @@
     },
     {
         "id":"kalypso_67",
-        "message":"[Calmly] The island\u2019s gift fades. Perfection is not meant to be permanent.",
+        "message":"[Calmly] The island's gift fades. Perfection is not meant to be permanent.",
         "replies":[
             {
                 "text":"N",
@@ -1902,6 +2034,13 @@
             {
                 "text":"N",
                 "nextPhraseID":"kalypso_70"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":26
             }
         ]
     },
