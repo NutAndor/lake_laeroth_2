@@ -184,13 +184,13 @@
         ]
     },
     {
-        "id":"ll2_boat_isle1",
+        "id":"ll2_boat_kalypso",
         "message":"Ahoy!",
         "switchToNPC":"ll2_captain",
         "replies":[
             {
                 "text":"Land the boat!",
-                "nextPhraseID":"ll2_boat_isle1_10",
+                "nextPhraseID":"ll2_boat_kalypso_10",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -214,7 +214,7 @@
         ]
     },
     {
-        "id":"ll2_boat_isle1_10",
+        "id":"ll2_boat_kalypso_10",
         "rewards":[
             {
                 "rewardType":"changeIcon",
@@ -249,7 +249,7 @@
         ]
     },
     {
-        "id":"ll2_boat_circe_0",
+        "id":"ll2_boat_circe",
         "replies":[
             {
                 "nextPhraseID":"ll2_boat_circe_1",
@@ -268,7 +268,7 @@
                 ]
             },
             {
-                "nextPhraseID":"ll2_boat_circe"
+                "nextPhraseID":"ll2_boat_circe_5"
             }
         ]
     },
@@ -278,12 +278,29 @@
         "replies":[
             {
                 "text":"Hey! Where is everybody?",
-                "nextPhraseID":"N"
+                "nextPhraseID":"ll2_boat_circe_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":32
             }
         ]
     },
     {
-        "id":"ll2_boat_circe",
+        "id":"ll2_boat_circe_2",
+        "message":"Silence.",
+        "replies":[
+            {
+                "text":"Maybe I should give that Circe another visit.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ll2_boat_circe_5",
         "message":"Ahoy!",
         "switchToNPC":"ll2_captain",
         "replies":[
@@ -551,19 +568,37 @@
         ]
     },
     {
-        "id":"ll2_cyirce_pig",
+        "id":"ll2_captain",
+        "message":"Hey, little landlubber - everything alright?."
+    },
+    {
+        "id":"ll2_crew",
+        "message":"I wonder how many mead they have here."
+    },
+    {
+        "id":"ll2_circe_pig",
         "message":"Oink oink."
     },
     {
         "id":"circe",
         "replies":[
             {
+                "nextPhraseID":"ll2_circe_70",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":36
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"ll2_circe_30",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"lake_map",
-                        "value":30
+                        "value":32
                     }
                 ]
             },
@@ -584,10 +619,20 @@
     },
     {
         "id":"ll2_circe_11",
-        "message":"Few expect. Fewer ask. I am called Circe.",
+        "message":"Few expect. Fewer ask.",
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"ll2_circe_11a"
+            }
+        ]
+    },
+    {
+        "id":"ll2_circe_11a",
+        "message":"I am called Circe.",
+        "replies":[
+            {
+                "text":"Pleased to meet you, my name is $playername.",
                 "nextPhraseID":"ll2_circe_12"
             }
         ]
@@ -595,9 +640,10 @@
     {
         "id":"ll2_circe_12",
         "message":"Hrnnk!",
+        "switchToNPC":"ll2_circe_pig",
         "replies":[
             {
-                "text":"N",
+                "text":"What do you say?",
                 "nextPhraseID":"ll2_circe_13"
             }
         ]
@@ -605,6 +651,7 @@
     {
         "id":"ll2_circe_13",
         "message":"Careful. They bruise easily.",
+        "switchToNPC":"circe",
         "replies":[
             {
                 "text":"You keep pigs?",
@@ -625,6 +672,7 @@
     {
         "id":"ll2_circe_15",
         "message":"Another pig squeals loudly.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -635,9 +683,10 @@
     {
         "id":"ll2_circe_16",
         "message":"Yes, yes. You were a sailor once. We've all made mistakes.",
+        "switchToNPC":"circe",
         "replies":[
             {
-                "text":"Right... Well. Good day.",
+                "text":"Eh... well. I better leave now. Good day.",
                 "nextPhraseID":"ll2_circe_17"
             }
         ],
@@ -645,7 +694,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"lake_map",
-                "value":34
+                "value":30
             }
         ]
     },
@@ -665,7 +714,7 @@
     },
     {
         "id":"ll2_circe_31",
-        "message":"Crews are overrated.",
+        "message":"Crews are overrated nowadays.",
         "replies":[
             {
                 "text":"Where is Captain Burry?",
@@ -687,6 +736,7 @@
     {
         "id":"ll2_circe_33",
         "message":"[pleasantly] Captain... who?",
+        "switchToNPC":"circe",
         "replies":[
             {
                 "text":"He came ashore. With all his men. They vanished. You have pigs.",
@@ -729,6 +779,7 @@
     {
         "id":"ll2_circe_38",
         "message":"Snort! Hrnnk! Oink!",
+        "switchToNPC":"ll2_circe_pig",
         "replies":[
             {
                 "text":"N",
@@ -761,7 +812,7 @@
     {
         "id":"ll2_circe_41",
         "message":"Why? They seem well suited.",
-        "switchToNPC":"ll2_circe",
+        "switchToNPC":"circe",
         "replies":[
             {
                 "text":"N",
@@ -775,14 +826,15 @@
         "switchToNPC":"ll2_circe_pig",
         "replies":[
             {
-                "text":"Looks like he says no. Do it NOW.",
+                "text":"Looks like he says no. Change them back - NOW!",
                 "nextPhraseID":"ll2_circe_43"
             }
         ]
     },
     {
         "id":"ll2_circe_43",
-        "message":"You noticed. Most would have left. Most would not have looked twice at a pig.",
+        "message":"[Admiring] You noticed. Most would have left. Most would not have looked twice at a pig.",
+        "switchToNPC":"circe",
         "replies":[
             {
                 "text":"It... I mean he saluted.",
@@ -803,8 +855,8 @@
     },
     {
         "id":"ll2_circe_45",
-        "message":"Very well.",
-        "switchToNPC":"ll2_circe",
+        "message":"Very well. [She murmured something.]",
+        "switchToNPC":"circe",
         "replies":[
             {
                 "text":"N",
@@ -814,35 +866,15 @@
     },
     {
         "id":"ll2_circe_46",
-        "message":"And another thing, you curly-tailed tyr...",
-        "switchToNPC":"ll2_captain",
+        "message":"And another thing, you curly-tailed tyrannesse...",
+        "switchToNPC":"ll2_captain_0",
         "replies":[
             {
                 "text":"N",
                 "nextPhraseID":"ll2_circe_47"
             }
-        ]
-    },
-    {
-        "id":"ll2_circe_47",
-        "message":"Why am I not pink anymore? [He looks at his hands.]",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"ll2_circe_48"
-            }
         ],
         "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"lake_map",
-                "value":34
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"ll2_circe_pig",
-                "mapName":"mountainlake_circe"
-            },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"ll2_captain",
@@ -852,6 +884,26 @@
                 "rewardType":"spawnAll",
                 "rewardID":"ll2_crew",
                 "mapName":"mountainlake_circe"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":34
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_circe_pig",
+                "mapName":"mountainlake_circe"
+            }
+		]
+    },
+    {
+        "id":"ll2_circe_47",
+        "message":"Why am I not pink anymore? [He looks at his hands.]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ll2_circe_48"
             }
         ]
     },
@@ -897,8 +949,8 @@
     },
     {
         "id":"ll2_circe_52",
-        "message":"You are observant. And inconvenient.",
-        "switchToNPC":"ll2_circe",
+        "message":"$playername, you are observant. And inconvenient.",
+        "switchToNPC":"circe",
         "replies":[
             {
                 "text":"N",
@@ -908,17 +960,35 @@
     },
     {
         "id":"ll2_circe_53",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_circe_55",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":36
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_circe_53b"
+            }
+        ]
+    },
+    {
+        "id":"ll2_circe_53b",
         "message":"[She produces a small golden key.] Take this.",
         "replies":[
             {
-                "text":"What does it open?",
+                "text":"Oh. What does it open?",
                 "nextPhraseID":"ll2_circe_54"
             }
         ]
     },
     {
         "id":"ll2_circe_54",
-        "message":"Not yet. But when you find the lock, you will know.",
+        "message":"Not yet, not yet. But when you find the lock, you will know.",
         "replies":[
             {
                 "text":"N",
@@ -930,6 +1000,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"lake_map",
                 "value":36
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"ll2_key_circe",
+                "value":1
             }
         ]
     },
@@ -946,8 +1021,56 @@
     {
         "id":"ll2_circe_56",
         "message":"I heard that.",
-        "switchToNPC":"ll2_captain"
+        "switchToNPC":"ll2_captain_0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ll2_circe_71"
+            }
+        ]
     },
+
+{ "id":"ll2_circe_70", "message":"Welcome, $playername. ", "replies":[ { "nextPhraseID":"ll2_circe_71", "text":"N" } ] },
+{ "id":"ll2_circe_71", "message":"You will not stay long. Men rarely do.",
+        "switchToNPC":"ll2_circe"
+		, "replies":[ { "nextPhraseID":"ll2_circe_72", "text":"Right, we'll leave soon." } ] },
+{ "id":"ll2_circe_72", "message":"Then listen before you go.", "replies":[ { "nextPhraseID":"ll2_circe_73", "text":"N" } ] },
+{ "id":"ll2_circe_73", "message":"To the south west lie the lands of the Cyclopes.", "replies":[ { "nextPhraseID":"ll2_circe_74", "text":"N" } ] },
+{ "id":"ll2_circe_74", "message":"They are not like other folk. They build no cities. They obey no laws but their own temper.", "replies":[ { "nextPhraseID":"ll2_circe_75", "text":"N" } ] },
+{ "id":"ll2_circe_75", "message":"Each one rules his cave as if it were a kingdom.", "replies":[ { "nextPhraseID":"ll2_circe_76", "text":"N" } ] },
+{ "id":"ll2_circe_76", "message":"They are strong. Suspicious. And very certain of themselves.", "replies":[ { "nextPhraseID":"ll2_circe_77", "text":"Can they be bargained with?" } ] },
+{ "id":"ll2_circe_77", "message":"[slight smile] They believe they are always the larger mind in the room. That makes bargaining... difficult.", "replies":[ { "nextPhraseID":"ll2_circe_78", "text":"N" } ] },
+{ "id":"ll2_circe_78", "message":"Further on you will reach a narrow strait. On one side dwells Scylla.", "replies":[ { "nextPhraseID":"ll2_circe_79", "text":"N" } ] },
+{ "id":"ll2_circe_79", "message":"Scylla does not chase ships. She does not roar warnings. She simply reaches.", "replies":[ { "nextPhraseID":"ll2_circe_80", "text":"Nice." } ] },
+{ "id":"ll2_circe_80", "message":"Six heads. Six mouths. Six chances to lose someone or something.", "replies":[ { "nextPhraseID":"ll2_circe_81", "text":"N" } ] },
+{ "id":"ll2_circe_81", "message":"And what she takes, she keeps.", "replies":[ { "nextPhraseID":"ll2_circe_82", "text":"N" } ] },
+{ "id":"ll2_circe_82", "message":"Do not challenge her. Do not delay near her rock.", "replies":[ { "nextPhraseID":"ll2_circe_83", "text":"N" } ] },
+{ "id":"ll2_circe_83", "message":"Sail past, and accept the loss she takes.", "replies":[ { "nextPhraseID":"ll2_circe_84", "text":"N" } ] },
+{ "id":"ll2_circe_84", "message":"[she meets your eyes] She is not cruel.", "replies":[ { "nextPhraseID":"ll2_circe_85", "text":"N" } ] },
+{ "id":"ll2_circe_85", "message":"She is simply hungry.", "replies":[ { "nextPhraseID":"ll2_circe_86", "text":"N" } ] },
+{ "id":"ll2_circe_86", "message":"And you might meet Charybdis.", "replies":[ { "nextPhraseID":"ll2_circe_87", "text":"Charybdis?" } ] },
+{ "id":"ll2_circe_87", "message":"She is no creature of claw or tooth. She is hunger in the sea.", "replies":[ { "nextPhraseID":"ll2_circe_88", "text":"N" } ] },
+{ "id":"ll2_circe_88", "message":"Three times each day, the waters descend into her throat. Three times they rise again.", "replies":[ { "nextPhraseID":"ll2_circe_89", "text":"N" } ] },
+{ "id":"ll2_circe_89", "message":"Ships caught too near are pulled under - not smashed, but taken.", "replies":[ { "nextPhraseID":"ll2_circe_90", "text":"N" } ] },
+{ "id":"ll2_circe_90", "message":"She hesitates.", "replies":[ { "nextPhraseID":"ll2_circe_91", "text":"N" } ] },
+{ "id":"ll2_circe_91", "message":"Where they go, I cannot say. Some say downward. Some say elsewhere.", "replies":[ { "nextPhraseID":"ll2_circe_92", "text":"N" } ] },
+{ "id":"ll2_circe_92", "message":"I have never known a sailor who returned the same.", "replies":[ { "nextPhraseID":"ll2_circe_93", "text":"N" } ] },
+{ "id":"ll2_circe_93", "message":"[quietly] Or returned at all.", "replies":[ { "nextPhraseID":"ll2_circe_93a", "text":"N" } ] },
+
+{ "id":"ll2_circe_93a", "message":"Sounds promising.", "switchToNPC":"ll2_captain_0", "replies":[ { "nextPhraseID":"ll2_circe_94", "text":"N" } ] },
+
+{ "id":"ll2_circe_94", "message":"You can not avoid Scylla. Chabybdis or the cyclops are your choice.", "switchToNPC":"ll2_circe", "replies":[ { "nextPhraseID":"ll2_circe_95", "text":"N" } ] },
+{ "id":"ll2_circe_95", "message":"With Charybdis - I wouldn't trust her, you may lose everything.", "replies":[ { "nextPhraseID":"ll2_circe_96", "text":"N" } ] },
+{ "id":"ll2_circe_96", "message":"The Cyclopes – well, they don't like me. And the feeling is mutual.", "replies":[ { "nextPhraseID":"ll2_circe_97", "text":"N" } ] },
+{ "id":"ll2_circe_97", "message":"You survived me. That suggests you prefer thought over force.", "replies":[ { "nextPhraseID":"ll2_circe_98", "text":"N" } ] },
+{ "id":"ll2_circe_98", "message":"You will need that.", "replies":[ { "nextPhraseID":"ll2_circe_99", "text":"N" } ] },
+{ "id":"ll2_circe_99", "message":"The sea ahead does not hate you. It does not love you either.", "replies":[ { "nextPhraseID":"ll2_circe_100", "text":"N" } ] },
+{ "id":"ll2_circe_100", "message":"It simply waits.", "replies":[ { "nextPhraseID":"ll2_circe_101", "text":"N" } ] },
+{ "id":"ll2_circe_101", "message":"We should leave now.", "switchToNPC":"ll2_captain_0", "replies":[ { "nextPhraseID":"X", "text":"Thanks for all." } ] },
+
+
+
+	
     {
         "id":"ll2_cyclops_cave",
         "message":"The door to the cave is securely locked."
@@ -1014,11 +1137,15 @@
         "message":"Serve yourself, take all you like!",
         "replies":[
             {
-                "text":"[Eat some fresh toasted bread]",
+                "text":"I will take some fresh toasted bread.",
                 "nextPhraseID":"ll2_kalypso_table_10"
             },
             {
-                "text":"[Sip a tiny glass of ruby wine]",
+                "text":"Let's enjoy a whole bunch of sweet grapes.",
+                "nextPhraseID":"ll2_kalypso_table_10"
+            },
+            {
+                "text":"I will sip a tiny glass of that ruby wine.",
                 "nextPhraseID":"ll2_kalypso_table_10"
             }
         ]
@@ -1041,6 +1168,79 @@
             }
         ]
     },
+
+
+
+{ "id":"ll2_kalypso_10", "message":"Oh. A traveler.", "replies":[ { "nextPhraseID":"ll2_kalypso_11", "text":"N" } ] },
+{ "id":"ll2_kalypso_11", "message":"[examines you carefully] You look capable. But not rested.", "replies":[ { "nextPhraseID":"ll2_kalypso_12", "text":"N" } ] },
+{ "id":"ll2_kalypso_12", "message":"I host those who pass through. You are free to come and go as you please.", "replies":[ { "nextPhraseID":"ll2_kalypso_13", "text":"N" } ] },
+{ "id":"ll2_kalypso_13", "message":"Kalypso picks a single grape from the plate.", "switchToNPC":"none", "replies":[ { "nextPhraseID":"ll2_kalypso_14", "text":"N" } ] },
+{ "id":"ll2_kalypso_14", "message":"These grow only here. The soil is... unusual.", "switchToNPC":"kalypso", "replies":[ { "nextPhraseID":"ll2_kalypso_15", "text":"N" } ] },
+{ "id":"ll2_kalypso_15", "message":"Try one. If you dislike it, I shall be offended for exactly three seconds.", "replies":[ { "nextPhraseID":"ll2_kalypso_16", "text":"Three seconds? "}, { "nextPhraseID":"ll2_kalypso_16", "text":"That's funny." } ] },
+{ "id":"ll2_kalypso_16", "message":"It is not enchanted wine. Not a vow. No chain.", "replies":[ { "nextPhraseID":"ll2_kalypso_17", "text":"N" } ] },
+{ "id":"ll2_kalypso_17", "message":"Just fruit.", "replies":[ { "nextPhraseID":"ll2_kalypso_19", "text":"Let me try a grape."}, { "nextPhraseID":"ll2_kalypso_18", "text":"I might have a closer look at it." } ] },
+{ "id":"ll2_kalypso_18", "message":"[slightly amused] You may inspect it if that makes you feel heroic.", "replies":[ { "nextPhraseID":"ll2_kalypso_19", "text":"N" } ] },
+{ "id":"ll2_kalypso_19", "message":"[watches intensely] Ah. You feel it, don’t you?", "replies":[ { "nextPhraseID":"ll2_kalypso_19a", "text":"N" } ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"heros_body",
+                "value":3
+            }
+        ] },
+
+{ "id":"ll2_kalypso_19a", "replies":[ { "nextPhraseID":"ll2_kalypso_19b" }, { "nextPhraseID":"ll2_kalypso_20" } ] },
+{ "id":"ll2_kalypso_19b", "message":"As a token of my friendship, I give you this small silver key.", "replies":[ { "nextPhraseID":"ll2_kalypso_19c", "text":"N" }, { "nextPhraseID":"ll2_kalypso_19c", "text":"N" } ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"ll2_key_kalypso",
+                "value":1
+            }
+        ] },
+{ "id":"ll2_kalypso_19c", "message":"Keep it safe. You'll know when you can use it.", "replies":[ { "nextPhraseID":"ll2_kalypso_20", "text":"Thank you." } ] },
+
+
+
+
+
+
+
+{ "id":"ll2_kalypso_20", "message":"The island rewards those who survive long enough to reach it.", "replies":[ { "nextPhraseID":"ll2_kalypso_21", "text":"N" } ] },
+{ "id":"ll2_kalypso_21", "message":"[Her eyes flashing] Muscles awakened. Breath deepens. Old fatigue loosens its grip.", "replies":[ { "nextPhraseID":"ll2_kalypso_22", "text":"N" } ] },
+{ "id":"ll2_kalypso_22", "message":"[Honest admiration] It suits you.", "replies":[ { "nextPhraseID":"ll2_kalypso_23", "text":"N" } ] },
+{ "id":"ll2_kalypso_23", "message":"Take as much as you need.", "replies":[ { "nextPhraseID":"ll2_kalypso_24", "text":"N" } ] },
+{ "id":"ll2_kalypso_24", "message":"You may leave whenever you wish.", "replies":[ { "nextPhraseID":"ll2_kalypso_25", "text":"N" } ] },
+{ "id":"ll2_kalypso_25", "message":"But if you face storms or monsters tomorrow, you might prefer to do so at your strongest.", "replies":[ { "nextPhraseID":"ll2_kalypso_26", "text":"N" } ] },
+{ "id":"ll2_kalypso_26", "message":"[points to the table] One grape is a courtesy. A meal is preparation." },
+
+
+
+{ "id":"ll2_kalypso_50", "message":"You felt it.", "switchToNPC":"kalypso", "replies":[ { "nextPhraseID":"ll2_kalypso_51", "text":"N" } ] },
+{ "id":"ll2_kalypso_51", "message":"[She does not smile] The island does not stop your feet. ", "replies":[ { "nextPhraseID":"ll2_kalypso_52", "text":"N" } ] },
+{ "id":"ll2_kalypso_52", "message":"It stops your wanting.", "replies":[ { "nextPhraseID":"ll2_kalypso_53", "text":"N" } ] },
+{ "id":"ll2_kalypso_53", "message":"You can walk to the shore. You can touch the ship. You can even set a hand on the oar.", "replies":[ { "nextPhraseID":"ll2_kalypso_54", "text":"N" } ] },
+{ "id":"ll2_kalypso_54", "message":"[softly] But your body does not wish to leave.", "replies":[ { "nextPhraseID":"ll2_kalypso_55", "text":"You did this." } ] },
+{ "id":"ll2_kalypso_55", "message":"Yes.", "replies":[ { "nextPhraseID":"ll2_kalypso_56", "text":"N" } ] },
+{ "id":"ll2_kalypso_56", "message":"The fruit strengthens what is already there.", "replies":[ { "nextPhraseID":"ll2_kalypso_57", "text":"N" } ] },
+{ "id":"ll2_kalypso_57", "message":"Muscle. Breath. Certainty.", "replies":[ { "nextPhraseID":"ll2_kalypso_58", "text":"N" } ] },
+{ "id":"ll2_kalypso_58", "message":"Kalypso looks at him carefully.", "switchToNPC":"none", "replies":[ { "nextPhraseID":"ll2_kalypso_59", "text":"N" } ] },
+{ "id":"ll2_kalypso_59", "message":"And it quiets the part of you that is always preparing to suffer again.", "switchToNPC":"kalypso", "replies":[ { "nextPhraseID":"ll2_kalypso_60", "text":"N" } ] },
+{ "id":"ll2_kalypso_60", "message":"Tell me... Did you feel threatened?", "replies":[ { "nextPhraseID":"ll2_kalypso_61", "text":"No."}, { "nextPhraseID":"ll2_kalypso_61", "text":"Yes." } ] },
+{ "id":"ll2_kalypso_61", "message":"I did not chain you. I did not cast a spell of obedience.", "replies":[ { "nextPhraseID":"ll2_kalypso_62", "text":"N" } ] },
+{ "id":"ll2_kalypso_62", "message":"People think I imprison sailors.", "replies":[ { "nextPhraseID":"ll2_kalypso_63", "text":"N" } ] },
+{ "id":"ll2_kalypso_63", "message":"I do not.", "replies":[ { "nextPhraseID":"ll2_kalypso_64", "text":"N" } ] },
+{ "id":"ll2_kalypso_64", "message":"They simply discover they are tired of striving.", "replies":[ { "nextPhraseID":"ll2_kalypso_65", "text":"N" } ] },
+{ "id":"ll2_kalypso_65", "message":"[A faint, almost sad smile.] Strength without struggle is very comfortable.", "replies":[ { "nextPhraseID":"ll2_kalypso_66", "text":"How do I leave?" } ] },
+{ "id":"ll2_kalypso_66", "message":"You wait.", "replies":[ { "nextPhraseID":"ll2_kalypso_67", "text":"N" } ] },
+{ "id":"ll2_kalypso_67", "message":"[Calmly] The island’s gift fades. Perfection is not meant to be permanent.", "replies":[ { "nextPhraseID":"ll2_kalypso_68", "text":"N" } ] },
+{ "id":"ll2_kalypso_68", "message":"When you feel hunger again, when you feel lack again, ...", "replies":[ { "nextPhraseID":"ll2_kalypso_69", "text":"N" } ] },
+{ "id":"ll2_kalypso_69", "message":"you will walk onto that ship without resistance.", "replies":[ { "nextPhraseID":"ll2_kalypso_70", "text":"N" } ] },
+{ "id":"ll2_kalypso_70", "message":"$playername - you are free. You always were.", "replies":[ { "nextPhraseID":"ll2_kalypso_71", "text":"N" } ] },
+
+
+
+
     {
         "id":"ll2_leofric_activate",
         "rewards":[
@@ -2786,7 +2986,13 @@
                     {
                         "requireType":"factionScore",
                         "requireID":"ll2_maps",
-                        "value":15
+                        "value":20
+                    },
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"lake_map",
+                        "value":900,
+						"negate":true
                     }
                 ]
             }
@@ -2801,11 +3007,12 @@
     },
     {
         "id":"ll2_maps_91",
-        "message":"Hey! Eine Runde Mead für alle!",
+        "message":"Hey! Eine Runde Mead für alle!/nWir haben den gesamten See befahren!",
         "switchToNPC":"ll2_captain",
         "replies":[
             {
-                "nextPhraseID":"ll2_maps_92"
+                "nextPhraseID":"X",
+				"text":"N"
             }
         ],
         "rewards":[
@@ -2815,10 +3022,6 @@
                 "value":900
             }
         ]
-    },
-    {
-        "id":"ll2_maps_92",
-        "message":"Wir haben den gesamten See befahren!"
     },
     {
         "id":"ll2_sirene",
