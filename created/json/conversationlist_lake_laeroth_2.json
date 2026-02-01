@@ -1427,6 +1427,7 @@
     {
         "id":"ll2_kalypso_table",
         "message":"Serve yourself, take all you like!",
+		"switchToNPC":"kalypso",
         "replies":[
             {
                 "text":"I will take some fresh toasted bread.",
@@ -1444,9 +1445,13 @@
     },
     {
         "id":"ll2_kalypso_table_10",
-        "message":"I love your presence here! You may stay as long as you wish.",
+        "message":"I love to see you growing! You may refresh yourself as long as you wish.",
         "switchToNPC":"kalypso",
         "replies":[
+            {
+                "text":"I think I'll take some more...",
+                "nextPhraseID":"ll2_kalypso_table"
+            },
             {
                 "text":"Great! It is a wonderful place here!",
                 "nextPhraseID":"X"
@@ -1461,11 +1466,21 @@
         ]
     },
     {
-        "id":"ll2_kalypso_10",
+        "id":"ll2_kalypso_leave",
+        "message":"You don't want to leave this paradise island.",
+        "replies":[
+            {
+                "text":"I don't want to leave this paradise island.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ll2_kalypso",
         "message":"Oh. A traveler.",
         "replies":[
             {
-                "text":"N",
+                "text":"Hello.",
                 "nextPhraseID":"ll2_kalypso_11"
             }
         ]
@@ -1475,7 +1490,7 @@
         "message":"[examines you carefully] You look capable. But not rested.",
         "replies":[
             {
-                "text":"N",
+                "text":"In fact I seldom really am.",
                 "nextPhraseID":"ll2_kalypso_12"
             }
         ]
@@ -1562,7 +1577,7 @@
     },
     {
         "id":"ll2_kalypso_19",
-        "message":"[watches intensely] Ah. You feel it, don\u2019t you?",
+        "message":"[watches intensely] Ah. You feel it, don't you?",
         "replies":[
             {
                 "text":"N",
@@ -2038,11 +2053,11 @@
         "message":"No, of course not. Just put something into your ears. Wax should work. Do you have beeswax with you?",
         "replies":[
             {
-                "text":"Luckily yes. Here, take it.",
+                "text":"Luckily yes, here it is.",
                 "nextPhraseID":"ll2_mapmaker_7",
                 "requires":[
                     {
-                        "requireType":"inventoryRemove",
+                        "requireType":"inventoryKeep",
                         "requireID":"beeswax",
                         "value":5
                     }
@@ -2073,7 +2088,14 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_mapmaker_8"
+                "nextPhraseID":"ll2_mapmaker_8",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"beeswax",
+                        "value":5
+                    }
+                ]
             }
         ]
     },
@@ -2085,6 +2107,13 @@
             {
                 "text":"Thank you. I'm going to go and try them out right away.",
                 "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"earplugs",
+                "value":5
             }
         ]
     },
@@ -3990,20 +4019,6 @@
         "replies":[
             {
                 "text":"Of course.",
-                "nextPhraseID":"X"
-            }
-        ]
-    },
-    {
-        "id":"kalypso",
-        "message":"Be my guest! Stay as long as you wish."
-    },
-    {
-        "id":"ll2_kalypso_leave",
-        "message":"You don't want to leave this paradise island.",
-        "replies":[
-            {
-                "text":"I don't want to leave this paradise island.",
                 "nextPhraseID":"X"
             }
         ]
