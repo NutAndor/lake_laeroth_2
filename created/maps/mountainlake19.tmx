@@ -250,7 +250,7 @@
  <objectgroup id="8" name="Keys">
   <object id="15" name="dummy_key" type="key" x="96" y="384" width="32" height="32">
    <properties>
-    <property name="phrase" value="ll2_kalypso_table"/>
+    <property name="phrase" value="kalypso_table"/>
     <property name="requireId" value="andor"/>
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>

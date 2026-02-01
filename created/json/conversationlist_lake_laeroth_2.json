@@ -1425,32 +1425,32 @@
         ]
     },
     {
-        "id":"ll2_kalypso_table",
+        "id":"kalypso_table",
         "message":"Serve yourself, take all you like!",
 		"switchToNPC":"kalypso",
         "replies":[
             {
                 "text":"I will take some fresh toasted bread.",
-                "nextPhraseID":"ll2_kalypso_table_10"
+                "nextPhraseID":"kalypso_table_10"
             },
             {
                 "text":"Let's enjoy a whole bunch of sweet grapes.",
-                "nextPhraseID":"ll2_kalypso_table_10"
+                "nextPhraseID":"kalypso_table_10"
             },
             {
                 "text":"I will sip a tiny glass of that ruby wine.",
-                "nextPhraseID":"ll2_kalypso_table_10"
+                "nextPhraseID":"kalypso_table_10"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_table_10",
+        "id":"kalypso_table_10",
         "message":"I love to see you growing! You may refresh yourself as long as you wish.",
         "switchToNPC":"kalypso",
         "replies":[
             {
                 "text":"I think I'll take some more...",
-                "nextPhraseID":"ll2_kalypso_table"
+                "nextPhraseID":"kalypso_table"
             },
             {
                 "text":"Great! It is a wonderful place here!",
@@ -1466,7 +1466,7 @@
         ]
     },
     {
-        "id":"ll2_kalypso_leave",
+        "id":"kalypso_leave",
         "message":"You don't want to leave this paradise island.",
         "replies":[
             {
@@ -1476,112 +1476,112 @@
         ]
     },
     {
-        "id":"ll2_kalypso",
+        "id":"kalypso",
         "message":"Oh. A traveler.",
         "replies":[
             {
                 "text":"Hello.",
-                "nextPhraseID":"ll2_kalypso_11"
+                "nextPhraseID":"kalypso_11"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_11",
+        "id":"kalypso_11",
         "message":"[examines you carefully] You look capable. But not rested.",
         "replies":[
             {
                 "text":"In fact I seldom really am.",
-                "nextPhraseID":"ll2_kalypso_12"
+                "nextPhraseID":"kalypso_12"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_12",
+        "id":"kalypso_12",
         "message":"I host those who pass through. You are free to come and go as you please.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_13"
+                "nextPhraseID":"kalypso_13"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_13",
+        "id":"kalypso_13",
         "message":"Kalypso picks a single grape from the plate.",
         "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_14"
+                "nextPhraseID":"kalypso_14"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_14",
+        "id":"kalypso_14",
         "message":"These grow only here. The soil is... unusual.",
         "switchToNPC":"kalypso",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_15"
+                "nextPhraseID":"kalypso_15"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_15",
+        "id":"kalypso_15",
         "message":"Try one. If you dislike it, I shall be offended for exactly three seconds.",
         "replies":[
             {
                 "text":"Three seconds? ",
-                "nextPhraseID":"ll2_kalypso_16"
+                "nextPhraseID":"kalypso_16"
             },
             {
                 "text":"That's funny.",
-                "nextPhraseID":"ll2_kalypso_16"
+                "nextPhraseID":"kalypso_16"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_16",
+        "id":"kalypso_16",
         "message":"It is not enchanted wine. Not a vow. No chain.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_17"
+                "nextPhraseID":"kalypso_17"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_17",
+        "id":"kalypso_17",
         "message":"Just fruit.",
         "replies":[
             {
                 "text":"Let me try a grape.",
-                "nextPhraseID":"ll2_kalypso_19"
+                "nextPhraseID":"kalypso_19"
             },
             {
                 "text":"I might have a closer look at it.",
-                "nextPhraseID":"ll2_kalypso_18"
+                "nextPhraseID":"kalypso_18"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_18",
+        "id":"kalypso_18",
         "message":"[slightly amused] You may inspect it if that makes you feel heroic.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_19"
+                "nextPhraseID":"kalypso_19"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_19",
+        "id":"kalypso_19",
         "message":"[watches intensely] Ah. You feel it, don't you?",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_19a"
+                "nextPhraseID":"kalypso_19a"
             }
         ],
         "rewards":[
@@ -1593,27 +1593,27 @@
         ]
     },
     {
-        "id":"ll2_kalypso_19a",
+        "id":"kalypso_19a",
         "replies":[
             {
-                "nextPhraseID":"ll2_kalypso_19b"
+                "nextPhraseID":"kalypso_19b"
             },
             {
-                "nextPhraseID":"ll2_kalypso_20"
+                "nextPhraseID":"kalypso_20"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_19b",
+        "id":"kalypso_19b",
         "message":"As a token of my friendship, I give you this small silver key.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_19c"
+                "nextPhraseID":"kalypso_19c"
             },
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_19c"
+                "nextPhraseID":"kalypso_19c"
             }
         ],
         "rewards":[
@@ -1625,293 +1625,293 @@
         ]
     },
     {
-        "id":"ll2_kalypso_19c",
+        "id":"kalypso_19c",
         "message":"Keep it safe. You'll know when you can use it.",
         "replies":[
             {
                 "text":"Thank you.",
-                "nextPhraseID":"ll2_kalypso_20"
+                "nextPhraseID":"kalypso_20"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_20",
+        "id":"kalypso_20",
         "message":"The island rewards those who survive long enough to reach it.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_21"
+                "nextPhraseID":"kalypso_21"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_21",
+        "id":"kalypso_21",
         "message":"[Her eyes flashing] Muscles awakened. Breath deepens. Old fatigue loosens its grip.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_22"
+                "nextPhraseID":"kalypso_22"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_22",
+        "id":"kalypso_22",
         "message":"[Honest admiration] It suits you.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_23"
+                "nextPhraseID":"kalypso_23"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_23",
+        "id":"kalypso_23",
         "message":"Take as much as you need.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_24"
+                "nextPhraseID":"kalypso_24"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_24",
+        "id":"kalypso_24",
         "message":"You may leave whenever you wish.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_25"
+                "nextPhraseID":"kalypso_25"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_25",
+        "id":"kalypso_25",
         "message":"But if you face storms or monsters tomorrow, you might prefer to do so at your strongest.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_26"
+                "nextPhraseID":"kalypso_26"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_26",
+        "id":"kalypso_26",
         "message":"[points to the table] One grape is a courtesy. A meal is preparation."
     },
     {
-        "id":"ll2_kalypso_50",
+        "id":"kalypso_50",
         "message":"You felt it.",
         "switchToNPC":"kalypso",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_51"
+                "nextPhraseID":"kalypso_51"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_51",
+        "id":"kalypso_51",
         "message":"[She does not smile] The island does not stop your feet. ",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_52"
+                "nextPhraseID":"kalypso_52"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_52",
+        "id":"kalypso_52",
         "message":"It stops your wanting.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_53"
+                "nextPhraseID":"kalypso_53"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_53",
+        "id":"kalypso_53",
         "message":"You can walk to the shore. You can touch the ship. You can even set a hand on the oar.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_54"
+                "nextPhraseID":"kalypso_54"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_54",
+        "id":"kalypso_54",
         "message":"[softly] But your body does not wish to leave.",
         "replies":[
             {
                 "text":"You did this.",
-                "nextPhraseID":"ll2_kalypso_55"
+                "nextPhraseID":"kalypso_55"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_55",
+        "id":"kalypso_55",
         "message":"Yes.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_56"
+                "nextPhraseID":"kalypso_56"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_56",
+        "id":"kalypso_56",
         "message":"The fruit strengthens what is already there.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_57"
+                "nextPhraseID":"kalypso_57"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_57",
+        "id":"kalypso_57",
         "message":"Muscle. Breath. Certainty.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_58"
+                "nextPhraseID":"kalypso_58"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_58",
+        "id":"kalypso_58",
         "message":"Kalypso looks at him carefully.",
         "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_59"
+                "nextPhraseID":"kalypso_59"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_59",
+        "id":"kalypso_59",
         "message":"And it quiets the part of you that is always preparing to suffer again.",
         "switchToNPC":"kalypso",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_60"
+                "nextPhraseID":"kalypso_60"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_60",
+        "id":"kalypso_60",
         "message":"Tell me... Did you feel threatened?",
         "replies":[
             {
                 "text":"No.",
-                "nextPhraseID":"ll2_kalypso_61"
+                "nextPhraseID":"kalypso_61"
             },
             {
                 "text":"Yes.",
-                "nextPhraseID":"ll2_kalypso_61"
+                "nextPhraseID":"kalypso_61"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_61",
+        "id":"kalypso_61",
         "message":"I did not chain you. I did not cast a spell of obedience.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_62"
+                "nextPhraseID":"kalypso_62"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_62",
+        "id":"kalypso_62",
         "message":"People think I imprison sailors.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_63"
+                "nextPhraseID":"kalypso_63"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_63",
+        "id":"kalypso_63",
         "message":"I do not.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_64"
+                "nextPhraseID":"kalypso_64"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_64",
+        "id":"kalypso_64",
         "message":"They simply discover they are tired of striving.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_65"
+                "nextPhraseID":"kalypso_65"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_65",
+        "id":"kalypso_65",
         "message":"[A faint, almost sad smile.] Strength without struggle is very comfortable.",
         "replies":[
             {
                 "text":"How do I leave?",
-                "nextPhraseID":"ll2_kalypso_66"
+                "nextPhraseID":"kalypso_66"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_66",
+        "id":"kalypso_66",
         "message":"You wait.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_67"
+                "nextPhraseID":"kalypso_67"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_67",
+        "id":"kalypso_67",
         "message":"[Calmly] The island\u2019s gift fades. Perfection is not meant to be permanent.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_68"
+                "nextPhraseID":"kalypso_68"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_68",
+        "id":"kalypso_68",
         "message":"When you feel hunger again, when you feel lack again, ...",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_69"
+                "nextPhraseID":"kalypso_69"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_69",
+        "id":"kalypso_69",
         "message":"you will walk onto that ship without resistance.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_70"
+                "nextPhraseID":"kalypso_70"
             }
         ]
     },
     {
-        "id":"ll2_kalypso_70",
+        "id":"kalypso_70",
         "message":"$playername - you are free. You always were.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_kalypso_71"
+                "nextPhraseID":"kalypso_71"
             }
         ]
     },
