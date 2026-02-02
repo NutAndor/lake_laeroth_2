@@ -404,6 +404,12 @@
                         "requireType":"questProgress",
                         "requireID":"lake_map",
                         "value":59
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":40,
+						"negate":true
                     }
                 ]
             },
@@ -469,6 +475,13 @@
                         "negate":true
                     }
                 ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":40
             }
         ]
     },
@@ -661,7 +674,7 @@
     },
     {
         "id":"ll2_circe_14",
-        "message":"They keep me company. Men are noisy.Pigs are honest.",
+        "message":"They keep me company. Men are noisy. Pigs are honest.",
         "replies":[
             {
                 "text":"N",
@@ -1828,7 +1841,7 @@
     },
     {
         "id":"kalypso_23",
-        "message":"No have a look at yourself now!"
+        "message":"Have a look at yourself now!"
     },
     {
         "id":"kalypso_50",
@@ -2046,29 +2059,13 @@
     },
     {
         "id":"kalypso_70",
-        "message":"$playername - you are free. You always were.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"kalypso_71"
-            }
-        ]
+        "message":"$playername - you are free. You always were."
     },
     {
         "id":"ll2_leofric_activate",
         "rewards":[
             {
                 "rewardType":"spawnAll",
-                "rewardID":"leofric_remgard",
-                "mapName":"remgard_tavern0"
-            }
-        ]
-    },
-    {
-        "id":"ll2_leofric_deactivate",
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
                 "rewardID":"leofric_remgard",
                 "mapName":"remgard_tavern0"
             }
@@ -2263,6 +2260,20 @@
             {
                 "text":"Splathershed? Haven't I heard that name before?",
                 "nextPhraseID":"ll2_mapmaker_11"
+            },
+            {
+                "text":"A cartogologist?",
+                "nextPhraseID":"ll2_mapmaker_10a"
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_10a",
+        "message":"A map maker.",
+        "replies":[
+            {
+                "text":"Then you must travel a lot. Have you seen my brother Andor?",
+                "nextPhraseID":"ll2_mapmaker_12"
             }
         ]
     },
@@ -2275,7 +2286,7 @@
                 "nextPhraseID":"ll2_mapmaker_13"
             },
             {
-                "text":"Cartologist? Then you must travel a lot. Have you seen my brother Andor?",
+                "text":"Talking of brothers - have you seen my brother Andor?",
                 "nextPhraseID":"ll2_mapmaker_12"
             }
         ]
@@ -2372,7 +2383,7 @@
     },
     {
         "id":"ll2_mapmaker_21",
-        "message":"So then, Captain Burry will take you on board!",
+        "message":"So then, Captain Burry will greet you on board!",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2386,7 +2397,156 @@
         "message":"Really!!",
         "replies":[
             {
-                "text":"That was fun.",
+                "text":"That cruise was fun.",
+                "nextPhraseID":"ll2_mapmaker_91"
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_91",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_mapmaker_91a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":26
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_mapmaker_92"
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_91a",
+        "message":"You talk of how you nearly got stuck on a paradise island.",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ll2_mapmaker_92"
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_92",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_mapmaker_92a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":36
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_mapmaker_93"
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_92a",
+        "message":"You talk of the captain turned into a pig.",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ll2_mapmaker_93"
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_93",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_mapmaker_93a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":59
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_mapmaker_94"
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_93a",
+        "message":"You talk of blinded cyclops and sheep.",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ll2_mapmaker_94"
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_94",
+        "message":"You explained how you got by the sirens.",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ll2_mapmaker_95"
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_95",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_mapmaker_95a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_mapmaker_96"
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_95a",
+        "message":"And finally, you raved about the gloomy land beneath the sea.",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ll2_mapmaker_96"
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_96",
+        "message":"Thorype Splathershed didn't seem quiete sure whether to believe your incredible stories.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ll2_mapmaker_97"
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_97",
+        "message":"Thank you so much for these extremely entertaining stories. Perhaps I'll write a story about them sometime.",
+		"switchToNPC":"ll2_mapmaker",
+        "replies":[
+            {
+                "text":"N",
                 "nextPhraseID":"ll2_mapmaker_99"
             }
         ]
@@ -2396,7 +2556,7 @@
         "message":"As reward you can use Captain Burry and his boat whenever you want. I will pay for it.",
         "replies":[
             {
-                "text":"Oh, Niche - thank you!",
+                "text":"Oh, nice - thank you!",
                 "nextPhraseID":"X"
             }
         ],
@@ -3816,7 +3976,7 @@
                         "value":20
                     },
                     {
-                        "requireType":"factionScore",
+                        "requireType":"questProgress",
                         "requireID":"lake_map",
                         "value":900,
                         "negate":true
@@ -3834,7 +3994,7 @@
     },
     {
         "id":"ll2_maps_91",
-        "message":"Hey! Eine Runde Mead für alle!/nWir haben den gesamten See befahren!",
+        "message":"Hey! A round of mead for everyone! We sailed the entire lake!",
         "switchToNPC":"ll2_captain",
         "replies":[
             {
@@ -4111,6 +4271,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"lake_map",
                 "value":42
+            },
+			{
+                "rewardType":"removeSpawnArea",
+                "rewardID":"leofric_remgard",
+                "mapName":"remgard_tavern0"
             }
         ]
     },
