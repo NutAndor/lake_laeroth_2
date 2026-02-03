@@ -1055,7 +1055,7 @@
     {
         "id":"ll2_circe_71",
         "message":"You will not stay long. Men rarely do.",
-        "switchToNPC":"ll2_circe",
+        "switchToNPC":"circe",
         "replies":[
             {
                 "text":"Right, we'll leave soon.",
@@ -1297,7 +1297,7 @@
     {
         "id":"ll2_circe_94",
         "message":"You can not avoid Scylla. Chabybdis or the cyclops are your choice.",
-        "switchToNPC":"ll2_circe",
+        "switchToNPC":"circe",
         "replies":[
             {
                 "text":"N",
