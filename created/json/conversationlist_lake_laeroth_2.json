@@ -4802,6 +4802,12 @@
                         "requireType":"questProgress",
                         "requireID":"lake_map",
                         "value":58
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":59,
+						"negate":true
                     }
                 ]
             }
@@ -4823,6 +4829,10 @@
                 "value":59
             }
         ]
+    },
+    {
+        "id":"polyphem_59_20",
+        "message":"I'd better not go into the cave. No sheep will save me again."
     },
     {
         "id":"polyphem_100",

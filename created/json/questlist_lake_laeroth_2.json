@@ -101,7 +101,11 @@
 			},
 			{
 				"progress":70,
-				"logText":"Charybdis"
+				"logText":"We were swept into the abyss with the ship"
+			},
+			{
+				"progress":78,
+				"logText":"At last we resurfaced again."
 			},
 			{
 				"progress":900,
@@ -168,6 +172,10 @@
 				"progress":37,
 				"logText":"37=Charybdis aktiv"
 			},
+            {
+                "progress":40,
+                "logText":"40=Cyclops roast mentioned"
+            },
 			{
 				"progress":100,
 				"logText":"100=Leofric not needed anymore"
