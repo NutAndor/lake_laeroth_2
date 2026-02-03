@@ -2491,7 +2491,7 @@
     },
     {
         "id":"ll2_mapmaker_94",
-        "message":"You explained how you got by the sirens.",
+        "message":"You explained how you passed by the sirens.",
 		"switchToNPC":"none",
         "replies":[
             {
@@ -2520,7 +2520,7 @@
     },
     {
         "id":"ll2_mapmaker_95a",
-        "message":"And finally, you raved about the gloomy land beneath the sea.",
+        "message":"And finally, you raved about the gloomy land beneath the sea. What it was like to be swept into the abyss with the ship, and then to resurface again.",
 		"switchToNPC":"none",
         "replies":[
             {

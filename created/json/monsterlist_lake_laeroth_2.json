@@ -24,6 +24,13 @@
         "phraseID":"ll2_captain"
     },
     {
+        "id":"ll2_captain_0",
+        "name":"Captain Burry",
+        "iconID":"monsters_karvis2:2",
+        "monsterClass":"humanoid",
+        "spawnGroup":"ll2_captain_0"
+    },
+    {
         "id":"ll2_cyclops1",
         "name":"Polyasem",
         "iconID":"monsters_ld1:37",
@@ -153,5 +160,45 @@
         "monsterClass":"humanoid",
         "spawnGroup":"ll2_whirl_return",
         "phraseID":"ll2_whirl_return"
+    },
+    {
+        "id":"ll2_fish1",
+        "name":"Fish",
+        "iconID":"monsters_nut:18",
+        "monsterClass":"animal",
+        "horizontalFlipChance":50,
+        "spawnGroup":"ll2_sealife"
+    },
+    {
+        "id":"ll2_watersnake1",
+        "name":"Watersnake",
+        "iconID":"monsters_nut:17",
+        "monsterClass":"animal",
+        "horizontalFlipChance":50,
+        "spawnGroup":"ll2_sealife"
+    },
+    {
+        "id":"ll2_turtle1",
+        "name":"Turtle",
+        "iconID":"monsters_nut:7",
+        "monsterClass":"animal",
+        "horizontalFlipChance":50,
+        "spawnGroup":"ll2_sealife"
+    },
+    {
+        "id":"ll2_jelly1",
+        "name":"Jellyfisch",
+        "iconID":"monsters_nut:33",
+        "monsterClass":"animal",
+        "horizontalFlipChance":50,
+        "spawnGroup":"ll2_sealife"
+    },
+    {
+        "id":"ll2_squid1",
+        "name":"Squid",
+        "iconID":"monsters_nut:2",
+        "monsterClass":"animal",
+        "horizontalFlipChance":50,
+        "spawnGroup":"ll2_sealife"
     }
 ]

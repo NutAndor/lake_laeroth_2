@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="22" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="17">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="22" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="19">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -238,12 +238,18 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object name="ll2_maps_19" type="script" x="0" y="384" width="512" height="32"/>
+  <object id="17" name="ll2_maps_19" type="script" x="0" y="384" width="512" height="32"/>
  </objectgroup>
  <objectgroup id="11" name="Spawn">
   <object id="14" name="kalypso" type="spawn" x="160" y="384" width="160" height="192">
    <properties>
     <property name="spawngroup" value="kalypso"/>
+   </properties>
+  </object>
+  <object id="18" name="ll2_sealife" type="spawn" x="352" y="64" width="288" height="512">
+   <properties>
+    <property name="quantity" value="15"/>
+    <property name="spawngroup" value="ll2_sealife"/>
    </properties>
   </object>
  </objectgroup>
