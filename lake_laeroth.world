@@ -218,24 +218,10 @@
             "y": 2368
         },
         {
-            "fileName": "created/maps/mountainlake23.tmx",
-            "height": 192,
-            "width": 640,
-            "x": 2976,
-            "y": 640
-        },
-        {
             "fileName": "created/maps/mountainlake22.tmx",
             "height": 480,
             "width": 576,
             "x": 2976,
-            "y": 192
-        },
-        {
-            "fileName": "created/maps/mountainlake24.tmx",
-            "height": 480,
-            "width": 576,
-            "x": 3648,
             "y": 192
         },
         {
@@ -282,10 +268,10 @@
         },
         {
             "fileName": "created/maps/mountainlake32.tmx",
-            "height": 352,
-            "width": 224,
+            "height": 416,
+            "width": 480,
             "x": 3648,
-            "y": 2432
+            "y": 2304
         },
         {
             "fileName": "created/maps/mountainlake33.tmx",

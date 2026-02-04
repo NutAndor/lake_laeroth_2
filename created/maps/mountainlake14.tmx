@@ -183,6 +183,9 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7609" name="map_boats_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_boats_2.png" width="512" height="256"/>
+ </tileset>
  <layer id="9" name="Base" width="29" height="18">
   <data encoding="base64" compression="zlib">
    eJx7wcnA8GIUj+JRPIrphC9hwfS0a9RO2ts/EGmJXnaORAwAtoropA==
@@ -195,7 +198,7 @@
  </layer>
  <layer id="2" name="Objects" width="29" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFwx3UCzMwNAgPtCtGwShAgJ+CtDE3mJ2BIYSdsDpBKuaHyUD7pgBxBCME0wPA7EQGXEKY6tiwiI2CUUAqAACzvAZZ
+   eJxjYBgFwx3UCzMwNAgPtCtGwUgDe2UZGPbJYpf7KUgbO88C7TuHw05kIEjF/HAXaN89II5ghGB6gLdA+96h+ZNLCFMdGxaxUTAKSAUANi8Kzg==
   </data>
  </layer>
  <layer id="11" name="Objects_0" width="29" height="18" visible="0">
@@ -203,7 +206,7 @@
    eJxjYBgFo2AUjIJRQCmIYBxoF4yCUUAbAAAGsgBa
   </data>
  </layer>
- <layer id="12" name="Objects_1" width="29" height="18" visible="0">
+ <layer id="12" name="Objects_1" width="29" height="18">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjILhAYLZGRhC2Olr52SgfVOAOIKR/naOglFADwAAzFgDeQ==
   </data>
@@ -213,9 +216,9 @@
    eJxjYKAveMFJZwtHwSgYBaNgFIwCKoGfggNn90DUnyA7Ab7wA94=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="29" height="18">
+ <layer id="4" name="Walkable" width="29" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYKAvuChGZwtHATjMR8N9FCADWJrAhmlpHzKfVnYQ4xdq2T8QeYtecUasGwbK7oGyd6D8PlB+BgEAKT8iSw==
+   eJxjYKAvuChGZwtHATjMR8N9FCADWJrAhmlpHzKflvYQ8gs17R+IvEWPOCPW/oGye6DsHSi/D5SfQQAASwEflg==
   </data>
  </layer>
  <layer id="13" name="Walkable_0" width="29" height="18" visible="0">
@@ -223,9 +226,9 @@
    eJxjYBgFo2AUjILhBS6Kjdo5CkYBtQAAxdsCtg==
   </data>
  </layer>
- <layer id="14" name="Walkable_1" width="29" height="18">
+ <layer id="14" name="Walkable_1" width="29" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIKhDy6KoWJ62klPMBD+HAUjGwAAE1YJBw==
+   eJxjYBgFo2AUjILhAS6KITA97aQ3GAh/joKRCwA1GAZS
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -293,7 +296,7 @@
   </object>
  </objectgroup>
  <objectgroup id="10" name="Replace">
-  <object id="12" name="boat" type="replace" x="544" y="320" width="128" height="96">
+  <object id="12" name="boat" type="replace" x="576" y="288" width="96" height="128">
    <properties>
     <property name="Objects" value="Objects_1"/>
     <property name="Walkable" value="Walkable_1"/>
@@ -302,7 +305,7 @@
     <property name="requireValue" value="12"/>
    </properties>
   </object>
-  <object id="16" name="noboat" type="replace" x="544" y="320" width="128" height="96">
+  <object id="16" name="noboat" type="replace" x="576" y="288" width="96" height="128">
    <properties>
     <property name="Objects" value="Objects_0"/>
     <property name="Walkable" value="Walkable_0"/>

@@ -183,6 +183,9 @@
  <tileset firstgid="7609" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7737" name="map_boats_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_boats_2.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Base" width="28" height="20">
   <data encoding="base64" compression="zlib">
    eJx7wcnA8GIUj2I64otomFbmEsL0socSOymxayDsI8VOatg1at/AxR8ue0lxG7XyPiXuGsVDFwMAi2gCMQ==
@@ -195,7 +198,7 @@
  </layer>
  <layer id="2" name="Objects" width="28" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2B4AU4pBgYuKQQ/goP2diHbmQG177EMA8MTIP7FhmCTC7iFUPlsUH6bEMS+FCD9GWj+FyDmYkewyfE7Nj8hA5B9pkjuCYeyW4QQfifXTmz8UqCZYVAcDsTpQHtCofwyIu2LYEQyGy0ssfmTB00NLnWkAjYs5iIDDiR5dHcSC2DulCfCnyAQKECePcSYPQpGAS0BAHLaFmY=
+   eJxjYBgFo2B4AU4pBgYuKQQ/goP2diHbmQG177EMA8MTIP7FhmCTC7iFUPlsUH6bEMS+FCD9GWj+FyDmYkew8fndVo6BwU6OOD8hA5B9pkjuCYeyW4QQfscGfIF2+WGxD9lObPxSoJlhUBwOxOlAe0Kh/DI89sUC7YqD2hfBiGQ2Wlhi8ycPmhpc6pBBLtCuPBz+gwE2LOYiAw4keXR3Egtg7pQnwp8gEChAnj3EmD0KRgEtAQD6jBoC
   </data>
  </layer>
  <layer id="2" name="Objects_0" width="28" height="20" visible="0">
@@ -205,7 +208,7 @@
  </layer>
  <layer id="3" name="Objects_1" width="28" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjALag2B2BoYQdvrZNxlo15RhbN8oGAUjHQAA75MDIA==
+   eJxjYBgFo2AUjERgK8fAYCdHP/t8gXb50dG+WKBdcXS0LxdoVx4d7RsFo2CkAwCQcgOd
   </data>
  </layer>
  <layer id="3" name="Above" width="28" height="20">
@@ -290,7 +293,7 @@
  </objectgroup>
  <objectgroup id="8" name="Keys"/>
  <objectgroup id="1" name="Replace">
-  <object id="4" name="boat" type="replace" x="96" y="320" width="96" height="96">
+  <object id="4" name="boat" type="replace" x="96" y="288" width="96" height="128">
    <properties>
     <property name="Objects" value="Objects_1"/>
     <property name="Walkable" value="Walkable_1"/>
@@ -299,7 +302,7 @@
     <property name="requireValue" value="13"/>
    </properties>
   </object>
-  <object id="5" name="noboat" type="replace" x="96" y="320" width="96" height="96">
+  <object id="5" name="noboat" type="replace" x="96" y="288" width="96" height="128">
    <properties>
     <property name="Objects" value="Objects_0"/>
     <property name="Walkable" value="Walkable_0"/>

@@ -187,7 +187,10 @@
   <image source="../drawable/map_boats_1.png" width="512" height="288"/>
  </tileset>
  <tileset firstgid="7753" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../../../AndorsTrailRelease/andors-trail/AndorsTrail/res/drawable/map_guynmart.png" width="512" height="256"/>
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7881" name="map_boats_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_boats_2.png" width="512" height="256"/>
  </tileset>
  <layer id="1" name="Ground" width="7" height="13">
   <data encoding="base64" compression="zlib">
@@ -196,7 +199,7 @@
  </layer>
  <layer id="2" name="Objects" width="7" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYBg5IJidgSGEHcI2EGZgiGBE4MlA8Sns2PUtBoovgcrpCqPK/RPCzucQxhQDACKiCBk=
+   eJxjYBhe4LQcA8MZOexyt4Hid6ByBsIMDBGMCPwaKP4Gh77fQPE/UDldYVS5f0LY+RzCmGIAaRoM5g==
   </data>
  </layer>
  <layer id="9" name="Objects_0" width="7" height="13" visible="0">
@@ -206,7 +209,7 @@
  </layer>
  <layer id="12" name="Objects_1" width="7" height="13" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBg5IJidgSGEHVM8gpGBYTJQfAoWORBYDBRfgkOOFAAAUhADmQ==
+   eJxjYBhe4LQcA8MZOexyt4Hid7DIRTAyMLwGir/Boe83UPwPDjlSAACYiAhm
   </data>
  </layer>
  <layer id="3" name="Above" width="7" height="13">
@@ -226,7 +229,7 @@
  </layer>
  <layer id="11" name="Walkable_1" width="7" height="13" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgZIFAMFeNTQ6o+YgEAh7MEBw==
+   eJxjYBgZIFAMgfGpIUcfsQAAGOkC0g==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -254,7 +257,7 @@
  </objectgroup>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace">
-  <object id="6" name="boat" type="replace" x="64" y="256" width="128" height="96">
+  <object id="6" name="boat" type="replace" x="64" y="224" width="96" height="128">
    <properties>
     <property name="Objects" value="objects_1"/>
     <property name="Walkable" value="Walkable_1"/>
@@ -263,7 +266,7 @@
     <property name="requireValue" value="11"/>
    </properties>
   </object>
-  <object id="7" name="noboat" type="replace" x="64" y="256" width="128" height="96">
+  <object id="7" name="noboat" type="replace" x="64" y="224" width="96" height="128">
    <properties>
     <property name="Objects" value="objects_0"/>
     <property name="Walkable" value="Walkable_0"/>

@@ -186,6 +186,9 @@
  <tileset firstgid="7737" name="map_entrance_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../../altered/drawable/map_entrance_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7865" name="map_boats_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../../../../../AndorsTrailRelease/andors-trail/AndorsTrail/res/drawable/map_boats_2.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Base" width="20" height="11">
   <data encoding="base64" compression="zlib">
    eJx7wcnA8GKI4z1M1DPnHBLew0S+2WehZlzkRJgDYsPMJtW8c0j6QTQy+zyQ/kyCmWeh+s4imQXD56HuO0+CeTB33AfSD9DwQ6h5xLoP2X8fgexPUAwCn6DmnIOaS4pZMMzCjIqJDT9sYYUL4ws7AF+vw1M=
@@ -198,12 +201,12 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="11">
   <data encoding="base64" compression="zlib">
-   eJx7IsSAAr7JQjC1ALXNG2rASoKBgQcaxjYS5JuBTMPAG0nsZlrLAcXlyLMLBNiA7pURQ/CrgWbV4DAP3U3o5sAAsju7gWb1YDEP2Sw2IUx5GAD5mxDA5y5yAcxN6PaDxHnwuBcZAADfKw9Z
+   eJx7IsSAAr7JQjC1ALXNG2rASoKBgQcaxjYS2NXslmNg2COH3wxkGgbeSGI38zTQrDN4zCME2IDulRFD8G8DzbqDwzx0N6GbAwPI7nwNNOsNFvOQzWITwpSHAZC/CQF87iIXwNyEbj9InAePe5EBAKA0E6w=
   </data>
  </layer>
  <layer id="5" name="Objects_1" width="20" height="11" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFww1YyzEw2MhRz7xqoFk1VDSvG2hWDxXNG0oAAPhdAzo=
+   eJxjYBgFAw12yzEw7JGjnnmngWadoaJ5t4Fm3aGiea+BZr2honlDCQAAuWYHjQ==
   </data>
  </layer>
  <layer id="6" name="Objects_0" width="20" height="11" visible="0">
@@ -223,12 +226,12 @@
  </layer>
  <layer id="4" name="Walkable" width="20" height="11">
   <data encoding="base64" compression="zlib">
-   eJy7KMZAN3BRDBNTag4+80kxj1g7SVWHy02kmEfIbGz24AsfbGbjEyPGLYTMw+c+XGGBSx2hOCYkjm4mMW4gxnx8bocBABlUQeA=
+   eJy7KMZAN3BRDBNTag4+80kxj1g7SVWHy02kmEfIbGz2YDMbm3589uETxxX+uPThcx8h95LiR2L8gG4mMW4gxnx8bocBANQ3QBI=
   </data>
  </layer>
  <layer id="3" name="Walkable_1" width="20" height="11" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFwwlcFEPF1DaXWuZQ231DBQAAnb0JBw==
+   eJxjYBgFwwlcFENgaptLLXNo4b6hAgAwvgZS
   </data>
  </layer>
  <layer id="4" name="Walkable_0" width="20" height="11" visible="0">
@@ -305,7 +308,7 @@
   </object>
  </objectgroup>
  <objectgroup id="1" name="Replace">
-  <object id="6" name="boat" type="replace" x="512" y="160" width="128" height="96">
+  <object id="6" name="boat" type="replace" x="512" y="128" width="96" height="128">
    <properties>
     <property name="Objects" value="Objects_1"/>
     <property name="Walkable" value="Walkable_1"/>
@@ -314,7 +317,7 @@
     <property name="requireValue" value="14"/>
    </properties>
   </object>
-  <object id="7" name="noboat" type="replace" x="512" y="160" width="128" height="96">
+  <object id="7" name="noboat" type="replace" x="512" y="128" width="96" height="128">
    <properties>
     <property name="Objects" value="Objects_0"/>
     <property name="Walkable" value="Walkable_0"/>
