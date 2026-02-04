@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="15" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="4">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="4">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
@@ -183,51 +183,39 @@
  <tileset firstgid="7609" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Base" width="15" height="14">
+ <layer id="1" name="Base" width="15" height="10">
   <data encoding="base64" compression="zlib">
-   eJx7wcnA8GIE4gXMEDyU9I7iwYsBKWzD3w==
+   eJx7wcnA8GIE4gXMEDyU9A4lDACKXotj
   </data>
  </layer>
- <layer id="9" name="Ground" width="15" height="14">
+ <layer id="9" name="Ground" width="15" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYECAXmYGhj4ormVmIBr0IqndDGQfI1Ivur6jQHyDSL3zoeoWQvVdJ9HOBcwQO4nVh2wnzK0LSdC7Eah2E1QfzAxiwWGg2iPMEDNIdfNVoNprzBCaFH2jgDQAANCMGbU=
+   eJxjYECAXmYGhj4ormVmIBr0IqndDGQfI1Ivur6jQHyDSL3zoeoWQvVdJ9HOBcwQO4nVh2wnzK0LSdC7Eah2E1QfzAxiwWGg2iPMEDNIdfNVoNprzBCaFH2UAgC1dBm1
   </data>
  </layer>
- <layer id="2" name="Objects" width="15" height="14">
+ <layer id="2" name="Objects" width="15" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFfcwQTCpYwAzBm0nUC9NHDqCGvn4y3EsuIDVskMFRCvRep0AvuSBQkP52UgoocTMAEckJ/A==
+   eJxjYEAFfcwQTCpYwAzBm0nUC9NHDqCGvn4y3EsuIDVskMFRCvRep0AvuQAA+f0JOA==
   </data>
  </layer>
- <layer id="3" name="Above" width="15" height="14">
+ <layer id="3" name="Above" width="15" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKAN+CxGnh4Q/kSiXpCex2ToA4HHUL2kApg7SdWL7D9S9SKrJ9WvMPXkhNEoIAwAQLkTRQ==
+   eJxjYKAN+CxGnh4Q/kSiXpCex2ToA4HHUL2kApg7SdWL7D9S9SKrJ9WvMPXkhBE5AAAu+xNF
   </data>
  </layer>
- <layer id="4" name="Walkable" width="15" height="14">
+ <layer id="4" name="Walkable" width="15" height="10">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcBGKYeAiFjF0gEsNMXph6nDpo6VebOaQogfZPlL0oruPFLdi00eOveSEDzn6YHqHGiDXzSB9AAuALDg=
+   eJy7KMbAcBGKYeAiFjF0gEsNMXph6nDpo6VebOaQogfZPlL0oruPFLdi00eOveSED7n6AA/QKmo=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="10" name="east" type="mapchange" x="448" y="32" width="32" height="384">
+  <object id="10" name="east" type="mapchange" x="448" y="32" width="32" height="256">
    <properties>
     <property name="map" value="mountainlake27"/>
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="1" name="south" type="mapchange" x="32" y="416" width="416" height="32">
-   <properties>
-    <property name="map" value="mountainlake32"/>
-    <property name="place" value="north"/>
-   </properties>
-  </object>
-  <object id="3" name="west" type="mapchange" x="0" y="352" width="32" height="64">
-   <properties>
-    <property name="map" value="mountainlake33"/>
-    <property name="place" value="east1"/>
-   </properties>
-  </object>
-  <object id="2" name="ll2_maps_30" type="script" x="416" y="0" width="32" height="448"/>
+  <object id="2" name="ll2_maps_30" type="script" x="416" y="0" width="32" height="320"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn"/>
  <objectgroup id="8" name="Keys"/>

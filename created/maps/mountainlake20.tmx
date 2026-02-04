@@ -227,7 +227,7 @@
  <objectgroup id="6" name="Spawn" visible="0">
   <object id="15" name="ll2_sealife" type="spawn" x="64" y="64" width="288" height="416">
    <properties>
-    <property name="quantity" value="8"/>
+    <property name="quantity" value="6"/>
     <property name="spawngroup" value="ll2_sealife"/>
    </properties>
   </object>

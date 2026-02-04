@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="32" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="10">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="32" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="11">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -256,6 +256,12 @@
   <object id="4" name="remgard_bridge" type="spawn" x="448" y="416" width="32" height="32">
    <properties>
     <property name="spawngroup" value="remgard_bridge"/>
+   </properties>
+  </object>
+  <object id="10" name="ll2_sealife" type="spawn" x="736" y="64" width="224" height="672">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="ll2_sealife"/>
    </properties>
   </object>
  </objectgroup>

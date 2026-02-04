@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="13">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="14">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -193,7 +193,7 @@
  </layer>
  <layer id="2" name="Objects" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJzdVLFOAzEMtToEmg6Qq3TpnWAAZkBMiM9D7P1JhjJU6kgLA9iXs+JauSZhxJKVS+Lze/ZLAlBvmxbgow3ftgH4dAA79EN3vFdjxgOcC1/4mGePuec9YvVh/AuGGXN+4X8rH73z+RpLuXN+yrnFXhjszcGFmG+cL/owUh20V4qhuac4c17qD+HU1kFxzF3zleNO1DPUobTK1cBxuh/MW6+T9ppbKrfuv+Z9j/1+aI7xbEWfNmJP59f8aU66k8Y/LtyRWoxUPl6n+etljN27dI+nMGruztuIQ3fcqB6nTHJgXiUY713kdyp/KubWYp+vAF5mAMuzsEZzORLGY1N+XgnDYtzcR/0urgGeEeMOMdazMCds+h5qFzrnaiBr6RwJPcz4lkrjnGxSh1IdZS3DO+3ifWCNtmP/bTOt880yX4tV7/iUT52jpxMYjLOq8JwG/81+AaiYdaU=
+   eJzVVLFOwzAQPXUw1B3AQYqbCBaYgRHxeYidn2Roh0odaWGAuzgnX08O8bFxkuXYubz37l1sAHtsWoBtm559A/ARAPY4jt3pO0u4CHAuxipmnANiL3vk6tP8Fw43Yn7id+uYRxfna6zVzviEuUMvHHpzDCnnC9erPs1UB72r5dDaS5oZl/whHmsdlMfatV4570U9Qx2qV3M1cJ72g3Xrfeq91lbC1v5r3ffo90NzyucNPm3EO42v9dOa+k49/g7pjFg5Sni8T+uXy5x7CGWPpzgsZ+d15KEz7pTHpZAaWFcNx3uX9f2GX8q59ejzNcDzAuDqLO3RWs7E8djU/6/E4TFvGXP/Lm4AnpDjDjneFmlN3PQ81C76PFcDRUv/keiHG+9SGYzJIftQ20dZy3BPh3weuEe70X/f1PV5qhav7vGpYcWXPGvDsOL/9/gB/l91LQ==
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="20">
@@ -203,7 +203,7 @@
  </layer>
  <layer id="4" name="Walkable" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJytk1EKwDAIQ3uK3v9Ku9Hox2CMGJNMYRTamKeuXYvHtfGn6pA2YST+SS0o36n9vf9dK53KSOpQ8t15u30wvevf3b3UnzFQjuqdMtzakRfb/8NRzpK+FP/nPJ3dBKNispoqBvuPXSQMNo/Ov2O4vaT3evKtTHLccHIU7dHcNfrhlw==
+   eJy1k1kKwCAMRD1F73+l3qj0QxDJ8mZsBSnE2RLtGPW6r3hTXIR1PBx9J0vEV7Kv9f2b4aiHk4Pw1XmrfVR4Vb97e65+5RFxqLbroWaPtKr6iQ85c/oi+vPcnV03I+KRedIZ0QzdIvzuPtZ6xqUeai8qz/lHTnP95TF9vsS+mAdoB9l4
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -274,5 +274,14 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys"/>
+ <objectgroup id="8" name="Keys">
+  <object id="13" name="dummy_key" type="key" x="576" y="352" width="96" height="192">
+   <properties>
+    <property name="phrase" value="dummy_key"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

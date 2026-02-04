@@ -212,7 +212,7 @@
   <object id="10" name="east" type="mapchange" x="512" y="0" width="32" height="224">
    <properties>
     <property name="map" value="mountainlake33"/>
-    <property name="place" value="west"/>
+    <property name="place" value="west1"/>
    </properties>
   </object>
   <object id="14" name="south1" type="mapchange" x="0" y="224" width="192" height="32">

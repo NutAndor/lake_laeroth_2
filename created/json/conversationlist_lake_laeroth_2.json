@@ -3906,6 +3906,7 @@
     },
     {
         "id":"ll2_whirl_return_to_31",
+		"message":"The ship has made it back up again!",
         "rewards":[
             {
                 "rewardType":"mapchange",
@@ -3916,6 +3917,7 @@
     },
     {
         "id":"ll2_whirl_return_to_33",
+		"message":"The ship has made it back up again!",
         "rewards":[
             {
                 "rewardType":"mapchange",
@@ -3926,6 +3928,7 @@
     },
     {
         "id":"ll2_whirl_return_to_34",
+		"message":"The ship has made it back up again!",
         "rewards":[
             {
                 "rewardType":"mapchange",
@@ -3936,6 +3939,7 @@
     },
     {
         "id":"ll2_whirl_return_to_35",
+		"message":"The ship has made it back up again!",
         "rewards":[
             {
                 "rewardType":"mapchange",
@@ -3946,6 +3950,7 @@
     },
     {
         "id":"ll2_whirl_return_to_36",
+		"message":"The ship has made it back up again!",
         "rewards":[
             {
                 "rewardType":"mapchange",
@@ -3956,6 +3961,7 @@
     },
     {
         "id":"ll2_whirl_return_to_37",
+		"message":"The ship has made it back up again!",
         "rewards":[
             {
                 "rewardType":"mapchange",
@@ -4157,7 +4163,7 @@
     },
     {
         "id":"ll2_sirene_10",
-        "message":"We sing not to trap you, Odysseus, but to show you what you have been running from.",
+        "message":"We sing not to trap you, $playername, but to show you what you have been running from.",
         "switchToNPC":"sirene3"
     },
     {
@@ -4810,6 +4816,21 @@
 						"negate":true
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"polyphem_59_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":59
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":40
+                    }
+                ]
             }
         ]
     },
@@ -5222,6 +5243,17 @@
                 "rewardType":"questProgress",
                 "rewardID":"lake_map",
                 "value":55
+            }
+        ]
+    },
+    {
+        "id":"scylla",
+        "message":"Haps.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":60
             }
         ]
     }
