@@ -238,6 +238,12 @@
     <property name="spawngroup" value="ll2_whirl"/>
    </properties>
   </object>
+  <object name="ll2_sealife" type="spawn" x="0" y="64" width="192" height="192">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="ll2_sealife"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="8" name="Keys"/>
  <objectgroup id="1" name="Replace"/>

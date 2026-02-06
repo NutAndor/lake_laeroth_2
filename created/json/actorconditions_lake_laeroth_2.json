@@ -24,5 +24,19 @@
             "increaseBlockChance":20,
             "increaseDamageResistance":20
         }
+    },
+    {
+        "id":"scylla",
+        "iconID":"actorconditions_1:83",
+        "name":"Scylla's bite",
+        "category":"physical",
+		"isStacking":1,
+        "roundEffect":{
+            "visualEffectID":"blueSwirl",
+            "increaseCurrentHP":{
+                "min":-10,
+                "max":-5
+            }
+        }
     }
 ]

@@ -184,10 +184,10 @@
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7737" name="map_entrance_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/drawable/map_entrance_2.png" width="512" height="256"/>
+  <image source="../drawable/map_entrance_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7865" name="map_boats_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../../../AndorsTrailRelease/andors-trail/AndorsTrail/res/drawable/map_boats_2.png" width="512" height="256"/>
+  <image source="../drawable/map_boats_2.png" width="512" height="256"/>
  </tileset>
  <layer id="1" name="Base" width="20" height="11">
   <data encoding="base64" compression="zlib">
@@ -201,12 +201,12 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="11">
   <data encoding="base64" compression="zlib">
-   eJx7IsSAAr7JQjC1ALXNG2rASoKBgQcaxjYS2NXslmNg2COH3wxkGgbeSGI38zTQrDN4zCME2IDulRFD8G8DzbqDwzx0N6GbAwPI7nwNNOsNFvOQzWITwpSHAZC/CQF87iIXwNyEbj9InAePe5EBAKA0E6w=
+   eJx7IsSAAr7JQjC1ALXNG2rASoKBgQcaxjYS2NXslGNg2CWH3wxkGgbeSGI38yTQrFN4zCME2IDulRFD8G8CzbqFwzx0N6GbAwPI7nwJNOsVFvOQzWITwpSHAZC/CQF87iIXwNyEbj9InAePe5EBAIkUE5w=
   </data>
  </layer>
- <layer id="5" name="Objects_1" width="20" height="11" visible="0">
+ <layer id="5" name="Objects_1" width="20" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFAw12yzEw7JGjnnmngWadoaJ5t4Fm3aGiea+BZr2honlDCQAAuWYHjQ==
+   eJxjYBgFAw12yjEw7JKjnnkngWadoqJ5N4Fm3aKieS+BZr2ionlDCQAAokYHfQ==
   </data>
  </layer>
  <layer id="6" name="Objects_0" width="20" height="11" visible="0">
@@ -216,7 +216,7 @@
  </layer>
  <layer id="3" name="Above" width="20" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF9AJ3JGln9mcxCKaWWdQEMH9TYu4nJgT7sRgqTaz9OM2Ght0nKvobl9sA1GMN/A==
+   eJxjYBgF9AJ3JGln9mcxCKaWWdQEMH9TYu4nJgT7sRgqTaz9OM2Ghh2x5hEDQGZ9wmIeAOMRDvU=
   </data>
  </layer>
  <layer id="2" name="Top" width="20" height="11">

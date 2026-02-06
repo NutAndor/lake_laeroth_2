@@ -192,6 +192,9 @@
  <tileset firstgid="7881" name="map_boats_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_boats_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="8009" name="map_boats_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_boats_2.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="7" height="13">
   <data encoding="base64" compression="zlib">
    eJwLkGVgCBjFdMEA0fomwA==
@@ -199,7 +202,7 @@
  </layer>
  <layer id="2" name="Objects" width="7" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYBhe4LQcA8MZOexyt4Hid6ByBsIMDBGMCPwaKP4Gh77fQPE/UDldYVS5f0LY+RzCmGIAaRoM5g==
+   eJxjYBhewFOegcFLHrtcJFA8CipnIMzAEMGIwJlA8Swc+iqB4lVQOV1hVLl/Qtj5HMKYYgCldAje
   </data>
  </layer>
  <layer id="9" name="Objects_0" width="7" height="13" visible="0">
@@ -207,9 +210,9 @@
    eJxjYBgFEYz0sQcAJZMAWg==
   </data>
  </layer>
- <layer id="12" name="Objects_1" width="7" height="13" visible="0">
+ <layer id="12" name="Objects_1" width="7" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYBhe4LQcA8MZOexyt4Hid7DIRTAyMLwGir/Boe83UPwPDjlSAACYiAhm
+   eJxjYBhewFOegcFLHrtcJFA8CotcBCMDQyZQPAuHvkqgeBUOOVIAANTiBF4=
   </data>
  </layer>
  <layer id="3" name="Above" width="7" height="13">

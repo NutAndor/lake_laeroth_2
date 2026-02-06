@@ -186,6 +186,9 @@
  <tileset firstgid="7609" name="map_boats_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_boats_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7737" name="map_boats_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_boats_2.png" width="512" height="256"/>
+ </tileset>
  <layer id="9" name="Base" width="29" height="18">
   <data encoding="base64" compression="zlib">
    eJx7wcnA8GIUj+JRPIrphC9hwfS0a9RO2ts/EGmJXnaORAwAtoropA==
@@ -198,7 +201,7 @@
  </layer>
  <layer id="2" name="Objects" width="29" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFwx3UCzMwNAgPtCtGwUgDe2UZGPbJYpf7KUgbO88C7TuHw05kIEjF/HAXaN89II5ghGB6gLdA+96h+ZNLCFMdGxaxUTAKSAUANi8Kzg==
+   eJxjYBgFwx3UCzMwNAgPtCtGwUgDlnIMDFZy2OV+CtLGTk+gfV447EQGglTMD5FA+6KAOIIRgukBMoH2ZaH5k0sIUx0bFrFRMApIBQB6xAa2
   </data>
  </layer>
  <layer id="11" name="Objects_0" width="29" height="18" visible="0">
@@ -208,7 +211,7 @@
  </layer>
  <layer id="12" name="Objects_1" width="29" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjILhAYLZGRhC2Olr52SgfVOAOIKR/naOglFADwAAzFgDeQ==
+   eJxjYBgFo2AUjALqA0s5BgYrOfra6Qm0z4vOdkYC7YsC4ghG+tmZCbQvi87+HAUjFwAAk2AD1g==
   </data>
  </layer>
  <layer id="3" name="Above" width="29" height="18">

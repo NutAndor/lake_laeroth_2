@@ -2136,7 +2136,7 @@
                 ]
             },
             {
-                "text":"I have found $reg1 new parts for your map.",
+                "text":"I have found all the new parts for your map.",
                 "nextPhraseID":"ll2_mapmaker_90",
                 "requires":[
                     {
@@ -2394,10 +2394,10 @@
     },
     {
         "id":"ll2_mapmaker_90",
-        "message":"Really!!",
+        "message":"Really!! That fast? I am extremely impressed. And delighted!",
         "replies":[
             {
-                "text":"That cruise was fun.",
+                "text":"The cruise was fun.",
                 "nextPhraseID":"ll2_mapmaker_91"
             }
         ]
@@ -2416,13 +2416,24 @@
                 ]
             },
             {
-                "nextPhraseID":"ll2_mapmaker_92"
+                "nextPhraseID":"ll2_mapmaker_91b"
             }
         ]
     },
     {
         "id":"ll2_mapmaker_91a",
-        "message":"You talk of how you nearly got stuck on a paradise island.",
+        "message":"You talk of how you nearly got stuck at Kalypso on a paradise island.",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ll2_mapmaker_91b"
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_91b",
+        "message":"You explained how you passed by the sirens.",
 		"switchToNPC":"none",
         "replies":[
             {
@@ -2451,7 +2462,7 @@
     },
     {
         "id":"ll2_mapmaker_92a",
-        "message":"You talk of the captain turned into a pig.",
+        "message":"You talk of the captain and his crew being turned into pigs.",
 		"switchToNPC":"none",
         "replies":[
             {
@@ -2491,7 +2502,25 @@
     },
     {
         "id":"ll2_mapmaker_94",
-        "message":"You explained how you passed by the sirens.",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_mapmaker_94a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_mapmaker_95"
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_94a",
+        "message":"And how the six headed monster Scylla had attacked your ship.",
 		"switchToNPC":"none",
         "replies":[
             {
@@ -2509,7 +2538,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"lake_map",
-                        "value":70
+                        "value":78
                     }
                 ]
             },
@@ -3843,6 +3872,11 @@
                 "rewardType":"mapchange",
                 "rewardID":"entry",
                 "mapName":"mountainlake_sub"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":70
             }
         ]
     },
@@ -3912,6 +3946,11 @@
                 "rewardType":"mapchange",
                 "rewardID":"whirl",
                 "mapName":"mountainlake31"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":78
             }
         ]
     },
@@ -3923,6 +3962,11 @@
                 "rewardType":"mapchange",
                 "rewardID":"whirl",
                 "mapName":"mountainlake33"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":78
             }
         ]
     },
@@ -3934,6 +3978,11 @@
                 "rewardType":"mapchange",
                 "rewardID":"whirl",
                 "mapName":"mountainlake34"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":78
             }
         ]
     },
@@ -3945,6 +3994,11 @@
                 "rewardType":"mapchange",
                 "rewardID":"whirl",
                 "mapName":"mountainlake35"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":78
             }
         ]
     },
@@ -3956,6 +4010,11 @@
                 "rewardType":"mapchange",
                 "rewardID":"whirl",
                 "mapName":"mountainlake36"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":78
             }
         ]
     },
@@ -3967,6 +4026,11 @@
                 "rewardType":"mapchange",
                 "rewardID":"whirl",
                 "mapName":"mountainlake37"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":78
             }
         ]
     },
@@ -3979,7 +4043,7 @@
                     {
                         "requireType":"factionScore",
                         "requireID":"ll2_maps",
-                        "value":20
+                        "value":22
                     },
                     {
                         "requireType":"questProgress",
@@ -5247,9 +5311,167 @@
         ]
     },
     {
-        "id":"scylla",
-        "message":"Haps.",
+        "id":"ll2_sub_key1",
+        "message":"This device has a green key hole.",
+        "replies":[
+            {
+                "text":"Use Kalypso's key.",
+                "nextPhraseID":"ll2_sub_key1_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ll2_key_kalypso",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Use Circes's key.",
+                "nextPhraseID":"ll2_sub_key_wrong",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ll2_key_circe",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Use Polyphem's key.",
+                "nextPhraseID":"ll2_sub_key_wrong",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ll2_key_polyphem",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ll2_sub_key1_10",
+        "message":"You hear a sharp click and a faint rumbling. The key vanishes.",
         "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":111
+            }
+        ]
+    },
+    {
+        "id":"ll2_sub_key2",
+        "message":"This device has a golden key hole.",
+        "replies":[
+            {
+                "text":"Use Kalypso's key.",
+                "nextPhraseID":"ll2_sub_key_wrong",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ll2_key_kalypso",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Use Circes's key.",
+                "nextPhraseID":"ll2_sub_key2_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ll2_key_circe",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Use Polyphem's key.",
+                "nextPhraseID":"ll2_sub_key_wrong",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ll2_key_polyphem",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ll2_sub_key2_10",
+        "message":"You hear a sharp click and a faint rumbling. The key vanishes.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":112
+            }
+        ]
+    },
+    {
+        "id":"ll2_sub_key3",
+        "message":"This device has a stone grey key hole.",
+        "replies":[
+            {
+                "text":"Use Kalypso's key.",
+                "nextPhraseID":"ll2_sub_key_wrong",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ll2_key_kalypso",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Use Circes's key.",
+                "nextPhraseID":"ll2_sub_key_wrong",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ll2_key_circe",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Use Polyphem's key.",
+                "nextPhraseID":"ll2_sub_key3_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ll2_key_polyphem",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ll2_sub_key3_10",
+        "message":"You hear a sharp click and a faint rumbling. The key vanishes.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":113
+            }
+        ]
+    },
+    {
+        "id":"ll2_sub_key_wrong",
+        "message":"The key vanishes, but nothing else happens."
+    },
+    {
+        "id":"scylla",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"scylla",
+                "value":1
+            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"lake_map",

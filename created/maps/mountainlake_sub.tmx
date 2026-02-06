@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="18">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="30">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -181,7 +181,10 @@
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7481" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/drawable/map_trail_1.png" width="512" height="256"/>
+  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7609" name="map_boats_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_boats_2.png" width="512" height="256"/>
  </tileset>
  <layer id="10" name="Base" width="30" height="30">
   <data encoding="base64" compression="zlib">
@@ -190,12 +193,12 @@
  </layer>
  <layer id="1" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9l0FPg0AQhUmWG+BJ5VTgoF6FRr23Nv5O/13rT6C9uBuZMI5vdpbG8JKX9FDmm+683aVlnmWld7OSS+bWu1/Jm4lZeQ/e+5X87F1M3HfvtbRjXNLo7PlcnF1bPvMlnpHcm8T5xNgoK4NYT8RNmY/GbpWsyDkirqUdY5/dj0MPxEzJyjVcyQ7zW8JM5W6UWsTuDSbKZgqXfpfGRvMjaedRCpev6RJpGdsDbqHklNhFPudIapwyxpnaOiBupXyXzhnKkZSWsdH97RVxUU0SzUueA0FaxhrQK5ovqklMmhdaP5QxnqvB4KKaS/en7FP2E8szzaW6gmk9I7kd+8xzksLkubHuVsndgtkMYA20O4H3HJPkHvK5BsoQrUEj6raiP+uc0farNhvaKz2rizJnnXGIG5sn7RW6h7tIftCdpXFj+xfV3Rr5kXeWxu1YnaN41yK91Fn2qvitxmxr//I881kGE+8R1CY9RPhcWp55n+QYD/Fj7Nj9w3W/gEl6Up4JZ0D4v3Bys/158Pmf3KP7Xf/EMiPfQZAOvsbdAvat/+5HHX8P/wa7FWtm
+   eJy9ls1OwzAQhCM1t6ScgJ6S9gBc0yLgHlrx/m9R+ggtF2zJIw3bWdcRUlbaQ9XYn72zP27rqmqD9zN5S74Ovp3Jm8RcBt8F/5zJm8SMvg8+lzEXdl5U1WWR1+dn4e/prT/Rmk5wmwKtO4cdmV6u7IgxUKxhdwVaD4LNTLWedRwd7i2tR2JfUlyZWZIriqviZ+MKNmpiCrOU26W9FRvrFTOe99txm1eKi5i2Ka7MB1cxc/lZcl/WszXfdynGipnLT8ttnBphPfn7gWoEtevFnU1xl8730JPvN9L+8e59+p+ZOI/Sh3/buPH6df23B7ANokegrnuzr9c3ckwvfqPpEbZ/7W5wvdycUp+qf+0z3I3QpSRPckx1D1sXr+ZMKk88FvIG9eadlec+7EDaWF1UXtr7ReNaVzWp+gAzrS6oEzjmAcc0mu0zlq36wDmjJ+qE53Bfax0tm+Ok5iDqV+mCOuE5vHXOaNm5+uW7lljcd3Mj58Za9xPmduauR/NOgr2tqurd8Y+VHyevfof6+h3EeoL3LPaGPWX4bMwd6+vcYD1zPMXPsXPzh+1xAhP24qzhWYH3x0nU+X+4R/HGQb7YN4iyQ9jjYQL7Pnz7tcq/w38Bl1+Onw==
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2DwgXTBgXbBKBgFo2CwgdFyYRQMRjCaLocOGCxx5cIy0C4YniCYnYEhhJ0+dmUwIvBioJ1L6GQvMqCmvQCORwbD
+   eJxjYBh4ECFIP/ZQAxzCA+0C6gJK44XWcbmEhbbmIwNcfoGJcw/CuBfD4yZ8ckMFDJdyAwQIpS9s4JsQbdxCTYCcR0F+weZmSuOOFnFPy/Q0GOsJerrpNzP5ZTet8zm1y0VK3YucX/CVdwNZ/iHXfTD3DvXyGB24UKmtgS1cBkNY7ZRlYNglSz3ziC1PTgLtPEWBvaTk1wxGBL4JtPMWFf2LDPD5/SXQzldUshcAYyAdww==
   </data>
  </layer>
  <layer id="14" name="Objects_0" width="30" height="30" visible="0">
@@ -205,17 +208,17 @@
  </layer>
  <layer id="13" name="Objects_1" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztzcEJACAMxdDvqQPqEN2rDqo3HaAUCnmQcyQAAAAA6GuatKzm5eMV97mLvr/M7wFMDASb
+   eJztz8ENABAQRNFRyPanRTqgAzqgCntTAOHyXzLnn5EAAAAA4FwyKdv7bvFmfdSNYa95s3/4O7w5L3UXIrEIsA==
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4B48JN51E5agV8DYCctwW8y/YMr7HlYaGc3NeObWLtH0xj5gJywozS8R4qdAwG4Scjb1PIfqeZgcyO5ZRwhADMXnxtJsZsUvxJTRoDUgDA+NwzFdEgr8HKAwsKQhHxFTeA8QPbSEtAqr2MDBgMUfgAzKB9o
+   eJxjYBgFo4ByUMTGwFDCRn97m4B2tgyAvaNg4ACpaY1aaZPUtDaaNgc3GC2zEGA0LDBBqSACj4LBB4ZSmn3JTBu3EAKGLANjr/MA2Bs+jPKpARHhRwv/AgAS/RAX
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="30" visible="0">
+ <layer id="4" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlEEOgDAIBP2ID/H/HzNeDd2dpcSTJBzaCrNC6XUex/X7Z/6VVcwJfSSuw1VsGtPlVuzk+4rrbLIXCdexk3jFTeqa6KPcnbNd7kQfKHeVh7JUPset8ibayHqKW+2n3LTOVIvidu6V06q43TfhHavOCZdwVmvKTe7IBLfK72qQ6FPcztvg9NF5TuYp0ei4xMid63BXemmtlb50fpP/U5b2klp3jpwGyia5Eg2U63qVzs8u8/EbZKuc4w==
+   eJztk0EOgDAIBP2ID/H/HzPeTAPsLKgnm/RUYJaFHvu2Hf/97H51IuZUI8mZcCP2xOM380i/dD7dfYm4Kkax1cn6XflZTcV0va/0kVlR5hN72mWuOYodxdNZu/vsch0O5SpPVM7U54o7nS9hKp2k3yq3y8zelU7FzPxVutZ+IybV7+wf8ZfuyVM+V29uLOEqf7rc+7tiRofEu3PJcmgtpS+qR7ROPOhw6aH6aB13/qqOU7Ozd86fqmpMmdc9AaDjtWk=
   </data>
  </layer>
  <layer id="16" name="Walkable_0" width="30" height="30">
@@ -231,6 +234,12 @@
  <objectgroup id="5" name="Mapevents">
   <object id="9" name="entry" type="mapchange" x="544" y="736" width="32" height="32"/>
   <object id="14" name="ll2_boat_sub" type="script" x="352" y="896" width="32" height="32"/>
+  <object id="24" name="ll2_sub_key3" type="script" x="416" y="608" width="32" height="32"/>
+  <object id="25" name="ll2_sub_key2" type="script" x="448" y="608" width="32" height="32"/>
+  <object id="26" name="ll2_sub_key1" type="script" x="480" y="608" width="32" height="32"/>
+  <object id="27" name="ll2_sub_loot1" type="container" x="512" y="192" width="32" height="32"/>
+  <object id="28" name="container" type="script" x="288" y="448" width="32" height="32"/>
+  <object id="29" name="container" type="script" x="736" y="576" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="11" name="Spawn">
   <object id="17" name="ll2_captain" type="spawn" x="0" y="928" width="32" height="32">
@@ -246,9 +255,9 @@
  </objectgroup>
  <objectgroup id="8" name="Keys"/>
  <objectgroup id="12" name="Replace">
-  <object id="15" name="boat" type="replace" x="320" y="864" width="96" height="96">
+  <object id="15" name="boat" type="replace" x="320" y="832" width="96" height="128">
    <properties>
-    <property name="Objects" value="Objects_1"/>
+    <property name="Above" value="Walkable_1"/>
     <property name="Walkable" value="Walkable_1"/>
     <property name="requireId" value="ll2_nd"/>
     <property name="requireNegation" value="true"/>
@@ -256,13 +265,67 @@
     <property name="requireValue" value="20"/>
    </properties>
   </object>
-  <object id="16" name="noboat" type="replace" x="320" y="864" width="96" height="96">
+  <object id="16" name="noboat" type="replace" x="320" y="832" width="96" height="128">
    <properties>
-    <property name="Objects" value="Objects_0"/>
-    <property name="Walkable" value="Walkable_0"/>
+    <property name="Above" value="Walkable_1"/>
+    <property name="Walkable" value="Walkable_1"/>
     <property name="requireId" value="ll2_nd"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="20"/>
+   </properties>
+  </object>
+  <object id="18" name="door3a_open" type="replace" x="864" y="704" width="64" height="64">
+   <properties>
+    <property name="Above" value="Walkable_1"/>
+    <property name="Walkable" value="Walkable_1"/>
+    <property name="requireId" value="ll2_nd"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="113"/>
+   </properties>
+  </object>
+  <object id="19" name="door3b_open" type="replace" x="864" y="448" width="64" height="64">
+   <properties>
+    <property name="Above" value="Walkable_1"/>
+    <property name="Walkable" value="Walkable_1"/>
+    <property name="requireId" value="ll2_nd"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="113"/>
+   </properties>
+  </object>
+  <object id="20" name="door2a_open" type="replace" x="128" y="544" width="64" height="64">
+   <properties>
+    <property name="Above" value="Walkable_1"/>
+    <property name="Walkable" value="Walkable_1"/>
+    <property name="requireId" value="ll2_nd"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="112"/>
+   </properties>
+  </object>
+  <object id="21" name="door2b_open" type="replace" x="416" y="320" width="64" height="64">
+   <properties>
+    <property name="Above" value="Walkable_1"/>
+    <property name="Walkable" value="Walkable_1"/>
+    <property name="requireId" value="ll2_nd"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="112"/>
+   </properties>
+  </object>
+  <object id="22" name="door1a_open" type="replace" x="832" y="128" width="64" height="64">
+   <properties>
+    <property name="Above" value="Walkable_1"/>
+    <property name="Walkable" value="Walkable_1"/>
+    <property name="requireId" value="ll2_nd"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="111"/>
+   </properties>
+  </object>
+  <object id="23" name="door1b_open" type="replace" x="32" y="320" width="64" height="64">
+   <properties>
+    <property name="Above" value="Walkable_1"/>
+    <property name="Walkable" value="Walkable_1"/>
+    <property name="requireId" value="ll2_nd"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="111"/>
    </properties>
   </object>
  </objectgroup>

@@ -184,7 +184,7 @@
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7737" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/drawable/map_trail_1.png" width="512" height="256"/>
+  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
  <layer id="1" name="Base" width="12" height="10">
   <data encoding="base64" compression="zlib">
@@ -289,7 +289,7 @@
   </object>
  </objectgroup>
  <objectgroup id="2" name="Keys">
-  <object id="7" name="ll2_cyclops_door_closed" type="key" x="128" y="256" width="32" height="64">
+  <object id="7" name="ll2_cyclops_door_closed" type="key" x="128" y="288" width="32" height="32">
    <properties>
     <property name="phrase" value="ll2_cyclops_door_closed"/>
     <property name="requireId" value="ll2_nd"/>

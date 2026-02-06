@@ -146,23 +146,78 @@
         "phraseID":"sirene3"
     },
     {
+        "id":"scylla_1",
+        "name":"Scylla",
+        "iconID":"monsters_ld2:18",
+        "monsterClass":"humanoid",
+        "spawnGroup":"scylla",
+        "phraseID":"scylla"
+    },
+    {
+        "id":"scylla_2",
+        "name":"Scylla",
+        "iconID":"monsters_ld2:19",
+        "monsterClass":"humanoid",
+        "spawnGroup":"scylla"
+    },
+    {
         "id":"ll2_whirl",
         "name":"Charybdis",
-        "iconID":"monsters_rltiles1:3",
-        "monsterClass":"humanoid",
+        "iconID":"monsters_nut:80",
+        "monsterClass":"construct",
         "spawnGroup":"ll2_whirl",
         "phraseID":"ll2_whirl"
     },
     {
         "id":"ll2_whirl_return",
         "name":"Charybdis",
-        "iconID":"monsters_rltiles1:3",
-        "monsterClass":"humanoid",
+        "iconID":"monsters_nut:80",
+        "monsterClass":"construct",
         "spawnGroup":"ll2_whirl_return",
         "phraseID":"ll2_whirl_return"
     },
     {
         "id":"ll2_fish1",
+        "name":"Fish",
+        "iconID":"monsters_nut:18",
+        "monsterClass":"animal",
+        "horizontalFlipChance":50,
+        "spawnGroup":"ll2_sealife"
+    },
+    {
+        "id":"ll2_fish2",
+        "name":"Fish",
+        "iconID":"monsters_nut:18",
+        "monsterClass":"animal",
+        "horizontalFlipChance":50,
+        "spawnGroup":"ll2_sealife"
+    },
+    {
+        "id":"ll2_fish3",
+        "name":"Fish",
+        "iconID":"monsters_nut:18",
+        "monsterClass":"animal",
+        "horizontalFlipChance":50,
+        "spawnGroup":"ll2_sealife"
+    },
+    {
+        "id":"ll2_fish4",
+        "name":"Fish",
+        "iconID":"monsters_nut:18",
+        "monsterClass":"animal",
+        "horizontalFlipChance":50,
+        "spawnGroup":"ll2_sealife"
+    },
+    {
+        "id":"ll2_fish5",
+        "name":"Fish",
+        "iconID":"monsters_nut:18",
+        "monsterClass":"animal",
+        "horizontalFlipChance":50,
+        "spawnGroup":"ll2_sealife"
+    },
+    {
+        "id":"ll2_fish6",
         "name":"Fish",
         "iconID":"monsters_nut:18",
         "monsterClass":"animal",

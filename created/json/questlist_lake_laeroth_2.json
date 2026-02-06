@@ -97,7 +97,7 @@
             },
 			{
 				"progress":60,
-				"logText":"Scylla"
+				"logText":"Scylla, the six headed monster, had attacked our ship."
 			},
 			{
 				"progress":70,
@@ -109,11 +109,11 @@
 			},
 			{
 				"progress":900,
-				"logText":"Map complete"
+				"logText":"Looks like we had got the map of the great Lake Laeroth complete."
 			},
 			{
 				"progress":910,
-				"logText":"Quest end",
+				"logText":"Thorype Splathershed is happy to have the map complete now. He seemed to doubt my story though, but he allowed me to use the ship for my leisure.",
                 "rewardExperience":5000,
                 "finishesQuest":1
 			}
@@ -187,6 +187,18 @@
 			{
 				"progress":110,
 				"logText":"110=Polyphem door closed"
+			},
+			{
+				"progress":111,
+				"logText":"111=Door 1 open"
+			},
+			{
+				"progress":112,
+				"logText":"112=Door 2 open"
+			},
+			{
+				"progress":113,
+				"logText":"113=Door 3 open"
 			}
 		]
     },
