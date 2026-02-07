@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="30">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="18" nextobjectid="41">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -198,7 +198,7 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBh4ECFIP/ZQAxzCA+0C6gJK44XWcbmEhbbmIwNcfoGJcw/CuBfD4yZ8ckMFDJdyAwQIpS9s4JsQbdxCTYCcR0F+weZmSuOOFnFPy/Q0GOsJerrpNzP5ZTet8zm1y0VK3YucX/CVdwNZ/iHXfTD3DvXyGB24UKmtgS1cBkNY7ZRlYNglSz3ziC1PTgLtPEWBvaTk1wxGBL4JtPMWFf2LDPD5/SXQzldUshcAYyAdww==
+   eJxjYBh4ECFIP/ZQAxzCA+0C6gJi4mW7OAPDDiDeKY5fP7XBcaB951gZGE5isZcWAJdfYOLcgzDuxfC4CZ/cUAGDvdyIkiVeLaH0hQ18EyLObHx5lJYAPY+C/ILNzZTGHS3inpbpabDUE8jpgp5uoqTspnU+p3a5SKl7kfMLvvJuIMs/5LoP5t7BWB5TAlxYqGMOtnAZDGG1E1hX7SKhviIEiC1PTgLtPEWBvaTk1wxGBL4JtPMWFf2LDPD5/SXQzldUshcA58oqPg==
   </data>
  </layer>
  <layer id="14" name="Objects_0" width="30" height="30" visible="0">
@@ -213,15 +213,20 @@
  </layer>
  <layer id="3" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4ByUMTGwFDCRn97m4B2tgyAvaNg4ACpaY1aaZPUtDaaNgc3GC2zEGA0LDBBqSACj4LBB4ZSmn3JTBu3EAKGLANjr/MA2Bs+jPKpARHhRwv/AgAS/RAX
+   eJxjYBgFo4ByUMTGwFDCRn97m4B2tlDZ3p/M1DVvFFAXDJW0Rgt3/iYibdIiTww2QI08OlTSET3AUA8LYvIFqaBUEIFHweADQynNvhygNoUhy8DY6zwA9oYPo3xqQET40cK/ALozFAs=
+  </data>
+ </layer>
+ <layer id="17" name="Top" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzllskRgCAMRWnEiuxAS7D/uydnMplIFrI55grkkZ8Fxqi1c6thHgXcvYDZiRuR64vwCbmZ9QW5mZp/lWvNzSrXqpGWi+Pz4Fr241kn1V3bv9w9pXHgfdw5bpa/rc/yE/lGYL9d+zdqdkIWpXGUBqt19JhWF694tPWY8f5KuFH55Obrn/p3Fiv1R/LiZloVt4Nl9e4Ne+4eVQ==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztk0EOgDAIBP2ID/H/HzPeTAPsLKgnm/RUYJaFHvu2Hf/97H51IuZUI8mZcCP2xOM380i/dD7dfYm4Kkax1cn6XflZTcV0va/0kVlR5hN72mWuOYodxdNZu/vsch0O5SpPVM7U54o7nS9hKp2k3yq3y8zelU7FzPxVutZ+IybV7+wf8ZfuyVM+V29uLOEqf7rc+7tiRofEu3PJcmgtpS+qR7ROPOhw6aH6aB13/qqOU7Ozd86fqmpMmdc9AaDjtWk=
+   eJztk0EOgDAIBP2ID/H/HzPeTAPswKonSXoqMMuWHvu2Hf/57HwVEdPVSGocbsR2PH6zjsxL32e6LxFX5Si2imzelZ/1VMyu95U+8laUOdnT9W7KrPqQXsT3yiMn3/k3lKs8UTVTn5WuqMbdExJdTuWRw8zulU7FzPxVutZ51T+p+nT2j/hL9+Qpn6u7bi7hKn+m3Pu9YkZB8rvvktWQWYi+qB/R6kaX+1TQfhN+dzcn/YhW+qeqHi7zOieJ87MP
   </data>
  </layer>
- <layer id="16" name="Walkable_0" width="30" height="30">
+ <layer id="16" name="Walkable_0" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzTENAAAIA7AZQQj+jU0EF0lroAkAAMBPO96LAtdJAQM=
   </data>
@@ -231,15 +236,15 @@
    eJxjYBgFo2AUjIJRMApGwSgYBaNgFIyCoQksZRF4oOynt33U9C8A2OQCWw==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="9" name="entry" type="mapchange" x="544" y="736" width="32" height="32"/>
   <object id="14" name="ll2_boat_sub" type="script" x="352" y="896" width="32" height="32"/>
   <object id="24" name="ll2_sub_key3" type="script" x="416" y="608" width="32" height="32"/>
   <object id="25" name="ll2_sub_key2" type="script" x="448" y="608" width="32" height="32"/>
   <object id="26" name="ll2_sub_key1" type="script" x="480" y="608" width="32" height="32"/>
   <object id="27" name="ll2_sub_loot1" type="container" x="512" y="192" width="32" height="32"/>
-  <object id="28" name="container" type="script" x="288" y="448" width="32" height="32"/>
-  <object id="29" name="container" type="script" x="736" y="576" width="32" height="32"/>
+  <object id="28" name="ll2_sub_loot2" type="container" x="288" y="448" width="32" height="32"/>
+  <object id="29" name="ll2_sub_loot3" type="container" x="736" y="576" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="11" name="Spawn">
   <object id="17" name="ll2_captain" type="spawn" x="0" y="928" width="32" height="32">
@@ -252,12 +257,91 @@
     <property name="spawngroup" value="ll2_whirl_return"/>
    </properties>
   </object>
+  <object id="30" name="ash_fisher_1" type="spawn" x="608" y="800" width="128" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="ash_fisher"/>
+   </properties>
+  </object>
+  <object id="31" name="ash_fisher_2" type="spawn" x="576" y="768" width="96" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="ash_fisher"/>
+   </properties>
+  </object>
+  <object id="33" name="ash_fisher_3" type="spawn" x="672" y="832" width="96" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="ash_fisher"/>
+   </properties>
+  </object>
+  <object id="35" name="molykros" type="spawn" x="288" y="896" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="molykros"/>
+   </properties>
+  </object>
+  <object id="37" name="dead_worms_1" type="spawn" x="800" y="384" width="128" height="448">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="dead_worms"/>
+   </properties>
+  </object>
+  <object id="38" name="dead_worms_2" type="spawn" x="32" y="96" width="896" height="128">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="dead_worms"/>
+   </properties>
+  </object>
+  <object id="39" name="dead_worms_3" type="spawn" x="32" y="224" width="224" height="480">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="dead_worms"/>
+   </properties>
+  </object>
+  <object id="40" name="dead_worms_4" type="spawn" x="320" y="224" width="416" height="320">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="dead_worms"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup id="8" name="Keys"/>
- <objectgroup id="12" name="Replace">
+ <objectgroup id="8" name="Keys" visible="0">
+  <object id="34" name="dummy_key_1" type="key" x="672" y="832" width="64" height="32">
+   <properties>
+    <property name="phrase" value="dummy_key"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="32" name="dummy_key_2" type="key" x="608" y="800" width="96" height="32">
+   <properties>
+    <property name="phrase" value="dummy_key"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="13" name="dummy_key_3" type="key" x="576" y="768" width="64" height="32">
+   <properties>
+    <property name="phrase" value="dummy_key"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="12" name="Replace" visible="0">
   <object id="15" name="boat" type="replace" x="320" y="832" width="96" height="128">
    <properties>
-    <property name="Above" value="Walkable_1"/>
+    <property name="Objects" value="Objects_1"/>
     <property name="Walkable" value="Walkable_1"/>
     <property name="requireId" value="ll2_nd"/>
     <property name="requireNegation" value="true"/>
@@ -267,8 +351,8 @@
   </object>
   <object id="16" name="noboat" type="replace" x="320" y="832" width="96" height="128">
    <properties>
-    <property name="Above" value="Walkable_1"/>
-    <property name="Walkable" value="Walkable_1"/>
+    <property name="Objects" value="Objects_0"/>
+    <property name="Walkable" value="Walkable_0"/>
     <property name="requireId" value="ll2_nd"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="20"/>
@@ -301,7 +385,7 @@
     <property name="requireValue" value="112"/>
    </properties>
   </object>
-  <object id="21" name="door2b_open" type="replace" x="416" y="320" width="64" height="64">
+  <object id="21" name="door2b_open" type="replace" x="416" y="352" width="64" height="64">
    <properties>
     <property name="Above" value="Walkable_1"/>
     <property name="Walkable" value="Walkable_1"/>

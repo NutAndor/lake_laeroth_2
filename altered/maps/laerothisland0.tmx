@@ -144,17 +144,17 @@
  </layer>
  <layer id="3" name="Objects" width="27" height="20">
   <data encoding="base64" compression="zlib">
-   eJydVUFKA0EQHPciJNkkyp5z8RmiHzAPiB7Fgwq5CaIPCEHwaBDBa4gBr8EEz0H8iE/IUafYaae2MzsbLVgy2Zmumpnq7jVmM8zS9Xdv9G4SmP8r9pP8d2m5DpLi3Ifiv8uMGWZ5zNjN6ZgyDVn34OIGAT3WEWzv+HFoj4xdF5dG7gV8zIGYYepjeY+h++c4nGFknyPia0Ri+D4Ry2uXFVrAqm3Mnl33smXMkx0/t33srRtft33cTeb9BWouNga+B2Bu108t56t9+sTdd/+/1DtglPrY7gZ+hfYEn3BHkmfgxvkPk3wMj+tpcU/IzeNsnUu04NPcaYln+kwA5yswUN7gTMiZk4iW6GHtI+V8nbhYG/hu+LHcCfyEjxclWqyHPbHfTdIac+4lfh45HvOoDKJTI94RjeXsDM7xlTp7CNzfON9ZQ+M/ZxH0XE1LvoOfc5P1uknxToGFy/eqnthTXopPwr9o5Vy/80pXfuHdfcU34DJbr+kG6X228jHq4t0+HftuquoWHsO7WF8VLf3NAGZ0FnANiBv1cOZi5K6558e0OKZJ+ch1JPU2VT1G+kBVPwTOs7wGJaZT4q9wwbtTlTvQr+qHjFBul+GK+hr44fck9X3hB3DnWyM=
+   eJydVUFKw0AUHbMR2qStknU3HkP0AvYA1aW4UKE7QfQAoQjiyiCC21ILbostrot4EY/Qpc4j853X32SiPgidZua/NzPv/x9jfodpsv7uld6NS+b/it2o+F1Yrr1ode5d8d+kxgzTImbk5nRMlYasu3dxWYke6wg2t/y4bI/AnePcdnFJ4F7AxxyIGSY+lvc4Ddw11uMMuX0OiC8OaPN9IpbXLgJxsrdlx5gdu+55w5hHO37q+NhrN77s+Lir1PsLNFxsCHwPwMyun1jOF/sMiHvg/n+qd0Ce+NheID9Eq2xP8Al3JHkGbpx/PyrG8LiZrO4JuXmYrnOJFnyaOS3xTJ8J4HwFMuUNzoScOQpoiR7WPlDON4mLtYGv2I/lTuAnfDyr0GI97In9bpHWiHMv8vPI8ZBHVRCdBvHmNJazMzjHl+rsZeCa43xnDY3/nEXQdzUt+Q5+zk3W60WrdwrMXb7X9cS+8lJ8Ev55u+D6mVe68gvvbmu+Aefpek3HpPfRLsaoizf7dO27iapbeAzvQn1VtPQ3A5jSWcCVETfq4cTFyF1zzw9pcUyL8pHrSOptonqM9IG6fgicpkUNSky3wl/hgnfHKnegX9cPGWW5XYUL6mvgh9/jxPeFb4vAXHQ=
   </data>
  </layer>
  <layer id="4" name="Above" width="27" height="20">
   <data encoding="base64" compression="zlib">
-   eJytlVEOwiAMhpe9+DSDxtuo9/EGRN8FT2R2IJMdwAs4sjX+1v6MLWtCgAX69S+U7Q9VtTfaXLsV7LE4payrWmftfTbrsFjM2qLjrCXW9vE/+vYy9ns38HKsztl+MS8R1rBYE8sTlhUbs3M99JdM/hInTOiyYj+Ovk/1wJG5ZmtNyUpYnuQS2ZojY5Y7xgru36+Mgzo7zEGc0CSsNzDZ3Wya3znmK45nlPTldC259/fRt7Ck71y+vpbWmGhBFo4ZS78/JRYM/8hfU5eY+EfOFKuUGVVNWHlkb5S0Vt0zZqz+9JmtcReDwcLaKmHN4ek8esVi72HuvPS7gL43u+837/71ztVj1Q2OpUfONv3bep8f7hdH0A==
+   eJytlVEOwiAMhpe9+DSDZrdR7+MNiL4LnsjsQCY7gBdwhDX707XAFv6EgGb7v7ZA1zR19OwrGSl6MP9zHwfq06U9+PMlIo70rjf683s0TPG/p/EV3rcm8jAezhqFeIKwLhizFmtgWYUlxabp1sb5nqhf4LhMXlLsl9n72kYO/eZsnlNQCcsqtUQ259Baq53GcmbtS2vH9g5r4DM5EesHTO1sduzuYL38vEchv1Ree879a/YmFs0j5FqLhbkgC9cai/efEjnBH/k18yKRP3JyrFIm73dSHbUeRWPI9GiSdv/4ntU4i05g4d0qYW3h8TpaxtL6YWq/eF9A78Np+c+adb5b85HuDa5pRs4xfNsmzz+MHkTY
   </data>
  </layer>
- <layer id="5" name="Walkable" width="27" height="20">
+ <layer id="5" name="Walkable" width="27" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzN0tENgDAIBNCO4JLuv4JfJg3hjjsUI4k/LfBCZa08zuP9D0XM6fauLHTfmaFrqS7KVfqwUDzHymqd3K7F/seUNbGHWZ1qPrWc+b624ntU3n6mWqwPsuLZpOXuO9sfZ654Pm3dd8xCc1cWy9ldVu9Yqqnui2opPf9gXYKCkcw=
+   eJzNkssNwDAIQzNCl+z+K/RUKaJgbCpXRcqFj59MWOsZ5+F5WWQ9U22FNfU70apC2RXrG/E6ndjDzse60jtlof9wsRx3mM2xzLcsxd/XrLiPjrfnWBbSqVgx52Sp947uR/EV827WXUOsynfHQj07F80rLJbJ3gvLYjT/wLoAw7iVdA==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -183,7 +183,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn" visible="0">
+ <objectgroup id="7" name="Spawn">
   <object id="3" name="spawn_1" type="spawn" x="256" y="64" width="256" height="96">
    <properties>
     <property name="quantity" value="2"/>
@@ -213,13 +213,13 @@
     <property name="spawngroup" value="island_lizard"/>
    </properties>
   </object>
-  <object id="8" name="big_fish_spawn" type="spawn" x="0" y="0" width="192" height="640">
+  <object id="8" name="big_fish_spawn" type="spawn" x="0" y="128" width="192" height="512">
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="guynmart_fish2"/>
    </properties>
   </object>
-  <object id="9" name="pond_fish_spawn" type="spawn" x="32" y="64" width="96" height="544">
+  <object id="9" name="pond_fish_spawn" type="spawn" x="32" y="128" width="96" height="480">
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="pond_fish"/>

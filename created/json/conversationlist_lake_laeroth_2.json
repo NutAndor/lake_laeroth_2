@@ -1296,7 +1296,7 @@
     },
     {
         "id":"ll2_circe_94",
-        "message":"You can not avoid Scylla. Chabybdis or the cyclops are your choice.",
+        "message":"You can not avoid Scylla. Chabybdis or the cyclopes are your choice.",
         "switchToNPC":"circe",
         "replies":[
             {
@@ -1317,7 +1317,7 @@
     },
     {
         "id":"ll2_circe_96",
-        "message":"The Cyclopes \u2013 well, they don't like me. And the feeling is mutual.",
+        "message":"The Cyclopes - well, they don't like me. And the feeling is mutual.",
         "replies":[
             {
                 "text":"N",
@@ -5254,12 +5254,103 @@
                 "rewardType":"activateMapObjectGroup",
                 "rewardID":"Keys_for_sheep",
                 "mapName":"ll2_cyclops_cave"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ll2_cyclops1",
+                "mapName":"mountainlake27"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ll2_cyclops2",
+                "mapName":"mountainlake27"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Keys_cyclops",
+                "mapName":"mountainlake27"
             }
         ]
     },
     {
         "id":"ll2_cyclops_door_open_but_locked",
         "message":"Don't go yet, you haven't thoroughly explored the cave."
+    },
+    {
+        "id":"ll2_cyclops_block"
+    },
+    {
+        "id":"ll2_cyclops",
+        "message":"Ah, there is Nobody. You think you're particularly clever, don't you?",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_cyclops_10",
+				"text":"Well, it has worked with your brother."
+            }
+        ]
+    },
+    {
+        "id":"ll2_cyclops_10",
+        "message":"Now let go of the ram and act like a man, kid.",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_cyclops_20",
+				"text":"Well, you'll see what you get for it. Attack!"
+            }
+        ]
+    },
+    {
+        "id":"ll2_cyclops_20",
+        "message":"Our brother has given us a special gift. We get to hunt our own holiday roast...",
+        "replies":[
+            {
+                "nextPhraseID":"F",
+				"text":"N"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"changeIcon",
+                "rewardID":"mikhail",
+                "value":999
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ll2_cyclops_sheep2",
+                "mapName":"mountainlake27"
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"ll2_cyclops",
+                "value":-1
+            }
+        ]
+    },
+    {
+        "id":"ll2_cyclops_killed",
+        "message":"So let's get to the boat. The ram can carry me there again.",
+        "rewards":[
+            {
+                "rewardType":"changeIcon",
+                "rewardID":"mikhail",
+                "value":11
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ll2_cyclops_sheep2",
+                "mapName":"mountainlake27"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":41
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Keys_cyclops",
+                "mapName":"mountainlake27"
+            }
+        ]
     },
     {
         "id":"ll2_cyclops_bucket",
@@ -5326,7 +5417,7 @@
                 ]
             },
             {
-                "text":"Use Circes's key.",
+                "text":"Use Circe's key.",
                 "nextPhraseID":"ll2_sub_key_wrong",
                 "requires":[
                     {
@@ -5376,7 +5467,7 @@
                 ]
             },
             {
-                "text":"Use Circes's key.",
+                "text":"Use Circe's key.",
                 "nextPhraseID":"ll2_sub_key2_10",
                 "requires":[
                     {
@@ -5426,7 +5517,7 @@
                 ]
             },
             {
-                "text":"Use Circes's key.",
+                "text":"Use Circe's key.",
                 "nextPhraseID":"ll2_sub_key_wrong",
                 "requires":[
                     {
@@ -5466,6 +5557,8 @@
     },
     {
         "id":"scylla",
+		"switchToNPC":"none",
+		"message":"You can't even blink before Scylla's head darts out and bites.",
         "rewards":[
             {
                 "rewardType":"actorCondition",
@@ -5478,5 +5571,218 @@
                 "value":60
             }
         ]
+    },
+    {
+        "id":"scylla_2",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"scylla",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"ll2_taurophag_hit",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_taurophag_hit_129",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"taurophag",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":129,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"taurophag",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"75"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_taurophag_hit_123",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":123
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_taurophag_hit_122",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":122
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_taurophag_hit_121",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":121
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_taurophag_hit_120"
+            }
+        ]
+    },
+    {
+        "id":"ll2_taurophag_hit_120",
+		"message":"BOOM!",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_taurophag_hit_120_a",
+				"text":"What was that!?"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"solid_impact",
+                "value":2
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":121
+            }
+        ]
+    },
+    {
+        "id":"ll2_taurophag_hit_120_a",
+		"message":"I am not sure... I hope it isn't...",
+		"switchToNPC":"ll2_captain"
+    },
+    {
+        "id":"ll2_taurophag_hit_121",
+		"message":"BOOOOOM!",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_taurophag_hit_121_a",
+				"text":"Again! Captain Burry - what is this?"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"solid_impact",
+                "value":2
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":122
+            }
+        ]
+    },
+    {
+        "id":"ll2_taurophag_hit_121_a",
+		"message":"The Taurophag! We are doomed!",
+		"switchToNPC":"ll2_captain"
+    },
+    {
+        "id":"ll2_taurophag_hit_122",
+		"message":"BOOM! BOOOOOM!!",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+				"text":"Can nobody help us?"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"solid_impact",
+                "value":2
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":123
+            }
+        ]
+    },
+    {
+        "id":"ll2_taurophag_hit_123",
+		"message":"BOOOOM!",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"solid_impact",
+                "value":2
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":123
+            }
+        ]
+    },
+    {
+        "id":"ll2_taurophag_hit_129",
+		"message":"The Taurophag is no more. We have survived it!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ll2_nd",
+                "value":129
+            }
+        ]
+    },
+    {
+        "id":"ash_fisher",
+		"message":"We cast for names.",
+        "replies":[
+            {
+                "nextPhraseID":"ash_fisher_10",
+				"text":"What?"
+            },
+            {
+                "nextPhraseID":"ash_fisher_20",
+				"text":"Which ship were you on?"
+            }
+        ]
+    },
+    {
+        "id":"ash_fisher_10",
+		"message":"The sea keeps them."
+    },
+    {
+        "id":"ash_fisher_20",
+		"message":"Wood floats. Memory sinks."
     }
 ]

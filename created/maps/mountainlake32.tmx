@@ -193,7 +193,7 @@
  </layer>
  <layer id="9" name="Ground" width="15" height="13">
   <data encoding="base64" compression="zlib">
-   eJy7z8TAsBuI9wDxXiCGAZjYOSR8HkkeBD4C+feR5Pdg0QPCD4H4M5peZmaE/gc4MEwfKzMDBoDpvyyGHePSh6wfF8CnjxpAWpiBoQ6ItwDxVmGImKgwdrU7mLCLHwGqPwrVsxioZimSuq1A9jYgvo0k9kUIuzl/gWr+MyH0nQDik0hixIDFULveAPFNIP4kRliPjDCm/TD2TqDcLrTwEMIRPujgJFDdKSLVogMAd6E9Iw==
+   eJytkL0KwjAUhS8JvkCDXfRZfZniG1jxp90UrIMOTtKhurv4s4qekl68pIl28MAH4d7zJZBKES1BBnLA4dlOsBf7q7JUYp95nJozuAtXawv7pwDs9TS1wv4h9hPypB/KN+8fGRiiEZiA1NhZ3/i7M+Wfr9BfN06Czlj0UpynoBSzR+S/54nOS328DSjErEuS5q0LOIJb/NsZmvb7fJ5jt3D+Iwr8j5sCvW3Hrps3NpU+HA==
   </data>
  </layer>
  <layer id="2" name="Objects" width="15" height="13">
@@ -208,7 +208,7 @@
  </layer>
  <layer id="4" name="Walkable" width="15" height="13">
   <data encoding="base64" compression="zlib">
-   eJy7KMYABxfFUDE6uIhDLTEAXR2xerGpI8ZuQn4gpJeWAD2c8fkFm9+RzUBno5uPLkaMW7CJE+MXQnYR6w9ccU4MICVNogMAIQ842g==
+   eJy7KMYABxfFUDE6uIhDLTGAXL3Y1BGjn5AfCOmlJUAPZ3x+weZ3ZDPQ2ejmo4sR4xZs4qT6hVAY4vMHrjgnBpCSJtEBAM8GO48=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -231,7 +231,7 @@
     <property name="place" value="west2"/>
    </properties>
   </object>
-  <object id="4" name="scylla" type="script" x="96" y="160" width="192" height="32">
+  <object id="4" name="scylla_2" type="script" x="96" y="160" width="192" height="32">
    <properties>
     <property name="when" value="always"/>
    </properties>

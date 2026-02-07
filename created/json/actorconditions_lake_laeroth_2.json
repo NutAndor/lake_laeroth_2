@@ -38,5 +38,19 @@
                 "max":-5
             }
         }
+    },
+    {
+        "id":"solid_impact",
+        "iconID":"actorconditions_1:83",
+        "name":"Solid impact",
+        "category":"physical",
+		"isStacking":1,
+        "roundEffect":{
+            "visualEffectID":"blueSwirl",
+            "increaseCurrentHP":{
+                "min":-5,
+                "max":-10
+            }
+        }
     }
 ]

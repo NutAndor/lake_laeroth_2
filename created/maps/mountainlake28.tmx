@@ -190,7 +190,7 @@
  </layer>
  <layer id="9" name="Ground" width="23" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYCAOyEgg2LuZGBisJRB4LxNCTgrI94Gq/SSE2zxBYYRZ2hIIM5GBlASC9kYyl1gAc7MMDnNBANlMVmbcZn1B8gvMzSDghWa2jgSmWbjM/YolfNDdim4+yCyQHdjMxBfe6GYzY9EvRUQYf0ayox4Yhw3CCHdKo5kvwI7qZlJAP9DcCcIIvhc0DUhjiUsfHOEBAkLCqPwvaGGEHA4wO7zJTG/YALZwhgF86Q0ZoMfrRzx+IMZcALM1GnA=
+   eJydklEOgjAMhhsI+qrswWVwA72BNwDupDfQ+xgPpeK7a8LSUro5/RMCDfD1398C5Km19HwrAI6WrntB75yvh+nbZx3nbQ2x9paYXM7SvWfcXAXPbYSL4syqjLNGdpbgGdUJ9sEuWTHuW8lHepV8ZGEPjZnKW7JL5X+XkfGL9Tj5GZ4N+WwEf7Oee/5FF8+9Gqq7aQcaZZZDJA9Ubeb1KDLiOYQe/Z/7pknLOSi1b1xyro/EGb5xVzuAD7OSGo0=
   </data>
  </layer>
  <layer id="2" name="Objects" width="23" height="11">
@@ -205,7 +205,7 @@
  </layer>
  <layer id="4" name="Walkable" width="23" height="11">
   <data encoding="base64" compression="zlib">
-   eJydkssNACAIQ52C/VdiI+NNST9gEw8KwmsgY0FlvKfG1P3+z1Tjk16qNoo7vupV5U+8o5rKM/PqmFlfxak8u7kxfpSHmDty82D5ilfxu32aiu1AZ9c6Hn7rnvcNNP1hdQ==
+   eJy7KMaAFVwUQ8XocoT42PRhU0NIDy41uMzGJo9NLbpZhMwmNizwmY3PP9jMwhVG+PxJSpzhch+heCPFPlLMJsZ9hNTicy8h95OTjklxP7FpjRg/kGsuSBwAI79plA==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -267,7 +267,7 @@
    <properties>
     <property name="phrase" value="polyphem_59_20"/>
     <property name="requireId" value="ll2_nd"/>
-	<property name="requireNegation" value="true"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="40"/>
    </properties>

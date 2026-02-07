@@ -176,6 +176,10 @@
                 "progress":40,
                 "logText":"40=Cyclops roast mentioned"
             },
+            {
+                "progress":41,
+                "logText":"41=Cling to sheep again"
+            },
 			{
 				"progress":100,
 				"logText":"100=Leofric not needed anymore"
@@ -199,6 +203,22 @@
 			{
 				"progress":113,
 				"logText":"113=Door 3 open"
+			},
+			{
+				"progress":121,
+				"logText":"121=Taurophag hit 1"
+			},
+			{
+				"progress":122,
+				"logText":"122=Taurophag hit 2"
+			},
+			{
+				"progress":123,
+				"logText":"123=Taurophag hit 3+"
+			},
+			{
+				"progress":129,
+				"logText":"129=Taurophag dead shown"
 			}
 		]
     },
