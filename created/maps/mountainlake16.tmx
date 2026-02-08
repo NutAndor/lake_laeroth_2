@@ -239,7 +239,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="14" name="ll2_maps_17" type="script" x="0" y="384" width="512" height="32"/>
+  <object id="14" name="ll2_maps_16" type="script" x="32" y="32" width="544" height="384"/>
  </objectgroup>
  <objectgroup id="10" name="Spawn">
   <object id="17" name="ll2_sealife" type="spawn" x="64" y="64" width="416" height="320">
