@@ -936,33 +936,13 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_circe_50"
-            }
-        ]
-    },
-    {
-        "id":"ll2_circe_50",
-        "message":"Did I behave heroically?",
-        "replies":[
-            {
-                "text":"You squealed with authority.",
-                "nextPhraseID":"ll2_circe_51"
-            }
-        ]
-    },
-    {
-        "id":"ll2_circe_51",
-        "message":"Good. As expected.",
-        "replies":[
-            {
-                "text":"N",
                 "nextPhraseID":"ll2_circe_52"
             }
         ]
     },
     {
         "id":"ll2_circe_52",
-        "message":"$playername, you are observant. And inconvenient.",
+        "message":"$playername - you are observant. And inconvenient.",
         "switchToNPC":"circe",
         "replies":[
             {
@@ -1165,17 +1145,7 @@
     },
     {
         "id":"ll2_circe_82",
-        "message":"Do not challenge her. Do not delay near her rock.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"ll2_circe_83"
-            }
-        ]
-    },
-    {
-        "id":"ll2_circe_83",
-        "message":"Sail past, and accept the loss she takes.",
+        "message":"Do not challenge her. Do not delay near her rock. Sail past, and accept the loss she takes.",
         "replies":[
             {
                 "text":"N",
@@ -1185,17 +1155,7 @@
     },
     {
         "id":"ll2_circe_84",
-        "message":"[she meets your eyes] She is not cruel.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"ll2_circe_85"
-            }
-        ]
-    },
-    {
-        "id":"ll2_circe_85",
-        "message":"She is simply hungry.",
+        "message":"[she meets your eyes] Scylla is not cruel. She is simply hungry.",
         "replies":[
             {
                 "text":"N",
@@ -1327,17 +1287,7 @@
     },
     {
         "id":"ll2_circe_97",
-        "message":"You survived me. That suggests you prefer thought over force.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"ll2_circe_98"
-            }
-        ]
-    },
-    {
-        "id":"ll2_circe_98",
-        "message":"You will need that.",
+        "message":"You survived me. That suggests you prefer thought over force. You will need that.",
         "replies":[
             {
                 "text":"N",
@@ -2145,6 +2095,23 @@
                         "value":22
                     }
                 ]
+            },
+            {
+                "text":"I have found some of the new parts for your map.",
+                "nextPhraseID":"ll2_mapmaker_80",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"ll2_maps",
+                        "value":1
+                    },
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"ll2_maps",
+                        "value":22,
+						"negate":true
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -2391,6 +2358,10 @@
                 "value":10
             }
         ]
+    },
+    {
+        "id":"ll2_mapmaker_80",
+        "message":"Ohh, I'm almost dying to have the entire map complete."
     },
     {
         "id":"ll2_mapmaker_90",
@@ -4315,6 +4286,17 @@
                         "value":5
                     }
                 ]
+            },
+            {
+                "text":"Remember the earplugs I have given you. Use them to drive through here as often as you like without any problems.",
+                "nextPhraseID":"ll2_sirene_key_60",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ll2_nd",
+                        "value":100
+                    }
+                ]
             }
         ]
     },
@@ -4643,16 +4625,6 @@
         "message":"This door has no key. Keys always get lost... \nIt only opens when I look in this mirror. Clever, clever - just like me.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"polyphem_19"
-            }
-        ]
-    },
-    {
-        "id":"polyphem_19",
-        "message":"...",
-        "replies":[
-            {
                 "text":"So I can't just kill you to get out again.",
                 "nextPhraseID":"polyphem_19a"
             },
@@ -4698,23 +4670,13 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"polyphem_22"
-            }
-        ]
-    },
-    {
-        "id":"polyphem_22",
-        "message":"[straightens up, smugly] Fresh. Surprising. With sides.",
-        "replies":[
-            {
-                "text":"N",
                 "nextPhraseID":"polyphem_23"
             }
         ]
     },
     {
         "id":"polyphem_23",
-        "message":"You can stay until then. The sheep are nice. They don't talk much.",
+        "message":"[straightens up, smugly] You can stay until then. The sheep are nice. They don't talk much.",
         "replies":[
             {
                 "text":"N",
@@ -4962,16 +4924,6 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"polyphem_104"
-            }
-        ]
-    },
-    {
-        "id":"polyphem_104",
-        "message":"That's... foamy!",
-        "replies":[
-            {
-                "text":"N",
                 "nextPhraseID":"polyphem_105"
             }
         ]
@@ -5188,17 +5140,7 @@
     },
     {
         "id":"polyphem_125",
-        "message":"Coward.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"polyphem_126"
-            }
-        ]
-    },
-    {
-        "id":"polyphem_126",
-        "message":"Invisible coward.",
+        "message":"Coward! Invisible coward!",
         "replies":[
             {
                 "text":"N",
@@ -5301,7 +5243,7 @@
     },
     {
         "id":"ll2_cyclops_20",
-        "message":"Our brother has given us a special gift. We get to hunt our own holiday roast...",
+        "message":"Our brother has made us a magnificant gift: We get to hunt our own holiday roast...",
         "replies":[
             {
                 "nextPhraseID":"F",
@@ -5621,7 +5563,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"75"
+                        "requireID":"50"
                     }
                 ]
             },
@@ -5720,7 +5662,7 @@
         "replies":[
             {
                 "nextPhraseID":"X",
-				"text":"Can nobody help us?"
+				"text":"Something is ramming us from below! Can nobody help us?"
             }
         ],
         "rewards":[

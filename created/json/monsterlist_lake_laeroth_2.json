@@ -153,16 +153,51 @@
         "id":"scylla_1",
         "name":"Scylla",
         "iconID":"monsters_ld2:18",
-        "monsterClass":"humanoid",
+        "maxHP":180,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":1,
+            "max":1
+        },
         "spawnGroup":"scylla",
-        "phraseID":"scylla"
+        "attackChance":250,
+        "blockChance":500,
+        "damageResistance":100,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"scylla",
+                    "magnitude":1,
+                    "duration":1,
+                    "chance":"100"
+                }
+            ]
+        }
     },
     {
         "id":"scylla_2",
         "name":"Scylla",
         "iconID":"monsters_ld2:19",
-        "monsterClass":"humanoid",
-        "spawnGroup":"scylla"
+        "maxHP":180,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":1,
+            "max":1
+        },
+        "spawnGroup":"scylla",
+        "attackChance":250,
+        "blockChance":500,
+        "damageResistance":100,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"scylla",
+                    "magnitude":1,
+                    "duration":1,
+                    "chance":"100"
+                }
+            ]
+        }
     },
     {
         "id":"ll2_whirl",

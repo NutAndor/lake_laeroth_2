@@ -225,7 +225,7 @@
    </properties>
   </object>
   <object id="2" name="ll2_maps_32" type="script" x="32" y="32" width="416" height="384"/>
-  <object id="3" name="east" type="mapchange" x="448" y="32" width="32" height="160">
+  <object id="3" name="east" type="mapchange" x="448" y="64" width="32" height="128">
    <properties>
     <property name="map" value="mountainlake29"/>
     <property name="place" value="west2"/>

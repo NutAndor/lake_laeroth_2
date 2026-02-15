@@ -195,12 +195,12 @@
  </layer>
  <layer id="2" name="Objects" width="18" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYEAF32QhmBSATT055pADdjNB6L1M5OnH5k5yzKLUv9j070Zyx2Mx0syBmcXMDKHZmKnjrnNMEEypOeTqB+HdZMY1ujnIAGQmKN5ZiQwnXOYQG0/YzGNGs5tYt6C7Cd0cUvVjSz/obgEAJpotgw==
+   eJxzEGJAAd9kIZgUgE09OeaQA3YzQei9TOTpx+ZOcsyi1L/Y9O9GcsdjMdLMgZnFzAyh2Zip465zTBBMqTnk6gfh3WTGNbo5yABkJijeWYkMJ1zmEBtP2MxjRrObWLeguwndHFL1Y0s/6G4BAICHLdU=
   </data>
  </layer>
  <layer id="3" name="Above" width="18" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF6OCzGHXMeSxGnlmLBTDN2ctEuXs+Qd1CrJuQ3dEogCn/mIrhRC6A+eUzE2XmIOv9RIE5sHgiJd6xhS3MDGLdoiiMW45a8YTsFgB+RRZV
+   eJz7JsswCtDAZzHqmPNYjDyzFgtgmrOXiXL3fIK6hVg3IbujUQBT/jEVw4lcAPPLZybKzEHW+4kCc2DxREq8YwtbmBnEukVRGLccteIJ2S0ABpsXaA==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="18" height="15">

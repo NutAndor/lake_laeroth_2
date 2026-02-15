@@ -183,6 +183,9 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7609" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="8" height="15">
   <data encoding="base64" compression="zlib">
    eJx7wcnA8GIUD1sMAM5OcPk=
@@ -190,17 +193,17 @@
  </layer>
  <layer id="2" name="Objects" width="8" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFwxkAAAHgAAE=
+   eJxjYBgFQxlMEcYtd0eIgQEAGlMBlg==
   </data>
  </layer>
  <layer id="3" name="Above" width="8" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFwxkAAAHgAAE=
+   eJxjYBgFgxm0CJOv95ssAwMAK7wBqw==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="8" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYMANLorhkRwFQwIAAJm1AOg=
+   eJxjYMANLorhkRwFgwLgiyOQHAC6BQK2
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">

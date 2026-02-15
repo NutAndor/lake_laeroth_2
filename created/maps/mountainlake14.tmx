@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="29" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="24">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="29" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="25">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -219,9 +219,9 @@
    eJxjYKAveMFJZwtHwSgYBaNgFIwCKoGfggNn90DUnyA7Ab7wA94=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="29" height="18" visible="0">
+ <layer id="4" name="Walkable" width="29" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYKAvuChGZwtHATjMR8N9FCADWJrAhmlpHzKflvYQ8gs17R+IvEWPOCPW/oGye6DsHSi/D5SfQQAASwEflg==
+   eJy7KMZAV3CRzvaNAkiYj4b7KEAGsDSBDdPSPmQ+Le0h5Bdq2j8QeYsecUas/QNl90DZO1B+Hyg/gwAAp2wgfQ==
   </data>
  </layer>
  <layer id="13" name="Walkable_0" width="29" height="18" visible="0">
@@ -263,6 +263,7 @@
   <object id="18" name="ll2_maps_14" type="script" x="32" y="32" width="864" height="32"/>
   <object id="19" name="ll2_maps_14" type="script" x="32" y="64" width="32" height="448"/>
   <object id="20" name="ll2_maps_14" type="script" x="32" y="512" width="832" height="32"/>
+  <object id="24" name="ll2_maps_14" type="script" x="864" y="64" width="32" height="192"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
   <object id="17" name="ll2_captain" type="spawn" x="896" y="544" width="32" height="32">

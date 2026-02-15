@@ -183,6 +183,9 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7609" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="13" height="15">
   <data encoding="base64" compression="zlib">
    eJx7wcnA8GIUj+JRzAAAJcC3lA==
@@ -190,12 +193,12 @@
  </layer>
  <layer id="2" name="Objects" width="13" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUgAAAAwwAAQ==
+   eJxbI8xAErAXIk39KBgFQwUAADCkARE=
   </data>
  </layer>
  <layer id="3" name="Above" width="13" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUgAAAAwwAAQ==
+   eJz7JstAEvhGovpRMLQBKL6R8XAGADd0BnM=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="13" height="15">
@@ -222,7 +225,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="14" name="ll2_maps_20" type="script" x="0" y="384" width="512" height="32"/>
+  <object id="14" name="ll2_maps_20" type="script" x="32" y="32" width="352" height="448"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn" visible="0">
   <object id="15" name="ll2_sealife" type="spawn" x="64" y="64" width="288" height="416">
