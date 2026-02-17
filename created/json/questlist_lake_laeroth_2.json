@@ -29,6 +29,10 @@
                 "logText":"You met Circe, a strange, lonely woman who kept pigs in her kitchen."
             },
             {
+                "progress":31,
+                "logText":"Captain Burry and his men set off to replenish supplies on the island."
+            },
+            {
                 "progress":32,
                 "logText":"The ship was abandoned. Something was strange about that Circe, I decided to question her."
             },
