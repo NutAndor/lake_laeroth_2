@@ -1095,7 +1095,7 @@
     },
     {
         "id":"ll2_circe_73",
-        "message":"To the south west lie the lands of the Cyclopes.",
+        "message":"To the south west lie the lands of the cyclops.",
         "replies":[
             {
                 "text":"N",
@@ -1296,7 +1296,7 @@
     },
     {
         "id":"ll2_circe_94",
-        "message":"You can not avoid Scylla. Chabybdis or the cyclopes are your choice.",
+        "message":"You can not avoid Scylla. Chabybdis or the cyclops are your choice.",
         "switchToNPC":"circe",
         "replies":[
             {
@@ -1317,7 +1317,7 @@
     },
     {
         "id":"ll2_circe_96",
-        "message":"The Cyclopes - well, they don't like me. And the feeling is mutual.",
+        "message":"The cyclops - well, they don't like me. And the feeling is mutual.",
         "replies":[
             {
                 "text":"N",
@@ -4639,14 +4639,14 @@
                 "nextPhraseID":"polyphem_19a"
             },
             {
-                "text":"Are you a cyclope?",
+                "text":"Are you a cyclops?",
                 "nextPhraseID":"polyphem_19a"
             }
         ]
     },
     {
         "id":"polyphem_19a",
-        "message":"What? How you dare? Me the mightiest of all cyclopes! Me Polyphem!",
+        "message":"What? How you dare? Me the mightiest of all cyclops! Me Polyphem!",
         "replies":[
             {
                 "text":"N",
