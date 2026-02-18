@@ -227,9 +227,9 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="2" name="ll2_maps_34" type="script" x="480" y="0" width="32" height="256"/>
   <object id="6" name="ll2_setwhirl" type="script" x="0" y="32" width="480" height="192"/>
-  <object id="9" name="ll2_maps_34" type="script" x="32" y="64" width="544" height="192"/>
+  <object id="2" name="ll2_maps_34" type="script" x="480" y="0" width="32" height="256"/>
+  <object id="9" name="ll2_maps_34" type="script" x="0" y="192" width="544" height="32"/>
   <object id="7" name="whirl" type="mapchange" x="160" y="128" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="2" name="Spawn">

@@ -2571,7 +2571,7 @@
     },
     {
         "id":"ll2_mapmaker_96",
-        "message":"Thorype Splathershed didn't seem quiete sure whether to believe your incredible stories.",
+        "message":"Thorype Splathershed didn't seem entirely sure whether to believe your incredible story.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -2582,7 +2582,7 @@
     },
     {
         "id":"ll2_mapmaker_97",
-        "message":"Thank you so much for these extremely entertaining stories. Perhaps I'll write a story about them sometime.",
+        "message":"Thank you so much for these extremely entertaining experiences. Perhaps I'll write a story about them sometime.",
 		"switchToNPC":"ll2_mapmaker",
         "replies":[
             {

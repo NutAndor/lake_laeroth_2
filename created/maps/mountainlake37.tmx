@@ -233,7 +233,7 @@
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="2" name="ll2_maps_37" type="script" x="192" y="0" width="32" height="320"/>
+  <object id="2" name="ll2_maps_37" type="script" x="32" y="0" width="192" height="320"/>
   <object id="8" name="ll2_maps_37" type="script" x="0" y="32" width="256" height="256"/>
   <object id="4" name="ll2_setwhirl" type="script" x="0" y="32" width="224" height="288"/>
   <object id="5" name="whirl" type="mapchange" x="96" y="160" width="32" height="32"/>
