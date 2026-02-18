@@ -28,6 +28,7 @@
             },
             {
                 "itemID":"beeswax",
+                "chance":"100",
                 "quantity":{
                     "min":5,
                     "max":9

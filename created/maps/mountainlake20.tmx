@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="13" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="16">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="13" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="17">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -193,17 +193,17 @@
  </layer>
  <layer id="2" name="Objects" width="13" height="15">
   <data encoding="base64" compression="zlib">
-   eJxbI8xAErAXIk39KBgFQwUAADCkARE=
+   eJxbI8xAErAXIk39KBgFuMB2cQaGneLEqdsBVXuOiYFhOZI+IRzp9zhQ/gQQnxRHZeMDAL59DNk=
   </data>
  </layer>
  <layer id="3" name="Above" width="13" height="15">
   <data encoding="base64" compression="zlib">
-   eJz7JstAEvhGovpRMLQBKL6R8XAGADd0BnM=
+   eJz7JstAEvhGovpRMLQBKL6RMS3MJdUNyPpw6cenBxcAAMQzF6M=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="13" height="15">
+ <layer id="4" name="Walkable" width="13" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy7KMZAErhIovpRMAqGCgAAV4MBzw==
+   eJy7KMZAErhIovpRMApwAVBaIjY9wdQiY5g4seoJ2QUAHdsOcQ==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -225,7 +225,8 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="14" name="ll2_maps_20" type="script" x="32" y="32" width="352" height="448"/>
+  <object id="14" name="ll2_maps_20" type="script" x="0" y="32" width="416" height="448"/>
+  <object id="16" name="ll2_maps_20" type="script" x="0" y="32" width="416" height="32"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn" visible="0">
   <object id="15" name="ll2_sealife" type="spawn" x="64" y="64" width="288" height="416">
