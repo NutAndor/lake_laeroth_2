@@ -208,7 +208,7 @@
  </layer>
  <layer id="4" name="Walkable" width="11" height="9">
   <data encoding="base64" compression="zlib">
-   eJy7KMbAcJEIDALEqKMUY7MHBrCJ4QLkqMUnT6y5uNQSE5YALSc42g==
+   eJy7KMbAcJEIDALEqKMUY7MHBrCJ4QLkqMUnT4laYsMSAOFiN/M=
   </data>
  </layer>
  <objectgroup id="5" name="mapevents" visible="0">
@@ -220,17 +220,9 @@
   </object>
  </objectgroup>
  <objectgroup id="6" name="keys" visible="0">
-  <object id="6" name="andor:1" type="key" x="0" y="288" width="384" height="32">
+  <object id="6" name="andor:1" type="key" x="32" y="224" width="32" height="32">
    <properties>
-    <property name="phrase" value="keyarea_andor1"/>
-    <property name="requireId" value="andor"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
-   </properties>
-  </object>
-  <object id="17" name="cavea" type="key" x="128" y="0" width="96" height="96">
-   <properties>
-    <property name="phrase" value="mg2_home_cavea"/>
+    <property name="phrase" value="ll2_loot_circe"/>
     <property name="requireId" value="andor"/>
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
@@ -271,34 +263,5 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="10" name="Replace" visible="0">
-  <object id="12" name="ratdom_nondisplay_1" type="replace" x="32" y="32" width="320" height="256">
-   <properties>
-    <property name="Top" value="ratdom_Top"/>
-    <property name="Walkable" value="ratdom_Walkable"/>
-    <property name="requireId" value="ratdom_nondisplay"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
-   </properties>
-  </object>
-  <object id="13" name="ratdom_nondisplay_not_1" type="replace" x="32" y="32" width="320" height="256">
-   <properties>
-    <property name="Top" value="Top0"/>
-    <property name="Walkable" value="Walkable0"/>
-    <property name="requireId" value="ratdom_nondisplay"/>
-    <property name="requireNegation" value="true"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
-   </properties>
-  </object>
-  <object id="15" name="gal_c" type="replace" x="32" y="32" width="320" height="256">
-   <properties>
-    <property name="Above" value="Above_c"/>
-    <property name="Objects" value="Objects_c"/>
-    <property name="requireId" value="sutdover_hidden"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="8"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup id="10" name="Replace" visible="0"/>
 </map>

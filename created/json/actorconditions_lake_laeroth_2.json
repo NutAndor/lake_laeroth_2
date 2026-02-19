@@ -19,7 +19,7 @@
                 "max":50
             },
             "increaseMaxHP":50,
-            "increaseMaxAP":50,
+            "increaseMaxAP":2,
             "increaseCriticalSkill":20,
             "increaseBlockChance":20,
             "increaseDamageResistance":20
