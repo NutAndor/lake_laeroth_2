@@ -10,7 +10,7 @@
             },
             {
                 "progress":20,
-                "logText":"Kalypso welcomed me and offered refreshment."
+                "logText":"On a paradisiacal-looking island Kalypso welcomed me and offered refreshment."
             },
             {
                 "progress":22,
@@ -25,12 +25,16 @@
                 "logText":"I realized that I didn't have the urge to leave anymore."
             },
             {
+                "progress":28,
+                "logText":"Once the magic had worn off, I was able to leave the island again."
+            },
+            {
                 "progress":30,
                 "logText":"You met Circe, a strange, lonely woman who kept pigs in her kitchen."
             },
             {
                 "progress":31,
-                "logText":"Captain Burry and his men set off to replenish supplies on the island."
+                "logText":"We docked at an unknown island. Captain Burry and his men set off to replenish supplies."
             },
             {
                 "progress":32,
@@ -68,7 +72,7 @@
             },
             {
                 "progress":50,
-                "logText":"I was exploring a cave on an island with just sheep, when suddenly the dwarvish cyclops Polyphem enters, together with a flock of sheep. Polyphem has closed the door behind him."
+                "logText":"I was exploring a cave on an island with just sheep, when suddenly the dwarvish cyclops Polyphem enters, together with a flock of sheep. Polyphem has locked the door behind him."
             },
             {
                 "progress":52,
@@ -105,7 +109,7 @@
 			},
 			{
 				"progress":70,
-				"logText":"We were swept into the abyss with the ship"
+				"logText":"We were swept into the abyss of the maelstrom along with the ship."
 			},
 			{
 				"progress":78,
@@ -117,7 +121,7 @@
 			},
 			{
 				"progress":910,
-				"logText":"Thorype Splathershed is happy to have the map complete now. He seemed to doubt my story though, but he allowed me to use the ship for my leisure.",
+				"logText":"Thyrope Splathershed is happy to have the map complete now. He seemed to doubt my story though, but he allowed me to use the ship for my leisure.",
                 "rewardExperience":5000,
                 "finishesQuest":1
 			}

@@ -89,7 +89,7 @@
         "switchToNPC":"ll2_captain",
         "replies":[
             {
-                "text":"Land the boat!",
+                "text":"Land the ship!",
                 "nextPhraseID":"ll2_boat_remgard_10",
                 "requires":[
                     {
@@ -150,6 +150,24 @@
     },
     {
         "id":"ll2_boat_afloat",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_boat_afloat_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":26
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":28,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"changeIcon",
@@ -184,12 +202,28 @@
         ]
     },
     {
+        "id":"ll2_boat_afloat_10",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "text":"Once the magic had worn off, you were able to leave the island again."
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":28
+            }
+        ]
+    },
+    {
         "id":"ll2_boat_kalypso",
         "message":"Ahoy!",
         "switchToNPC":"ll2_captain",
         "replies":[
             {
-                "text":"Land the boat!",
+                "text":"Land the ship!",
                 "nextPhraseID":"ll2_boat_kalypso_10",
                 "requires":[
                     {
@@ -321,7 +355,7 @@
         "switchToNPC":"ll2_captain",
         "replies":[
             {
-                "text":"Land the boat!",
+                "text":"Land the ship!",
                 "nextPhraseID":"ll2_boat_circe_10",
                 "requires":[
                     {
@@ -469,7 +503,7 @@
         "switchToNPC":"ll2_captain",
         "replies":[
             {
-                "text":"Land the boat!",
+                "text":"Land the ship!",
                 "nextPhraseID":"ll2_boat_cyclops_10",
                 "requires":[
                     {
@@ -499,7 +533,7 @@
         "switchToNPC":"ll2_captain",
         "replies":[
             {
-                "text":"Land the boat!",
+                "text":"Land the ship!",
                 "nextPhraseID":"ll2_boat_cyclops_10",
                 "requires":[
                     {
@@ -571,7 +605,7 @@
         "switchToNPC":"ll2_captain",
         "replies":[
             {
-                "text":"Land the boat!",
+                "text":"Land the ship!",
                 "nextPhraseID":"ll2_boat_sub_10",
                 "requires":[
                     {
@@ -2578,7 +2612,7 @@
     },
     {
         "id":"ll2_mapmaker_96",
-        "message":"Thorype Splathershed didn't seem entirely sure whether to believe your incredible story.",
+        "message":"Thyrope Splathershed didn't seem entirely sure whether to believe your incredible story.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -2600,7 +2634,7 @@
     },
     {
         "id":"ll2_mapmaker_99",
-        "message":"As reward you can use Captain Burry and his boat whenever you want. I will pay for it.",
+        "message":"As reward you can use Captain Burry and his ship whenever you want. I will pay for it.",
         "replies":[
             {
                 "text":"Oh, nice - thank you!",
@@ -3844,7 +3878,7 @@
     },
     {
         "id":"ll2_whirl",
-        "message":"It swirls around you, faster and faster, until everything is black.\nYou wake up in a daze. The ship survived the whirlpool!",
+        "message":"It swirls around you, faster and faster, until everything is black.\nYou wake up in a daze. The ship survived the maelstrom!",
         "rewards":[
             {
                 "rewardType":"changeIcon",
@@ -4322,7 +4356,7 @@
         "message":"Sounds like a plan. And you? How do you plan to stop yourself from simply jumping overboard?",
         "replies":[
             {
-                "text":"I'll take ear plugs too, of course.",
+                "text":"I'll take earplugs too, of course.",
                 "nextPhraseID":"ll2_sirene_key_70"
             },
             {
@@ -4408,7 +4442,7 @@
     },
     {
         "id":"leofric_remgard_10",
-        "message":"That's why I have produced these ear plugs from beeswax. I could sell you some of them.",
+        "message":"That's why I have produced these earplugs from beeswax. I could sell you some of them.",
         "replies":[
             {
                 "text":"With pleasure. Show me what you have for sale.",
@@ -5287,7 +5321,7 @@
     },
     {
         "id":"ll2_cyclops_killed",
-        "message":"So let's get to the boat. The ram can carry me there again.",
+        "message":"So let's get to the ship. The ram can carry me there again.",
         "rewards":[
             {
                 "rewardType":"changeIcon",
