@@ -204,11 +204,7 @@
     {
         "id":"ll2_boat_afloat_10",
 		"switchToNPC":"none",
-        "replies":[
-            {
-                "text":"Once the magic had worn off, you were able to leave the island again."
-            }
-        ],
+		"message":"Once the magic had worn off, you were able to leave the island again.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -429,7 +425,7 @@
     },
     {
         "id":"ll2_boat_circe_10a",
-        "message":"Me and my men go and replenish supplies on the island. See you later.",
+        "message":"I and my men go ashore and replenish supplies on the island. See you later.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2063,7 +2059,7 @@
     },
     {
         "id":"kalypso_68",
-        "message":"When you feel hunger again, when you feel lack again, ...",
+        "message":"When you feel hunger again, when you feel lack again...",
         "replies":[
             {
                 "text":"N",
@@ -2327,7 +2323,7 @@
     },
     {
         "id":"ll2_mapmaker_11",
-        "message":"You probably know my brother, who wrote the famous treatise on the history of Dhajavar.",
+        "message":"You probably know my brother, who wrote the famous treatise on the history of Dhayavar.",
         "replies":[
             {
                 "text":"Maybe. What are you doing here?",
