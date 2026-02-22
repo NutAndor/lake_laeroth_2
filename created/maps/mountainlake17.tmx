@@ -183,6 +183,9 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7609" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../../../../../AndorsTrailRelease/andors-trail/AndorsTrail/res/drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="16" height="14">
   <data encoding="base64" compression="zlib">
    eJx7wcnA8GIUj+JRPCAYAL8O0uE=
@@ -190,12 +193,12 @@
  </layer>
  <layer id="2" name="Objects" width="16" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOFgkzMCwG4iXCOBQAgQgeuVEwCkYBYQAAvjkCSg==
+   eJyrE2bAChYBxRcD8RIc8iAggkduFIyCkQDqKMwDAN3xA2w=
   </data>
  </layer>
  <layer id="3" name="Above" width="16" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDBQAAAOAAAE=
+   eJz7JsswCkbBKBggAADGEAEU
   </data>
  </layer>
  <layer id="4" name="Walkable" width="16" height="14">
