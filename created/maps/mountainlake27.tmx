@@ -196,12 +196,12 @@
  </layer>
  <layer id="9" name="Ground" width="20" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYBjaYDcThN7LRLk5VhIMDNZo2EaCPLNBZmlLQMyFmQUyRwtq5moSzASZATMLRMOAFtRMHQncerEBGQlUmk0IIQcy6yInAwMrMwNDGiMEE+M2EPAC0t5o2EcC4c4KoFmleMxD9x8uIAU1l1h3wQAz0E/87Ag+iA3yJzHhJ0NCGIPMA5mLDQAAFNIXdA==
+   eJxjYKAeMJegomFAIEmEebuZIPReJsrMA5ljBZS3RsM2ErjNxmceyCxtCYi5MLNA5mhBzVyNxUxc5oHMgJmljaRGC2qmDg59uMyTkUCl2YQQciCzLnIyMLAyMzCkMUIwPvOQ3eQFpL3RsI8Ewp0VQLNK8ZiH7j9cQApqLjpANg+bWcxAP/GzI/ggNsif+MKvQRjCliHCXTAAMg9kLjpwB4oDAPNgGm4=
   </data>
  </layer>
  <layer id="2" name="Objects" width="20" height="11">
   <data encoding="base64" compression="zlib">
-   eJx7IsSAAr7JQjC1ALXNG2rASoKBgQcaxjYS2NXslGNg2CWH3wxkGgbeSGI38yTQrFN4zCME2IDulRFD8G8CzbqFwzx0N6GbAwPI7nwJNOsVFvOQzWITwpSHAZC/CQF87iIXwNyEbj9InAePe5EBAIkUE5w=
+   eJx7IsSAAr7JQjC1ALXNowRQ2x3EmGclwcDAAw1jGwnsanbKMTDsksNtnpUEKg0DbySxm3kSaNYpPOYRAmxA98qIIfg3gWbdwmEeupvQzYEBZHe+BJr1Cot5yGaxoaVLZADyNzaAbB4+dxEL0NMuzE3o9oPEefC4FxkAABbiHUc=
   </data>
  </layer>
  <layer id="5" name="Objects_1" width="20" height="11">
@@ -216,7 +216,7 @@
  </layer>
  <layer id="3" name="Above" width="20" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF9AJ3JGln9mcxCKaWWdQEMH9TYu4nJgT7sRgqTaz9OM2Ghh2x5hEDQGZ9wmIeAOMRDvU=
+   eJz7JsswCugE7kjSzuzPYhBMLbOoCWD+psTcT0wI9mMxVJpY+3GaDQ07Ys0jBoDM+oTFPACUgBAI
   </data>
  </layer>
  <layer id="2" name="Top" width="20" height="11">
@@ -226,7 +226,7 @@
  </layer>
  <layer id="4" name="Walkable" width="20" height="11">
   <data encoding="base64" compression="zlib">
-   eJy7KMZAN3BRDBNTag4+80kxj1g7SVWHy02kmEfIbGz2YDMbm3589uETxxX+uPThcx8h95LiR2L8gG4mMW4gxnx8bocBANQ3QBI=
+   eJy7KMZAN3BRDBNTag4+80kxj1g7SVWHy02kmEfIbGz2YDMbm3589uETxxX+uPThcx8h95LiR2L8gG4mMW4gxnxC+kAAAMXdPys=
   </data>
  </layer>
  <layer id="3" name="Walkable_1" width="20" height="11" visible="0">
@@ -252,7 +252,7 @@
     <property name="place" value="north2"/>
    </properties>
   </object>
-  <object id="2" name="south2" type="mapchange" x="544" y="320" width="96" height="32">
+  <object id="2" name="south2" type="mapchange" x="512" y="320" width="128" height="32">
    <properties>
     <property name="map" value="mountainlake6"/>
     <property name="place" value="north2"/>

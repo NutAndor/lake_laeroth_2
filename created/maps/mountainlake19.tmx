@@ -183,6 +183,9 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7609" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
  <layer id="9" name="Base" width="22" height="20">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUDBdwiRMVD3ZzR8EooCUAAKcFBtk=
@@ -195,12 +198,12 @@
  </layer>
  <layer id="2" name="Objects" width="22" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2DoAgsJBgZLCQjbXALCRxajBKhDzdKQQBWjxOwKIQaGSiFM8WYByszuAJrZCTU3kAVCg7hHWSFsdSqESz3UXBUgNkPzAyVuP8CCym9DMjsNyNakQlxiA6Say4Ul3mBglQB55koQqVYcqM6TBHMloWqboG4OEsBUQ6qZIOAugermJAGEWR5QTKqZyGZ7oGFyzYIBAMbEFLM=
+   eJybIMxAdRBJAzNHwSjABiwkGBgsJSBscwkIH1mMEqAONUtDAlWMErMrhBgYKoUwxZsFKDO7A2hmJ9TcQBYIDeIeZYWw1akQLvVQc1WA2AzND5S4/QALKr8Nyew0IFuTCnGJDZBqLheWeIOBVQLkmStBpFpxoDpPEsyVhKptgro5SABTDalmgoC7BKqbkwQQZnlAMalmIpvtgYbJNQsGAOq3FcI=
   </data>
  </layer>
  <layer id="3" name="Above" width="22" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2DoAy0RBgZtINYBYl0R6plrBTTLGohtgNgWiH8KUsdcL6BZ3kDsA8S+QPxZjDrmPhJDxY+pZO4nMfz8MCHq2DMKBj9gEsYuTq28QU0AAPuzDj4=
+   eJz7JsswCkbBkAdaIgwM2kCsA8S6ItQz1wpoljUQ2wCxLRD/FKSOuV5As7yB2AeIfYH4sxh1zH0khoofU8ncT2L4+WFC1LFnFAx+wCSMXZxaeYOaAABerg9R
   </data>
  </layer>
  <layer id="10" name="Top" width="22" height="20">
@@ -208,7 +211,7 @@
    eJxjYBgFo2AUDBdgx4FgC3LgVkcq8EMyS5GK5o6CUUBLAAB//gDf
   </data>
  </layer>
- <layer id="4" name="Walkable" width="22" height="20" visible="0">
+ <layer id="4" name="Walkable" width="22" height="20">
   <data encoding="base64" compression="zlib">
    eJy7KMZAdXCRBmaOglGADYDSGi48GM2G6aWVu9H1Y7OPUnOxmUOtMCdk90CZS0gtevhQ2w2khi9yvOOyh5w4w6eHkjSGLz+Qay5IPQAsQjja
   </data>

@@ -200,7 +200,7 @@
  </layer>
  <layer id="3" name="Above" width="7" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYBi5AAAA/AAB
+   eJxjYBiZ4JssAwMABSsBFA==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="7" height="9">

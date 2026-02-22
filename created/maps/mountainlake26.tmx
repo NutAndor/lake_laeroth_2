@@ -195,12 +195,12 @@
  </layer>
  <layer id="2" name="Objects" width="7" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYEAF32Qh+LEQAwaAyY0E8AmL/0HgK1AcANMdB00=
+   eJxjYEAF32Qh+LEQAwaAyY0E8AmL/0GgXpiBAQDRSAbY
   </data>
  </layer>
  <layer id="3" name="Above" width="7" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFpAIAATQAAQ==
+   eJxjYMAOvsnikBjhABQuADZpAic=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="7" height="11">

@@ -184,7 +184,7 @@
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7609" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../../../AndorsTrailRelease/andors-trail/AndorsTrail/res/drawable/map_guynmart.png" width="512" height="256"/>
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
  <layer id="1" name="Ground" width="27" height="17">
   <data encoding="base64" compression="zlib">
@@ -193,7 +193,7 @@
  </layer>
  <layer id="2" name="Objects" width="27" height="17">
   <data encoding="base64" compression="zlib">
-   eJzLEWegOdgkzMCwWZj29oDAIaA9h+lk1ygYBaNgFIyCgQNT6FTWTwLaAwAIQgUG
+   eJzLEWegOdgkzMCwWZj29oDAIaA9h+lk1ygYBaNgFIyCgQNTqFTW1wPNaQDiOhzmTQKKAwA+zQa8
   </data>
  </layer>
  <layer id="3" name="Above" width="27" height="17">

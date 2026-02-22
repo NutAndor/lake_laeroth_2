@@ -183,6 +183,9 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7609" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="22" height="30">
   <data encoding="base64" compression="zlib">
    eJx7wcnA8GIUj+JRPIpHMdn4IhImVh0+tejqCOkhRw0xZtPKXEJhRoyZ5IQFuWaS4iZSzCTHXHLSJCGcxkgaHmj3kps3B8KtMHP3MEHwOSiG8XGZCZJDZmPD5whgXOqJ0UsOBgDg7FGd
@@ -190,17 +193,17 @@
  </layer>
  <layer id="2" name="Objects" width="22" height="30">
   <data encoding="base64" compression="zlib">
-   eJztU0EOgkAMLB4Q9GDABFz+afRvxFf4BA+aePBgIqIXt4GGoRb1bJikWZB2ZratRCNGjBjx/whzoggizn/Li77kzX08MqKVP5/+nA3wH7MuT8LiRD7no06IsrzPj9zMe/JxTpr3KH3nFW2nNKu2Jmu5mQdrROvqmt9QV7xKDefEoC1+jooXte5tDt7J8hosm3Oa2tq6F4yn68/Dykdg73WfhDcufE7RzUNC8g+u44ry/n5oTsvvN+gdsjgtv7ek/136Hhu78iu0X713OKNtQLT2sQnsZ/HLnOyXwb2swDe/h+nwLmugPnOKX/RZA7/e03JCtJvYnKLP/Z0Vtj739pK882qwBt6J/zdlq7tIu+dPkHtIv/ZqNpWa/9A37IdVcxjYUal7AdEPYxo=
+   eJzVlMFOg0AQhodGEerBgAmwvKfRd2s8a88aX6BqTXroQVOsvTgTmDBMZ6mx2UP/ZAJ0Z7/5mR06L2FUD7j+iDEfyTurAM4x4mqcday+Dnj9r14CcMnrWwAueX0OxH0NwOXZOCWd0pyF4oaa39DzsBnxHONaIiL15Oo8incjl/MuMX4KgAqvO7xOPfxl0edx6P/MWPEcxjYDKMohX7KJ+4GxytrnJN/3yrWd8tR0e4qOTRy5h2t9uvY3WZe98h7KSUVt9rNUXFnru8uR72R5ja7b60Vu19a9IO3c8DysfCnZe90n5qY15tT9eXBw/sL1rKQczodmWn4PSc+QxbT8brLhOvc9NWblr9J+9dzJM7qLAG4wbiP7nv0Sk/ySqJeN8E3Pce6fZS1Zn5jsV/rcCr6e09kE4H5iM7k+9Xda2/Wpt+tsn6tFNeQ70Xcz6+pe5f39mPg9uF9P6mwadf6+NdkPa8/CM6O87xdu53Yz
   </data>
  </layer>
  <layer id="3" name="Above" width="22" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAoIg1+S1DfzJ9BMLinqm4kPXKaBPygBhNw72ACye9HDEp2fyUjYvDJG2oUBJ5XTFjlgN9NAu4A+AAAs9gsX
+   eJz7JsuAF3yTReCBBrRyAy3MpVWYjZqLavaouUMr3mhdlgylMKalubQCvySpb+ZPoJlcUtQ3Ex+4TAN/UAIIuXewAWT3ooclOj+TkbB5ZYy0CwNOKqctcsBupoF2AX0AAOc8JfI=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="22" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlMEJQCEMQ53C/VdyI0+iSE0T64d/6IPe0pgWtdUCaXVWRJMkSeKx/iV7vdZZfYzvq2xDa/WdNOh8JeMJNLPni3KrO2Nh8kR3YN0P1Kt4ov2p+W7yRvg6r3qfmDftzcB67no0u+rLzvbH6pSdyTo=
+   eJztlFEKwCAMQ3cK738lb7QvkUmNiW1hgoH+pW9p1dXyQNXSy+OJUBY/g5u1j8v9si/3rHNT/iVjRfusPoYbla15rb6ZB31fyTgTmnnFRbnVnbFi8nh3YN0P1Ksw0f7UfDt5PcrOq94n5k2vZmCZox/NrnLZ2f5YL/G82Xg=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -278,7 +281,7 @@
     <property name="spawngroup" value="maonit_1"/>
    </properties>
   </object>
-  <object id="14" name="ll2_sealife" type="spawn" x="64" y="64" width="640" height="288">
+  <object id="14" name="ll2_sealife" type="spawn" x="64" y="64" width="608" height="288">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="ll2_sealife"/>
