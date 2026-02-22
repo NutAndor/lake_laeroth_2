@@ -1060,7 +1060,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ll2_circe_55"
+                "nextPhraseID":"ll2_circe_71"
             }
         ],
         "rewards":[
@@ -1073,27 +1073,6 @@
                 "rewardType":"giveItem",
                 "rewardID":"ll2_key_circe",
                 "value":1
-            }
-        ]
-    },
-    {
-        "id":"ll2_circe_55",
-        "message":"Be careful whom you trust on this island. Not every beast was born that way.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"ll2_circe_56"
-            }
-        ]
-    },
-    {
-        "id":"ll2_circe_56",
-        "message":"I heard that.",
-        "switchToNPC":"ll2_captain_0",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"ll2_circe_71"
             }
         ]
     },
@@ -1130,7 +1109,7 @@
     },
     {
         "id":"ll2_circe_73",
-        "message":"To the south west lie the lands of the cyclops.",
+        "message":"To the south east lie the lands of the cyclops.",
         "replies":[
             {
                 "text":"N",
@@ -1140,6 +1119,24 @@
     },
     {
         "id":"ll2_circe_74",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_circe_78",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_circe_74b"
+            }
+        ]
+    },
+    {
+        "id":"ll2_circe_74b",
         "message":"They are not like other folk. They build no cities. They obey no laws but their own temper.",
         "replies":[
             {
@@ -1190,6 +1187,24 @@
     },
     {
         "id":"ll2_circe_79",
+        "replies":[
+            {
+                "nextPhraseID":"ll2_circe_86",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ll2_circe_79b"
+            }
+        ]
+    },
+    {
+        "id":"ll2_circe_79b",
         "message":"Scylla does not chase ships. She does not roar warnings. She simply reaches.",
         "replies":[
             {
@@ -1244,13 +1259,32 @@
         "replies":[
             {
                 "text":"Charybdis?",
-                "nextPhraseID":"ll2_circe_87"
+                "nextPhraseID":"ll2_circe_87",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":70,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Yes, we have met her indeed.",
+                "nextPhraseID":"ll2_circe_94",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":70
+                    }
+                ]
             }
         ]
     },
     {
         "id":"ll2_circe_87",
-        "message":"She is no creature of claw or tooth. She is hunger in the sea.",
+        "message":"She is no creature of claw or tooth. She is hunger in the lake.",
         "replies":[
             {
                 "text":"N",
@@ -1374,7 +1408,7 @@
     },
     {
         "id":"ll2_circe_99",
-        "message":"The sea ahead does not hate you. It does not love you either.",
+        "message":"The lake ahead does not hate you. It does not love you either.",
         "replies":[
             {
                 "text":"N",
@@ -2597,7 +2631,7 @@
     },
     {
         "id":"ll2_mapmaker_95a",
-        "message":"And finally, you raved about the gloomy land beneath the sea. What it was like to be swept into the abyss with the ship, and then to resurface again.",
+        "message":"And finally, you raved about the gloomy land beneath the lake. What it was like to be swept into the abyss with the ship, and then to resurface again.",
 		"switchToNPC":"none",
         "replies":[
             {
@@ -5768,7 +5802,7 @@
     },
     {
         "id":"ash_fisher_10",
-		"message":"The sea keeps them."
+		"message":"The water keeps them."
     },
     {
         "id":"ash_fisher_20",
