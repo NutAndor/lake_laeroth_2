@@ -190,12 +190,12 @@
  </layer>
  <layer id="9" name="Ground" width="8" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYMANZgszMOwUx6MACFbSWP4kAXlK3UfIfHwgHhg+AB7tB4E=
+   eJzbKc6AEzAzMzCsxCMPArSWP0lAfieNzccH4oUZGABRRgeZ
   </data>
  </layer>
  <layer id="2" name="Objects" width="8" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYEAF32QhGJ2NTR7GxweGujwhvQDzrw8L
+   eJz7JsuAAr7JQjAynxR5dDDU5QnpBQAR0g8L
   </data>
  </layer>
  <layer id="3" name="Above" width="8" height="10">
@@ -205,7 +205,7 @@
  </layer>
  <layer id="4" name="Walkable" width="8" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYMANLopBMD4w3OUJ6QUAAlYJBw==
+   eJy7KMaAE1wUg2B8YLjLE9ILACMPCe4=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -215,7 +215,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="14" name="north" type="mapchange" x="0" y="0" width="192" height="32">
+  <object id="14" name="north" type="mapchange" x="32" y="0" width="160" height="32">
    <properties>
     <property name="map" value="mountainlake34"/>
     <property name="place" value="south1"/>

@@ -190,7 +190,7 @@
  </layer>
  <layer id="9" name="Ground" width="7" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYBi5AAAA/AAB
+   eJxjYMANdorjljuJRw6fvpVkytHCPgAzcQZx
   </data>
  </layer>
  <layer id="2" name="Objects" width="7" height="9">
@@ -200,12 +200,12 @@
  </layer>
  <layer id="3" name="Above" width="7" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYBiZ4JssAwMABSsBFA==
+   eJxjYMANvskOXzmQOAA/Twms
   </data>
  </layer>
  <layer id="4" name="Walkable" width="7" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOLorhkBgmAOQ/ANIoAc8=
+   eJxjYMAOLopBMC4w1OVA4gBfRAkH
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -221,17 +221,17 @@
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="1" name="south" type="mapchange" x="0" y="256" width="192" height="32">
+  <object id="1" name="south" type="mapchange" x="32" y="256" width="160" height="32">
    <properties>
     <property name="map" value="mountainlake26"/>
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="2" name="ll2_maps_25" type="script" x="0" y="32" width="224" height="224"/>
-  <object id="4" name="ll2_maps_25" type="script" x="0" y="0" width="192" height="288"/>
+  <object id="2" name="ll2_maps_25" type="script" x="32" y="32" width="192" height="224"/>
+  <object id="4" name="ll2_maps_25" type="script" x="160" y="0" width="32" height="288"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
-  <object id="3" name="ll2_sealife" type="spawn" x="0" y="64" width="160" height="160">
+  <object id="3" name="ll2_sealife" type="spawn" x="32" y="64" width="128" height="160">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="ll2_sealife"/>

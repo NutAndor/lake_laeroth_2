@@ -193,22 +193,22 @@
  </layer>
  <layer id="9" name="Ground" width="19" height="14">
   <data encoding="base64" compression="zlib">
-   eJxbJswwCoYBaKZiPE4GmjWFSuYtBpqzZDSNDQhwECJe7V5xBoZ9WPB+cYg8AC4xCi8=
+   eJxbJswwCoYBaKZiPE4GmjWFSuYtBpqzZDSNDQhwEGJg2CvOwLAPiveL41aLrG4fFj0ACYANgw==
   </data>
  </layer>
  <layer id="2" name="Objects" width="19" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYKAO6BemkkGjYBSMAqqBb7KoGBtoJJB32YDyAKg0BZw=
+   eJxjYKAO6BemkkGjYBSMArqCRgJ5lw0oDwCNAQFQ
   </data>
  </layer>
  <layer id="3" name="Above" width="19" height="14">
   <data encoding="base64" compression="zlib">
-   eJz7JstAFfCNSuaMAvIAKPxbhKlnFrXAaLoYOEBs2IPUEcIAzbEQtQ==
+   eJz7JstAFfCNSuaMAvIAKPxbhKlnFrXik5pmjQLSACzskTGx6tAxAAWxFyc=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="19" height="14">
   <data encoding="base64" compression="zlib">
-   eJy7KMZAFXCRSuaMAvIANcMfZBa1zKOmWaOANEDNOAQAoCoIIA==
+   eJy7KMZAFXCRSuaMAvIANcMfZBa1zKOmWaOANAALe2RMrDp0DAAsSBL0
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">

@@ -190,12 +190,12 @@
  </layer>
  <layer id="9" name="Ground" width="9" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgOMjEwHAIiA8DMQwcRONzMjMwcAHxFaDYBqj6K1C8EUkdslpkzM3MQBUQLkwdc4g1q44INX0E1KwlIN8OlO8goGY6UH4GEDfgUbccKLcCiAF3JRA/
+   eJxjYGBgOMjEwHAIiA8DMQwcRONzMjMwcAHxFaDYBqj6K1C8EUkdslpkzM3MQBUQLkwdc0CgiwizZhGhZhUBNWsJyLcD5TsIqJkOlJ8BxN/EcatZDpRfAcQA1sERJA==
   </data>
  </layer>
  <layer id="2" name="Objects" width="9" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYGBg+CaLG8MAPjXI6vCppQagljnUNIsYcwipIUaeUDjC5AGnsSFO
+   eJxjYGBg+CaLG8MAPjXI6vCppQagljnEmkUvNcTIEwpHmDwAaP8iYQ==
   </data>
  </layer>
  <layer id="3" name="Above" width="9" height="13">

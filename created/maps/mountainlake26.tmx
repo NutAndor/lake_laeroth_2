@@ -190,22 +190,22 @@
  </layer>
  <layer id="9" name="Ground" width="7" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFpAIAATQAAQ==
+   eJxbKc6AE5zEI7cTj9xKMuVoYR8tzAQAyQII0Q==
   </data>
  </layer>
  <layer id="2" name="Objects" width="7" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYEAF32Qh+LEQAwaAyY0E8AmL/0GgXpiBAQDRSAbY
+   eJxjYEAF32Qh+LEQAwaAyY1kUC/MwAAAtOoF1A==
   </data>
  </layer>
- <layer id="3" name="Above" width="7" height="11">
+ <layer id="3" name="Above" width="7" height="11" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOvsnikBjhABQuADZpAic=
+   eJz7JsuAFXyThWBcYKTKgcQB9rsN+A==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="7" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOLorhkBghAJf/QeIAHiUCtg==
+   eJy7KMaAFVwUg2BcYKTKgcQBh+cLvA==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -215,7 +215,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="14" name="north" type="mapchange" x="0" y="0" width="192" height="32">
+  <object id="14" name="north" type="mapchange" x="32" y="0" width="160" height="32">
    <properties>
     <property name="map" value="mountainlake25"/>
     <property name="place" value="south"/>
@@ -227,11 +227,11 @@
     <property name="place" value="north1"/>
    </properties>
   </object>
-  <object id="2" name="ll2_maps_26" type="script" x="0" y="32" width="224" height="288"/>
-  <object id="4" name="ll2_maps_26" type="script" x="0" y="0" width="192" height="352"/>
+  <object id="2" name="ll2_maps_26" type="script" x="32" y="32" width="192" height="288"/>
+  <object id="4" name="ll2_maps_26" type="script" x="32" y="0" width="160" height="352"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
-  <object id="3" name="ll2_sealife" type="spawn" x="0" y="64" width="160" height="224">
+  <object id="3" name="ll2_sealife" type="spawn" x="32" y="64" width="128" height="224">
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="ll2_sealife"/>

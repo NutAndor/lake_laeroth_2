@@ -190,17 +190,17 @@
  </layer>
  <layer id="9" name="Ground" width="8" height="10">
   <data encoding="base64" compression="zlib">
-   eJybK8yAEwThkaMGqCdgfj+F8tQACXjsYBNnYAAAifUDfA==
+   eJxjZWbACRYJ45ajBvgijl/+GgF5FgnquQUXSMATBmxA9wEAWtADYg==
   </data>
  </layer>
  <layer id="2" name="Objects" width="8" height="10">
   <data encoding="base64" compression="zlib">
-   eJz7JsuAAr7JQjCMjQ6Q5SkFhMypF6ZMPzUAPjtAcgBDcgtR
+   eJxjYEAF32QhGMZGB8jylAJKzaGWO8i1AyQHAI48Caw=
   </data>
  </layer>
  <layer id="3" name="Above" width="8" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBi84JvsQLuAMAAAsU8BFA==
+   eJxjYGBg+CTGMCjBN9mBdgFhAAD3KAIc
   </data>
  </layer>
  <layer id="4" name="Walkable" width="8" height="10">

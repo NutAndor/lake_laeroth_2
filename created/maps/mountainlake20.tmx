@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="13" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="17">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="13" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="17">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -186,24 +186,29 @@
  <tileset firstgid="7609" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
+ <layer id="9" name="Base" width="13" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DoghecCEypHgAGuQWn
+  </data>
+ </layer>
  <layer id="1" name="Ground" width="13" height="15">
   <data encoding="base64" compression="zlib">
-   eJx7wcnA8GIUj+JRzAAAJcC3lA==
+   eJx7wcnA8GIUj+IhireLMzDsAOKd4sTrOQ5UewKIT6LpAQAEdLb4
   </data>
  </layer>
  <layer id="2" name="Objects" width="13" height="15">
   <data encoding="base64" compression="zlib">
-   eJxbI8xAErAXIk39KBgFuMB2cQaGneLEqdsBVXuOiYFhOZI+IRzp9zhQ/gQQnxRHZeMDAL59DNk=
+   eJxbI8xAErAXIk39KBgFuMB2cQaGneLEqdsBVXuOiYFhOZo+ISxp+DhQ/gQQnxRHZeMzGwDRBA9G
   </data>
  </layer>
  <layer id="3" name="Above" width="13" height="15">
   <data encoding="base64" compression="zlib">
-   eJz7JstAEvhGovpRMLQBKL6RMS3MJdUNyPpw6cenBxcAAMQzF6M=
+   eJz7JstAEvhGovpRMLQBKL6RMS3MJdUNyPpwmYNLDz4MANHxIU4=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="13" height="15" visible="0">
+ <layer id="4" name="Walkable" width="13" height="15">
   <data encoding="base64" compression="zlib">
-   eJy7KMZAErhIovpRMApwAVBaIjY9wdQiY5g4seoJ2QUAHdsOcQ==
+   eJy7KMZAErhIovpRMApwAVBaIjY9wdQiY3RxQuoJYQAAiBaQ
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">

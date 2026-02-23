@@ -193,12 +193,12 @@
  </layer>
  <layer id="9" name="Ground" width="7" height="17">
   <data encoding="base64" compression="zlib">
-   eJwTEmbACv7JYhcfSmC7OG65mUC5vUy45R4A5VZjkZ8JNfMzDjkWZgYGVmbc+nDZR22540A5AFEQC78=
+   eJwTEmbACv7JYhcfSqBEHLdcGFBuLxNuuQdAudVY5MOgZn7GIcfCzMDAyowp14LHLYTciQvgM/M4UA4AIrkJ3g==
   </data>
  </layer>
  <layer id="2" name="Objects" width="7" height="17">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFZbIQjA3gkxuMAJ9bh4tciTgDQykUl4lD+CAaJAcAIXELUw==
+   eJxjYEAFZbIQjA3gk6MmoJYd+MwZLnIl4gwMpVBcJg7hg2iQHADdrAvm
   </data>
  </layer>
  <layer id="3" name="Above" width="7" height="17">
@@ -208,7 +208,7 @@
  </layer>
  <layer id="4" name="Walkable" width="7" height="17">
   <data encoding="base64" compression="zlib">
-   eJzbKcuAFezEIT6cgKUcfjlC8uToozaA2YcNAwCTrAYY
+   eJzbKcuAFezEIT6UAD4/gOQs5fDLYZOHmYlLjpA+ctyJTw5mHzoGyQEA0EAOHQ==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -251,7 +251,7 @@
     <property name="spawngroup" value="ll2_sealife"/>
    </properties>
   </object>
-  <object id="5" name="taurophag" type="spawn" x="64" y="256" width="160" height="288">
+  <object id="5" name="taurophag" type="spawn" x="64" y="256" width="128" height="256">
    <properties>
     <property name="quantity" value="1"/>
     <property name="spawngroup" value="taurophag"/>
