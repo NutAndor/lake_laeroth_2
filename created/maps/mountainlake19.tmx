@@ -188,22 +188,22 @@
  </tileset>
  <layer id="9" name="Base" width="22" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDBdwiRMVD3ZzR8EooCUAAKcFBtk=
+   eJxjYCAPvODEjSkBtDIXlx2jYBQMJ3CJExUPdnNHwSigFQCV7wA2eRfL
   </data>
  </layer>
  <layer id="1" name="Ground" width="22" height="20">
   <data encoding="base64" compression="zlib">
-   eJx7wcnA8GIUj+JRjIIvYeGji5FrLi5MDXPRAaVmEzKXXPPxhQMlZg81c4k1m9ppjVrpjVr5glYYAN+YkGQ=
+   eJx7wcnA8IIMvFGcgWETFrxZnDzzYPggUP8hKJ4ExDeBYhOB9GEKzcVmBzXNHMXDC1/CwkcXI9dcXJga5qIDSs0mZC655uMLB0rMHmrmEms2tdMatdIbtfIFLfBaYQYGALZVjdM=
   </data>
  </layer>
  <layer id="2" name="Objects" width="22" height="20">
   <data encoding="base64" compression="zlib">
-   eJybIMxAdRBJAzNHwSjABiwkGBgsJSBscwkIH1mMEqAONUtDAlWMErMrhBgYKoUwxZsFKDO7A2hmJ9TcQBYIDeIeZYWw1akQLvVQc1WA2AzND5S4/QALKr8Nyew0IFuTCnGJDZBqLheWeIOBVQLkmStBpFpxoDpPEsyVhKptgro5SABTDalmgoC7BKqbkwQQZnlAMalmIpvtgYbJNQsGAOq3FcI=
+   eJybIMxAFvgmixuLiZNnJiFzqQVoYeYoGBhgIcHAYCkBYZtLQPjIYpQAdahZGhKoYpSYXSHEwFAphCneLECZ2R1AMzuh5gayQGgQ9ygrhK1OhXCph5qrAsRmaH6gxO0HWFD5bUhmpwHZmlSIS2yAVHO5sMQbDKwSIM9cCSLVigPVeZJgriRUbRPUzUECmGpINRME3CVQ3ZwkgDDLA4pJNRPZbA80TK5ZIAAq3wEwRijZ
   </data>
  </layer>
  <layer id="3" name="Above" width="22" height="20">
   <data encoding="base64" compression="zlib">
-   eJz7JsswCkbBkAdaIgwM2kCsA8S6ItQz1wpoljUQ2wCxLRD/FKSOuV5As7yB2AeIfYH4sxh1zH0khoofU8ncT2L4+WFC1LFnFAx+wCSMXZxaeYOaAABerg9R
+   eJz7JstAdfCNBmaOglGAD2iJMDBoA7EOEOuKUM9cK6BZ1kBsA8S2QPxTkDrmegHN8gZiHyD2BeLPYtQx95EYKn5MJXM/ieHnhwlRx55RMPgBkzB2cWrlDWoCAGdeEGQ=
   </data>
  </layer>
  <layer id="10" name="Top" width="22" height="20">
@@ -213,11 +213,11 @@
  </layer>
  <layer id="4" name="Walkable" width="22" height="20">
   <data encoding="base64" compression="zlib">
-   eJy7KMZAdXCRBmaOglGADYDSGi48GM2G6aWVu9H1Y7OPUnOxmUOtMCdk90CZS0gtevhQ2w2khi9yvOOyh5w4w6eHkjSGLz+Qay5IPQAsQjja
+   eJy7KMZAFrgohh+TC2hhJj47RsHQBrRML7RK37R0N7p+bPZRai42c2iZnwaDuYTUoocPtd1Aavgixzsue8iJM3x6KEljhOoTct0KAIBjSDE=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="9" name="north" type="mapchange" x="32" y="0" width="640" height="32">
+  <object id="9" name="north" type="mapchange" x="32" y="0" width="416" height="32">
    <properties>
     <property name="map" value="mountainlake11"/>
     <property name="place" value="south1"/>

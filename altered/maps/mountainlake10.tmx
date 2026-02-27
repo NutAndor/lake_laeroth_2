@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="19">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="21">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -196,17 +196,17 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJytVUtOw0AMjVqR/hYoQWpol+xYwPWAQ1BOAL1QdxyBBZVYsKhEmnYBYxIrr449M5H6pGgmE4+f/eyZlFnixfuinZcB2xgfEjv49gP+P4w9aMPxkH+eoz/LhwYtt11gv+Zf87ManMbdF8+D/nsqF9ubZ9+L8m0Fa7du/urZz7bsZ9OMk2WSTJetHa1XLvfhsPa5VnxSnBfDOuZDoynbI+idc1o3exijPEm+s9NYGBVoT36Ri8aje2bL9v3Q9FMq7HBkLq43xoLr0je/W2PIDpEWSbIXcSCnNlJtqEa+GDQ7eicu4pwVDX/ecnLdcZRxk2bSp7THHLiPmPMw1zVmsBYaN+pCGOWtDxk71/ZzXnMuiq6vS8gdYwlpK/ErcuBct02uqJWWB0LjtmqBMaO+i0LnsPL6/5Z363jn1u5zO3+NkzB280lxGp8vj32PvidgTRFHtzYFbq0fpS/ZO1pfc4zEuxX9S5gXXW5f7+CZq8QdIyF7yeKm76HekbDsfRojUA8tTzqDVu9Ireksh3KVvDF3oK/PiW9s9LDFyzXWeiX2zmBtr4swJwFr/JWF+7oTm6HtMe9yWVprXNb9TJxlZt8PMeirtfaf6ctJQK3T3P6n4d1AdjHnJSZnn9YM1nYceV5ieDWtUVt5VmJ7V8PNVT2i1gRZ5/RMfBpQ61KcqXPUMoaX/wPcS7L+D47/0T1PPeP4AziaBOI=
+   eJytVUtOw0AMjVqR/hYoWTS0C/Ys4Hh8DkE5AfRC3XEEFlRiwaISadoFjEmsvDr2zETqk6JJJh4/+9kzU2aJF++L9r0M2Mb4kNjBvx/w/2GsQRuOh/zzO/qzfGjQctsF1mv+NT+rwWncffE86L+mcrG9eda9KP9WMHfj3l8969mW/WyacbJMkumytaP5yuU+HNY+14pPivNiWMd8aDRlewR9c07rZg1jlCfJd3YaC6MC7ckvctF4dM9s2X4fmn5KhR2OzMX1xlhwXvrmb2sM2SHSIkn2Ig7k1EaqDdXIF4NmR9/ERZyzouHPW06uO44ybtJM+pT2mAP3EXMe5rrGDNZC40ZdCKO89SFj59p+zmvORdH1dQm5YywhbSV+RQ6c67bJFbXS8kBo3FYtMGbUd1HoHFZe///ybh1v3dxdbuevcRLG7n1SnMbny2Pfo+8JWFPE0c1NgVvrR+lL9o7W1xwj8W5F/xLmRZfb1zu45ypxxkjIXrK46X+odyQse5/GCNRDy5P2oNU7Umvay6FcJW/MGejrc+IbGz1s8XKNtV6JPTNY26sizEnAGn9l4b7uxGZoe8y7XJbWGpd1PhNnmdnnQwz6aq3dM305Cah1mtt3Gp4NZBezX2Jy9mnNYG3HkfslhlfTGrWVeyW2dzXcX9cjak2QdU7PxKcBtS7FnjpHLQmsGd6HyMv3APeSrP+DW/PonqeecfwB8YcFvA==
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlT0OgzAMhb22I0OlMHADOF4v3BvQCSaEAIlaTowdu0SIT0JI4fkveQDAjRffl2xdq8Mx/Ro3Bnqdq/U5qNtDxXA1cVxKG+uJiqG0Q/jdD64vqY7SDoHW5TAyOT1qWsD1vdelZsDnqMkpjce5LHrR9oDn0PZgpY09j50jl+9ZAzzq5T6T8gI+Cw84P1pzdF5Kn+utFF65Yx7ReMeTq9XO9fW7kek5X5f637KghG/Imf49g7YC6Kr/1ixpj+f3c7skTOLWWPs=
+   eJztVTEOgzAM9AojA1IY+EH7vH64PygTmRCiQ2o5MXbsghAnIaRwZ5+TAwBueGHqZetaHtZ8vroY6HWu13snLwWl4XpiXYmb80RpKO4cfveD8yXlUdw50LwaRKamR08LcL5TXmkGfI6amlI9rmXhResBz6H1YMXNPc+dI1evHQCaYbuvKGUBn4UHuDxaY++8FL82WyV41c5lRJMdT1ytd22uX6OMz+X6rP8tC5zhG3Jkfo/AowN4dv/tabnH6/uVXjV6CRbqDVtL
   </data>
  </layer>
  <layer id="4" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztk7ERwDAIAz1Fuuw/Q8bwRrkUaXIGSRjixtzRmJhHMulHa33nzoR8YgXzDea8kj2KSqYV1XpHc6z0WJ2F+d6qoVkibLbPt6ay0Q4pPrD1iPcqm51B6Tfby+vJnql6rUAMVQczI+Mr6sV6jrRG9CI20pShN+vdo5rRXrJcVTfrrcf+k2ndqWZ692bfKsLN3CGGm/lPqXxvpmymxWXY16kxbo5XGsE=
+   eJztlMENgDAMAzsFP/afgTG6EeLBp0piO23UTy3100DOjgL9aq2fc86C82kH8xdzX8m2VMn0VJ3X8rFzxqoX5nmvhrxk2Gyfsaay0Q4pc2DrmdmrbNaD0m+2V9STvVPzekIMNQfjkZkr6sXOHGW1aizTY6NMkacsm8kf+VK5aC8jKXvNMhnN7laG6b1TzfQyW2zFd5a7eocUz7PflMqOMq1gZv8F43lujfkC6scY8w==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -228,7 +228,7 @@
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="14" name="west2" type="mapchange" x="0" y="768" width="32" height="192">
+  <object id="14" name="west2" type="mapchange" x="0" y="608" width="32" height="320">
    <properties>
     <property name="map" value="mountainlake11"/>
     <property name="place" value="east2"/>
@@ -312,6 +312,14 @@
    </properties>
   </object>
   <object id="18" name="dummy_key2" type="key" x="640" y="704" width="160" height="192">
+   <properties>
+    <property name="phrase" value="dummy_key"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="19" name="dummy_key3" type="key" x="64" y="800" width="32" height="96">
    <properties>
     <property name="phrase" value="dummy_key"/>
     <property name="requireId" value="andor"/>
