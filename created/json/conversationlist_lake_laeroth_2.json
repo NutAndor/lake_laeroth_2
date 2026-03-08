@@ -1367,7 +1367,7 @@
     },
     {
         "id":"ll2_circe_94",
-        "message":"You can not avoid Scylla. Chabybdis or the cyclops are your choice.",
+        "message":"You can not avoid Scylla. Charybdis or the cyclops are your choice.",
         "switchToNPC":"circe",
         "replies":[
             {
@@ -2180,6 +2180,39 @@
                 ]
             },
             {
+                "text":"I have earplugs now.",
+                "nextPhraseID":"ll2_mapmaker_9",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"earplugs",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"I have beeswax with me now.",
+                "nextPhraseID":"ll2_mapmaker_6a",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"earplugs",
+                        "value":5,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"beeswax",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lake_map",
+                        "value":12
+                    }
+                ]
+            },
+            {
                 "text":"We have a problem, sir. There's a rocky reef that the captain doesn't want to sail past. He's afraid of some singing creatures.",
                 "nextPhraseID":"ll2_mapmaker_2",
                 "requires":[
@@ -2293,7 +2326,24 @@
     },
     {
         "id":"ll2_mapmaker_6",
-        "message":"You can get the best beeswax directly from a beekeeper. I know one: Leofric, I would trust him."
+        "message":"You can get the best beeswax directly from a beekeeper. I know one: Leofric, I would trust him.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"lake_map",
+                "value":12
+            }
+        ]
+    },
+    {
+        "id":"ll2_mapmaker_6a",
+        "message":"Beeswax? From Leofric I hope. Good, give it to me. I can create earplugs for you.",
+        "replies":[
+            {
+                "text":"Here you are.",
+                "nextPhraseID":"ll2_mapmaker_7"
+            }
+        ]
     },
     {
         "id":"ll2_mapmaker_7",
@@ -2332,15 +2382,20 @@
         ]
     },
     {
+        "id":"ll2_mapmaker_9",
+        "message":"Good, good. Then off you go - the ship is waiting!",
+        "switchToNPC":"ll2_mapmaker"
+    },
+    {
         "id":"ll2_mapmaker_10",
-        "message":"I am Thyrope Splathershed, the famous scholar and cartologist.",
+        "message":"I am Thyrope Splathershed, the famous scholar and cartographer.",
         "replies":[
             {
                 "text":"Splathershed? Haven't I heard that name before?",
                 "nextPhraseID":"ll2_mapmaker_11"
             },
             {
-                "text":"A cartogologist?",
+                "text":"A cartographer?",
                 "nextPhraseID":"ll2_mapmaker_10a"
             }
         ]

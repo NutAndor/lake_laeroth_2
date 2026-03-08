@@ -193,7 +193,7 @@
  </layer>
  <layer id="1" name="Ground" width="13" height="15">
   <data encoding="base64" compression="zlib">
-   eJx7wcnA8GIUj+IBwNvFGRh2ipOm9hwTA8NyJH0g8R1YzAGJTQfik0B8HIhPiEP0gcRXADEILEfTCwBcobOo
+   eJx7wcnA8GIUj+IBwNvFGRh2ipOmdiYQL0fSBxLfgcUckNh0ID4JxMeB+ARUH0h8BRCDwHI0vQBRDLOI
   </data>
  </layer>
  <layer id="2" name="Objects" width="13" height="15">

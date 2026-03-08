@@ -193,12 +193,12 @@
  </layer>
  <layer id="9" name="Ground" width="28" height="20">
   <data encoding="base64" compression="zlib">
-   eJzrFGcgGrBIMDCwAjGbBPF6RsHgBmzA+OdAw5wkpAlSzAVhbiD+JcbAIAGkLwpjYnLtQTYXHUsCcbMAA8NDYUxMil/ZoPYgm4sPXJHCxC/EiLfvuRhp6p9IYWIuIuMT5jdS7EMHYkD9v4l0M8hvoPgiFIbEmEPIvghGBgYZCQhNKSA2TkDqiA17atgHC3t0O3HlQ2z5nNQ0IAbNBzB78eVDdLexIaklNQ2IiWPmb3zhwUGBXdR213AHO6noZzYC+accKAcAJuo8Gg==
+   eJzrFGcgGrBIMDCwAjGbBPF6RsHgBmzA+OdAw5wkpAlSzAVhbiD+JcbAIAGkLwpjYnLtQTYXHUsCcbMAA8NDYUxMil/ZoPYgm4sPXJHCxC/EiLfvuRhp6p9IYWIuIuMT5jdS7EMHYkD9v4l0M8hvoPgiFIbEmEPIvghGBgYZCQhNKSA2TkDqiA17atgHC3t0O3HlQ2z5nNQ0IAbNBzB78eVDdLexIaklNQ2IiWPmb3zhwUGBXdR213AHO4F+3g7EO5Awshg2eWxqQICNQP4pB8oBADofSdk=
   </data>
  </layer>
  <layer id="2" name="Objects" width="28" height="20">
   <data encoding="base64" compression="zlib">
-   eJz7JsswbMEXcfraxyJBX/tGAXbAKcXAwCWF4Edw0N4uZDszoPY9lmFgeALEv9gQbHIBtxAqnw3KbxOC2JcCpD8Dzf8CxFzsCDY+v1vKMTBYyRHnJ2QAss8UyT3hUHaLEMLv2IAn0C4vLPYh24mNXwo0MwyKw4E4HWhPKJRfhse+SKBdUVD7IhiRzEYLS2z+5EFTg0sdMsgE2pWFw38wwIbFXGTAgSSP7k5iAcyd8kT4EwQCBcizhxizR8HIAt+o2J4AmYXPPJAcAK8NIGg=
+   eJz7JsswbMEXcfraxyJBX/tGAXbAKcXAwCWF4Edw0N4uZDszoPY9lmFgeALEv9gQbHIBtxAqnw3KbxOC2JcCpD8Dzf8CxFzsCDY+v1vKMTBYyRHnJ2QAss8UyT3hUHaLEMLv2IAn0C4vLPYh24mNXwo0MwyKw4E4HWhPKJRfhse+SKBdUVD7IhiRzEYLS2z+5EFTg0sdMsgE2pWFw38wwIbFXGTAgSSP7k5iAcyd8kT4EwQCBcizhxizR8HIAt9kqYORzcJnFwAZXjKr
   </data>
  </layer>
  <layer id="2" name="Objects_0" width="28" height="20" visible="0">
@@ -218,7 +218,7 @@
  </layer>
  <layer id="4" name="Walkable" width="28" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzVVMENACEIuyncfyU38qm5YGmrMUrCwwRoKWAtH221dH/BTvO8WZdxdqqfxFIxo5zZO8JQ8KLYWc1MBwcLxf5zVvCyXFSPwUM6snyU/hw+KM6t5/4P7vxcXo4WaDZIs5V7z3YU3api7K7t+j9ftp39Mno3qRWKEA==
+   eJy7KMZANLgohsBDAdDbnYM5XJDjjlRMT7tItRObHlx8bHaQYh82tbjMJBQO5NiFTy26HkrsI6QXn3nE2IcvHIl1Dyn+I8c9+NSRax655QO58Ueuu8gJC3xxgy/MKMnvhNIovrxKCiA2rVGr/BzKgBplP7FlM0gOADW+mWc=
   </data>
  </layer>
  <layer id="4" name="Walkable_0" width="28" height="20" visible="0">

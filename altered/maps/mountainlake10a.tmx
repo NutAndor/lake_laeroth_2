@@ -196,17 +196,17 @@
  </layer>
  <layer id="2" name="Objects" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJzNVL1OwzAQPlUiUHeABClpIlhgBkbEqwELYmDjdZj7LB3KUKkjLR3gvtiWLyeH2hsnWY7t0/dzF7ttKBo177eNnedutC53VRN91vbbVERfJdGGx64dniHeRvB1FJx3IsasCThbxp52zNXZWXOMxeJoiA/M7zr4kZ50pHJI7R4fmGuuRcG12ZU2Z8/rWWdn+MBZKofWHtPscVEf8OT6QJ7XrvXKeSP89D5Urw558Hm6Hl633kfvtbYYtq6/1n3D9b6thnwmo04rcabxtX6s0Xf0+Ke0dySXI4bn97F+OQu52zJe4zGO1P8a8ep4cMcLVeNYSA1eVwrHsg36/sKP5VwZrvMF0cOE6PzY7mEtZ3DcVen/KzgM502b0L/TS6J75rhmjveJXYMb37130edDHhB4W/eiH4V7S2V4TB+yD6l9lF76d7oM98H3aO3qb6q0Po95MeodHxu5+JJnnjFy8f97PLKfJx7PEV8fvPcLBqV6XQ==
+   eJydVLFOwzAQPVUiUHcoSaWkiWCBEQEj4teABTEgIcTvMPMBfAVDGSp1pKUD3Itj5XKyqc1JJ+fs03vv7mLXFXmt5P26suu887rLXZREn6X9NgXRV060Yt/UwzPYYwBfW8Z5B8InVY+zZuxxw1yNXTVHyN72hvjA/C77emRN2mI5pHaHD8wl9yLj3mxym7PleNLYFXXgLJZDa/dpdrjoD3hS60Ce0671ynUl6mnrULPaVYPL0/1wuvU+Zq+1+bB1/7Xuc+73RTHkMwl9Wogzja/1I8bcMeOf3N6RVA4fnttHfH/Y565zf49DHLH/Neyh48Edz1SPfSY1OF0xHB91r+8vfF/OieE+HxFdj4hm+3YPsVzBcVnE/6/gMJw3rvr5TY+JrpjjlDleRjYGN77b2sWcd9UAw9u6FfPIurdUmsN0JucQO0dZS/tO5/19cDNadv03RdycQ7UY9Y6HPBVf8swTPBX/P3bDHHcRPO+zYXw2jed4YvznynLdBvheee8XPjZ93w==
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJz7JsvA8A2I0cE3WewYG/gpycDwSxLChtHI5lAbcEkRpw6X3XfQ3AhzP7I/qAl+UtlMdPdiM58Sf+BzLy77qGU+NQCu8KCWvbR2Py47qZk2GTmIU8cEVHeZTHsVibRDiUh1lIDHYrQzmx9aznyikR3o5dUoGD4AVz2Lq97FVxeDxAC/WTkQ
+   eJz7JsvA8A2I0cE3WewYG/gpycDwSxLChtHI5lAbcEkRpw6X3XfQ3AhzP7I/qAl+UtlMdPdiM58Sf+BzLy77qGU+NQCu8KCWvbR2Py47qZk2GTmIU8cEVHeZTHsVibRDiUh1lIDHYrQzmx9aznyikR3o5dUoGFwAX92Irg6bPnIxNvMB/pE/gg==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="25" height="20">
+ <layer id="4" name="Walkable" width="25" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy1k9kJACEMRLcK+2/JjvZrISw53owYECFmjkTd60ljr34p9V1QnMOveqnwiv+Y/+9VHdVwfBC8Om+1j65e5Z/ensvfaWQYyu1qqN4zri5/okPOnL4I/3fuzm6aEdGoNOmMqIcpCH66j5ivsFRD7UXFOX/E8XabP+qceMpqXjbo4Zc=
+   eJy1k9kJACEMRK3C/luyo/1aEMnxZsSACDFzJOqaI4w166XUV0FxDr/qJcMr/vf8uWd1VMPxQfDqvNU+qnqVv3t7Ln+lEWEot6uheo+4qvyNDjlz+iL8/7k7u25GRCPTpDOiHrog+O4+9nyGpRpqLyrO+SOOt1f80Ru58RTVfJEO4n4=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">

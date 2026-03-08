@@ -6,7 +6,11 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"The cartologist Thyrope Splathershed asked me to join an exploration to get the maps of Lake Laeroth complete."
+                "logText":"The cartographer Thyrope Splathershed asked me to join an exploration to get the maps of Lake Laeroth complete."
+            },
+            {
+                "progress":12,
+                "logText":"I should get beeswax from Leofric the beekeeper to make earplugs."
             },
             {
                 "progress":20,
