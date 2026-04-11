@@ -525,7 +525,7 @@
     },
     {
         "id":"ll2_boat_cyclops_4",
-        "message":"Ahoy $playername! Are you bringing us a holiday roast? What a splendid fellow!",
+        "message":"Ahoy $playername! Have you brought us a fine roast? What a splendid fellow!",
         "switchToNPC":"ll2_captain",
         "replies":[
             {
@@ -657,11 +657,11 @@
     },
     {
         "id":"ll2_captain",
-        "message":"Hey, little landlubber - everything alright?."
+        "message":"Hey, little landlubber - everything alright?"
     },
     {
         "id":"ll2_crew",
-        "message":"I wonder how many mead they have here."
+        "message":"I wonder how much mead they have here."
     },
     {
         "id":"ll2_circe_pig",
@@ -859,7 +859,7 @@
         "switchToNPC":"none",
         "replies":[
             {
-                "text":"Is it you, Captain Blurry?",
+                "text":"Is it you, Captain Burry?",
                 "nextPhraseID":"ll2_circe_38"
             }
         ]
@@ -1078,7 +1078,7 @@
     },
     {
         "id":"ll2_circe_70",
-        "message":"Welcome, $playername. ",
+        "message":"Welcome, $playername.",
         "replies":[
             {
                 "text":"N",
@@ -1367,7 +1367,7 @@
     },
     {
         "id":"ll2_circe_94",
-        "message":"You can not avoid Scylla. Charybdis or the cyclops are your choice.",
+        "message":"You cannot avoid Scylla. Charybdis or the cyclops are your choice.",
         "switchToNPC":"circe",
         "replies":[
             {
@@ -1443,7 +1443,7 @@
     },
     {
         "id":"ll2_cyclops_door_closed",
-        "message":"The mirror blurres. It obviously rejects you."
+        "message":"The mirror blurs. It obviously rejects you."
     },
     {
         "id":"ll2_cyclops_sheep",
@@ -2570,7 +2570,7 @@
     },
     {
         "id":"ll2_mapmaker_91b",
-        "message":"You explained how you passed by the sirens.",
+        "message":"You explain how you passed by the sirens.",
 		"switchToNPC":"none",
         "replies":[
             {
@@ -2657,7 +2657,7 @@
     },
     {
         "id":"ll2_mapmaker_94a",
-        "message":"And how the six headed monster Scylla had attacked your ship.",
+        "message":"And how the six-headed monster Scylla had attacked your ship.",
 		"switchToNPC":"none",
         "replies":[
             {
@@ -2719,7 +2719,7 @@
     },
     {
         "id":"ll2_mapmaker_99",
-        "message":"As reward you can use Captain Burry and his ship whenever you want. I will pay for it.",
+        "message":"As a reward you can use Captain Burry and his ship whenever you want. I will pay for it.",
         "replies":[
             {
                 "text":"Oh, nice - thank you!",
